@@ -1,19 +1,19 @@
 _PewterSpeechHouseGamblerText::
-	text "#MON learn new"
-	line "techniques as"
-	cont "they grow!"
+	text "ПОК'еМОНИ вчать"
+	line "нові прийоми,"
+	cont "коли ростуть!"
 
-	para "But, some moves"
-	line "must be taught by"
-	cont "the trainer!"
+	para "Але деяким має"
+	line "навчити саме"
+	cont "тренер!"
 	done
 
 _PewterSpeechHouseYoungsterText::
-	text "#MON become"
-	line "easier to catch"
-	cont "when they are"
-	cont "hurt or asleep!"
+	text "ПОК'еМОНІВ легше"
+	line "спіймати, коли"
+	cont "вони поранені"
+	cont "або сплять!"
 
-	para "But, it's not a"
-	line "sure thing!"
+	para "Але це не дає"
+	line "гарантії!"
 	done

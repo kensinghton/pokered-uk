@@ -1,46 +1,46 @@
 _MtMoonPokecenterYoungsterText::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "В мене 6"
+	line "ПОК'еБОЛЛІВ на"
+	cont "поясі."
 
-	para "At most, you can"
-	line "carry 6 #MON."
+	para "Можна нести"
+	line "лише 6 істот."
 	done
 
 _MtMoonPokecenterGentlemanText::
-	text "TEAM ROCKET"
-	line "attacks CERULEAN"
-	cont "citizens..."
+	text "КОМАНДА РОКЕТ"
+	line "нападає на"
+	cont "жителів СЕРУЛІНА."
 
-	para "TEAM ROCKET is"
-	line "always in the"
-	cont "news!"
+	para "РОКЕТИ завжди у"
+	line "випуску новин!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanIGotADealText::
-	text "MAN: Hello, there!"
-	line "Have I got a deal"
-	cont "just for you!"
+	text "ЧОЛОВІК: Привіт!"
+	line "В мене є угода"
+	cont "саме для тебе!"
 
-	para "I'll let you have"
-	line "a swell MAGIKARP"
-	cont "for just ¥500!"
-	cont "What do you say?"
+	para "Віддам тобі"
+	line "МАДЖІКАРПА за"
+	cont "якихось 500 ієн!"
+	cont "Що скажеш?"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoText::
-	text "No? I'm only"
-	line "doing this as a"
-	cont "favor to you!"
+	text "Ні? Я роблю це"
+	line "лише як послугу"
+	cont "тобі!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoMoneyText::
-	text "You'll need more"
-	line "money than that!"
+	text "Тобі треба"
+	line "більше грошей!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoRefundsText::
-	text "MAN: Well, I don't"
-	line "give refunds!"
+	text "ЧОЛОВІК: Гроші"
+	line "не повертаю!"
 	done
 
 _MtMoonPokecenterClipboardText::

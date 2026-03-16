@@ -1,5 +1,5 @@
 _UndergroundPathRoute7MiddleAgedManText::
-	text "I heard a sleepy"
-	line "#MON appeared"
-	cont "near CELADON CITY."
+	text "Я чув, сонного"
+	line "ПОК'еМОНА бачили"
+	cont "біля ЦЕЛАДОНА."
 	done

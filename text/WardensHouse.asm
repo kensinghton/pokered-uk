@@ -1,86 +1,89 @@
 _WardensHouseWardenGibberish1Text::
-	text "WARDEN: Hif fuff"
-	line "hefifoo!"
+	text "НАГЛЯДАЧ: Ффифіт"
+	line "фефіфу!"
 
-	para "Ha lof ha feef ee"
-	line "hafahi ho. Heff"
-	cont "hee fwee!"
+	para "Фа фоф фа фееф ее"
+	line "фафафі фо. Фефф"
+	cont "фее ффее!"
 	done
 
 _WardensHouseWardenGibberish2Text::
-	text "Ah howhee ho hoo!"
-	line "Eef ee hafahi ho!"
+	text "Фа фафлю ффе фо!"
+	line "Ф Фафафі фофу!"
 	done
 
 _WardensHouseWardenGibberish3Text::
-	text "Ha? He ohay heh"
-	line "ha hoo ee haheh!"
+	text "Га? Фе ффафа ффе"
+	line "фа фуу ее фафеф!"
 	done
 
 _WardensHouseWardenGaveTheGoldTeethText::
-	text "<PLAYER> gave the"
-	line "GOLD TEETH to the"
-	cont "WARDEN!@"
+	text "<PLAYER> віддав"
+	line "ЗОЛОТІ ЗУБИ"
+	cont "НАГЛЯДАЧУ!@"
 	text_end
 
 _WardensHouseWardenTeethPoppedInHisTeethText::
 	text_start
 
-	para "The WARDEN popped"
-	line "in his teeth!"
+	para "НАГЛЯДАЧ"
+	line "вставив зуби!"
 	prompt
 
 _WardensHouseWardenThanksText::
-	text "WARDEN: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
+	text "НАГЛЯДАЧ: Дякую,"
+	line "дитино! Ніхто не"
+	cont "міг зрозуміти й"
+	cont "слова з того,"
+	cont "що я казав."
 
-	para "I couldn't work"
-	line "that way."
-	cont "Let me give you"
-	cont "something for"
-	cont "your trouble."
+	para "Я не міг так"
+	line "працювати. Ось,"
+	cont "візьми це за"
+	cont "свої клопоти."
 	prompt
 
 _WardensHouseWardenReceivedHM04Text::
-	text "<PLAYER> received"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _WardensHouseWardenHM04ExplanationText::
-	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	text "НАГЛЯДАЧ: ПМ04"
+	line "вчить СИЛІ!"
 
-	para "It lets #MON"
-	line "move boulders"
-	cont "when you're out-"
-	cont "side of battle."
+	para "Вона дає"
+	line "ПОК'еМОНУ силу"
+	cont "рухати валуни"
+	cont "поза боєм."
 
-	para "Oh yes, did you"
-	line "find SECRET HOUSE"
-	cont "in SAFARI ZONE?"
+	para "О так, чи ти"
+	line "знайшов ТАЄМНИЙ"
+	cont "ДІМ у САФАРІ"
+	cont "ЗОНІ?"
 
-	para "If you do, you"
-	line "win an HM!"
+	para "Якщо так, ти"
+	line "виграєш ПМ!"
 
-	para "I hear it's the"
-	line "rare SURF HM."
+	para "Кажуть, це"
+	line "рідкісний ПМ"
+	cont "СЕРФІНГ."
 	done
 
 _WardensHouseWardenHM04NoRoomText::
-	text "Your pack is"
-	line "stuffed full!"
+	text "Твій рюкзак"
+	line "забитий вщент!"
 	done
 
 _WardensHouseDisplayPhotosAndFossilsText::
-	text "#MON photos"
-	line "and fossils."
+	text "Світлини та"
+	line "скам'янілості"
+	cont "ПОК'еМОНІВ."
 	done
 
 _WardensHouseDisplayMerchandiseText::
-	text "Old #MON"
-	line "merchandise."
+	text "Старі товари"
+	line "ПОК'еМОН."
 	done

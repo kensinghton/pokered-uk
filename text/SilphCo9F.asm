@@ -1,62 +1,64 @@
 SilphCo9FNurseYouLookTiredText::
-	text "You look tired!"
-	line "You should take a"
-	cont "quick nap!"
+	text "Виглядаєш стом-"
+	line "леним! Тобі слід"
+	cont "трішки поспати!"
 	prompt
 
 SilphCo9FNurseDontGiveUpText::
-	text "Don't give up!"
+	text "Не здавайся!"
 	done
 
 SilphCo9FNurseThankYouText::
-	text "Thank you so"
-	line "much!"
+	text "Дуже тобі"
+	line "дякую!"
 	done
 
 _SilphCo9FRocket1BattleText::
-	text "Your #MON seem"
-	line "to adore you, kid!"
+	text "Здається, твої"
+	line "ПОК'еМОНИ тебе"
+	cont "обожнюють!"
 	done
 
 _SilphCo9FRocket1EndBattleText::
-	text "Ghaaah!"
+	text "Гхааах!"
 	prompt
 
 _SilphCo9FRocket1AfterBattleText::
-	text "If I had started"
-	line "as a trainer at"
-	cont "your age..."
+	text "Якби я став"
+	line "ТРЕНЕРОМ у"
+	cont "твоєму віці..."
 	done
 
 _SilphCo9FScientistBattleText::
-	text "Your #MON have"
-	line "weak points! I"
-	cont "can nail them!"
+	text "У твоїх істот"
+	line "є слабкі місця!"
+	cont "Я влучу в них!"
 	done
 
 _SilphCo9FScientistEndBattleText::
-	text "You"
-	line "hammered me!"
+	text "Ти мене"
+	line "розчавив!"
 	prompt
 
 _SilphCo9FScientistAfterBattleText::
-	text "Exploiting weak"
-	line "spots does work!"
-	cont "Think about"
-	cont "element types!"
+	text "Удари по слабких"
+	line "місцях діють!"
+	cont "Зважай на"
+	cont "типи стихій!"
 	done
 
 _SilphCo9FRocket2BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Я один із 4"
+	line "БРАТІВ РОКЕТ!"
 	done
 
 _SilphCo9FRocket2EndBattleText::
-	text "Warg!"
-	line "Brothers, I lost!"
+	text "Ваарг!"
+	line "Брати, я програв!"
 	prompt
 
 _SilphCo9FRocket2AfterBattleText::
-	text "My brothers will"
-	line "avenge me!"
+	text "Мої брати"
+	line "помстяться за"
+	cont "мене!"
 	done

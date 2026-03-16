@@ -1,32 +1,33 @@
 _Route16FlyHouseBrunetteGirlText::
-	text "Oh, you found my"
-	line "secret retreat!"
+	text "О, ти знайшов мій"
+	line "таємний притулок!"
 
-	para "Please don't tell"
-	line "anyone I'm here."
-	cont "I'll make it up"
-	cont "to you with this!"
+	para "Прошу, не кажи"
+	line "нікому, де я."
+	cont "Я віддячу тобі"
+	cont "ось цим!"
 	prompt
 
 _Route16FlyHouseBrunetteGirlReceivedHM02Text::
-	text "<PLAYER> received"
-	line "HM02!@"
+	text "<PLAYER> отримує"
+	line "ПМ02!@"
 	text_end
 
 _Route16FlyHouseBrunetteGirlHM02ExplanationText::
-	text "HM02 is FLY."
-	line "It will take you"
-	cont "back to any town."
+	text "ПМ02 — це ПОЛІТ."
+	line "Він перенесе"
+	cont "тебе у будь-яке"
+	cont "місто."
 
-	para "Put it to good"
-	line "use!"
+	para "Використовуй"
+	line "його з розумом!"
 	done
 
 _Route16FlyHouseBrunetteGirlHM02NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "У тебе немає"
+	line "місця для цього."
 	done
 
 _Route16FlyHouseFearowText::
-	text "FEAROW: Kyueen!"
+	text "ФІРОУ: Кюііін!"
 	done

@@ -1,35 +1,31 @@
 _UndergroundPathRoute7CopyUnusedGirlText::
-	text "I want to shop at"
-	line "the dept. store"
-	cont "in CELADON but..."
+	text "Я хочу в"
+	line "УНІВЕРМАГ"
+	cont "ЦЕЛАДОНА, але..."
 
-	para "There are so many"
-	line "rough looking"
-	cont "people there."
+	para "Там стільки"
+	line "грубих людей."
 	done
 
 _UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText::
-	text "TEAM ROCKET had a"
-	line "secret hideout in"
-	cont "CELADON CITY?"
+	text "У РОКЕТІВ був"
+	line "штаб у ЦЕЛАДОНІ?"
 	done
 
 _UndergroundPathRoute7CopyUnusedMiddleAgedManText::
-	text "You're here to"
-	line "shop in CELADON?"
+	text "Йдеш за покупка-"
+	line "ми в ЦЕЛАДОН?"
 
-	para "Just step outside"
-	line "and head west!"
+	para "Просто вийди й"
+	line "йди на захід!"
 	done
 
 _UndergroundPathRoute7CopyUnusedGoesUnderSaffronText::
-	text "The UNDERGROUND"
-	line "PATH goes beneath"
-	cont "SAFFRON and leads"
-	cont "to LAVENDER."
+	text "ПІДЗЕМНИЙ ШЛЯХ"
+	line "йде під САФФРО-"
+	cont "НОМ до ЛАВЕНДЕРА."
 
-	para "If you're heading"
-	line "to CERULEAN, go"
-	cont "to the building"
-	cont "across the road."
+	para "Якщо тобі в"
+	line "СЕРУЛІН, йди до"
+	cont "будівлі навпроти."
 	done

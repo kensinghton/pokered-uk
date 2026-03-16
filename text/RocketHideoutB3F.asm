@@ -1,35 +1,34 @@
 _RocketHideoutB3FRocket1BattleText::
-	text "Stop meddling in"
-	line "TEAM ROCKET's"
-	cont "affairs!"
+	text "Не втручайся у"
+	line "справи КОМАНДИ"
+	cont "РОКЕТ!"
 	done
 
 _RocketHideoutB3FRocket1EndBattleText::
-	text "Oof!"
-	line "Taken down!"
+	text "Ох!"
+	line "Мене здолали!"
 	prompt
 
 _RocketHideoutB3FRocket1AfterBattleText::
-	text "SILPH SCOPE?"
-	line "The machine the"
-	cont "BOSS stole. It's"
-	cont "here somewhere."
+	text "СІЛФ-СКОП?"
+	line "Прилад, який"
+	cont "вкрав БОС. Він"
+	cont "десь тут."
 	done
 
 _RocketHideout3BattleText::
-	text "We got word from"
-	line "upstairs that you"
-	cont "were coming!"
+	text "Згори передали,"
+	line "що ти йдеш!"
 	done
 
 _RocketHideout3EndBattleText3::
-	text "What?"
-	line "I lost? No!"
+	text "Що?"
+	line "Я програв? Ні!"
 	prompt
 
 _RocketHide3AfterBattleText3::
-	text "Go ahead and go!"
-	line "But, you need the"
-	cont "LIFT KEY to run"
-	cont "the elevator!"
+	text "Йди собі далі!"
+	line "Але тобі треба"
+	cont "КЛЮЧ ВІД ЛІФТА,"
+	cont "щоб він поїхав!"
 	done

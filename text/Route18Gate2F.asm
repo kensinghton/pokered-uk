@@ -1,15 +1,15 @@
 _Route18Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Дивлюсь у"
+	line "бінокль."
 
-	para "PALLET TOWN is in"
-	line "the west!"
+	para "ПАЛЛЕТ ТАУН"
+	line "на заході!"
 	done
 
 _Route18Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Дивлюсь у"
+	line "бінокль."
 
-	para "There are people"
-	line "swimming!"
+	para "Там плавають"
+	line "люди!"
 	done

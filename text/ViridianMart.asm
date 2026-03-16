@@ -1,31 +1,33 @@
 _ViridianMartClerkSayHiToOakText::
-	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	text "Добре! Передавай"
+	line "привіт"
+	cont "ПРОФ.ОАКОМ від"
+	cont "мене!"
 	done
 
 _ViridianMartClerkYouCameFromPalletTownText::
-	text "Hey! You came from"
-	line "PALLET TOWN?"
+	text "Гей! Ти прийшов"
+	line "з ПАЛЛЕТ ТАУН?"
 	done
 
 _ViridianMartClerkParcelQuestText::
-	text "You know PROF."
-	line "OAK, right?"
+	text "Ти ж знаєш"
+	line "ПРОФ.ОАКА?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "Його замовлення"
+	line "прийшло. Відне-"
+	cont "сеш йому?"
 
-	para "<PLAYER> got"
-	line "OAK's PARCEL!@"
+	para "<PLAYER> отримав"
+	line "ПОСИЛКУ ОАКА!@"
 	text_end
 
 _ViridianMartYoungsterText::
-	text "This shop sells"
-	line "many ANTIDOTEs."
+	text "У цій крамниці"
+	line "багато АНТІДОТІВ."
 	done
 
 _ViridianMartCooltrainerMText::
-	text "No! POTIONs are"
-	line "all sold out."
+	text "Ні! ЗІЛЛЯ вже"
+	line "розкупили."
 	done

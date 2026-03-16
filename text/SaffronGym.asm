@@ -1,239 +1,246 @@
 _SaffronGymSabrinaText::
-	text "I had a vision of"
-	line "your arrival!"
+	text "У мене було ви-"
+	line "діння про твій"
+	cont "прихід!"
 
-	para "I have had psychic"
-	line "powers since I"
-	cont "was a child."
+	para "Псі-сили я маю"
+	line "з самого"
+	cont "дитинства."
 
-	para "I first learned"
-	line "to bend spoons"
-	cont "with my mind."
+	para "Спершу я вчилась"
+	line "гнути ложки"
+	cont "силою думки."
 
-	para "I dislike fight-"
-	line "ing, but if you"
-	cont "wish, I will show"
-	cont "you my powers!"
+	para "Я не люблю"
+	line "битись, та як"
+	cont "хочеш, я покажу"
+	cont "свою силу!"
 	done
 
 _SaffronGymSabrinaReceivedMarshBadgeText::
-	text "I'm"
-	line "shocked!"
-	cont "But, a loss is a"
-	cont "loss."
+	text "Я в шоці!"
+	line "Але поразка є"
+	cont "поразка."
 
-	para "I admit I didn't"
-	line "work hard enough"
-	cont "to win!"
+	para "Визнаю, я не"
+	line "старалась досить"
+	cont "для перемоги!"
 
-	para "You earned the"
-	line "MARSHBADGE!@"
+	para "Ти здобуваєш"
+	line "БОЛОТНИЙ ЗНАЧОК!@"
 	text_end
 
 _SaffronGymSabrinaPostBattleAdviceText::
-	text "Everyone has"
-	line "psychic power!"
-	cont "People just don't"
-	cont "realize it!"
+	text "Псі-силу має"
+	line "кожен! Люди"
+	cont "просто не"
+	cont "розуміють це!"
 	done
 
 _SaffronGymSabrinaMarshBadgeInfoText::
-	text "The MARSHBADGE"
-	line "makes #MON up"
-	cont "to L70 obey you!"
+	text "БОЛОТНИЙ ЗНАЧОК"
+	line "змусить ПОК'еМОН"
+	cont "до Р70 слухатись!"
 
-	para "Stronger #MON"
-	line "will become wild,"
-	cont "ignoring your"
-	cont "orders in battle!"
+	para "Сильніші"
+	line "ПОК'еМОНИ стануть"
+	cont "дикими й будуть"
+	cont "ігнорувати тебе!"
 
-	para "Just don't raise"
-	line "your #MON too"
-	cont "much!"
+	para "Не тренуй своїх"
+	line "ПОК'еМОНІВ"
+	cont "занадто сильно!"
 
-	para "Wait, please take"
-	line "this TM with you!"
+	para "Стій, візьми цей"
+	line "ТМ з собою!"
 	done
 
 _SaffronGymSabrinaReceivedTM46Text::
-	text "<PLAYER> received"
-	line "TM46!@"
+	text "<PLAYER> отримує"
+	line "ТМ46!@"
 	text_end
 
 _TM46ExplanationText::
 	text_start
 
-	para "TM46 is PSYWAVE!"
-	line "It uses powerful"
-	cont "psychic waves to"
-	cont "inflict damage!"
+	para "ТМ46 — ПСИХОХВИЛЯ!"
+	line "Це потужні"
+	cont "псі-хвилі, що"
+	cont "завдають шкоди!"
 	done
 
 _SaffronGymSabrinaTM46NoRoomText::
-	text "Your pack is full"
-	line "of other items!"
+	text "Твій рюкзак"
+	line "забитий речами!"
 	done
 
 _SaffronGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Йо! Майбутній"
+	line "чемпіоне!"
 
-	para "SABRINA's #MON"
-	line "use psychic power"
-	cont "instead of force!"
+	para "ПОК'еМОНИ САБРІНИ"
+	line "вживають розум"
+	cont "замість сили!"
 
-	para "Fighting #MON"
-	line "are weak against"
-	cont "psychic #MON!"
+	para "Бойові ПОК'еМОНИ"
+	line "слабкі проти"
+	cont "псі-ПОК'еМОНІВ!"
 
-	para "They get creamed"
-	line "before they can"
-	cont "even aim a punch!"
+	para "Їх розіб'ють"
+	line "швидше, ніж вони"
+	cont "замахнуться!"
 	done
 
 _SaffronGymGuideBeatSabrinaText::
-	text "Psychic power,"
-	line "huh?"
+	text "Псі-сила, га?"
 
-	para "If I had that,"
-	line "I'd make a bundle"
-	cont "at the slots!"
+	para "Якби я мав таку,"
+	line "я б зірвав куш"
+	cont "на автоматах!"
 	done
 
 _SaffronGymChanneler1BattleText::
-	text "SABRINA is younger"
-	line "than I, but I"
-	cont "respect her!"
+	text "САБРІНА молодша"
+	line "за мене, та я її"
+	cont "поважаю!"
 	done
 
 _SaffronGymChanneler1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Недостатньо"
+	line "добре!"
 	prompt
 
 _SaffronGymChanneler1AfterBattleText::
-	text "In a battle of"
-	line "equals, the one"
-	cont "with the stronger"
-	cont "will wins!"
+	text "У рівнім бою"
+	line "перемагає той,"
+	cont "у кого сильніша"
+	cont "воля!"
 
-	para "If you wish"
-	line "to beat SABRINA,"
-	cont "focus on winning!"
+	para "Якщо хочеш"
+	line "здолати САБРІНУ,"
+	cont "зосередься на"
+	cont "перемозі!"
 	done
 
 _SaffronGymYoungster1BattleText::
-	text "Does our unseen"
-	line "power scare you?"
+	text "Чи наша невидима"
+	line "сила лякає тебе?"
 	done
 
 _SaffronGymYoungster1EndBattleText::
-	text "I never"
-	line "foresaw this!"
+	text "Я такого не"
+	line "передбачав!"
 	prompt
 
 _SaffronGymYoungster1AfterBattleText::
-	text "Psychic #MON"
-	line "fear only ghosts"
-	cont "and bugs!"
+	text "Псі-ПОК'еМОНИ"
+	line "бояться лише"
+	cont "привидів та"
+	cont "комах!"
 	done
 
 _SaffronGymChanneler2BattleText::
-	text "#MON take on"
-	line "the appearance of"
-	cont "their trainers."
+	text "ПОК'еМОНИ стають"
+	line "схожими на своїх"
+	cont "тренерів."
 
-	para "Your #MON must"
-	line "be tough, then!"
+	para "Твої ПОК'еМОНИ"
+	line "певно дуже"
+	cont "міцні!"
 	done
 
 _SaffronGymChanneler2EndBattleText::
-	text "I knew"
-	line "it!"
+	text "Я так і"
+	line "знав!"
 	prompt
 
 _SaffronGymChanneler2AfterBattleText::
-	text "I must teach"
-	line "better techniques"
-	cont "to my #MON!"
+	text "Мені слід вчити"
+	line "кращим прийомам"
+	cont "своїх"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _SaffronGymYoungster2BattleText::
-	text "You know that"
-	line "power alone isn't"
-	cont "enough!"
+	text "Ти знаєш, що"
+	line "самої сили"
+	cont "недостатньо!"
 	done
 
 _SaffronGymYoungster2EndBattleText::
-	text "I don't"
-	line "believe this!"
+	text "Я не вірю"
+	line "в це!"
 	prompt
 
 _SaffronGymYoungster2AfterBattleText::
-	text "SABRINA just wiped"
-	line "out the KARATE"
-	cont "MASTER next door!"
+	text "САБРІНА щойно"
+	line "розбила МАЙСТРА"
+	cont "КАРАТЕ по"
+	cont "сусідству!"
 	done
 
 _SaffronGymChanneler3BattleText::
-	text "You and I, our"
-	line "#MON shall"
-	cont "fight!"
+	text "Ти і я, наші"
+	line "ПОК'еМОНИ будуть"
+	cont "битись!"
 	done
 
 _SaffronGymChanneler3EndBattleText::
-	text "I lost"
-	line "after all!"
+	text "Я все ж таки"
+	line "програв!"
 	prompt
 
 _SaffronGymChanneler3AfterBattleText::
-	text "I knew that this"
-	line "was going to take"
-	cont "place."
+	text "Я знав, що це"
+	line "має статися."
 	done
 
 _SaffronGymYoungster3BattleText::
-	text "SABRINA is young,"
-	line "but she's also"
-	cont "our LEADER!"
+	text "САБРІНА молода,"
+	line "та вона наш"
+	cont "ЛІДЕР!"
 
-	para "You won't reach"
-	line "her easily!"
+	para "Тобі не дійти"
+	line "до неї так"
+	cont "просто!"
 	done
 
 _SaffronGymYoungster3EndBattleText::
-	text "I lost"
-	line "my concentration!"
+	text "Я втратив"
+	line "свою"
+	cont "концентрацію!"
 	prompt
 
 _SaffronGymYoungster3AfterBattleText::
-	text "There used to be"
-	line "2 #MON GYMs in"
-	cont "SAFFRON."
+	text "Колись було"
+	line "2 ЗАЛИ ПОК'еМОН"
+	cont "у САФФРОНІ."
 
-	para "The FIGHTING DOJO"
-	line "next door lost"
-	cont "its GYM status"
-	cont "when we went and"
-	cont "creamed them!"
+	para "БОЙОВЕ ДОДЗЬО"
+	line "по сусідству"
+	cont "втратило статус"
+	cont "ЗАЛУ, коли ми"
+	cont "їх розбили!"
 	done
 
 _SaffronGymYoungster4BattleText::
-	text "SAFFRON #MON"
-	line "GYM is famous for"
-	cont "its psychics!"
+	text "ЗАЛ ПОК'еМОН"
+	line "САФФРОНА відомий"
+	cont "своїми псі-"
+	cont "екстрасенсами!"
 
-	para "You want to see"
-	line "SABRINA!"
-	cont "I can tell!"
+	para "Ти хочеш бачити"
+	line "САБРІНУ!"
+	cont "Я це бачу!"
 	done
 
 _SaffronGymYoungster4EndBattleText::
-	text "Arrrgh!"
+	text "Аррргх!"
 	prompt
 
 _SaffronGymYoungster4AfterBattleText::
-	text "That's right! I"
-	line "used telepathy to"
-	cont "read your mind!"
+	text "Саме так! Я"
+	line "вжив телепатію,"
+	cont "щоб прочитати"
+	cont "твої думки!"
 	done

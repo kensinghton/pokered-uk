@@ -1,24 +1,26 @@
 _Route15Gate2FOaksAideExpAllText::
-	text "EXP.ALL gives"
-	line "EXP points to all"
-	cont "the #MON with"
-	cont "you, even if they"
-	cont "don't fight."
+	text "ДОСВІД-УСІМ дає"
+	line "очки досвіду"
+	cont "всім твоїм"
+	cont "ПОК'еМОНАМ,"
+	cont "навіть якщо вони"
+	cont "не б'ються."
 
-	para "It does, however,"
-	line "reduce the amount"
-	cont "of EXP for each"
-	cont "#MON."
+	para "Проте, це"
+	line "зменшує частку"
+	cont "досвіду для"
+	cont "кожного з них."
 
-	para "If you don't need"
-	line "it, you should "
-	cont "store it via PC."
+	para "Якщо він тобі не"
+	line "треба, поклади"
+	cont "його в ПК."
 	done
 
 _Route15Gate2FBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Дивлюсь у"
+	line "бінокль."
 
-	para "It looks like a"
-	line "small island!"
+	para "Це схоже на"
+	line "маленький"
+	cont "острів!"
 	done

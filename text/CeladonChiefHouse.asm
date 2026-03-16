@@ -1,22 +1,23 @@
 _CeladonChiefHouseChiefText::
-	text "Hehehe! The slots"
-	line "just reel in the"
-	cont "dough, big time!"
+	text "Хе-хе! Автомати"
+	line "просто гребуть"
+	cont "бабло лопатою!"
 	done
 
 _CeladonChiefHouseRocketText::
-	text "CHIEF!"
+	text "ШЕФ!"
 
-	para "We just shipped"
-	line "2000 #MON as"
-	cont "slot prizes!"
+	para "Ми відправили"
+	line "2000 ПОК'еМОНІВ"
+	cont "як призи!"
 	done
 
 _CeladonChiefHouseSailorText::
-	text "Don't touch the"
-	line "poster at the"
-	cont "GAME CORNER!"
+	text "Не чіпай плакат"
+	line "в ІГРОВОМУ"
+	cont "КУТОЧКУ!"
 
-	para "There's no secret"
-	line "switch behind it!"
+	para "За ним немає"
+	line "секретного"
+	cont "перемикача!"
 	done

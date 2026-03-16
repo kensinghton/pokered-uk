@@ -1,44 +1,47 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
-	line "the ELITE FOUR!"
+	text "Я є АГАТА, я з"
+	line "ЕЛІТНОЇ ЧЕТВІРКИ!"
 
-	para "OAK's taken a lot"
-	line "of interest in"
-	cont "you, child!"
+	para "ОАК дуже"
+	line "цікавиться тобою"
+	cont "дитя!"
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	para "Цей старий дурень"
+	line "колись був міцним"
+	cont "і гарним! Це було"
+	cont "десятиліття тому!"
 
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
+	para "Зараз він просто"
+	line "хоче копирсатись"
+	cont "зі своїм"
+	cont "ПОК'еДЕКСом! Він"
+	cont "неправий! Вони,"
+	cont "ПОК'еМОНи, для"
+	cont "боїв між ними!"
 
-	para "<PLAYER>! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "<PLAYER>! Я покажу"
+	line "тобі як справжні"
+	cont "тренери б'ються!"
 	done
 
 _AgathaEndBattleText::
-	text "Oh ho!"
-	line "You're something"
-	cont "special, child!"
+	text "Ой, леле!"
+	line "Ти щось особливе,"
+	cont "дитино!"
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "Ти переміг! Тепер"
+	line "я бачу, що старий"
+	cont "дурень бачить"
+	cont "в тобі зараз!"
 
-	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	para "Я не маю більше"
+	line "що казати! Біжи"
+	cont "далі, дитя!"
 	done
 
 _AgathasRoomAgathaDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Чийсь голос:"
+	line "Не втікай!"
 	done

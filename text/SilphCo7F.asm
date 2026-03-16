@@ -1,209 +1,214 @@
 _SilphCo7FSilphWorkerM1HaveThisPokemonText::
-	text "Oh! Hi! You're"
-	line "not a ROCKET! You"
-	cont "came to save us?"
-	cont "Why, thank you!"
+	text "О! Привіт! Ти"
+	line "не з РОКЕТІВ! Ти"
+	cont "прийшов нас"
+	cont "врятувати?"
+	cont "Ох, дякую тобі!"
 
-	para "I want you to"
-	line "have this #MON"
-	cont "for saving us."
+	para "Я хочу, щоб цей"
+	line "ПОК'еМОН був"
+	cont "твоїм за поміч."
 	prompt
 
 _SilphCo7FSilphWorkerM1LaprasDescriptionText::
-	text "It's LAPRAS. It's"
-	line "very intelligent."
+	text "Це ЛАПРАС. Він"
+	line "дуже розумний."
 
-	para "We kept it in our"
-	line "lab, but it will"
-	cont "be much better"
-	cont "off with you!"
+	para "Ми тримали його"
+	line "в лабі, та йому"
+	cont "буде краще"
+	cont "разом з тобою!"
 
-	para "I think you will"
-	line "be a good trainer"
-	cont "for LAPRAS!"
+	para "Гадаю, ти будеш"
+	line "гарним тренером"
+	cont "для ЛАПРАСА!"
 
-	para "It's a good"
-	line "swimmer. It'll"
-	cont "give you a lift!"
+	para "Він чудовий"
+	line "плавець. Він"
+	cont "тебе підвезе!"
 	done
 
 _SilphCo7FSilphWorkerM1IsOurPresidentOkText::
-	text "TEAM ROCKET's"
-	line "BOSS went to the"
-	cont "boardroom! Is our"
-	cont "PRESIDENT OK?"
+	text "БОС КОМАНДИ"
+	line "РОКЕТ пішов до"
+	cont "зали засідань!"
+	cont "ПРЕЗИДЕНТ цілий?"
 	done
 
 _SilphCo7FSilphWorkerM1SavedText::
-	text "Saved at last!"
-	line "Thank you!"
+	text "Нарешті вільні!"
+	line "Дякуємо тобі!"
 	done
 
 _SilphCo7FSilphWorkerM2AfterTheMasterBallText::
-	text "TEAM ROCKET was"
-	line "after the MASTER"
-	cont "BALL which will"
-	cont "catch any #MON!"
+	text "КОМАНДА РОКЕТ"
+	line "хотіла вкрасти"
+	cont "МАЙСТЕР-БОЛЛ,"
+	cont "що ловить усіх!"
 	done
 
 _SilphCo7FSilphWorkerM2CancelledMasterBallText::
-	text "We canceled the"
-	line "MASTER BALL"
-	cont "project because"
-	cont "of TEAM ROCKET."
+	text "Ми скасували"
+	line "проєкт МАЙСТЕР-"
+	cont "БОЛЛА через"
+	cont "КОМАНДУ РОКЕТ."
 	done
 
 _SilphCo7FSilphWorkerM3ItWouldBeBadText::
-	text "It would be bad"
-	line "if TEAM ROCKET"
-	cont "took over SILPH"
-	cont "or our #MON!"
+	text "Було б погано,"
+	line "якби РОКЕТИ"
+	cont "захопили СІЛФ"
+	cont "чи ПОК'еМОНІВ!"
 	done
 
 _SilphCo7FSilphWorkerM3YouChasedOffTeamRocketText::
-	text "Wow! You chased"
-	line "off TEAM ROCKET"
-	cont "all by yourself?"
+	text "Ого! Ти прогнав"
+	line "КОМАНДУ РОКЕТ"
+	cont "зовсім один?"
 	done
 
 _SilphCo7FSilphWorkerM4ItsReallyDangerousHereText::
-	text "You! It's really"
-	line "dangerous here!"
-	cont "You came to save"
-	cont "me? You can't!"
+	text "Ти! Тут дуже"
+	line "небезпечно!"
+	cont "Ти прийшов нас"
+	cont "спасти? Не йди!"
 	done
 
 _SilphCo7FSilphWorkerM4SafeAtLastText::
-	text "Safe at last!"
-	line "Oh thank you!"
+	text "Нарешті безпека!"
+	line "Ох, дякую тобі!"
 	done
 
 _SilphCo7FRocket1BattleText::
-	text "Oh ho! I smell a"
-	line "little rat!"
+	text "О-хо! Я чую"
+	line "запах пацюка!"
 	done
 
 _SilphCo7FRocket1EndBattleText::
-	text "Lights"
-	line "out!"
+	text "Світло"
+	line "згасло!"
 	prompt
 
 _SilphCo7FRocket1AfterBattleText::
-	text "You won't find my"
-	line "BOSS by just"
-	cont "scurrying around!"
+	text "Ти не знайдеш"
+	line "БОСА, просто"
+	cont "бігаючи довкола!"
 	done
 
 _SilphCo7FScientistBattleText::
-	text "Heheh!"
+	text "Хе-хе!"
 
-	para "You mistook me for"
-	line "a SILPH worker?"
+	para "Ти сплутав мене"
+	line "з робітником"
+	cont "СІЛФ?"
 	done
 
 _SilphCo7FScientistEndBattleText::
-	text "I'm"
-	line "done!"
+	text "Я все!"
 	prompt
 
 _SilphCo7FScientistAfterBattleText::
-	text "Despite your age,"
-	line "you are a skilled"
-	cont "trainer!"
+	text "Попри твій вік,"
+	line "ти — вправний"
+	cont "тренер!"
 	done
 
 _SilphCo7FRocket2BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Я один з 4"
+	line "БРАТІВ РОКЕТ!"
 	done
 
 _SilphCo7FRocket2EndBattleText::
-	text "Aack!"
-	line "Brothers, I lost!"
+	text "Аах!"
+	line "Брати, я"
+	cont "програв!"
 	prompt
 
 _SilphCo7FRocket2AfterBattleText::
-	text "Doesn't matter."
-	line "My brothers will"
-	cont "repay the favor!"
+	text "Неважливо."
+	line "Мої брати"
+	cont "віддячать!"
 	done
 
 _SilphCo7FRocket3BattleText::
-	text "A child intruder?"
-	line "That must be you!"
+	text "Дитина-шпигун?"
+	line "Це, мабуть, ти!"
 	done
 
 _SilphCo7FRocket3EndBattleText::
-	text "Fine!"
-	line "I lost!"
+	text "Добре!"
+	line "Я програв!"
 	prompt
 
 _SilphCo7FRocket3AfterBattleText::
-	text "Go on home"
-	line "before my BOSS"
-	cont "gets ticked off!"
+	text "Йди додому,"
+	line "поки мій БОС"
+	cont "не розлютився!"
 	done
 
 _SilphCo7FRivalText::
-	text "<RIVAL>: What"
-	line "kept you <PLAYER>?"
+	text "<RIVAL>: Що тебе"
+	line "затримало,"
+	cont "<PLAYER>?"
 	done
 
 _SilphCo7FRivalWaitedHereText::
-	text "<RIVAL>: Hahaha!"
-	line "I thought you'd"
-	cont "turn up if I"
-	cont "waited here!"
+	text "<RIVAL>: Ха-ха!"
+	line "Я знав, що ти"
+	cont "прийдеш, якщо я"
+	cont "почекаю тут!"
 
-	para "I guess TEAM"
-	line "ROCKET slowed you"
-	cont "down! Not that I"
-	cont "care!"
+	para "Мабуть, РОКЕТИ"
+	line "тебе затримали!"
+	cont "Не те щоб мені"
+	cont "не було байдуже!"
 
-	para "I saw you in"
-	line "SAFFRON, so I"
-	cont "decided to see if"
-	cont "you got better!"
+	para "Я бачив тебе в"
+	line "САФФРОНІ, тож"
+	cont "вирішив глянути,"
+	cont "чи ти став"
+	cont "кращим!"
 	done
 
 _SilphCo7FRivalDefeatedText::
-	text "Oh ho!"
-	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	text "О-хо!"
+	line "То ти готовий"
+	cont "до БОСА РОКЕТІВ!"
 	prompt
 
 _SilphCo7FRivalVictoryText::
-	text "<RIVAL>: How can"
-	line "I put this?"
+	text "<RIVAL>: Як би"
+	line "це сказати?"
 
-	para "You're not good"
-	line "enough to play"
-	cont "with us big boys!"
+	para "Тобі ще рано"
+	line "грати з нами,"
+	cont "дорослими!"
 	prompt
 
 _SilphCo7FRivalGoodLuckToYouText::
-	text "Well, <PLAYER>!"
+	text "Що ж, <PLAYER>!"
 
-	para "I'm moving on up"
-	line "and ahead!"
+	para "Я рухаюся вгору"
+	line "і вперед!"
 
-	para "By checking my"
-	line "#DEX, I'm"
-	cont "starting to see"
-	cont "what's strong and"
-	cont "how they evolve!"
+	para "Дивлячись у свій"
+	line "ПОК'еДЕКС, я"
+	cont "починаю бачити"
+	cont "хто сильний і"
+	cont "як вони"
+	cont "еволюціонують!"
 
-	para "I'm going to the"
-	line "#MON LEAGUE"
-	cont "to boot out the"
-	cont "ELITE FOUR!"
+	para "Я йду в ЛІГУ"
+	line "ПОК'еМОН, щоб"
+	cont "викинути ЕЛІТНУ"
+	cont "ЧЕТВІРКУ!"
 
-	para "I'll become the"
-	line "world's most"
-	cont "powerful trainer!"
+	para "Я стану найсиль-"
+	line "нішим тренером"
+	cont "у світі!"
 
-	para "<PLAYER>, well"
-	line "good luck to you!"
-	cont "Don't sweat it!"
-	cont "Smell ya!"
+	para "<PLAYER>, що ж,"
+	line "удачі тобі!"
+	cont "Не парся!"
+	cont "Бувай!"
 	done

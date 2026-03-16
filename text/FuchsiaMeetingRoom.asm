@@ -1,26 +1,28 @@
 _FuchsiaMeetingRoomSafariZoneWorker1::
-	text "We nicknamed the"
-	line "WARDEN SLOWPOKE."
+	text "Ми прозвали"
+	line "НАГЛЯДАЧА"
+	cont "СЛОУПОУКОМ."
 
-	para "He and SLOWPOKE"
-	line "both look vacant!"
+	para "Він на нього"
+	line "дуже схожий!"
 	done
 
 _FuchsiaMeetingRoomSafariZoneWorker2::
-	text "SLOWPOKE is very"
-	line "knowledgeable"
-	cont "about #MON!"
+	text "СЛОУПОУК дуже"
+	line "багато знає про"
+	cont "ПОК'еМОНІВ!"
 
-	para "He even has some"
-	line "fossils of rare,"
-	cont "extinct #MON!"
+	para "Він має рештки"
+	line "рідкісних та"
+	cont "вимерлих видів!"
 	done
 
 _FuchsiaMeetingRoomSafariZoneWorker3::
-	text "SLOWPOKE came in,"
-	line "but I couldn't"
-	cont "understand him."
+	text "СЛОУПОУК зайшов,"
+	line "але я його не"
+	cont "зрозумів."
 
-	para "I think he's got"
-	line "a speech problem!"
+	para "Мабуть, у нього"
+	line "проблеми з"
+	cont "мовленням!"
 	done

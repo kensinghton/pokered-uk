@@ -1,9 +1,10 @@
 _DiglettsCaveRoute2FishingGuruText::
-	text "I went to ROCK"
-	line "TUNNEL, but it's"
-	cont "dark and scary."
+	text "Я ходив у"
+	line "КАМ'ЯНИЙ ТУНЕЛЬ,"
+	cont "там темно й"
+	cont "страшно."
 
-	para "If a #MON's"
-	line "FLASH could light"
-	cont "it up..."
+	para "Якби ПОК'еМОН"
+	line "міг освітити"
+	cont "його СПАЛАХОМ..."
 	done

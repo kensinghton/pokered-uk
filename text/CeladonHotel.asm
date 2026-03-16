@@ -1,21 +1,23 @@
 _CeladonHotelGrannyText::
-	text "#MON? No, this"
-	line "is a hotel for"
-	cont "people."
+	text "ПОК'еМОНИ? Ні,"
+	line "це готель для"
+	cont "людей."
 
-	para "We're full up."
+	para "Вільних місць"
+	line "немає."
 	done
 
 _CeladonHotelBeautyText::
-	text "I'm on vacation"
-	line "with my brother"
-	cont "and boy friend."
+	text "Я у відпустці з"
+	line "братом та своїм"
+	cont "хлопцем."
 
-	para "CELADON is such a"
-	line "pretty city!"
+	para "ЦЕЛАДОН таке"
+	line "гарне місто!"
 	done
 
 _CeladonHotelSuperNerdText::
-	text "Why did she bring"
-	line "her brother?"
+	text "Навіщо вона"
+	line "взяла з собою"
+	cont "брата?"
 	done

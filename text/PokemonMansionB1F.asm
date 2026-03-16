@@ -1,39 +1,39 @@
 _PokemonMansionB1FBurglarBattleText::
-	text "Uh-oh. Where am"
-	line "I now?"
+	text "Ой. Де це я"
+	line "зараз?"
 	done
 
 _PokemonMansionB1FBurglarEndBattleText::
-	text "Awooh!"
+	text "Авууу!"
 	prompt
 
 _PokemonMansionB1FBurglarAfterBattleText::
-	text "You can find stuff"
-	line "lying around."
+	text "Тут можна знайти"
+	line "різні речі."
 	done
 
 _PokemonMansionB1FScientistBattleText::
-	text "This place is"
-	line "ideal for a lab."
+	text "Це місце ідеальне"
+	line "для лабораторії."
 	done
 
 _PokemonMansionB1FScientistEndBattleText::
-	text "What"
-	line "was that for?"
+	text "Це ще"
+	line "навіщо?"
 	prompt
 
 _PokemonMansionB1FScientistAfterBattleText::
-	text "I like it here!"
-	line "It's conducive to"
-	cont "my studies!"
+	text "Мені тут"
+	line "подобається!"
+	cont "Сприяє науці!"
 	done
 
 _PokemonMansionB1FDiaryText::
-	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
+	text "Щоденник: 1 вер."
+	line "М'ЮТУ занадто"
+	cont "потужний."
 
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	para "Ми не змогли"
+	line "приборкати його"
+	cont "люту вдачу..."
 	done

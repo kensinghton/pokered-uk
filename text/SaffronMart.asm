@@ -1,13 +1,14 @@
 _SaffronMartSuperNerdText::
-	text "MAX REPEL lasts"
-	line "longer than SUPER"
-	cont "REPEL for keeping"
-	cont "weaker #MON"
-	cont "away!"
+	text "МЕГА-РЕПЕЛЕНТ"
+	line "діє довше за"
+	cont "СУПЕР-РЕПЕЛЕНТ"
+	cont "для захисту від"
+	cont "слабких істот!"
 	done
 
 _SaffronMartCooltrainerFText::
-	text "REVIVE is costly,"
-	line "but it revives"
-	cont "fainted #MON!"
+	text "ОЖИВЛЕННЯ"
+	line "дороге, але"
+	cont "воно оживляє"
+	cont "ПОК'еМОНА!"
 	done

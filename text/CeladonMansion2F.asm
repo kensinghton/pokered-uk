@@ -1,4 +1,4 @@
 _CeladonMansion2FMeetingRoomSignText::
-	text "GAME FREAK"
-	line "Meeting Room"
+	text "ҐЕЙМ ФРІК"
+	line "Зал засідань"
 	done

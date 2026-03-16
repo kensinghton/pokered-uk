@@ -1,22 +1,24 @@
 _VermilionPidgeyHouseYoungsterText::
-	text "I'm getting my"
-	line "PIDGEY to fly a"
-	cont "letter to SAFFRON"
-	cont "in the north!"
+	text "Мій ПІДЖІ"
+	line "віднесе лист у"
+	cont "САФФРОН на"
+	cont "півночі!"
 	done
 
 _VermilionPidgeyHousePidgeyText::
-	text "PIDGEY: Kurukkoo!@"
+	text "ПІДЖІ: Куруккоо!@"
 	text_end
 
 _VermilionPidgeyHouseLetterText::
-	text "Dear PIPPI, I hope"
-	line "to see you soon."
+	text "Дорога ПІППІ,"
+	line "сподіваюсь на"
+	cont "швидку зустріч."
 
-	para "I heard SAFFRON"
-	line "has problems with"
-	cont "TEAM ROCKET."
+	para "У САФФРОНІ"
+	line "проблеми з"
+	cont "КОМАНДОЮ РОКЕТ."
 
-	para "VERMILION appears"
-	line "to be safe."
+	para "У ВЕРМІЛІОНІ,"
+	line "здається,"
+	cont "безпечно."
 	done

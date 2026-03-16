@@ -1,10 +1,11 @@
 _CeladonMansionRoofHouseHikerText::
-	text "I know everything"
-	line "about the world"
-	cont "of #MON in"
-	cont "your GAME BOY!"
+	text "Я знаю все про"
+	line "світ ПОК'еМОНІВ"
+	cont "у твоєму"
+	cont "ГЕЙМ БОЇ!"
 
-	para "Get together with"
-	line "your friends and"
-	cont "trade #MON!"
+	para "Збирайся з"
+	line "друзями та"
+	cont "міняйся"
+	cont "ПОК'еМОНАМИ!"
 	done

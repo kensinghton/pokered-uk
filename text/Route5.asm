@@ -1,5 +1,5 @@
 _Route5UndergroundPathSignText::
-	text "UNDERGROUND PATH"
-	line "CERULEAN CITY -"
-	cont "VERMILION CITY"
+	text "ПІДЗЕМНИЙ ШЛЯХ"
+	line "СЕРУЛІН СІТІ —"
+	cont "ВЕРМІЛІОН СІТІ"
 	done

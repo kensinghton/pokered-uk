@@ -1,33 +1,34 @@
 _SafariZoneNorthRestHouseSignText::
-	text "REST HOUSE"
+	text "ДІМ ВІДПОЧИНКУ"
 	done
 
 _SafariZoneNorthTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "The SECRET HOUSE"
-	line "is still ahead!"
+	para "ТАЄМНИЙ ДІМ"
+	line "все ще попереду!"
 	done
 
 _SafariZoneNorthSignText::
-	text "AREA 2"
+	text "ЗОНА 2"
 	done
 
 _SafariZoneNorthTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "#MON hide in"
-	line "tall grass!"
+	para "ПОК'еМОНИ"
+	line "ховаються у"
+	cont "високій траві!"
 
-	para "Zigzag through"
-	line "grassy areas to"
-	cont "flush them out."
+	para "Йди зигзагами,"
+	line "щоб виманити"
+	cont "їх!"
 	done
 
 _SafariZoneNorthTrainerTips3Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "Win a free HM for"
-	line "finding the"
-	cont "SECRET HOUSE!"
+	para "Отримай ПМ за"
+	line "те, що знайдеш"
+	cont "ТАЄМНИЙ ДІМ!"
 	done

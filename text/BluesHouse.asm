@@ -1,42 +1,43 @@
 _BluesHouseDaisyRivalAtLabText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "Привіт <PLAYER>!"
+	line "<RIVAL> зараз у"
+	cont "лабораторії"
+	cont "дідуся."
 	done
 
 _BluesHouseDaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "Дідусь просив"
+	line "тебе про послугу?"
+	cont "Ось, це тобі"
+	cont "допоможе!"
 	prompt
 
 _GotMapText::
-	text "<PLAYER> got a"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _BluesHouseDaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "У тебе забагато"
+	line "речей із собою."
 	done
 
 _BluesHouseDaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
+	text "Вживай МАПУ"
+	line "МІСТА, щоб знати,"
+	cont "де ти."
 	done
 
 _BluesHouseDaisyWalkingText::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "ПОК'еМОНИ — живі"
+	line "істоти! Якщо"
+	cont "вони втомилися,"
+	cont "дай їм спокій!"
 	done
 
 _BluesHouseTownMapText::
-	text "It's a big map!"
-	line "This is useful!"
+	text "Це велика мапа!"
+	line "Вона корисна!"
 	done

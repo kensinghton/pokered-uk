@@ -1,45 +1,48 @@
 _Museum2FYoungsterText::
-	text "MOON STONE?"
+	text "МІСЯЧНИЙ КАМІНЬ?"
 
-	para "What's so special"
-	line "about it?"
+	para "Що в ньому"
+	line "такого?"
 	done
 
 _Museum2FGrampsText::
-	text "July 20, 1969!"
+	text "20 липня 1969!"
 
-	para "The 1st lunar"
-	line "landing!"
+	para "Перша висадка"
+	line "на Місяць!"
 
-	para "I bought a color"
-	line "TV to watch it!"
+	para "Я купив колірний"
+	line "телевізор, щоб"
+	cont "це побачити!"
 	done
 
 _Museum2FScientistText::
-	text "We have a space"
-	line "exhibit now."
+	text "У нас зараз"
+	line "космічна"
+	cont "експозиція."
 	done
 
 _Museum2FBrunetteGirlText::
-	text "I want a PIKACHU!"
-	line "It's so cute!"
+	text "Я хочу ПІКАЧУ!"
+	line "Він такий милий!"
 
-	para "I asked my Daddy"
-	line "to catch me one!"
+	para "Я просила татка"
+	line "впіймати мені"
+	cont "одного!"
 	done
 
 _Museum2FHikerText::
-	text "Yeah, a PIKACHU"
-	line "soon, I promise!"
+	text "Так, скоро буде"
+	line "ПІКАЧУ, обіцяю!"
 	done
 
 _Museum2FSpaceShuttleSignText::
-	text "SPACE SHUTTLE"
-	line "COLUMBIA"
+	text "КОСМІЧНИЙ ШАТЛ"
+	line "КОЛУМБІЯ"
 	done
 
 _Museum2FMoonStoneSignText::
-	text "Meteorite that"
-	line "fell on MT.MOON."
-	cont "(MOON STONE?)"
+	text "Метеорит, що"
+	line "впав на ГОРУ МУН."
+	cont "(МІСЯЧНИЙ КАМІНЬ?)"
 	done

@@ -1,34 +1,36 @@
 _DaycareGentlemanAllRightThenText::
-	text "All right then,"
+	text "Ну добре,"
 	line "@"
 	text_end
 
 _DaycareGentlemanComeAgainText::
-	text "come again."
+	text "приходь ще."
 	done
 
 _DaycareGentlemanNoRoomForMonText::
-	text "You have no room"
-	line "for this #MON!"
+	text "У тебе немає"
+	line "місця для цього"
+	cont "ПОК'еМОНА!"
 	done
 
 _DaycareGentlemanOnlyHaveOneMonText::
-	text "You only have one"
-	line "#MON with you."
+	text "У тебе з собою"
+	line "лише один"
+	cont "ПОК'еМОН."
 	done
 
 _DaycareGentlemanCantAcceptMonWithHMText::
-	text "I can't accept a"
-	line "#MON that"
-	cont "knows an HM move."
+	text "Я не приймаю"
+	line "ПОК'еМОНІВ, що"
+	cont "знають ПМ!"
 	done
 
 _DaycareGentlemanHeresYourMonText::
-	text "Thank you! Here's"
-	line "your #MON!"
+	text "Дякую! Ось"
+	line "твій ПОК'еМОН!"
 	prompt
 
 _DaycareGentlemanNotEnoughMoneyText::
-	text "Hey, you don't"
-	line "have enough ¥!"
+	text "Гей, у тебе"
+	line "недостатньо ієн!"
 	done

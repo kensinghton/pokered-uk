@@ -1,40 +1,38 @@
 _Route11Gate2FOaksAideItemfinderDescriptionText::
-	text "There are items on"
-	line "the ground that"
-	cont "can't be seen."
+	text "На землі є"
+	line "невидимі речі."
 
-	para "ITEMFINDER will"
-	line "detect an item"
-	cont "close to you."
+	para "ШУКАЧ РЕЧЕЙ"
+	line "знайде предмет"
+	cont "поблизу тебе."
 
-	para "It can't pinpoint"
-	line "it, so you have"
-	cont "to look yourself!"
+	para "Він не вкаже"
+	line "точно, тож"
+	cont "шукай сам!"
 	done
 
 _Route11Gate2FLeftBinocularsSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Дивлюсь у"
+	line "бінокль."
 
-	para "A big #MON is"
-	line "asleep on a road!"
+	para "Великий ПОК'еМОН"
+	line "спить на дорозі!"
 	done
 
 _Route11Gate2FLeftBinocularsNoSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Дивлюсь у"
+	line "бінокль."
 
-	para "It's a beautiful"
-	line "view!"
+	para "Який гарний"
+	line "краєвид!"
 	done
 
 _Route11Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Дивлюсь у"
+	line "бінокль."
 
-	para "The only way to"
-	line "get from CERULEAN"
-	cont "CITY to LAVENDER"
-	cont "is by way of the"
-	cont "ROCK TUNNEL."
+	para "Шлях із СЕРУЛІНА"
+	line "до ЛАВЕНДЕРА йде"
+	cont "крізь КАМ'ЯНИЙ"
+	cont "ТУНЕЛЬ."
 	done

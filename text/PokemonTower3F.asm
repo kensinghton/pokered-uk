@@ -1,45 +1,45 @@
 _PokemonTower3FChanneler1BattleText::
-	text "Urrg...Awaa..."
-	line "Huhu...graa.."
+	text "Уррр... Ава..."
+	line "Хуху... граа.."
 	done
 
 _PokemonTower3FChanneler1EndBattleText::
-	text "Hwa!"
-	line "I'm saved!"
+	text "Хва!"
+	line "Я вільна!"
 	prompt
 
 _PokemonTower3FChanneler1AfterBattleText::
-	text "The GHOSTs can be"
-	line "identified by the"
-	cont "SILPH SCOPE."
+	text "ПРИВИДІВ можна"
+	line "впізнати через"
+	cont "СІЛФ-СКОП."
 	done
 
 _PokemonTower3FChanneler2BattleText::
-	text "Kekeke...."
-	line "Kwaaah!"
+	text "Кекеке...."
+	line "Кваааах!"
 	done
 
 _PokemonTower3FChanneler2EndBattleText::
-	text "Hmm?"
-	line "What am I doing?"
+	text "Гм?"
+	line "Що я роблю?"
 	prompt
 
 _PokemonTower3FChanneler2AfterBattleText::
-	text "Sorry! I was"
-	line "possessed!"
+	text "Пробач! Я була"
+	line "одержима!"
 	done
 
 _PokemonTower3FChanneler3BattleText::
-	text "Be gone!"
-	line "Evil spirit!"
+	text "Йди геть!"
+	line "Злий дух!"
 	done
 
 _PokemonTower3FChanneler3EndBattleText::
-	text "Whew!"
-	line "The spirit left!"
+	text "Фух!"
+	line "Дух пішов!"
 	prompt
 
 _PokemonTower3FChanneler3AfterBattleText::
-	text "My friends were"
-	line "possessed too!"
+	text "Мої друзі теж"
+	line "були одержимі!"
 	done

@@ -1,20 +1,21 @@
 _RockTunnelB1FHiker3AfterBattleText::
-	text "I'll raise my"
-	line "#MON to beat"
-	cont "yours, kid!"
+	text "Я вирощу своїх"
+	line "ПОК'еМОНІВ, щоб"
+	cont "здолати твоїх!"
 	done
 
 _RockTunnelB1FSuperNerd3BattleText::
-	text "I draw #MON"
-	line "when I'm home."
+	text "Я малюю"
+	line "ПОК'еМОНІВ,"
+	cont "коли я вдома."
 	done
 
 _RockTunnelB1FSuperNerd3EndBattleText::
-	text "Whew!"
-	line "I'm exhausted!"
+	text "Фух!"
+	line "Я виснажений!"
 	prompt
 
 _RockTunnelB1FSuperNerd3AfterBattleText::
-	text "I'm an artist,"
-	line "not a fighter."
+	text "Я митець,"
+	line "а не боєць."
 	done

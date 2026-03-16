@@ -1,58 +1,58 @@
 _Route18CooltrainerM1BattleText::
-	text "I always check"
-	line "every grassy area"
-	cont "for new #MON."
+	text "Я перевіряю"
+	line "кожну траву на"
+	cont "нових ПОК'еМОНІВ."
 	done
 
 _Route18CooltrainerM1EndBattleText::
-	text "Tch!"
+	text "Тху!"
 	prompt
 
 _Route18CooltrainerM1AfterBattleText::
-	text "I wish I had a"
-	line "BIKE!"
+	text "Ех, якби я мав"
+	line "ВЕЛОСИПЕД!"
 	done
 
 _Route18CooltrainerM2BattleText::
-	text "Kurukkoo!"
-	line "How do you like"
-	cont "my bird call?"
+	text "Куруккоо!"
+	line "Як тобі мій"
+	cont "спів птаха?"
 	done
 
 _Route18CooltrainerM2EndBattleText::
-	text "I"
-	line "had to bug you!"
+	text "Я мав"
+	line "тебе дістати!"
 	prompt
 
 _Route18CooltrainerM2AfterBattleText::
-	text "I also collect sea"
-	line "#MON on"
-	cont "weekends!"
+	text "Я також збираю"
+	line "морських"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _Route18CooltrainerM3BattleText::
-	text "This is my turf!"
-	line "Get out of here!"
+	text "Це моя земля!"
+	line "Забирайся звідси!"
 	done
 
 _Route18CooltrainerM3EndBattleText::
-	text "Darn!"
+	text "Дідько!"
 	prompt
 
 _Route18CooltrainerM3AfterBattleText::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
+	text "Це моє улюблене"
+	line "місце для"
+	cont "полювання!"
 	done
 
 _Route18SignText::
-	text "ROUTE 18"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "МАРШРУТ 18"
+	line "ЦЕЛАДОН СІТІ —"
+	cont "ФУКСІЯ СІТІ"
 	done
 
 _Route18CyclingRoadSignText::
-	text "CYCLING ROAD"
-	line "No pedestrians"
-	cont "permitted!"
+	text "ВЕЛОШЛЯХ"
+	line "Пішоходам рух"
+	cont "заборонено!"
 	done

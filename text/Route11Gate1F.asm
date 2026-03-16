@@ -1,14 +1,14 @@
 _Route11Gate1FGuardText::
-	text "When you catch"
-	line "lots of #MON,"
-	cont "isn't it hard to"
-	cont "think up names?"
+	text "Коли ловиш багато"
+	line "ПОК'еМОНІВ, хіба"
+	cont "не важко давати"
+	cont "їм імена?"
 
-	para "In LAVENDER TOWN,"
-	line "there's a man who"
-	cont "rates #MON"
-	cont "nicknames."
+	para "У ЛАВЕНДЕР ТАУН"
+	line "є чоловік, що"
+	cont "оцінює імена"
+	cont "ПОК'еМОНІВ."
 
-	para "He'll help you"
-	line "rename them too!"
+	para "Він поможе їх"
+	line "перейменувати!"
 	done

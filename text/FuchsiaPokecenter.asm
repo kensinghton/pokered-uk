@@ -1,20 +1,22 @@
 _FuchsiaPokecenterRockerText::
-	text "You can't win"
-	line "with just one"
-	cont "strong #MON."
+	text "Не можна"
+	line "перемогти лише"
+	cont "одним сильним"
+	cont "ПОК'еМОНОМ."
 
-	para "It's tough, but"
-	line "you have to raise"
-	cont "them evenly."
+	para "Це важко, але"
+	line "треба ростити"
+	cont "їх рівномірно."
 	done
 
 _FuchsiaPokecenterCooltrainerFText::
-	text "There's a narrow"
-	line "trail west of"
-	cont "VIRIDIAN CITY."
+	text "На захід від"
+	line "ВІРІДІАН СІТІ є"
+	cont "вузька стежка."
 
-	para "It goes to #MON"
-	line "LEAGUE HQ."
-	cont "The HQ governs"
-	cont "all trainers."
+	para "Вона веде до"
+	line "ШТАБУ ЛІГИ"
+	cont "ПОК'еМОН. Він"
+	cont "керує всіма"
+	cont "ТРЕНЕРАМИ."
 	done

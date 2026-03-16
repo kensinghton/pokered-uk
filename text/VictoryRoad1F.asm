@@ -1,31 +1,31 @@
 _VictoryRoad1FCooltrainerFBattleText::
-	text "I wonder if you"
-	line "are good enough"
-	cont "for me!"
+	text "Цікаво, чи ти"
+	line "достатньо гарний"
+	cont "для мене!"
 	done
 
 _VictoryRoad1FCooltrainerFEndBattleText::
-	text "I"
-	line "lost out!"
+	text "Я програла!"
 	prompt
 
 _VictoryRoad1FCooltrainerFAfterBattleText::
-	text "I never wanted to"
-	line "lose to anybody!"
+	text "Я ніколи не"
+	line "хотіла нікому"
+	cont "програвати!"
 	done
 
 _VictoryRoad1FCooltrainerMBattleText::
-	text "I can see you're"
-	line "good! Let me see"
-	cont "exactly how good!"
+	text "Я бачу, ти"
+	line "здібний! Нумо,"
+	cont "покажи наскільки!"
 	done
 
 _VictoryRoad1FCooltrainerMEndBattleText::
-	text "I"
-	line "had a chance..."
+	text "У мене був"
+	line "шанс..."
 	prompt
 
 _VictoryRoad1FCooltrainerMAfterBattleText::
-	text "I concede, you're"
-	line "better than me!"
+	text "Я визнаю, ти"
+	line "кращий за мене!"
 	done

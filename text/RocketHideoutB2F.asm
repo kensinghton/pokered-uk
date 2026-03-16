@@ -1,17 +1,18 @@
 _RocketHideoutB2FRocketBattleText::
-	text "BOSS said you can"
-	line "see GHOSTs with"
-	cont "the SILPH SCOPE!"
+	text "БОС казав, що"
+	line "СІЛФ-СКОП"
+	cont "дозволяє бачити"
+	cont "ПРИВИДІВ!"
 	done
 
 _RocketHideoutB2FRocketEndBattleText::
-	text "I"
-	line "surrender!"
+	text "Я"
+	line "здаюся!"
 	prompt
 
 _RocketHideoutB2FRocketAfterBattleText::
-	text "The TEAM ROCKET"
-	line "HQ has 4 basement"
-	cont "floors. Can you"
-	cont "reach the BOSS?"
+	text "Штаб РОКЕТІВ"
+	line "має 4 підземні"
+	cont "поверхи. Чи дійдеш"
+	cont "ти до БОСА?"
 	done

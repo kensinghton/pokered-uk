@@ -1,61 +1,61 @@
 _PokemonTower6FGhostWasCubonesMotherText::
-	text "The GHOST was the"
-	line "restless soul of"
-	cont "CUBONE's mother!"
+	text "ПРИВИД був"
+	line "бунтівною душею"
+	cont "матері К'юБОНА!"
 	done
 
 _PokemonTower6FSoulWasCalmedText::
-	text "The mother's soul"
-	line "was calmed."
+	text "Душа матері"
+	line "заспокоїлась."
 
-	para "It departed to"
-	line "the afterlife!"
+	para "Вона відійшла"
+	line "у потойбіччя!"
 	done
 
 _PokemonTower6FChanneler1BattleText::
-	text "Give...me..."
-	line "blood..."
+	text "Дай...мені..."
+	line "крові..."
 	done
 
 _PokemonTower6FChanneler1EndBattleText::
-	text "Groan!"
+	text "Оххх!"
 	prompt
 
 _PokemonTower6FChanneler1AfterBattleText::
-	text "I feel anemic and"
-	line "weak..."
+	text "Відчуваю слаб-"
+	line "кість та анемію."
 	done
 
 _PokemonTower6FChanneler2BattleText::
-	text "Urff... Kwaah!"
+	text "Урфф... Кваах!"
 	done
 
 _PokemonTower6FChanneler2EndBattleText::
-	text "Some-"
-	line "thing fell out!"
+	text "Щось..."
+	line "випало!"
 	prompt
 
 _PokemonTower6FChanneler2AfterBattleText::
-	text "Hair didn't fall"
-	line "out! It was an"
-	cont "evil spirit!"
+	text "То не волосся"
+	line "випало! То був"
+	cont "злий дух!"
 	done
 
 _PokemonTower6FChanneler3BattleText::
-	text "Ke..ke...ke..."
-	line "ke..ke...ke!!"
+	text "Ке..ке...ке..."
+	line "ке..ке...ке!!"
 	done
 
 _PokemonTower6FChanneler3EndBattleText::
-	text "Keee!"
+	text "Кеее!"
 	prompt
 
 _PokemonTower6FChanneler3AfterBattleText::
-	text "What's going on"
-	line "here?"
+	text "Що тут"
+	line "відбувається?"
 	done
 
 _PokemonTower6FBeGoneText::
-	text "Be gone..."
-	line "Intruders..."
+	text "Йдіть геть..."
+	line "Порушники..."
 	done

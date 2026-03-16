@@ -1,36 +1,36 @@
 _CeruleanTrashedHouseFishingGuruTheyStoleATMText::
-	text "Those miserable"
-	line "ROCKETs!"
+	text "Ці нікчемні"
+	line "РОКЕТИ!"
 
-	para "Look what they"
-	line "did here!"
+	para "Погляньте, що"
+	line "вони накоїли!"
 
-	para "They stole a TM"
-	line "for teaching"
-	cont "#MON how to"
-	cont "DIG holes!"
+	para "Вони вкрали ТМ,"
+	line "що вчив"
+	cont "ПОК'еМОНІВ"
+	cont "КОПАННЮ!"
 
-	para "That cost me a"
-	line "bundle, it did!"
+	para "Це коштувало"
+	line "мені цілий статок!"
 	done
 
 _CeruleanTrashedHouseFishingGuruWhatsLostIsLostText::
-	text "I figure what's"
-	line "lost is lost!"
+	text "Що впало, те"
+	line "пропало!"
 
-	para "I decided to teach"
-	line "DIGLETT how to"
-	cont "DIG without a TM!"
+	para "Я вирішив навчити"
+	line "ДІГЛЕТТА КОПАННЮ"
+	cont "без жодних ТМ!"
 	done
 
 _CeruleanTrashedHouseGirlText::
-	text "TEAM ROCKET must"
-	line "be trying to DIG"
-	cont "their way into no"
-	cont "good!"
+	text "КОМАНДА РОКЕТ"
+	line "певно хоче проко-"
+	cont "пати собі шлях"
+	cont "до біди!"
 	done
 
 _CeruleanTrashedHouseWallHoleText::
-	text "TEAM ROCKET left"
-	line "a way out!"
+	text "КОМАНДА РОКЕТ"
+	line "залишила вихід!"
 	done

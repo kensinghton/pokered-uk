@@ -1,235 +1,236 @@
 _CeruleanCityRivalPreBattleText::
-	text "<RIVAL>: Yo!"
+	text "<RIVAL>: Йо!"
 	line "<PLAYER>!"
 
-	para "You're still"
-	line "struggling along"
-	cont "back here?"
+	para "Ти все ще тут"
+	line "плентаєшся?"
 
-	para "I'm doing great!"
-	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	para "В мене все"
+	line "супер! Я впіймав"
+	cont "купу сильних та"
+	cont "розумних"
+	cont "ПОК'еМОНІВ!"
 
-	para "Here, let me see"
-	line "what you caught,"
+	para "Нумо, покажи,"
+	line "що впіймав ти,"
 	cont "<PLAYER>!"
 	done
 
 _CeruleanCityRivalDefeatedText::
-	text "Hey!"
-	line "Take it easy!"
-	cont "You won already!"
+	text "Гей!"
+	line "Легше! Ти вже"
+	cont "переміг!"
 	prompt
 
 _CeruleanCityRivalVictoryText::
-	text "Heh!"
-	line "You're no match"
-	cont "for my genius!"
+	text "Хе!"
+	line "Ти не рівня"
+	cont "моєму генію!"
 	prompt
 
 _CeruleanCityRivalIWentToBillsText::
-	text "<RIVAL>: Hey,"
-	line "guess what?"
+	text "<RIVAL>: Гей,"
+	line "знаєш що?"
 
-	para "I went to BILL's"
-	line "and got him to"
-	cont "show me his rare"
-	cont "#MON!"
+	para "Я був у БІЛЛА,"
+	line "і він показав"
+	cont "мені рідкісних"
+	cont "ПОК'еМОНІВ!"
 
-	para "That added a lot"
-	line "of pages to my"
-	cont "#DEX!"
+	para "Це додало купу"
+	line "сторінок у мій"
+	cont "ПОК'еДЕКС!"
 
-	para "After all, BILL's"
-	line "world famous as a"
-	cont "#MANIAC!"
+	para "Адже БІЛЛ —"
+	line "відомий на весь"
+	cont "світ ПОК'еМАНІЯК!"
 
-	para "He invented the"
-	line "#MON Storage"
-	cont "System on PC!"
+	para "Він винайшов"
+	line "систему для ПК!"
 
-	para "Since you're using"
-	line "his system, go"
-	cont "thank him!"
+	para "Йди подякуй"
+	line "йому за це!"
 
-	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	para "Що ж, мені час"
+	line "йти! Ще"
+	cont "побачимось!"
 	done
 
 _CeruleanCityRocketText::
-	text "Hey! Stay out!"
-	line "It's not your"
-	cont "yard! Huh? Me?"
+	text "Гей! Провалюй!"
+	line "Це не твій"
+	cont "двір! Га? Я?"
 
-	para "I'm an innocent"
-	line "bystander! Don't"
-	cont "you believe me?"
+	para "Я просто"
+	line "перехожий! Ти"
+	cont "не віриш мені?"
 	done
 
 _CeruleanCityRocketReceivedTM28Text::
-	text "<PLAYER> recovered"
-	line "TM28!@"
+	text "<PLAYER> повертає"
+	line "ТМ28!@"
 	text_end
 
 _CeruleanCityRocketIBetterGetMovingText::
 	text_start
 
-	para "I better get"
-	line "moving! Bye!@"
+	para "Мені час іти!"
+	line "Бувай!@"
 	text_end
 
 _CeruleanCityRocketTM28NoRoomText::
-	text "Make room for"
-	line "this!"
+	text "Звільни місце"
+	line "для цього!"
 
-	para "I can't run until"
-	line "I give it to you!"
+	para "Я не втечу,"
+	line "поки не віддам"
+	cont "це тобі!"
 	done
 
 _CeruleanCityRocketIGiveUpText::
-	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	text "Стій! Я"
+	line "здаюся! Я піду"
+	cont "тихо!"
 	prompt
 
 _CeruleanCityRocketIllReturnTheTMText::
-	text "OK! I'll return"
-	line "the TM I stole!"
+	text "Добре! Я"
+	line "поверну той ТМ,"
+	cont "що я вкрав!"
 	prompt
 
 _CeruleanCityCooltrainerMText::
-	text "You're a trainer"
-	line "too? Collecting,"
-	cont "fighting, it's a"
-	cont "tough life."
+	text "Ти теж тренер?"
+	line "Збирати їх та"
+	cont "битися — важке"
+	cont "життя."
 	done
 
 _CeruleanCitySuperNerd1Text::
-	text "That bush in"
-	line "front of the shop"
-	cont "is in the way."
+	text "Кущ перед цим"
+	line "магазином"
+	cont "заважає пройти."
 
-	para "There might be a"
-	line "way around."
+	para "Має бути шлях"
+	line "в обхід."
 	done
 
 _CeruleanCitySuperNerd2Text::
-	text "You're making an"
-	line "encyclopedia on"
-	cont "#MON? That"
-	cont "sounds amusing."
+	text "Ти робиш"
+	line "енциклопедію"
+	cont "ПОК'еМОН? Це"
+	cont "звучить цікаво."
 	done
 
 _CeruleanCityGuardText::
-	text "The people here"
-	line "were robbed."
+	text "Людей тут"
+	line "пограбували."
 
-	para "It's obvious that"
-	line "TEAM ROCKET is"
-	cont "behind this most"
-	cont "heinous crime!"
+	para "Очевидно, що за"
+	line "цим стоїть"
+	cont "КОМАНДА РОКЕТ!"
 
-	para "Even our POLICE"
-	line "force has trouble"
-	cont "with the ROCKETs!"
+	para "Навіть ПОЛІЦІЯ"
+	line "має проблеми"
+	cont "з РОКЕТАМИ!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroUseSonicboomText::
-	text "OK! SLOWBRO!"
-	line "Use SONICBOOM!"
-	cont "Come on, SLOWBRO"
-	cont "pay attention!"
+	text "Добре! СЛОУБРО!"
+	line "Вжий"
+	cont "ЗВУКОВИЙ УДАР!"
+	cont "Ну ж бо, СЛОУБРО,"
+	cont "будь уважним!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroPunchText::
-	text "SLOWBRO punch!"
-	line "No! You blew it"
-	cont "again!"
+	text "СЛОУБРО, удар!"
+	line "Ні! Ти знову"
+	cont "все провалив!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroWithdrawText::
-	text "SLOWBRO, WITHDRAW!"
-	line "No! That's wrong!"
+	text "СЛОУБРО, ЗАХИСТ!"
+	line "Ні! Неправильно!"
 
-	para "It's so hard to"
-	line "control #MON!"
+	para "Важко керувати"
+	line "ПОК'еМОНАМИ!"
 
-	para "Your #MON's"
-	line "obedience depends"
-	cont "on your abilities"
-	cont "as a trainer!"
+	para "Слухняність"
+	line "залежить від"
+	cont "твоїх навичок"
+	cont "тренера!"
 	done
 
 _CeruleanCitySlowbroTookASnoozeText::
-	text "SLOWBRO took a"
-	line "snooze..."
+	text "СЛОУБРО трохи"
+	line "задрімав..."
 	done
 
 _CeruleanCitySlowbroIsLoafingAroundText::
-	text "SLOWBRO is"
-	line "loafing around..."
+	text "СЛОУБРО"
+	line "байдикує..."
 	done
 
 _CeruleanCitySlowbroTurnedAwayText::
-	text "SLOWBRO turned"
-	line "away..."
+	text "СЛОУБРО"
+	line "відвернувся..."
 	done
 
 _CeruleanCitySlowbroIgnoredOrdersText::
-	text "SLOWBRO"
-	line "ignored orders..."
+	text "СЛОУБРО"
+	line "ігнорує накази..."
 	done
 
 _CeruleanCityCooltrainerF2Text::
-	text "I want a bright"
-	line "red BICYCLE!"
+	text "Я хочу яскраво-"
+	line "червоний"
+	cont "ВЕЛОСИПЕД!"
 
-	para "I'll keep it at"
-	line "home, so it won't"
-	cont "get dirty!"
+	para "Триматиму його"
+	line "вдома, щоб не"
+	cont "забруднити!"
 	done
 
 _CeruleanCitySuperNerd3Text::
-	text "This is CERULEAN"
-	line "CAVE! Horribly"
-	cont "strong #MON"
-	cont "live in there!"
+	text "Це ПЕЧЕРА"
+	line "СЕРУЛІНА! Там"
+	cont "дуже сильні"
+	cont "ПОК'еМОНИ!"
 
-	para "The #MON LEAGUE"
-	line "champion is the"
-	cont "only person who"
-	cont "is allowed in!"
+	para "Лише чемпіону"
+	line "ЛІГИ ПОК'еМОН"
+	cont "можна заходити"
+	cont "всередину!"
 	done
 
 _CeruleanCitySignText::
-	text "CERULEAN CITY"
-	line "A Mysterious,"
-	cont "Blue Aura"
-	cont "Surrounds It"
+	text "СЕРУЛІН СІТІ"
+	line "Таємнича синя"
+	cont "аура огортає"
+	cont "його"
 	done
 
 _CeruleanCityTrainerTipsText::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "Pressing B Button"
-	line "during evolution"
-	cont "cancels the whole"
-	cont "process."
+	para "Натискання кнопки"
+	line "Б під час"
+	cont "еволюції скасує"
+	cont "весь процес."
 	done
 
 _CeruleanCityBikeShopSign::
-	text "Grass and caves"
-	line "handled easily!"
-	cont "BIKE SHOP"
+	text "З травою й"
+	line "печерами легко!"
+	cont "ВЕЛОМАГАЗИН"
 	done
 
 _CeruleanCityGymSign::
-	text "CERULEAN CITY"
-	line "#MON GYM"
-	cont "LEADER: MISTY"
+	text "СЕРУЛІН СІТІ"
+	line "ЗАЛ ПОК'еМОН"
+	cont "ЛІДЕР: МІСТІ"
 
-	para "The Tomboyish"
-	line "Mermaid!"
+	para "Хлопкувата"
+	line "Русалонька!"
 	done

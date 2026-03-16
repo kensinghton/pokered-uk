@@ -1,38 +1,37 @@
 _SaffronGateGuardGeeImThirstyText::
-	text "I'm on guard duty."
-	line "Gee, I'm thirsty,"
-	cont "though!"
+	text "Я на варті."
+	line "Ох, як же хочеть-"
+	cont "ся пити!"
 
-	para "Oh wait there,"
-	line "the road's closed."
+	para "Чекай-но, дорога"
+	line "зачинена."
 	done
 
 _SaffronGateGuardImParchedText::
-	text "Whoa, boy!"
-	line "I'm parched!"
+	text "Овва, хлопче!"
+	line "В горлі пересохло!"
 	cont "..."
-	cont "Huh? I can have"
-	cont "this drink?"
-	cont "Gee, thanks!@"
+	cont "Га? Можна мені"
+	cont "цей напій?"
+	cont "Ох, дякую!@"
 	text_end
 
 _SaffronGateGuardYouCanGoOnThroughText::
 	text_start
 
 	para "..."
-	line "Glug glug..."
+	line "Буль-буль..."
 	cont "..."
-	cont "Gulp..."
-	cont "If you want to go"
-	cont "to SAFFRON CITY..."
+	cont "Глип..."
+	cont "Якщо хочеш"
+	cont "у САФФРОН СІТІ..."
 	cont "..."
-	cont "You can go on"
-	cont "through. I'll"
-	cont "share this with"
-	cont "the other guards!"
+	cont "Можеш проходити."
+	cont "Я поділюся з"
+	cont "іншими!"
 	done
 
 _SaffronGateGuardThanksForTheDrinkText::
-	text "Hi, thanks for"
-	line "the cool drinks!"
+	text "Привіт, дякую за"
+	line "прохолодні напої!"
 	done

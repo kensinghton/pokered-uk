@@ -1,24 +1,25 @@
 _CeruleanPokecenterSuperNerdText::
-	text "That BILL!"
+	text "Цей БІЛЛ!"
 
-	para "I heard that"
-	line "he'll do whatever"
-	cont "it takes to get"
-	cont "rare #MON!"
+	para "Я чув, він піде"
+	line "на все заради"
+	cont "рідкісних"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _CeruleanPokecenterGentlemanText::
-	text "Have you heard"
-	line "about BILL?"
+	text "Ти чув про"
+	line "БІЛЛА?"
 
-	para "Everyone calls"
-	line "him a #MANIAC!"
+	para "Його всі звуть"
+	line "ПОК'еМАНІЯКОМ!"
 
-	para "I think people"
-	line "are just jealous"
-	cont "of BILL, though."
+	para "Хоча, гадаю,"
+	line "люди просто"
+	cont "йому заздрять."
 
-	para "Who wouldn't want"
-	line "to boast about"
-	cont "their #MON?"
+	para "Хто б не хотів"
+	line "вихвалятися"
+	cont "своїми"
+	cont "ПОК'еМОНАМИ?"
 	done

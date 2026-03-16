@@ -1,71 +1,79 @@
 _BikeShopClerkWelcomeText::
-	text "Hi! Welcome to"
-	line "our BIKE SHOP."
+	text "Привіт! Вітаємо"
+	line "в нашому МАГАЗИНІ"
+	line "БІЦИКЛІВ!"
 
-	para "Have we got just"
-	line "the BIKE for you!"
+	para "І в нас є БІЦИКЛЬ"
+	line "саме для тебе!"
 	prompt
 
 _BikeShopClerkDoYouLikeItText::
-	text "It's a cool BIKE!"
-	line "Do you want it?"
+	text "Це доволі крутий"
+	line "БІЦИКЛЬ! Хочеш"
+	line "його собі?"
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "Вибач! Ти не"
+	line "можеш його собі"
+	line "дозволити!"
 	prompt
 
 _BikeShopClerkOhThatsAVoucherText::
-	text "Oh, that's..."
+	text "Ой, це ж..."
 
-	para "A BIKE VOUCHER!"
+	para "ВАУЧР на БІЦИКЛЬ!"
 
-	para "OK! Here you go!"
+	para "ОК! Тримай!"
 	prompt
 
 _BikeShopExchangedVoucherText::
-	text "<PLAYER> exchanged"
-	line "the BIKE VOUCHER"
-	cont "for a BICYCLE.@"
+	text "<PLAYER> обміняв"
+	line "ВАУЧР БІЦИКЛЬ на"
+	cont "сам БІЦИКЛЬ.@"
 	text_end
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "some time!"
+	text "Приходь ще до"
+	line "нас!"
 	done
 
 _BikeShopClerkHowDoYouLikeYourBicycleText::
-	text "How do you like"
-	line "your new BICYCLE?"
+	text "Тобі подобається"
+	line "твій новий"
+	line "БІЦИКЛЬ?"
 
-	para "You can take it"
-	line "on CYCLING ROAD"
-	cont "and in caves!"
+	para "Ти можеш їхати на"
+	line "ньому на"
+	line "ДОРОГУ БІЦИКЛІВ"
+	cont "та в печери!"
 	done
 
 _BikeShopBagFullText::
-	text "You better make"
-	line "room for this!"
+	text "Тобі краще"
+	line "звільнити місце"
+	line "під це!"
 	done
 
 _BikeShopMiddleAgedWomanText::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "Звичайний міський"
+	line "БІЦИКЛЬ доволі"
+	cont "хороший для мене!"
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "Ти не можеш"
+	line "встановити"
+	line "корзину для"
+	line "покупок на"
+	cont "гірський БІЦИКЛЬ!"
 	done
 
 _BikeShopYoungsterTheseBikesAreExpensiveText::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "Ці БІЦИКЛІ круті,"
+	line "але вони коштують"
+	cont "забагато!"
 	done
 
 _BikeShopYoungsterCoolBikeText::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "Вау. Твій БІЦИКЛЬ"
+	line "реально крутий!"
 	done

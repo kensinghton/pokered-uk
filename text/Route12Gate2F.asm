@@ -1,43 +1,44 @@
 _Route12Gate2FBrunetteGirlYouCanHaveThisText::
-	text "My #MON's"
-	line "ashes are stored"
-	cont "in #MON TOWER."
+	text "Прах мого"
+	line "ПОК'еМОНА у"
+	cont "ВЕЖІ ПОК'еМОН."
 
-	para "You can have this"
-	line "TM. I don't need"
-	cont "it any more..."
+	para "Візьми цей ТМ."
+	line "Він мені більше"
+	cont "не потрібен..."
 	prompt
 
 _Route12Gate2FBrunetteGirlReceivedTM39Text::
-	text "<PLAYER> received"
-	line "TM39!@"
+	text "<PLAYER> отримує"
+	line "ТМ39!@"
 	text_end
 
 _Route12Gate2FBrunetteGirlTM39ExplanationText::
-	text "TM39 is a move"
-	line "called SWIFT."
+	text "ТМ39 — прийом"
+	line "під назвою"
+	cont "ЗОРЕПАД."
 
-	para "It's very accurate,"
-	line "so use it during"
-	cont "battles you can't"
-	cont "afford to lose."
+	para "Він дуже точний,"
+	line "вживай його,"
+	cont "коли не можна"
+	cont "програвати."
 	done
 
 _Route12Gate2FBrunetteGirlTM39NoRoomText::
-	text "You don't have"
-	line "room for this."
+	text "У тебе немає"
+	line "місця для цього."
 	done
 
 _Route12Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Дивлюсь у"
+	line "бінокль."
 
-	para "A man fishing!"
+	para "Чоловік рибалить!"
 	done
 
 _Route12Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Дивлюсь у"
+	line "бінокль."
 
-	para "It's #MON TOWER!"
+	para "Це ВЕЖА ПОК'еМОН!"
 	done

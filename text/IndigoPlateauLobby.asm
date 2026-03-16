@@ -1,25 +1,26 @@
 _IndigoPlateauLobbyGymGuideText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Йо! Майбутній"
+	line "чемпіоне!"
 
-	para "At #MON LEAGUE,"
-	line "you have to face"
-	cont "the ELITE FOUR in"
-	cont "succession."
+	para "У ЛІЗІ ПОК'еМОН"
+	line "ти маєш здолати"
+	cont "ЕЛІТНУ ЧЕТВІРКУ"
+	cont "одного за одним."
 
-	para "If you lose, you"
-	line "have to start all"
-	cont "over again! This"
-	cont "is it! Go for it!"
+	para "Програєш —"
+	line "почнеш спочатку!"
+	cont "Ось воно!"
+	cont "Вперед!"
 	done
 
 _IndigoPlateauLobbyCooltrainerFText::
-	text "From here on, you"
-	line "face the ELITE"
-	cont "FOUR one by one!"
+	text "Відтепер ти"
+	line "б'єшся з ЕЛІТНОЮ"
+	cont "ЧЕТВІРКОЮ по"
+	cont "черзі!"
 
-	para "If you win, a"
-	line "door opens to the"
-	cont "next trainer!"
-	cont "Good luck!"
+	para "Переможеш —"
+	line "відчиняться"
+	cont "двері до наступ-"
+	cont "ного. Успіху!"
 	done

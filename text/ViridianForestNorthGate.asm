@@ -1,19 +1,19 @@
 _ViridianForestNorthGateSuperNerdText::
-	text "Many #MON live"
-	line "only in forests "
-	cont "and caves."
+	text "Багато ПОК'еМОН"
+	line "живуть лише в"
+	cont "лісах та печерах."
 
-	para "You need to look"
-	line "everywhere to get"
-	cont "different kinds!"
+	para "Шукай усюди,"
+	line "щоб знайти"
+	cont "різні види!"
 	done
 
 _ViridianForestNorthGateGrampsText::
-	text "Have you noticed"
-	line "the bushes on the"
-	cont "roadside?"
+	text "Ти бачив кущі"
+	line "при дорозі?"
 
-	para "They can be cut"
-	line "down by a special"
-	cont "#MON move."
+	para "Їх можна зрізати"
+	line "особливим"
+	cont "прийомом"
+	cont "ПОК'еМОНА."
 	done

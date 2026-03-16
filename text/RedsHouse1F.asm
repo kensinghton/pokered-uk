@@ -1,37 +1,38 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "МАМА: Гаразд."
+	line "Всі хлопці йдуть"
+	cont "з дому колись."
+	cont "Так кажуть по ТБ."
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "Дім ПРОФ. ОАКа"
+	line "сусідній, ти ж"
+	cont "пам'ятаєш, так?"
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>!"
-	line "You should take a"
-	cont "quick rest."
+	text "МАМА: <PLAYER>!"
+	line "Тобі треба трохи"
+	cont "відпочити."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "МАМА: О, добре!"
+	line "Ти та твої"
+	cont "ПОК'еМОНи вигля-"
+	cont "дають чудово!"
+	cont "Бережіть себе!"
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "Тут кіно на"
+	line "ТБ. Чотири хлопця"
+	cont "гуляють по"
+	cont "залізній дорозі."
 
-	para "I better go too."
+	para "Напевно я теж піду"
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "Упс, не та"
+	line "сторона тєліка."
 	done

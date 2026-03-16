@@ -1,67 +1,65 @@
 _CeladonMansion3FProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
+	text "Я? Я програміст!"
 	done
 
 _CeladonMansion3FGraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "Я художник!"
+	line "Я намалював"
+	cont "тебе!"
 	done
 
 _CeladonMansion3FWriterText::
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	text "Я написав сюжет!"
+	line "ЕРІКА мила, так?"
 
-	para "I like MISTY a"
-	line "lot too!"
+	para "Мені також дуже"
+	line "подобається"
+	cont "МІСТІ!"
 
-	para "Oh, and SABRINA,"
-	line "I like her!"
+	para "О, і САБРІНА,"
+	line "вона теж класна!"
 	done
 
 _CeladonMansion3FGameDesignerText::
-	text "Is that right?"
+	text "Ось воно як?"
 
-	para "I'm the game"
-	line "designer!"
+	para "Я геймдизайнер!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't quit!"
+	para "Заповнити"
+	line "ПОК'еДЕКС важко,"
+	cont "але не здавайся!"
 
-	para "When you finish,"
-	line "come tell me!"
+	para "Як закінчиш,"
+	line "прийди і скажи!"
 	done
 
 _CeladonMansion3FGameDesignerCompletedDexText::
-	text "Wow! Excellent!"
-	line "You completed"
-	cont "your #DEX!"
-	cont "Congratulations!"
+	text "Ого! Чудово!"
+	line "Ти заповнив свій"
+	cont "ПОК'еДЕКС!"
+	cont "Вітаю!"
 	cont "...@"
 	text_end
 
 _CeladonMansion3FGameProgramPCText::
-	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	text "Це програма гри!"
+	line "Втручання може"
+	cont "викликати баги!"
 	done
 
 _CeladonMansion3FPlayingGamePCText::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
+	text "Хтось грає в"
+	line "гру замість"
+	cont "роботи!"
 	done
 
 _CeladonMansion3FGameScriptPCText::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	text "Це сценарій!"
+	line "Краще не дивитись"
+	cont "фінал!"
 	done
 
 _CeladonMansion3FDevRoomSignText::
-	text "GAME FREAK"
-	line "Development Room"
+	text "ГЕЙМ ФРІК"
+	line "Кімната Розробки"
 	done

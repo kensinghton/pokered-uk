@@ -1,25 +1,24 @@
 _LavenderCuboneHouseCuboneText::
-	text "CUBONE: Kyarugoo!@"
+	text "К'юБОН: К'яругуу!@"
 	text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
-	text "I hate those"
-	line "horrible ROCKETs!"
+	text "Я ненавиджу цих"
+	line "клятих РОКЕТІВ!"
 
-	para "That poor CUBONE's"
-	line "mother..."
+	para "Бідна мати"
+	line "К'юБОНА..."
 
-	para "It was killed"
-	line "trying to escape"
-	cont "from TEAM ROCKET!"
+	para "Вона загинула,"
+	line "тікаючи від"
+	cont "КОМАНДИ РОКЕТ!"
 	done
 
 _LavenderCuboneHouseBrunetteGirlGhostIsGoneText::
-	text "The GHOST of"
-	line "#MON TOWER is"
-	cont "gone!"
+	text "ПРИВИД з ВЕЖІ"
+	line "ПОК'еМОН зник!"
 
-	para "Someone must have"
-	line "soothed its"
-	cont "restless soul!"
+	para "Хтось заспокоїв"
+	line "його бунтівну"
+	cont "душу!"
 	done

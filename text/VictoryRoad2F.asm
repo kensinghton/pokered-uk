@@ -1,86 +1,86 @@
 _VictoryRoad2FMoltresBattleText::
-	text "Gyaoo!@"
+	text "Гяоо!@"
 	text_end
 
 _VictoryRoad2FHikerBattleText::
-	text "VICTORY ROAD is"
-	line "the final test"
-	cont "for trainers!"
+	text "ШЛЯХ ПЕРЕМОГИ —"
+	line "крайнє випробу-"
+	cont "вання ТРЕНЕРІВ!"
 	done
 
 _VictoryRoad2FHikerEndBattleText::
-	text "Aiyah!"
+	text "Айя!"
 	prompt
 
 _VictoryRoad2FHikerAfterBattleText::
-	text "If you get stuck,"
-	line "try moving some"
-	cont "boulders around!"
+	text "Якщо застряг,"
+	line "спробуй поштов-"
+	cont "хати валуни!"
 	done
 
 _VictoryRoad2FSuperNerd1BattleText::
-	text "Ah, so you wish"
-	line "to challenge the"
-	cont "ELITE FOUR?"
+	text "А, то ти хочеш"
+	line "кинути виклик"
+	cont "ЕЛІТНІЙ"
+	cont "ЧЕТВІРЦІ?"
 	done
 
 _VictoryRoad2FSuperNerd1EndBattleText::
-	text "You"
-	line "got me!"
+	text "Ти мене"
+	line "дістав!"
 	prompt
 
 _VictoryRoad2FSuperNerd1AfterBattleText::
-	text "<RIVAL> also came"
-	line "through here!"
+	text "<RIVAL> також"
+	line "проходив тут!"
 	done
 
 _VictoryRoad2FCooltrainerMBattleText::
-	text "Come on!"
-	line "I'll whip you!"
+	text "Нумо! Я тебе"
+	line "відлупцюю!"
 	done
 
 _VictoryRoad2FCooltrainerMEndBattleText::
-	text "I got"
-	line "whipped!"
+	text "Мене"
+	line "відлупцювали!"
 	prompt
 
 _VictoryRoad2FCooltrainerMAfterBattleText::
-	text "You earned the"
-	line "right to be on"
-	cont "VICTORY ROAD!"
+	text "Ти виборов собі"
+	line "право бути на"
+	cont "ШЛЯХУ ПЕРЕМОГИ!"
 	done
 
 _VictoryRoad2FSuperNerd2BattleText::
-	text "If you can get"
-	line "through here, you"
-	cont "can go meet the"
-	cont "ELITE FOUR!"
+	text "Якщо пройдеш"
+	line "тут, то зможеш"
+	cont "зустріти"
+	cont "ЕЛІТНУ ЧЕТВІРКУ!"
 	done
 
 _VictoryRoad2FSuperNerd2EndBattleText::
-	text "No!"
-	line "Unbelievable!"
+	text "Ні!"
+	line "Неймовірно!"
 	prompt
 
 _VictoryRoad2FSuperNerd2AfterBattleText::
-	text "I can beat you"
-	line "when it comes to"
-	cont "knowledge about"
-	cont "#MON!"
+	text "Я перевершу"
+	line "тебе в знаннях"
+	cont "про ПОК'еМОНІВ!"
 	done
 
 _VictoryRoad2FSuperNerd3BattleText::
-	text "Is VICTORY ROAD"
-	line "too tough?"
+	text "ШЛЯХ ПЕРЕМОГИ"
+	line "надто важкий?"
 	done
 
 _VictoryRoad2FSuperNerd3EndBattleText::
-	text "Well"
-	line "done!"
+	text "Гарна"
+	line "робота!"
 	prompt
 
 _VictoryRoad2FSuperNerd3AfterBattleText::
-	text "Many trainers give"
-	line "up the challenge"
-	cont "here."
+	text "Багато ТРЕНЕРІВ"
+	line "кидають цей"
+	cont "виклик саме тут."
 	done

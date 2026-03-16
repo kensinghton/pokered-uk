@@ -1,12 +1,13 @@
 _Route2GateOaksAideFlashExplanationText::
-	text "The HM FLASH"
-	line "lights even the"
-	cont "darkest dungeons."
+	text "ПМ СПАЛАХ"
+	line "освітлює навіть"
+	cont "найтемніші"
+	cont "підземелля."
 	done
 
 _Route2GateYoungsterText::
-	text "Once a #MON"
-	line "learns FLASH, you"
-	cont "can get through"
-	cont "ROCK TUNNEL."
+	text "Коли ПОК'еМОН"
+	line "вивчить СПАЛАХ,"
+	cont "ти пройдеш крізь"
+	cont "КАМ'ЯНИЙ ТУНЕЛЬ."
 	done

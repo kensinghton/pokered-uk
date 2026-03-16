@@ -1,18 +1,18 @@
 _SafariZoneEastRestHouseScientistText::
-	text "How many did you"
-	line "catch? I'm bushed"
-	cont "from the work!"
+	text "Скільки ти вже"
+	line "спіймав? Я вже"
+	cont "геть видихався!"
 	done
 
 _SafariZoneEastRestHouseRockerText::
-	text "I caught a"
-	line "CHANSEY!"
+	text "Я впіймав"
+	line "ЧЕНСІ!"
 
-	para "That makes this"
-	line "all worthwhile!"
+	para "Це вартувало"
+	line "всіх зусиль!"
 	done
 
 _SafariZoneEastRestHouseSilphWorkerMText::
-	text "Whew! I'm tired"
-	line "from all the fun!"
+	text "Фух! Я втомився"
+	line "від цих розваг!"
 	done

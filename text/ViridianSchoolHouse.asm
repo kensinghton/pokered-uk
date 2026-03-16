@@ -1,13 +1,13 @@
 _ViridianSchoolHouseBrunetteGirlText::
-	text "Whew! I'm trying"
-	line "to memorize all"
-	cont "my notes."
+	text "Фух! Намагаюся"
+	line "запам'ятати всі"
+	cont "свої нотатки."
 	done
 
 _ViridianSchoolHouseCooltrainerFText::
-	text "Okay!"
+	text "Добре!"
 
-	para "Be sure to read"
-	line "the blackboard"
-	cont "carefully!"
+	para "Обов'язково"
+	line "уважно читай"
+	cont "дошку!"
 	done

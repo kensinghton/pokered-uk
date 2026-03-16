@@ -1,26 +1,25 @@
 _CeladonMart4FSuperNerdText::
-	text "I'm getting a"
-	line "# DOLL for my"
-	cont "girl friend!"
+	text "Я купую"
+	line "ПОК'еЛЯЛЬКУ для"
+	cont "своєї дівчини!"
 	done
 
 _CeladonMart4FYoungsterText::
-	text "I heard something"
-	line "useful."
+	text "Я чув дещо"
+	line "корисне."
 
-	para "You can run from"
-	line "wild #MON by"
-	cont "distracting them"
-	cont "with a # DOLL!"
+	para "Можна втекти від"
+	line "диких ПОК'еМОНІВ,"
+	cont "відволікши їх"
+	cont "ПОК'еЛЯЛЬКОЮ!"
 	done
 
 _CeladonMart4FCurrentFloorSignText::
-	text "Express yourself"
-	line "with gifts!"
+	text "Виражай себе"
+	line "через дарунки!"
 
-	para "4F: WISEMAN GIFTS"
+	para "4П: ДАРУНКИ МУДРЦЯ"
 
-	para "Evolution Special!"
-	line "Element STONEs on"
-	cont "sale now!"
+	para "Еволюція! Продаж"
+	line "КАМЕНІВ стихій!"
 	done

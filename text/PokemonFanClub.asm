@@ -1,90 +1,95 @@
 _PokemonFanClubPikachuFanNormalText::
-	text "Won't you admire"
-	line "my PIKACHU's"
-	cont "adorable tail?"
+	text "Чи не хочеш ти"
+	line "глянути на хвіст"
+	cont "мого ПІКАЧУ?"
 	done
 
 _PokemonFanClubPikachuFanBetterText::
-	text "Humph! My PIKACHU"
-	line "is twice as cute"
-	cont "as that one!"
+	text "Гм! Мій ПІКАЧУ"
+	line "вдвічі миліший"
+	cont "за того!"
 	done
 
 _PokemonFanClubSeelFanNormalText::
-	text "I just love my"
-	line "SEEL!"
+	text "Я обожнюю свого"
+	line "СІЛА!"
 
-	para "It squeals when I"
-	line "hug it!"
+	para "Він пищить,"
+	line "коли я його"
+	cont "обіймаю!"
 	done
 
 _PokemonFanClubSeelFanBetterText::
-	text "Oh dear!"
+	text "О лишенько!"
 
-	para "My SEEL is far"
-	line "more attractive!"
+	para "Мій СІЛ набагато"
+	line "привабливіший!"
 	done
 
 _PokemonFanClubPikachuText::
-	text "PIKACHU: Chu!"
-	line "Pikachu!"
+	text "ПІКАЧУ: Чу!"
+	line "Пікачу!"
 	done
 
 _PokemonFanClubSeelText::
-	text "SEEL: Kyuoo!"
+	text "СІЛ: К'юоо!"
 	done
 
 _PokemonFanClubChairmanIntroText::
-	text "I chair the"
-	line "#MON Fan Club!"
+	text "Я голова КЛУБУ"
+	line "ФАНАТІВ ПОК'еМОН!"
 
-	para "I have collected"
-	line "over 100 #MON!"
+	para "Я зібрав понад"
+	line "100 ПОК'еМОНІВ!"
 
-	para "I'm very fussy"
-	line "when it comes to"
-	cont "#MON!"
+	para "Я дуже вибагливий"
+	line "щодо"
+	cont "ПОК'еМОНІВ!"
 
-	para "So..."
+	para "Тож..."
 
-	para "Did you come"
-	line "visit to hear"
-	cont "about my #MON?"
+	para "Ти завітав,"
+	line "щоб послухати"
+	cont "про моїх"
+	cont "ПОК'еМОНІВ?"
 	done
 
 _PokemonFanClubChairmanStoryText::
-	text "Good!"
-	line "Then listen up!"
+	text "Чудово!"
+	line "Тоді слухай!"
 
-	para "My favorite"
-	line "RAPIDASH..."
+	para "Мій улюблений"
+	line "РАПІДАШ..."
 
-	para "It...cute..."
-	line "lovely...smart..."
-	cont "plus...amazing..."
-	cont "you think so?..."
-	cont "oh yes...it..."
-	cont "stunning..."
-	cont "kindly..."
-	cont "love it!"
+	para "Він... милий..."
+	line "гарний... розумний"
+	cont "та... дивовижний"
+	cont "ти теж так"
+	cont "думаєш?.."
+	cont "о так... він..."
+	cont "вражаючий..."
+	cont "добрий..."
+	cont "люблю його!"
 
-	para "Hug it...when..."
-	cont "sleeping...warm"
-	cont "and cuddly..."
-	cont "spectacular..."
-	cont "ravishing..."
-	cont "...Oops! Look at"
-	cont "the time! I kept"
-	cont "you too long!"
+	para "Обіймаю його..."
+	line "коли він спить"
+	cont "теплий та"
+	cont "м'якенький..."
+	cont "прекрасний..."
+	cont "чарівний..."
+	cont "...Ой! Глянь на"
+	cont "час! Я тебе"
+	cont "затримав!"
 
-	para "Thanks for hearing"
-	line "me out! I want"
-	cont "you to have this!"
+	para "Дякую, що"
+	line "вислухав! Я"
+	cont "хочу дати тобі"
+	cont "ось це!"
 	prompt
 
 _PokemonFanClubReceivedBikeVoucherText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> отримує"
+	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
@@ -92,54 +97,58 @@ _PokemonFanClubReceivedBikeVoucherText::
 _PokemonFanClubExplainBikeVoucherText::
 	text_start
 
-	para "Exchange that for"
-	line "a BICYCLE!"
+	para "Обміняй це на"
+	line "ВЕЛОСИПЕД!"
 
-	para "Don't worry, my"
-	line "FEAROW will FLY"
-	cont "me anywhere!"
+	para "Не хвилюйся, мій"
+	line "ФІРОУ зможе"
+	cont "ПЕРЕНЕСТИ мене"
+	cont "куди завгодно!"
 
-	para "So, I don't need a"
-	line "BICYCLE!"
+	para "Тож мені не"
+	line "треба ВЕЛОСИПЕД!"
 
-	para "I hope you like"
-	line "cycling!"
+	para "Сподіваюся, тобі"
+	line "сподобається"
+	cont "їздити!"
 	done
 
 _PokemonFanClubNoStoryText::
-	text "Oh. Come back"
-	line "when you want to"
-	cont "hear my story!"
+	text "Ох. Повертайся,"
+	line "коли захочеш"
+	cont "послухати мою"
+	cont "історію!"
 	done
 
 _PokemonFanClubChairFinalText::
-	text "Hello, <PLAYER>!"
+	text "Привіт, <PLAYER>!"
 
-	para "Did you come see"
-	line "me about my"
-	cont "#MON again?"
+	para "Знову завітав"
+	line "послухати про"
+	cont "моїх ПОК'еМОНІВ?"
 
-	para "No? Too bad!"
+	para "Ні? Шкода!"
 	done
 
 _PokemonFanClubBagFullText::
-	text "Make room for"
-	line "this!"
+	text "Звільни місце"
+	line "для цього!"
 	done
 
 _PokemonFanClubReceptionistText::
-	text "Our Chairman is"
-	line "very vocal about"
-	cont "#MON."
+	text "Наш голова дуже"
+	line "багато говорить"
+	cont "про ПОК'еМОНІВ."
 	done
 
 _PokemonFanClubSign1Text::
-	text "Let's all listen"
-	line "politely to other"
-	cont "trainers!"
+	text "Слухаймо інших"
+	line "ТРЕНЕРІВ"
+	cont "ввічливо!"
 	done
 
 _PokemonFanClubSign2Text::
-	text "If someone brags,"
-	line "brag right back!"
+	text "Якщо хтось"
+	line "вихваляється,"
+	cont "вихваляйся теж!"
 	done

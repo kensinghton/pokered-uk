@@ -1,27 +1,29 @@
 _SafariZoneNorthRestHouseScientistText::
-	text "You can keep any"
-	line "item you find on"
-	cont "the ground here."
+	text "Можеш лишити"
+	line "собі будь-яку"
+	cont "річ, що знайдеш"
+	cont "на землі."
 
-	para "But, you'll run"
-	line "out of time if"
-	cont "you try for all"
-	cont "of them at once!"
+	para "Але в тебе"
+	line "вийде час, якщо"
+	cont "шукатимеш усе"
+	cont "одразу!"
 	done
 
 _SafariZoneNorthRestHouseSafariZoneWorkerText::
-	text "Go to the deepest"
-	line "part of the"
-	cont "SAFARI ZONE. You"
-	cont "will win a prize!"
+	text "Йди в найглибшу"
+	line "частину САФАРІ"
+	cont "ЗОНИ. Ти"
+	cont "виграєш приз!"
 	done
 
 _SafariZoneNorthRestHouseGentlemanText::
-	text "My EEVEE evolved"
-	line "into FLAREON!"
+	text "Мій ІВІ"
+	line "еволюціонував"
+	cont "у ФЛАРЕОНА!"
 
-	para "But, a friend's"
-	line "EEVEE turned into"
-	cont "a VAPOREON!"
-	cont "I wonder why?"
+	para "А ІВІ мого"
+	line "друга став"
+	cont "ВАПОРЕОНОМ!"
+	cont "Цікаво, чому?"
 	done

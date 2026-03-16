@@ -1,123 +1,115 @@
 _ViridianForestYoungster1Text::
-	text "I came here with"
-	line "some friends!"
+	text "Я прийшов сюди з"
+	line "друзями!"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "Вони шукають"
+	line "битв ПОК'еМОН!"
 	done
 
 _ViridianForestYoungster2BattleText::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	text "Гей! У тебе є"
+	line "ПОК'еМОН! Нумо!"
+	cont "Біймося!"
 	done
 
 _ViridianForestYoungster2EndBattleText::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "Ні!"
+	line "КАТЕРПІ не"
+	cont "впорався!"
 	prompt
 
 _ViridianForestYoungster2AfterBattleText::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "Тсс! Ти лякаєш"
+	line "комах!"
 	done
 
 _ViridianForestYoungster3BattleText::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "Йо! Тренер"
+	line "ПОК'еМОНІВ не"
+	cont "має гаяти час!"
 	done
 
 _ViridianForestYoungster3EndBattleText::
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	text "Га?"
+	line "В мене скінчились"
+	cont "ПОК'еМОНИ!"
 	prompt
 
 _ViridianForestYoungster3AfterBattleText::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "Дідько! Я піду"
+	line "і спіймаю значно"
+	cont "сильніших!"
 	done
 
 _ViridianForestYoungster4BattleText::
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "Гей, почекай!"
+	line "Куди поспішаєш?"
 	done
 
 _ViridianForestYoungster4EndBattleText::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "Я"
+	line "здаюся! Ти добре"
+	cont "б'єшся!"
 	prompt
 
 _ViridianForestYoungster4AfterBattleText::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "Іноді можна"
+	line "знайти речі"
+	cont "просто на землі!"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "Я шукаю те,"
+	line "що загубив!"
 	done
 
 _ViridianForestYoungster5Text::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "В мене скінчились"
+	line "ПОК'еБОЛЛи!"
 
-	para "You should carry"
-	line "extras!"
+	para "Варто носити"
+	line "запасні!"
 	done
 
 _ViridianForestTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "Щоб уникнути"
+	line "битв, тримайся"
+	cont "подалі від"
+	cont "високої трави!"
 	done
 
 _ViridianForestUseAntidoteSignText::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "Від отрути вживай"
+	line "АНТІДОТ! Купуй"
+	cont "у ПОК'еМАРКЕТАХ!"
 	done
 
 _ViridianForestTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "Зв'яжись з"
+	line "ПРОФ.ОАКОМ через"
+	cont "ПК для оцінки"
+	cont "ПОК'еДЕКСА!"
 	done
 
 _ViridianForestTrainerTips3Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "Не кради ПОК'еМОН"
+	line "у інших!"
+	cont "Лови лише диких!"
 	done
 
 _ViridianForestTrainerTips4Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
-
-	para "When healthy,"
-	line "they may escape!"
+	para "Послаб ПОК'еМОНА"
+	line "перед ловом!"
 	done
 
 _ViridianForestLeavingSignText::
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	text "ВИХІД З"
+	line "ВІРІДІАНСЬКОГО"
+	cont "ЛІСУ"
 	done

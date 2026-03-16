@@ -1,45 +1,44 @@
 _SafariZoneSecretHouseFishingGuruYouHaveWonText::
-	text "Ah! Finally!"
+	text "Ах! Нарешті!"
 
-	para "You're the first"
-	line "person to reach"
-	cont "the SECRET HOUSE!"
+	para "Ти перший, хто"
+	line "дійшов до"
+	cont "ТАЄМНОГО ДОМУ!"
 
-	para "I was getting"
-	line "worried that no"
-	cont "one would win our"
-	cont "campaign prize."
+	para "Я вже переживав,"
+	line "що ніхто не"
+	cont "виграє приз"
+	cont "нашої кампанії."
 
-	para "Congratulations!"
-	line "You have won!"
+	para "Вітаю тебе!"
+	line "Ти переміг!"
 	prompt
 
 _SafariZoneSecretHouseFishingGuruReceivedHM03Text::
-	text "<PLAYER> received"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SafariZoneSecretHouseFishingGuruHM03ExplanationText::
-	text "HM03 is SURF!"
+	text "ПМ03 — СЕРФІНГ!"
 
-	para "#MON will be"
-	line "able to ferry you"
-	cont "across water!"
+	para "ПОК'еМОН зможе"
+	line "перевозити тебе"
+	cont "через воду!"
 
-	para "And, this HM isn't"
-	line "disposable! You"
-	cont "can use it over"
-	cont "and over!"
+	para "І цей ПМ не"
+	line "зникає! Його"
+	cont "можна вживати"
+	cont "знову і знову!"
 
-	para "You're super lucky"
-	line "for winning this"
-	cont "fabulous prize!"
+	para "Тобі дуже"
+	line "пощастило!"
 	done
 
 _SafariZoneSecretHouseFishingGuruHM03NoRoomText::
-	text "You don't have"
-	line "room for this"
-	cont "fabulous prize!"
+	text "У тебе немає"
+	line "місця для цього"
+	cont "чудового призу!"
 	done

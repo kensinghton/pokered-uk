@@ -1,55 +1,55 @@
 _SilphCo5FRockerEndBattleText::
-	text "Oh"
-	line "goodness!"
+	text "Ох"
+	line "лишенько!"
 	prompt
 
 _SilphCo5FRockerAfterBattleText::
-	text "You're only on 5F."
-	line "It's a long way"
-	cont "to my BOSS!"
+	text "Ти лише на 5П."
+	line "Це довгий шлях"
+	cont "до мого БОСА!"
 	done
 
 _SilphCo5FRocket2BattleText::
-	text "Show TEAM ROCKET"
-	line "a little respect!"
+	text "Май повагу до"
+	line "КОМАНДИ РОКЕТ!"
 	done
 
 _SilphCo5FRocket2EndBattleText::
-	text "Cough..."
-	line "Cough..."
+	text "Кха..."
+	line "Кха..."
 	prompt
 
 _SilphCo5FRocket2AfterBattleText::
-	text "Which reminds me."
+	text "До речі."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "КОФФІНГ стає"
+	line "ВІЗІНГОМ!"
 	done
 
 _SilphCo5FPokemonReport1Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Це ЗВІТ"
+	line "ПОК'еМОН!"
 
-	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	para "ЛАБ ПОК'еМОН"
+	line "створила ПОРІГОН,"
+	cont "віртуального"
+	cont "ПОК'еМОНА."
 	done
 
 _SilphCo5FPokemonReport2Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Це ЗВІТ"
+	line "ПОК'еМОН!"
 
-	para "Over 160 #MON"
-	line "techniques have"
-	cont "been confirmed."
+	para "Підтверджено"
+	line "понад 160"
+	cont "прийомів."
 	done
 
 _SilphCo5FPokemonReport3Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Це ЗВІТ"
+	line "ПОК'еМОН!"
 
-	para "4 #MON evolve"
-	line "only when traded"
-	cont "by link-cable."
+	para "4 ПОК'еМОНИ"
+	line "змінюються лише"
+	cont "через обмін."
 	done

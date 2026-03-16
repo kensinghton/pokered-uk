@@ -1,19 +1,19 @@
 _VermilionPokecenterFishingGuruText::
-	text "Even if they are"
-	line "the same level,"
-	cont "#MON can have"
-	cont "very different"
-	cont "abilities."
+	text "Навіть на"
+	line "одному рівні,"
+	cont "ПОК'еМОНИ мають"
+	cont "різні здібності."
 
-	para "A #MON raised"
-	line "by a trainer is"
-	cont "stronger than one"
-	cont "in the wild."
+	para "ПОК'еМОН,"
+	line "вирощений"
+	cont "ТРЕНЕРОМ, значно"
+	cont "сильніший за"
+	cont "дикого."
 	done
 
 _VermilionPokecenterSailorText::
-	text "My #MON was"
-	line "poisoned! It"
-	cont "fainted while we"
-	cont "were walking!"
+	text "Мій ПОК'еМОН"
+	line "отруївся! Він"
+	cont "знепритомнів,"
+	cont "поки ми йшли!"
 	done

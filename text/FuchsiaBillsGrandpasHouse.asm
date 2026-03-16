@@ -1,27 +1,27 @@
 _FuchsiaBillsGrandpasHouseMiddleAgedWomanText::
-	text "SAFARI ZONE's"
-	line "WARDEN is old,"
-	cont "but still active!"
+	text "НАГЛЯДАЧ САФАРІ"
+	line "старий, але ще"
+	cont "дуже активний!"
 
-	para "All his teeth are"
-	line "false, though."
+	para "Хоча всі його"
+	line "зуби вставні."
 	done
 
 _FuchsiaBillsGrandpasHouseBillsGrandpaText::
-	text "Hmm? You've met"
-	line "BILL?"
+	text "Гм? Ти знаєш"
+	line "БІЛЛА?"
 
-	para "He's my grandson!"
+	para "Він мій онук!"
 
-	para "He always liked"
-	line "collecting things"
-	cont "even as a child!"
+	para "Він змалечку"
+	line "любив щось"
+	cont "збирати!"
 	done
 
 _FuchsiaBillsGrandpasHouseYoungsterText::
-	text "BILL files his"
-	line "own #MON data"
-	cont "on his PC!"
+	text "БІЛЛ зберігає"
+	line "дані ПОК'еМОНІВ"
+	cont "на своєму ПК!"
 
-	para "Did he show you?"
+	para "Він показував?"
 	done

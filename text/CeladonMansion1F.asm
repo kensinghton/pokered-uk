@@ -1,26 +1,27 @@
 _CeladonMansion1FMeowthText::
-	text "MEOWTH: Meow!@"
+	text "МЯУТ: Мяв!@"
 	text_end
 
 _CeladonMansion1FGrannyText::
-	text "My dear #MON"
-	line "keep me company."
+	text "Мої любі"
+	line "ПОК'еМОНИ дають"
+	cont "мені компанію."
 
-	para "MEOWTH even brings"
-	line "money home!"
+	para "МЯУТ навіть несе"
+	line "гроші додому!"
 	done
 
 _CeladonMansion1FClefairyText::
-	text "CLEFAIRY: Pi"
-	line "pippippi!@"
+	text "КЛЕФЕЙРІ: Пі"
+	line "піпіпіпі!@"
 	text_end
 
 _CeladonMansion1FNidoranFText::
-	text "NIDORAN: Kya"
-	line "kyaoo!@"
+	text "НІДОРАН: Кя"
+	line "кяоо!@"
 	text_end
 
 _CeladonMansion1FManagersSuiteSignText::
-	text "CELADON MANSION"
-	line "Manager's Suite"
+	text "ОСОБНЯК ЦЕЛАДОН"
+	line "Кімната Керівника"
 	done

@@ -1,17 +1,18 @@
 _PewterMartYoungsterText::
-	text "A shady, old man"
-	line "got me to buy"
-	cont "this really weird"
-	cont "fish #MON!"
+	text "Якийсь дивний"
+	line "дід вмовив мене"
+	cont "купити цю рибу-"
+	cont "ПОК'еМОНА!"
 
-	para "It's totally weak"
-	line "and it cost ¥500!"
+	para "Він зовсім слаб-"
+	line "кий, а коштував"
+	cont "500 ієн!"
 	done
 
 _PewterMartSuperNerdText::
-	text "Good things can"
-	line "happen if you"
-	cont "raise #MON"
-	cont "diligently, even"
-	cont "the weak ones!"
+	text "Може статися"
+	line "щось добре, якщо"
+	cont "старанно ростиш"
+	cont "ПОК'еМОНІВ, на-"
+	cont "віть слабких!"
 	done

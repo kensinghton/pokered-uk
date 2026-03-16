@@ -1,117 +1,122 @@
 _DexCompletionText::
-	text "#DEX comp-"
-	line "letion is:"
+	text "Заповнення"
+	line "ПОК'еДЕКСА:"
 
 	para "@"
 	text_decimal hDexRatingNumMonsSeen, 1, 3
-	text " #MON seen"
+	text " ПОК'еМОН бач."
 	line "@"
 	text_decimal hDexRatingNumMonsOwned, 1, 3
-	text " #MON owned"
+	text " ПОК'еМОН пійм."
 
-	para "PROF.OAK's"
-	line "Rating:"
+	para "Оцінка"
+	line "ПРОФ.ОАКА:"
 	prompt
 
 _DexRatingText_Own0To9::
-	text "You still have"
-	line "lots to do."
-	cont "Look for #MON"
-	cont "in grassy areas!"
+	text "Тобі ще багато"
+	line "треба зробити."
+	cont "Шукай ПОК'еМОН"
+	cont "у високій траві!"
 	done
 
 _DexRatingText_Own10To19::
-	text "You're on the"
-	line "right track! "
-	cont "Get a FLASH HM"
-	cont "from my AIDE!"
+	text "Ти на правильному"
+	line "шляху! Візьми"
+	cont "ПМ СПАЛАХ у"
+	cont "мого АСИСТЕНТА!"
 	done
 
 _DexRatingText_Own20To29::
-	text "You still need"
-	line "more #MON!"
-	cont "Try to catch"
-	cont "other species!"
+	text "Тобі все ще"
+	line "треба ПОК'еМОН!"
+	cont "Лови інші види"
+	cont "істот!"
 	done
 
 _DexRatingText_Own30To39::
-	text "Good, you're"
-	line "trying hard!"
-	cont "Get an ITEMFINDER"
-	cont "from my AIDE!"
+	text "Добре, ти"
+	line "дуже стараєшся!"
+	cont "Візьми"
+	cont "ПРЕДМЕТШУКАЧ у"
+	cont "мого АСИСТЕНТА!"
 	done
 
 _DexRatingText_Own40To49::
-	text "Looking good!"
-	line "Go find my AIDE"
-	cont "when you get 50!"
+	text "Виглядає добре!"
+	line "Знайди мого"
+	cont "АСИСТЕНТА, як"
+	cont "матимеш 50!"
 	done
 
 _DexRatingText_Own50To59::
-	text "You finally got at"
-	line "least 50 species!"
-	cont "Be sure to get"
-	cont "EXP.ALL from my"
-	cont "AIDE!"
+	text "Ти вже маєш"
+	line "принаймні 50!"
+	cont "Візьми пристрій"
+	cont "ДОСВІД-УСІМ у"
+	cont "АСИСТЕНТА!"
 	done
 
 _DexRatingText_Own60To69::
-	text "Ho! This is geting"
-	line "even better!"
+	text "Ого! Стає"
+	line "все краще!"
 	done
 
 _DexRatingText_Own70To79::
-	text "Very good!"
-	line "Go fish for some"
-	cont "marine #MON!"
+	text "Дуже добре!"
+	line "Йди порибаль"
+	cont "водних"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _DexRatingText_Own80To89::
-	text "Wonderful!"
-	line "Do you like to"
-	cont "collect things?"
+	text "Чудово!"
+	line "Тобі подобається"
+	cont "колекціонувати"
+	cont "речі?"
 	done
 
 _DexRatingText_Own90To99::
-	text "I'm impressed!"
-	line "It must have been"
-	cont "difficult to do!"
+	text "Я вражений!"
+	line "Це, мабуть, було"
+	cont "дуже непросто!"
 	done
 
 _DexRatingText_Own100To109::
-	text "You finally got at"
-	line "least 100 species!"
-	cont "I can't believe"
-	cont "how good you are!"
+	text "Ти нарешті маєш"
+	line "хоча б 100 видів!"
+	cont "Не вірю, що ти"
+	cont "такий вправний!"
 	done
 
 _DexRatingText_Own110To119::
-	text "You even have the"
-	line "evolved forms of"
-	cont "#MON! Super!"
+	text "Ти маєш навіть"
+	line "еволюційні форми"
+	cont "ПОК'еМОН! Супер!"
 	done
 
 _DexRatingText_Own120To129::
-	text "Excellent! Trade"
-	line "with friends to"
-	cont "get some more!"
+	text "Блискуче! Міняй-"
+	line "ся з друзями,"
+	cont "щоб мати ще"
+	cont "більше!"
 	done
 
 _DexRatingText_Own130To139::
-	text "Outstanding!"
-	line "You've become a"
-	cont "real pro at this!"
+	text "Визначно!"
+	line "Ти став справжнім"
+	cont "профі в цьому!"
 	done
 
 _DexRatingText_Own140To149::
-	text "I have nothing"
-	line "left to say!"
-	cont "You're the"
-	cont "authority now!"
+	text "Мені вже нічого"
+	line "додати!"
+	cont "Тепер ти справж-"
+	cont "ній авторитет!"
 	done
 
 _DexRatingText_Own150To151::
-	text "Your #DEX is"
-	line "entirely complete!"
-	cont "Congratulations!"
+	text "Твій ПОК'еДЕКС"
+	line "повністю готовий!"
+	cont "Вітаю!"
 	done

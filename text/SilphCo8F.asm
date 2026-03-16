@@ -1,56 +1,55 @@
 __SilphCo8FSilphWorkerMThanksForSavingUsText::
-	text "I wonder if SILPH"
-	line "is finished..."
+	text "Цікаво, чи СІЛФ"
+	line "прийшов кінець..."
 	done
 
 _SilphCo8FSilphWorkerMThanksForSavingUsText::
-	text "Thanks for saving"
-	line "us!"
+	text "Дякуємо за"
+	line "порятунок!"
 	done
 
 _SilphCo8FRocket1BattleText::
-	text "That's as far as"
-	line "you'll go!"
+	text "Далі ти не"
+	line "пройдеш!"
 	done
 
 _SilphCo8FRocket1EndBattleText::
-	text "Not"
-	line "enough grit!"
+	text "Бракує"
+	line "витримки!"
 	prompt
 
 _SilphCo8FRocket1AfterBattleText::
-	text "If you don't turn"
-	line "back, I'll call"
-	cont "for backup!"
+	text "Якщо не підеш,"
+	line "я покличу"
+	cont "підкріплення!"
 	done
 
 _SilphCo8FScientistBattleText::
-	text "You're causing us"
-	line "problems!"
+	text "Ти створюєш нам"
+	line "проблеми!"
 	done
 
 _SilphCo8FScientistEndBattleText::
-	text "Huh?"
-	line "I lost?"
+	text "Га?"
+	line "Я програв?"
 	prompt
 
 _SilphCo8FScientistAfterBattleText::
-	text "So, what do you"
-	line "think of SILPH"
-	cont "BUILDING's maze?"
+	text "Що ти думаєш про"
+	line "лабіринт СІЛФ?"
 	done
 
 _SilphCo8FRocket2BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Я один з 4"
+	line "БРАТІВ РОКЕТ!"
 	done
 
 _SilphCo8FRocket2EndBattleText::
-	text "Whoo!"
-	line "Oh brothers!"
+	text "Оуу!"
+	line "Брати!"
 	prompt
 
 _SilphCo8FRocket2AfterBattleText::
-	text "I'll leave you up"
-	line "to my brothers!"
+	text "Лишаю тебе на"
+	line "своїх братів!"
 	done

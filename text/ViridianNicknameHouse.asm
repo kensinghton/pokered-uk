@@ -1,23 +1,24 @@
 _ViridianNicknameHouseBaldingGuyText::
-	text "Coming up with"
-	line "nicknames is fun,"
-	cont "but hard."
+	text "Вигадувати"
+	line "прізвиська весело,"
+	cont "але важко."
 
-	para "Simple names are"
-	line "the easiest to"
-	cont "remember."
+	para "Прості імена"
+	line "найлегше"
+	cont "запам'ятати."
 	done
 
 _ViridianNicknameHouseLittleGirlText::
-	text "My Daddy loves"
-	line "#MON too."
+	text "Мій тато теж"
+	line "любить"
+	cont "ПОК'еМОНІВ."
 	done
 
 _ViridianNicknameHouseSpearowText::
-	text "SPEARY: Tetweet!"
+	text "СПІРІ: Ті-ві-іт!"
 	done
 
 _ViridianNicknameHouseSpearySignText::
-	text "SPEAROW"
-	line "Name: SPEARY"
+	text "СПІРОУ"
+	line "Ім'я: СПІРІ"
 	done

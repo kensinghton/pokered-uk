@@ -1,52 +1,52 @@
 _SSAnneBowSuperNerdText::
-	text "The party's over."
-	line "The ship will be"
-	cont "departing soon."
+	text "Свято скінчено."
+	line "Корабель скоро"
+	cont "відпливає."
 	done
 
 _SSAnneBowSailor1Text::
-	text "Scrubbing decks"
-	line "is hard work!"
+	text "Мити палубу —"
+	line "важка робота!"
 	done
 
 _SSAnneBowCooltrainerMText::
-	text "Urf. I feel ill."
+	text "Ох. Мені кепсько."
 
-	para "I stepped out to"
-	line "get some air."
+	para "Я вийшов"
+	line "подихати."
 	done
 
 _SSAnneBowSailor2BattleText::
-	text "Hey matey!"
+	text "Гей, друже!"
 
-	para "Let's do a little"
-	line "jig!"
+	para "Давай трохи"
+	line "розімнемося!"
 	done
 
 _SSAnneBowSailor2EndBattleText::
-	text "You're"
-	line "impressive!"
+	text "Ти"
+	line "вражаєш!"
 	prompt
 
 _SSAnneBowSailor2AfterBattleText::
-	text "How many kinds of"
-	line "#MON do you"
-	cont "think there are?"
+	text "Як думаєш, скіль-"
+	line "ки видів істот"
+	cont "існує?"
 	done
 
 _SSAnneBowSailor3BattleText::
-	text "Ahoy there!"
-	line "Are you seasick?"
+	text "Гей! Тебе не"
+	line "заколисало?"
 	done
 
 _SSAnneBowSailor3EndBattleText::
-	text "I was"
-	line "just careless!"
+	text "Я"
+	line "був необережним!"
 	prompt
 
 _SSAnneBowSailor3AfterBattleText::
-	text "My Pa said there"
-	line "are 100 kinds of"
-	cont "#MON. I think"
-	cont "there are more."
+	text "Тато казав, що"
+	line "є 100 видів."
+	cont "Я гадаю, що"
+	cont "їх більше."
 	done

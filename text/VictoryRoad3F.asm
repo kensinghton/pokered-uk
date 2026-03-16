@@ -1,63 +1,67 @@
 _VictoryRoad3FCooltrainerM1BattleText::
-	text "I heard rumors of"
-	line "a child prodigy!"
+	text "Чув чутки про"
+	line "диво-дитину!"
 	done
 
 _VictoryRoad3FCooltrainerM1EndBattleText::
-	text "The"
-	line "rumors were true!"
+	text "Чутки"
+	line "виявилися"
+	cont "правдою!"
 	prompt
 
 _VictoryRoad3FCooltrainerM1AfterBattleText::
-	text "You beat GIOVANNI"
-	line "of TEAM ROCKET?"
+	text "Ти здолав"
+	line "ДЖОВАННІ з"
+	cont "КОМАНДИ РОКЕТ?"
 	done
 
 _VictoryRoad3FCooltrainerF1BattleText::
-	text "I'll show you just"
-	line "how good you are!"
+	text "Я покажу тобі,"
+	line "наскільки ти"
+	cont "сильний!"
 	done
 
 _VictoryRoad3FCooltrainerF1EndBattleText::
-	text "I'm"
-	line "furious!"
+	text "Я в люті!"
 	prompt
 
 _VictoryRoad3FCooltrainerF1AfterBattleText::
-	text "You showed me just"
-	line "how good I was!"
+	text "Ти показав мені"
+	line "мою справжню"
+	cont "силу!"
 	done
 
 _VictoryRoad3FCooltrainerM2BattleText::
-	text "Only the chosen"
-	line "can pass here!"
+	text "Лише обрані"
+	line "можуть пройти"
+	cont "тут!"
 	done
 
 _VictoryRoad3FCooltrainerM2EndBattleText::
-	text "I"
-	line "don't believe it!"
+	text "Я не вірю"
+	line "в це!"
 	prompt
 
 _VictoryRoad3FCooltrainerM2AfterBattleText::
-	text "All trainers here"
-	line "are headed to the"
-	cont "#MON LEAGUE!"
-	cont "Be careful!"
+	text "Всі ТРЕНЕРИ тут"
+	line "прямують до"
+	cont "ЛІГИ ПОК'еМОН!"
+	cont "Будь обережним!"
 	done
 
 _VictoryRoad3FCooltrainerF2BattleText::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "opponents!"
+	text "ТРЕНЕРИ живуть"
+	line "пошуком сильних"
+	cont "суперників!"
 	done
 
 _VictoryRoad3FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "So strong!"
+	text "Ох!"
+	line "Який сильний!"
 	prompt
 
 _VictoryRoad3FCooltrainerF2AfterBattleText::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "У важких битвах"
+	line "ти стаєш"
+	cont "сильнішим!"
 	done

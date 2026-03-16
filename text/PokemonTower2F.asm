@@ -1,57 +1,58 @@
 _PokemonTower2FRivalWhatBringsYouHereText::
-	text "<RIVAL>: Hey,"
-	line "<PLAYER>! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
+	text "<RIVAL>: Гей,"
+	line "<PLAYER>! Що"
+	cont "тебе сюди"
+	cont "привело? Твої"
+	cont "ПОК'еМОНИ не"
+	cont "мертві!"
 
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
+	para "Я можу бодай"
+	line "змусити їх"
+	cont "знепритомніти!"
+	cont "Нумо, друже!"
 	done
 
 _PokemonTower2FRivalDefeatedText::
-	text "What?"
-	line "You stinker!"
+	text "Що? Ти"
+	line "смердюх!"
 
-	para "I took it easy on"
-	line "you too!"
+	para "Я ж піддавався"
+	line "тобі!"
 	prompt
 
 _PokemonTower2FRivalVictoryText::
-	text "<RIVAL>: Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
+	text "<RIVAL>: Глянь"
+	line "на своїх кволих"
+	cont "ПОК'еМОНІВ!"
 
-	para "Toughen them up a"
-	line "bit more!"
+	para "Зроби їх трохи"
+	line "сильнішими!"
 	prompt
 
 _PokemonTower2FRivalHowsYourDexText::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
+	text "Як твій"
+	line "ПОК'еДЕКС, га?"
+	cont "Я щойно впіймав"
+	cont "К'юБОНА!"
 
-	para "I can't find the"
-	line "grown-up MAROWAK"
-	cont "yet!"
+	para "Я ще не знайшов"
+	line "дорослого"
+	cont "МАРОУЕКА!"
 
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
+	para "Сумніваюся, що"
+	line "вони лишилися!"
+	cont "Мені вже час!"
+	cont "Маю багато"
+	cont "справ, друже!"
 
-	para "Smell ya later!"
+	para "Ще побачимось!"
 	done
 
 _PokemonTower2FChannelerText::
-	text "Even we could not"
-	line "identify the"
-	cont "wayward GHOSTs!"
+	text "Навіть ми не"
+	line "можемо впізнати"
+	cont "цих ПРИВИДІВ!"
 
-	para "A SILPH SCOPE"
-	line "might be able to"
-	cont "unmask them."
+	para "СІЛФ-СКОП"
+	line "може їх викрити."
 	done

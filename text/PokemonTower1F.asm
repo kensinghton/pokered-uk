@@ -1,31 +1,33 @@
 _PokemonTower1FReceptionistText::
-	text "#MON TOWER was"
-	line "erected in the"
-	cont "memory of #MON"
-	cont "that had died."
+	text "ВЕЖА ПОК'еМОН"
+	line "була зведена в"
+	cont "пам'ять про"
+	cont "загиблих"
+	cont "ПОК'еМОНІВ."
 	done
 
 _PokemonTower1FMiddleAgedWomanText::
-	text "Did you come to"
-	line "pay respects?"
-	cont "Bless you!"
+	text "Прийшов вшану-"
+	line "вати пам'ять?"
+	cont "Хай щастить!"
 	done
 
 _PokemonTower1FBaldingGuyText::
-	text "I came to pray"
-	line "for my CLEFAIRY."
+	text "Я прийшов"
+	line "помолитися за"
+	cont "мою КЛЕФЕЙРІ."
 
-	para "Sniff! I can't"
-	line "stop crying..."
+	para "Хлип! Не можу"
+	line "спинити сльози..."
 	done
 
 _PokemonTower1FGirlText::
-	text "My GROWLITHE..."
-	line "Why did you die?"
+	text "Мій ГРОУЛІТ..."
+	line "Чому ти помер?"
 	done
 
 _PokemonTower1FChannelerText::
-	text "I am a CHANNELER!"
-	line "There are spirits"
-	cont "up to mischief!"
+	text "Я — МЕДІУМ!"
+	line "Тут є духи,"
+	cont "що бешкетують!"
 	done

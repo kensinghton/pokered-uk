@@ -1,23 +1,23 @@
 _VermilionOldRodHouseFishingGuruDoYouLikeToFishText::
-	text "I'm the FISHING"
-	line "GURU!"
+	text "Я — ГУРУ"
+	line "РИБОЛОВЛІ!"
 
-	para "I simply Looove"
-	line "fishing!"
+	para "Я простооо"
+	line "люблю рибалити!"
 
-	para "Do you like to"
-	line "fish?"
+	para "Тобі подобається"
+	line "рибалити?"
 	done
 
 _VermilionOldRodHouseFishingGuruTakeThisText::
-	text "Grand! I like"
-	line "your style!"
+	text "Чудово! Мені"
+	line "це до вподоби!"
 
-	para "Take this and"
-	line "fish, young one!"
+	para "Бери це та"
+	line "рибаль, малий!"
 
-	para "<PLAYER> received"
-	line "an @"
+	para "<PLAYER> отримує"
+	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
@@ -25,31 +25,31 @@ _VermilionOldRodHouseFishingGuruTakeThisText::
 _VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText::
 	text_start
 
-	para "Fishing is a way"
-	line "of life!"
+	para "Риболовля — це"
+	line "стиль життя!"
 
-	para "From the seas to"
-	line "rivers, go out"
-	cont "and land the big"
-	cont "one, young one!"
+	para "Від морів до"
+	line "річок — іди та"
+	cont "спіймай гіганта,"
+	cont "малий!"
 	done
 
 _VermilionOldRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "Оу... Це так"
+	line "прикро..."
 	done
 
 _VermilionOldRodHouseFishingGuruHowAreTheFishBitingText::
-	text "Hello there,"
+	text "Привіт,"
 	line "<PLAYER>!"
 
-	para "How are the fish"
-	line "biting?"
+	para "Як там кльов?"
 	done
 
 _VermilionOldRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
+	text "О ні!"
 
-	para "You have no room"
-	line "for my gift!"
+	para "У тебе немає"
+	line "місця для мого"
+	cont "дарунку!"
 	done

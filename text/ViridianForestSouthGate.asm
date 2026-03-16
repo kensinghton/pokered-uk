@@ -1,13 +1,14 @@
 _ViridianForestSouthGateGirlText::
-	text "Are you going to"
-	line "VIRIDIAN FOREST?"
-	cont "Be careful, it's"
-	cont "a natural maze!"
+	text "Ти йдеш у"
+	line "ВІРІДІАНСЬКИЙ"
+	cont "ЛІС? Обережно,"
+	cont "це справжній"
+	cont "лабіринт!"
 	done
 
 _ViridianForestSouthGateLittleGirlText::
-	text "RATTATA may be"
-	line "small, but its"
-	cont "bite is wicked!"
-	cont "Did you get one?"
+	text "РАТТАТА мала, за-"
+	line "те кусається"
+	cont "боляче! Ти вже"
+	cont "спіймав таку?"
 	done

@@ -1,99 +1,100 @@
 _CeladonMart3FClerkTM18PreReceiveText::
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	text "О, привіт! Я"
+	line "нарешті пройшов"
+	cont "ПОК'еМОНІВ!"
 
-	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	para "Ще ні? Це може"
+	line "стати в пригоді!"
 	prompt
 
 _CeladonMart3FClerkReceivedTM18Text::
-	text "<PLAYER> received"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CeladonMart3FClerkTM18ExplanationText::
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "ТМ18 — ВІДПОР!"
+	line "Не такий стіл,"
+	cont "на який я"
+	cont "спираюся!"
 	done
 
 _CeladonMart3FClerkTM18NoRoomText::
-	text "Your pack is full"
-	line "of items!"
+	text "Твій рюкзак"
+	line "забитий речами!"
 	done
 
 _CeladonMart3FGameBoyKid1Text::
-	text "Captured #MON"
-	line "are registered"
-	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	text "Спіймані"
+	line "ПОК'еМОНИ мають"
+	cont "ІД Ном. та ОТ,"
+	cont "ім'я Оригін."
+	cont "Тренера, що"
+	cont "їх спіймав!"
 	done
 
 _CeladonMart3FGameBoyKid2Text::
-	text "All right!"
+	text "Чудово!"
 
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	para "Друг обміняє"
+	line "свого КАНГАШКАНА"
+	cont "на мого"
+	cont "ҐРАВЕЛЕРА!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Давай, ҐРАВЕЛЕР!"
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "Я люблю ҐРАВЕЛЕР!"
+	line "Я збираю їх!"
 
-	para "Huh?"
+	para "Га?"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "ҐРАВЕЛЕР став"
+	line "зовсім іншим"
+	cont "ПОК'еМОНОМ!"
 	done
 
 _CeladonMart3FLittleBoyText::
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "Ти можеш пізнати"
+	line "ПОК'еМОНІВ з"
+	cont "обміну за їх"
+	cont "ІД Номерами!"
 	done
 
 _CeladonMart3FSNESText::
-	text "It's an SNES!"
+	text "Це СУПЕРНІНТЕНДО!"
 	done
 
 _CeladonMart3FRPGText::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "РПГ! На це зараз"
+	line "немає часу!"
 	done
 
 _CeladonMart3FSportsGameText::
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "Спортивна гра!"
+	line "Татові вона"
+	cont "сподобається!"
 	done
 
 _CeladonMart3FPuzzleGameText::
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "Гра-головоломка!"
+	line "Виглядає цікаво!"
 	done
 
 _CeladonMart3FFightingGameText::
-	text "A fighting game!"
-	line "Looks tough!"
+	text "Бойова гра!"
+	line "Виглядає важко!"
 	done
 
 _CeladonMart3FCurrentFloorSignText::
-	text "3F: TV GAME SHOP"
+	text "3П: МАГАЗИН ІГОР"
 	done
 
 _CeladonMart3FPokemonPosterText::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "Червона та Синя!"
+	line "Обидві — це"
+	cont "ПОК'еМОН!"
 	done

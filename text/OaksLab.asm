@@ -1,173 +1,179 @@
 _OaksLabRivalGrampsIsntAroundText::
-	text "<RIVAL>: Yo"
-	line "<PLAYER>! Gramps"
-	cont "isn't around!"
+	text "<RIVAL>: Йо"
+	line "<PLAYER>! Дідуся"
+	cont "зараз нема!"
 	done
 
 _OaksLabRivalGoAheadAndChooseText::
-	text "<RIVAL>: Heh, I"
-	line "don't need to be"
-	cont "greedy like you!"
+	text "<RIVAL>: Хе, я не"
+	line "буду жадібним,"
+	cont "як ти!"
 
-	para "Go ahead and"
-	line "choose, <PLAYER>!"
+	para "Обирай першим,"
+	line "<PLAYER>!"
 	done
 
 _OaksLabRivalMyPokemonLooksStrongerText::
-	text "<RIVAL>: My"
-	line "#MON looks a"
-	cont "lot stronger."
+	text "<RIVAL>: Мій"
+	line "ПОК'еМОН значно"
+	cont "сильніший."
 	done
 
 _OaksLabThoseArePokeBallsText::
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	text "Це ПОК'еБОЛЛи."
+	line "У них живуть"
+	cont "ПОК'еМОНИ!"
 	done
 
 _OaksLabYouWantCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "Тож! Ти хочеш"
+	line "вогняного"
+	cont "ПОК'еМОНА,"
+	cont "ЧАРМАНДЕРА?"
 	done
 
 _OaksLabYouWantSquirtleText::
-	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	text "Тож! Ти хочеш"
+	line "водного"
+	cont "ПОК'еМОНА,"
+	cont "СКВІРТЛА?"
 	done
 
 _OaksLabYouWantBulbasaurText::
-	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	text "Тож! Ти хочеш"
+	line "трав’яного"
+	cont "ПОК'еМОНА,"
+	cont "БУЛЬБАЗАВРА?"
 	done
 
 _OaksLabMonEnergeticText::
-	text "This #MON is"
-	line "really energetic!"
+	text "Цей ПОК'еМОН"
+	line "дуже активний!"
 	prompt
 
 _OaksLabReceivedMonText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> отримав"
+	line "@"
 	text_ram wNameBuffer
 	text "!@"
 	text_end
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "Це останній"
+	line "ПОК'еМОН"
+	cont "ПРОФ.ОАКА!"
 	done
 
 _OaksLabOak1WhichPokemonDoYouWantText::
-	text "OAK: Now, <PLAYER>,"
-	line "which #MON do"
-	cont "you want?"
+	text "ОАК: <PLAYER>,"
+	line "якого ПОК'еМОНА"
+	cont "ти обереш?"
 	done
 
 _OaksLabOak1YourPokemonCanFightText::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "ОАК: Якщо"
+	line "з'явиться дикий"
+	cont "ПОК'еМОН, твій"
+	cont "може битися!"
 	done
 
 _OaksLabOak1RaiseYourYoungPokemonText::
-	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	text "ОАК: <PLAYER>,"
+	line "тренуй свого"
+	cont "ПОК'еМОНА в"
+	cont "бою!"
 	done
 
 _OaksLabOak1DeliverParcelText::
-	text "OAK: Oh, <PLAYER>!"
+	text "ОАК: О, <PLAYER>!"
 
-	para "How is my old"
-	line "#MON?"
+	para "Як мій старий"
+	line "ПОК'еМОН?"
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "Схоже, ти йому"
+	line "подобаєшся."
 
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
+	para "У тебе талант"
+	line "тренера"
+	cont "ПОК'еМОНІВ!"
 
-	para "What? You have"
-	line "something for me?"
+	para "Що? У тебе є"
+	line "щось для мене?"
 
-	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	para "<PLAYER> віддав"
+	line "ПОСИЛКУ ОАКУ.@"
 	text_end
 
 _OaksLabOak1ParcelThanksText::
 	text_start
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
+	para "А! Це особливий"
+	line "ПОК'еБОЛЛ,"
+	cont "що я замовив!"
+	cont "Дякую!"
 	done
-
 _OaksLabOak1PokemonAroundTheWorldText::
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "ПОК'еМОНИ з"
+	line "усього світу"
+	cont "чекають на тебе,"
+	cont "<PLAYER>!"
 	done
 
 _OaksLabOak1ReceivedPokeballsText::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "ОАК: Ти не"
+	line "дізнаєшся все"
+	cont "про ПОК'еМОНІВ,"
+	cont "просто бачачи!"
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
-	cont "#MON."
+	para "Треба їх ловити!"
+	line "Тримай це для"
+	cont "лову диких"
+	cont "ПОК'еМОНІВ."
 
-	para "<PLAYER> got 5"
-	line "# BALLs!@"
+	para "<PLAYER> отримав"
+	line "5 ПОК'еБОЛЛів!@"
 	text_end
 
 _OaksLabGivePokeballsExplanationText::
 	text_start
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	para "Дикий ПОК'еМОН"
+	line "— твоя ціль."
 
-	para "Just throw a #"
-	line "BALL at it and try"
-	line "to catch it!"
+	para "Кинь у нього"
+	line "ПОК'еБОЛЛ та"
+	line "спробуй"
+	line "спіймати його!"
 
-	para "This won't always"
-	line "work, though."
+	para "Проте це не"
+	line "завжди діє."
 
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "Здоровий"
+	line "ПОК'еМОН може"
+	cont "втекти. Тобі"
+	cont "має пощастити!"
 	done
 
 _OaksLabOak1ComeSeeMeSometimesText::
-	text "OAK: Come see me"
-	line "sometimes."
+	text "ОАК: Заходь"
+	line "іноді до мене."
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "Я хочу знати як"
+	line "твій ПОК'еДЕКС"
+	cont "просувається."
 	done
 
 _OaksLabOak1HowIsYourPokedexComingText::
-	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
-	cont "Here, let me take"
-	cont "a look!"
+	text "ОАК: Радий"
+	line "тебе бачити!"
+	cont "Як просувається"
+	cont "ПОК'еДЕКС?"
+	cont "Дай гляну!"
 	prompt
 
 _OaksLabPokedexText::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "Це схоже на"
+	line "енциклопедію,"
+	cont "але сторінки"
+	cont "порожні!"
 	done
 
 _OaksLabOak2Text::
@@ -175,190 +181,197 @@ _OaksLabOak2Text::
 	done
 
 _OaksLabGirlText::
-	text "PROF.OAK is the"
-	line "authority on"
-	cont "#MON!"
+	text "ПРОФ.ОАК — це"
+	line "авторитет у"
+	cont "світі ПОК'еМОН!"
 
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	para "Багато тренерів"
+	line "дуже поважають"
+	cont "його!"
 	done
 
 _OaksLabRivalFedUpWithWaitingText::
-	text "<RIVAL>: Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	text "<RIVAL>: Дідусю!"
+	line "Я вже втомився"
+	cont "чекати!"
 	done
 
 _OaksLabOakChooseMonText::
-	text "OAK: <RIVAL>?"
-	line "Let me think..."
+	text "ОАК: <RIVAL>?"
+	line "Дай подумати..."
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para "Точно, я ж"
+	line "казав тобі"
+	cont "прийти! Чекай!"
 
-	para "Here, <PLAYER>!"
+	para "Ось, <PLAYER>!"
 
-	para "There are 3"
-	line "#MON here!"
+	para "Тут є 3"
+	line "ПОК'еМОНИ!"
 
-	para "Haha!"
+	para "Ха-ха!"
 
-	para "They are inside"
-	line "the # BALLs."
+	para "Вони всередині"
+	line "ПОК'еБОЛЛів."
 
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
+	para "В молодості я"
+	line "був завзятим"
+	cont "тренером!"
 
-	para "In my old age, I"
-	line "have only 3 left,"
-	cont "but you can have"
-	cont "one! Choose!"
+	para "На старість у"
+	line "мене лишилось"
+	cont "лише 3, але я"
+	cont "дам тобі одного!"
+	cont "Обирай!"
 	done
 
 _OaksLabRivalWhatAboutMeText::
-	text "<RIVAL>: Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	text "<RIVAL>: Гей!"
+	line "Дідусю! А"
+	cont "як щодо мене?"
 	done
 
 _OaksLabOakBePatientText::
-	text "OAK: Be patient!"
-	line "<RIVAL>, you can"
-	cont "have one too!"
+	text "ОАК: Терпіння!"
+	line "<RIVAL>, ти теж"
+	cont "отримаєш його!"
 	done
 
 _OaksLabOakDontGoAwayYetText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "ОАК: Гей! Ще"
+	line "не йди!"
 	done
 
 _OaksLabRivalIllTakeThisOneText::
-	text "<RIVAL>: I'll take"
-	line "this one, then!"
+	text "<RIVAL>: Тоді я"
+	line "візьму цього!"
 	done
 
 _OaksLabRivalReceivedMonText::
-	text "<RIVAL> received"
-	line "a @"
+	text "<RIVAL> отримує"
+	line "@"
 	text_ram wNameBuffer
 	text "!@"
 	text_end
 
 _OaksLabRivalIllTakeYouOnText::
-	text "<RIVAL>: Wait"
+	text "<RIVAL>: Стій,"
 	line "<PLAYER>!"
-	cont "Let's check out"
-	cont "our #MON!"
+	cont "Перевірмо наших"
+	cont "ПОК'еМОНІВ!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "Давай, я"
+	line "викликаю тебе!"
 	done
 
 _OaksLabRivalIPickedTheWrongPokemonText::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "ЩО?"
+	line "Неймовірно!"
+	cont "Я обрав не"
+	cont "того ПОК'еМОНА!"
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Так!"
+	line "Хіба я не"
+	cont "найкращий?"
 	prompt
 
 _OaksLabRivalSmellYouLaterText::
-	text "<RIVAL>: Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	text "<RIVAL>: Добре!"
+	line "Буду тренувати"
+	cont "ПОК'еМОНА в"
+	cont "бою!"
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	para "<PLAYER>! ОАК!"
+	line "Ще побачимось!"
 	done
 
 _OaksLabRivalGrampsText::
-	text "<RIVAL>: Gramps!"
+	text "<RIVAL>: Дідусю!"
 	done
 
 _OaksLabRivalWhatDidYouCallMeForText::
-	text "<RIVAL>: What did"
-	line "you call me for?"
+	text "<RIVAL>: Навіщо"
+	line "ти кликав мене?"
 	done
 
 _OaksLabOakIHaveARequestText::
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "ОАК: Точно! У"
+	line "мене є прохання"
+	cont "до вас обох."
 	done
 
 _OaksLabOakMyInventionPokedexText::
-	text "On the desk there"
-	line "is my invention,"
-	cont "#DEX!"
+	text "На столі лежить"
+	line "мій винахід,"
+	cont "ПОК'еДЕКС!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "Він автоматично"
+	line "записує дані"
+	cont "про ПОК'еМОНІВ,"
+	cont "яких бачив!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "Це надсучасна"
+	line "енциклопедія!"
 	done
 
 _OaksLabOakGotPokedexText::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
-	cont "these with you!"
+	text "ОАК: <PLAYER> та"
+	line "<RIVAL>! Візьміть"
+	cont "це з собою!"
 
-	para "<PLAYER> got"
-	line "#DEX from OAK!@"
+	para "<PLAYER> отримав"
+	line "ПОК'еДЕКС від"
+	cont "ОАКА!@"
 	text_end
 
 _OaksLabOakThatWasMyDreamText::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "Скласти повний"
+	line "довідник про"
+	cont "всіх ПОК'еМОНІВ"
+	cont "у світі..."
 
-	para "That was my dream!"
+	para "Це була моя"
+	line "мрія!"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "Але я старий!"
+	line "Я не впораюсь!"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "Тому я хочу,"
+	line "щоб ви це"
+	cont "зробили!"
 
-	para "Get moving, you"
-	line "two!"
+	para "Вперед,"
+	line "ви обоє!"
 
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "Це велика подія"
+	line "в історії"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _OaksLabRivalLeaveItAllToMeText::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	text "<RIVAL>: Добре,"
+	line "дідусю! Лиши"
+	cont "це на мене!"
 
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
+	para "<PLAYER>, я не"
+	line "хочу цього"
+	cont "казати, але ти"
+	cont "мені не треба!"
 
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	para "Я знаю! Я візьму"
+	line "МАПУ МІСТА у"
+	cont "своєї сестри!"
 
-	para "I'll tell her not"
-	line "to lend you one,"
-	cont "<PLAYER>! Hahaha!"
+	para "Я скажу їй не"
+	line "давати її тобі,"
+	cont "<PLAYER>! Ха-ха!"
 	done
 
 _OaksLabScientistText::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "Я вивчаю"
+	line "ПОК'еМОНІВ як"
+	cont "асистент"
+	cont "ПРОФ.ОАКА."
 	done

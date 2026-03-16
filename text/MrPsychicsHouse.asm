@@ -1,26 +1,27 @@
 _MrPsychicsHouseMrPsychicYouWantedThisText::
-	text "...Wait! Don't"
-	line "say a word!"
+	text "...Стій! Не"
+	line "кажи ні слова!"
 
-	para "You wanted this!"
+	para "Ти хотів саме"
+	line "це!"
 	prompt
 
 _MrPsychicsHouseMrPsychicReceivedTM29Text::
-	text "<PLAYER> received"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _MrPsychicsHouseMrPsychicTM29ExplanationText::
-	text "TM29 is PSYCHIC!"
+	text "ТМ29 — ПСИХІКА!"
 
-	para "It can lower the"
-	line "target's SPECIAL"
-	cont "abilities."
+	para "Вона може"
+	line "знизити ОСОБЛИВІ"
+	cont "сили ворога."
 	done
 
 _MrPsychicsHouseMrPsychicTM29NoRoomText::
-	text "Where do you plan"
-	line "to put this?"
+	text "Куди ти хочеш"
+	line "це покласти?"
 	done

@@ -1,23 +1,23 @@
 _VermilionMartCooltrainerMText::
-	text "There are evil"
-	line "people who will"
-	cont "use #MON for"
-	cont "criminal acts."
+	text "Є лихі люди,"
+	line "що вживають"
+	cont "ПОК'еМОНІВ у"
+	cont "злочинних цілях."
 
-	para "TEAM ROCKET"
-	line "traffics in rare"
-	cont "#MON."
+	para "РОКЕТИ торгують"
+	line "рідкісними"
+	cont "ПОК'еМОНАМИ."
 
-	para "They also abandon"
-	line "#MON that they"
-	cont "consider not to"
-	cont "be popular or"
-	cont "useful."
+	para "Також вони"
+	line "кидають тих,"
+	cont "кого вважають"
+	cont "непотрібними."
 	done
 
 _VermilionMartCooltrainerFText::
-	text "I think #MON"
-	line "can be good or"
-	cont "evil. It depends"
-	cont "on the trainer."
+	text "ПОК'еМОНИ"
+	line "бувають добрі"
+	cont "чи лихі. Це"
+	cont "залежить від"
+	cont "ТРЕНЕРА."
 	done

@@ -1,240 +1,243 @@
 _ViridianGymGiovanniPreBattleText::
-	text "Fwahahaha! This is"
-	line "my hideout!"
+	text "Ха-ха-ха! Це моє"
+	line "сховище!"
 
-	para "I planned to"
-	line "resurrect TEAM"
-	cont "ROCKET here!"
+	para "Я планував"
+	line "відродити КОМАНДУ"
+	cont "РОКЕТ тут!"
 
-	para "But, you have"
-	line "caught me again!"
-	cont "So be it! This"
-	cont "time, I'm not"
-	cont "holding back!"
+	para "Але ти знову"
+	line "мене знайшов!"
+	cont "Хай буде так! На"
+	cont "цей раз я не"
+	cont "стримуюсь!"
 
-	para "Once more, you"
-	line "shall face"
-	cont "GIOVANNI, the"
-	cont "greatest trainer!"
+	para "Ти знову зійдеш-"
+	line "ся з ДЖОВАННІ,"
+	cont "найкращим"
+	cont "тренером!"
 	done
 
 _ViridianGymGiovanniReceivedEarthBadgeText::
-	text "Ha!"
-	line "That was a truly"
-	cont "intense fight!"
-	cont "You have won!"
-	cont "As proof, here is"
-	cont "the EARTHBADGE!@"
+	text "Ха!"
+	line "Це був дійсно"
+	cont "запеклий бій!"
+	cont "Ти переміг!"
+	cont "Як доказ, ось"
+	cont "ЗЕМЛЯНИЙ ЗНАЧОК!@"
 	text_end
 
 _ViridianGymGiovanniPostBattleAdviceText::
-	text "Having lost, I"
-	line "cannot face my"
-	cont "underlings!"
-	cont "TEAM ROCKET is"
-	cont "finished forever!"
+	text "Програвши, я не"
+	line "можу дивитись в"
+	cont "очі підлеглим!"
+	cont "КОМАНДА РОКЕТ"
+	cont "зникла назавжди!"
 
-	para "I will dedicate my"
-	line "life to the study"
-	cont "of #MON!"
+	para "Я присвячу своє"
+	line "життя вивченню"
+	cont "ПОК'еМОНІВ!"
 
-	para "Let us meet again"
-	line "some day!"
-	cont "Farewell!@"
+	para "Колись ще"
+	line "зустрінемось!"
+	cont "Прощавай!@"
 	text_end
 
 _ViridianGymGiovanniEarthBadgeInfoText::
-	text "The EARTHBADGE"
-	line "makes #MON of"
-	cont "any level obey!"
+	text "ЗЕМЛЯНИЙ ЗНАЧОК"
+	line "змусить ПОК'еМОН"
+	cont "будь-якого рівня"
+	cont "слухатись!"
 
-	para "It is evidence of"
-	line "your mastery as a"
-	cont "#MON trainer!"
+	para "Це доказ твоєї"
+	line "майстерності як"
+	cont "тренера"
+	cont "ПОК'еМОНІВ!"
 
-	para "With it, you can"
-	line "enter the #MON"
-	cont "LEAGUE!"
+	para "З ним ти можеш"
+	line "увійти в ЛІГУ"
+	cont "ПОК'еМОН!"
 
-	para "It is my gift for"
-	line "your #MON"
-	cont "LEAGUE challenge!"
+	para "Це мій дарунок"
+	line "для виклику"
+	cont "ЛІГИ ПОК'еМОН!"
 	done
 
 _ViridianGymGiovanniReceivedTM27Text::
-	text "<PLAYER> received"
-	line "TM27!@"
+	text "<PLAYER> отримує"
+	line "ТМ27!@"
 	text_end
 
 _ViridianGymGiovanniTM27ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "ТМ27 — РОЗКОЛИНА!"
+	line "Він нокаутує"
+	cont "ПОК'еМОНА лише"
+	cont "одним ударом!"
 
-	para "I made it when I"
-	line "ran the GYM here,"
-	cont "too long ago..."
+	para "Я створив його,"
+	line "коли був тут"
+	cont "ЛІДЕРОМ... дуже"
+	cont "давно..."
 	done
 
 _ViridianGymGiovanniTM27NoRoomText::
-	text "You do not have"
-	line "space for this!"
+	text "У тебе немає"
+	line "місця для цього!"
 	done
 
 _ViridianGymCooltrainerM1BattleText::
-	text "Heh! You must be"
-	line "running out of"
-	cont "steam by now!"
+	text "Хе! Ти, мабуть,"
+	line "вже зовсім"
+	cont "видихався!"
 	done
 
 _ViridianGymCooltrainerM1EndBattleText::
-	text "I"
-	line "ran out of gas!"
+	text "Я"
+	line "заглох!"
 	prompt
 
 _ViridianGymCooltrainerM1AfterBattleText::
-	text "You need power to"
-	line "keep up with our"
-	cont "GYM LEADER!"
+	text "Треба сила, щоб"
+	line "встигати за"
+	cont "нашим ЛІДЕРОМ!"
 	done
 
 _ViridianGymHiker1BattleText::
-	text "Rrrroar! I'm"
-	line "working myself"
-	cont "into a rage!"
+	text "Рррррр! Я зараз"
+	line "впадаю в лють!"
 	done
 
 _ViridianGymHiker1EndBattleText::
-	text "Wargh!"
+	text "Уаргх!"
 	prompt
 
 _ViridianGymHiker1AfterBattleText::
-	text "I'm still not"
-	line "worthy!"
+	text "Я все ще не"
+	line "вартий!"
 	done
 
 _ViridianGymRocker1BattleText::
-	text "#MON and I, we"
-	line "make wonderful"
-	cont "music together!"
+	text "ПОК'еМОНИ і я,"
+	line "ми створюємо"
+	cont "чудову музику!"
 	done
 
 _ViridianGymRocker1EndBattleText::
-	text "You are in"
-	line "perfect harmony!"
+	text "Ти в повній"
+	line "гармонії!"
 	prompt
 
 _ViridianGymRocker1AfterBattleText::
-	text "Do you know the"
-	line "identity of our"
-	cont "GYM LEADER?"
+	text "Ти знаєш особу"
+	line "нашого ЛІДЕРА"
+	cont "ЗАЛУ?"
 	done
 
 _ViridianGymHiker2BattleText::
-	text "Karate is the"
-	line "ultimate form of"
-	cont "martial arts!"
+	text "Карате — це"
+	line "найкраще з"
+	cont "бойових мистецтв!"
 	done
 
 _ViridianGymHiker2EndBattleText::
-	text "Atcho!"
+	text "Апчхі!"
 	prompt
 
 _ViridianGymHiker2AfterBattleText::
-	text "If my #MON"
-	line "were as good at"
-	cont "Karate as I..."
+	text "Якби мої ПОК'е-"
+	line "МОНИ знали"
+	cont "карате як я..."
 	done
 
 _ViridianGymCooltrainerM2BattleText::
-	text "The truly talented"
-	line "win with style!"
+	text "Справжні таланти"
+	line "перемагають"
+	cont "стильно!"
 	done
 
 _ViridianGymCooltrainerM2EndBattleText::
-	text "I"
-	line "lost my grip!"
+	text "Я втратив"
+	line "контроль!"
 	prompt
 
 _ViridianGymCooltrainerM2AfterBattleText::
-	text "The LEADER will"
-	line "scold me!"
+	text "ЛІДЕР мене"
+	line "вилайє!"
 	done
 
 _ViridianGymHiker3BattleText::
-	text "I'm the KARATE"
-	line "KING! Your fate"
-	cont "rests with me!"
+	text "Я КОРОЛЬ КАРАТЕ!"
+	line "Твоя доля в"
+	cont "моїх руках!"
 	done
 
 _ViridianGymHiker3EndBattleText::
-	text "Ayah!"
+	text "Ая-я-я!"
 	prompt
 
 _ViridianGymHiker3AfterBattleText::
-	text "#MON LEAGUE?"
-	line "You? Don't get"
-	cont "cocky!"
+	text "ЛІГА ПОК'еМОН?"
+	line "Тобі? Не будь"
+	cont "таким гордим!"
 	done
 
 _ViridianGymRocker2BattleText::
-	text "Your #MON will"
-	line "cower at the"
-	cont "crack of my whip!"
+	text "Твої ПОК'еМОНИ"
+	line "здригнуться від"
+	cont "удару батога!"
 	done
 
 _ViridianGymRocker2EndBattleText::
-	text "Yowch!"
-	line "Whiplash!"
+	text "Ой! Удар"
+	line "батогом!"
 	prompt
 
 _ViridianGymRocker2AfterBattleText::
-	text "Wait! I was just"
-	line "careless!"
+	text "Стій! Я просто"
+	line "був необачним!"
 	done
 
 _ViridianGymCooltrainerM3BattleText::
-	text "VIRIDIAN GYM was"
-	line "closed for a long"
-	cont "time, but now our"
-	cont "LEADER is back!"
+	text "ЗАЛ ВІРІДІАНУ"
+	line "був зачинений"
+	cont "довго, але наш"
+	cont "ЛІДЕР повернувся!"
 	done
 
 _ViridianGymCooltrainerM3EndBattleText::
-	text "I"
-	line "was beaten?"
+	text "Я"
+	line "переможений?"
 	prompt
 
 _ViridianGymCooltrainerM3AfterBattleText::
-	text "You can go onto"
-	line "#MON LEAGUE"
-	cont "only by defeating"
-	cont "our GYM LEADER!"
+	text "Ти потрапиш у"
+	line "ЛІГУ ПОК'еМОН,"
+	cont "лише здолавши"
+	cont "нашого ЛІДЕРА!"
 	done
 
 _ViridianGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Йо! Майбутній"
+	line "чемпіоне!"
 
-	para "Even I don't know"
-	line "VIRIDIAN LEADER's"
-	cont "identity!"
+	para "Навіть я не знаю"
+	line "особу ЛІДЕРА"
+	cont "ВІРІДІАНУ!"
 
-	para "This will be the"
-	line "toughest of all"
-	cont "the GYM LEADERs!"
+	para "Він буде"
+	line "найважчим з усіх"
+	cont "ЛІДЕРІВ ЗАЛІВ!"
 
-	para "I heard that the"
-	line "trainers here"
-	cont "like ground-type"
-	cont "#MON!"
+	para "Я чув, що"
+	line "тутешні тренери"
+	cont "люблять земляних"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _ViridianGymGuidePostBattleText::
-	text "Blow me away!"
-	line "GIOVANNI was the"
-	cont "GYM LEADER here?"
+	text "Оце так!"
+	line "ДЖОВАННІ був тут"
+	cont "ЛІДЕРОМ ЗАЛУ?"
 	done

@@ -1,21 +1,21 @@
 _SSAnne1FWaiterText::
-	text "Bonjour!"
-	line "I am le waiter on"
-	cont "this ship!"
+	text "Бонжур!"
+	line "Я офіціант на"
+	cont "цьому судні!"
 
-	para "I will be happy"
-	line "to serve you any-"
-	cont "thing you please!"
+	para "Буду радий"
+	line "подати вам усе,"
+	cont "що забажаєте!"
 
-	para "Ah! Le strong"
-	line "silent type!"
+	para "А! Сильний та"
+	line "мовчазний тип!"
 	done
 
 _SSAnne1FSailorText::
-	text "The passengers"
-	line "are restless!"
+	text "Пасажири"
+	line "невгамовні!"
 
-	para "You might be"
-	line "challenged by the"
-	cont "more bored ones!"
+	para "Ті, кому нудно,"
+	line "можуть кинути"
+	cont "тобі виклик!"
 	done

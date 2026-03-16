@@ -1,104 +1,101 @@
 _Route22RivalBeforeBattleText1::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Гей!"
 	line "<PLAYER>!"
 
-	para "You're going to"
-	line "#MON LEAGUE?"
+	para "Йдеш до ЛІГИ"
+	line "ПОК'еМОН?"
 
-	para "Forget it! You"
-	line "probably don't"
-	cont "have any BADGEs!"
+	para "Забудь про це!"
+	line "У тебе ще нема"
+	cont "жодних ЗНАЧКІВ!"
 
-	para "The guard won't"
-	line "let you through!"
+	para "Охоронець тебе"
+	line "не пропустить!"
 
-	para "By the way, did"
-	line "your #MON"
-	cont "get any stronger?"
+	para "До речі, твої"
+	line "ПОК'еМОНИ"
+	cont "стали сильніші?"
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard #MON"
-	line "LEAGUE has many"
-	cont "tough trainers!"
+	text "Я чув, у ЛІЗІ"
+	line "ПОК'еМОН багато"
+	cont "сильних тренерів!"
 
-	para "I have to figure"
-	line "out how to get"
-	cont "past them!"
+	para "Треба думати,"
+	line "як їх здолати!"
 
-	para "You should quit"
-	line "dawdling and get"
-	cont "a move on!"
+	para "Досить баритись,"
+	line "йди вже звідси!"
 	done
 
 _Route22Rival1DefeatedText::
-	text "Awww!"
-	line "You just lucked"
-	cont "out!"
+	text "Е-е-ех!"
+	line "Тобі просто"
+	cont "пощастило!"
 	prompt
 
 _Route22Rival1VictoryText::
-	text "<RIVAL>: What?"
-	line "Why do I have 2"
-	cont "#MON?"
+	text "<RIVAL>: Що?"
+	line "Чому в мене"
+	cont "2 ПОК'еМОНИ?"
 
-	para "You should catch"
-	cont "some more too!"
+	para "Тобі теж варто"
+	cont "зловити більше!"
 	prompt
 
 _Route22RivalBeforeBattleText2::
-	text "<RIVAL>: What?"
-	line "<PLAYER>! What a"
-	cont "surprise to see"
-	cont "you here!"
+	text "<RIVAL>: Що?"
+	line "<PLAYER>! Яка"
+	cont "несподівана"
+	cont "зустріч тут!"
 
-	para "So you're going to"
-	line "#MON LEAGUE?"
+	para "То ти йдеш до"
+	line "ЛІГИ ПОК'еМОН?"
 
-	para "You collected all"
-	line "the BADGEs too?"
-	cont "That's cool!"
+	para "Зібрав усі"
+	line "ЗНАЧКИ? Круто!"
 
-	para "Then I'll whip you"
-	line "<PLAYER> as a"
-	cont "warm up for"
-	cont "#MON LEAGUE!"
+	para "Тоді я розімнусь"
+	line "на тобі перед"
+	cont "ЛІГОЮ ПОК'еМОН!"
 
-	para "Come on!"
+	para "Давай!"
 	done
-
 _Route22RivalAfterBattleText2::
-	text "That loosened me"
-	line "up! I'm ready for"
-	cont "#MON LEAGUE!"
+	text "Це мене добре"
+	line "розім'яло! Я"
+	cont "готовий до"
+	cont "ЛІГИ ПОК'еМОН!"
 
-	para "<PLAYER>, you need"
-	line "more practice!"
+	para "<PLAYER>, тобі"
+	line "треба більше"
+	cont "практики!"
 
-	para "But hey, you know"
-	line "that! I'm out of"
-	cont "here. Smell ya!"
+	para "Але ти й так"
+	line "це знаєш! Я йду."
+	cont "Бувай!"
 	done
 
 _Route22Rival2DefeatedText::
-	text "What!?"
+	text "Що!?"
 
-	para "I was just"
-	line "careless!"
+	para "Я просто був"
+	line "необережний!"
 	prompt
 
 _Route22Rival2VictoryText::
-	text "<RIVAL>: Hahaha!"
-	line "<PLAYER>! That's"
-	cont "your best? You're"
-	cont "nowhere near as"
-	cont "good as me, pal!"
+	text "<RIVAL>: Ха-ха!"
+	line "<PLAYER>! Це"
+	cont "все? Ти навіть"
+	cont "близько не такий"
+	cont "як я, друже!"
 
-	para "Go train some"
-	line "more! You loser!"
+	para "Йди тренуйся"
+	line "ще! Невдахо!"
 	prompt
 
 _Route22PokemonLeagueSignText::
-	text "#MON LEAGUE"
-	line "Front Gate"
+	text "Головні ворота"
+	line "ЛІГИ ПОК'еМОН"
 	done

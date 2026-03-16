@@ -1,181 +1,192 @@
 _ViridianCityYoungster1Text::
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "Ці ПОК'еБОЛЛи"
+	line "на твоєму поясі!"
+	cont "Ти маєш ПОК'еМОН!"
 
-	para "It's great that"
-	line "you can carry and"
-	cont "use #MON any"
-	cont "time, anywhere!"
+	para "Це круто, що ти"
+	line "можеш брати їх"
+	cont "куди завгодно!"
 	done
 
 _ViridianCityGambler1GymAlwaysClosedText::
-	text "This #MON GYM"
-	line "is always closed."
+	text "Цей ЗАЛ ПОК'еМОН"
+	line "завжди зачинений."
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "Цікаво, хто там"
+	line "ЛІДЕР?"
 	done
 
 _ViridianCityGambler1GymLeaderReturnedText::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "ЛІДЕР ЗАЛУ"
+	line "ВІРІДІАНУ"
+	cont "повернувся!"
 	done
 
 _ViridianCityYoungster2YouWantToKnowAboutText::
-	text "You want to know"
-	line "about the 2 kinds"
-	cont "of caterpillar"
-	cont "#MON?"
+	text "Хочеш знати про"
+	line "2 види гусениць-"
+	cont "ПОК'еМОНІВ?"
 	done
 
 ViridianCityYoungster2OkThenText::
-	text "Oh, OK then!"
+	text "О, ну гаразд!"
 	done
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "КАТЕРПІ не має"
+	line "отрути, а"
+	cont "ВІДЛ — має."
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "Стережись його"
+	line "ОТРУЙНОГО ЖАЛА!"
 	done
 
 _ViridianCityGirlHasntHadHisCoffeeYetText::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "Ой, дідусю! Не"
+	line "будь таким злим!"
+	cont "Він ще не пив"
+	cont "свою каву."
 	done
 
 _ViridianCityGirlWhenIGoShopText::
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "Коли я йду за"
+	line "покупками в"
+	cont "П'ЮТЕР СІТІ..."
+
+	para "Мені доводиться"
+	line "йти через"
+	cont "ВІРІДІАНСЬКИЙ"
+	cont "ЛІС."
 	done
 
 _ViridianCityOldManSleepyPrivatePropertyText::
-	text "You can't go"
-	line "through here!"
+	text "Позіх! Я певно"
+	line "задрімав на сонці."
 
-	para "This is private"
-	line "property!"
+	para "Мені наснилося,"
+	line "що ДРАТІНІ"
+	cont "з'їв мій обід."
+
+	para "Ой, це приватна"
+	line "власність! Йди"
+	cont "звідси!"
 	done
-
+	
 ViridianCityFisherYouCanHaveThisText::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "Позіх!"
+	line "Я певно задрімав"
+	cont "на сонці."
 
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	para "Мені наснилося,"
+	line "що ДРАУЗІ"
+	cont "з'їв мій сон."
+	cont "Що це таке?"
+	cont "Звідки взявся"
+	cont "цей ТМ?"
 
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "Це лякає!"
+	line "Ось, тримай"
+	cont "цей ТМ."
+	prompt
+
+_ViridianCityFisherText::
+	text "Ось! Вживай ТМ,"
+	line "щоб вчити нові"
+	cont "прийоми!"
 	prompt
 
 _ViridianCityFisherReceivedTM42Text::
-	text "<PLAYER> received"
-	line "TM42!@"
+	text "<PLAYER> отримує"
+	line "ТМ42!@"
 	text_end
 
 _ViridianCityFisherTM42ExplanationText::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "ТМ42 містить"
+	line "ПОВЕДІНКУ."
+
+	para "Чим сильніша"
+	line "шкода, тим"
+	cont "лютіший удар!"
 	done
 
 _ViridianCityFisherTM42NoRoomText::
-	text "You have too much"
-	line "stuff already."
+	text "Твій рюкзак"
+	line "забитий вщент."
 	done
 
 _ViridianCityOldManHadMyCoffeeNowText::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Ах, я випив"
+	line "каву і тепер"
+	cont "почуваюся добре!"
 
-	para "Sure you can go"
-	line "through!"
+	para "Звісно, можеш"
+	line "проходити!"
 
-	para "Are you in a"
-	line "hurry?"
+	para "Ти поспішаєш?"
 	done
 
 _ViridianCityOldManKnowHowToCatchPokemonText::
-	text "I see you're using"
-	line "a #DEX."
+	text "Я бачу, ти маєш"
+	line "ПОК'еДЕКС."
 
-	para "When you catch a"
-	line "#MON, #DEX"
-	cont "is automatically"
-	cont "updated."
+	para "Коли ловиш"
+	line "ПОК'еМОНА,"
+	cont "ПОК'еДЕКС онов-"
+	cont "люється сам."
 
-	para "What? Don't you"
-	line "know how to catch"
-	cont "#MON?"
+	para "Що? Не знаєш як"
+	line "ловити"
+	cont "ПОК'еМОНІВ?"
 
-	para "I'll show you"
-	line "how to then."
+	para "Тоді я тобі"
+	line "покажу."
 	done
 
 _ViridianCityOldManTimeIsMoneyText::
-	text "Time is money..."
-	line "Go along then."
+	text "Час — це гроші..."
+	line "Тож іди собі."
 	done
 
 _ViridianCityOldManYouNeedToWeakenTheTargetText::
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "Спершу треба"
+	line "послабити ціль."
 	done
 
 _ViridianCitySignText::
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "ВІРІДІАН СІТІ"
+	line "Вічно зелений"
+	cont "рай"
 	done
 
 _ViridianCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
+	para "Лови ПОК'еМОНІВ"
+	line "та поповнюй"
+	cont "свою колекцію!"
 
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "Чим більше маєш,"
+	line "тим легше битись!"
 	done
 
 _ViridianCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
+	para "Прийоми ПОК'еМОН"
+	line "обмежені Очками"
+	cont "Прийомів, ОП."
 
-	para "To replenish PP,"
-	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	para "Для відновлення"
+	line "ОП відвідай"
+	cont "ПОК'еЦЕНТР!"
 	done
 
 _ViridianCityGymSignText::
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	text "ЗАЛ ПОК'еМОН"
+	line "ВІРІДІАН СІТІ"
 	done
 
 _ViridianCityGymLockedText::
-	text "The GYM's doors"
-	line "are locked..."
+	text "Двері ЗАЛА"
+	line "зачинені..."
 	done

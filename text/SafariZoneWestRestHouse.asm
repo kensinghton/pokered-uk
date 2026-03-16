@@ -1,19 +1,21 @@
 _SafariZoneWestRestHouseScientistText::
-	text "Tossing ROCKs at"
-	line "#MON might"
-	cont "make them run,"
-	cont "but they'll be"
-	cont "easier to catch."
+	text "Кидання КАМЕНІВ"
+	line "в ПОК'еМОНІВ"
+	cont "лякає їх, але"
+	cont "так їх легше"
+	cont "спіймати."
 	done
 
 _SafariZoneWestRestHouseCooltrainerMText::
-	text "Using BAIT will"
-	line "make #MON"
-	cont "easier to catch."
+	text "Вживання ПРИМАНКИ"
+	line "полегшує"
+	cont "поїмку"
+	cont "ПОК'еМОНІВ."
 	done
 
 _SafariZoneWestRestHouseSilphWorkerFText::
-	text "I hiked a lot, but"
-	line "I didn't see any"
-	cont "#MON I wanted."
+	text "Я довго йшла,"
+	line "але не бачила"
+	cont "ПОК'еМОНІВ,"
+	cont "яких хотіла."
 	done

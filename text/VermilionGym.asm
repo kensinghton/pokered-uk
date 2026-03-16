@@ -1,21 +1,20 @@
 _VermilionGymLTSurgePreBattleText::
-	text "Hey, kid! What do"
-	line "you think you're"
-	cont "doing here?"
+	text "Гей, дитино! Що"
+	line "ти тут забув?"
 
-	para "You won't live"
-	line "long in combat!"
-	cont "That's for sure!"
+	para "Ти довго в бою"
+	line "не протягнеш!"
+	cont "Це точно!"
 
-	para "I tell you kid,"
-	line "electric #MON"
-	cont "saved me during"
-	cont "the war!"
+	para "Кажу тобі,"
+	line "електро-"
+	cont "ПОК'еМОНИ"
+	cont "врятували мене"
+	cont "на війні!"
 
-	para "They zapped my"
-	line "enemies into"
-	cont "paralysis!"
+	para "Вони паралізували"
+	line "моїх ворогів!"
 
-	para "The same as I'll"
-	line "do to you!"
+	para "Те саме я зроблю"
+	line "і з тобою!"
 	done

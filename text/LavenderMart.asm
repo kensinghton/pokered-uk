@@ -1,30 +1,32 @@
 _LavenderMartBaldingGuyText::
-	text "I'm searching for"
-	line "items that raise"
-	cont "the abilities of"
-	cont "#MON during a"
-	cont "single battle."
+	text "Я шукаю речі,"
+	line "що піднімають"
+	cont "сили ПОК'еМОНІВ"
+	cont "під час бою."
 
-	para "X ATTACK, X"
-	line "DEFEND, X SPEED"
-	cont "and X SPECIAL are"
-	cont "what I'm after."
+	para "Мені потрібні"
+	line "Х-АТАКА, Х-ЗАХИСТ,"
+	cont "Х-ШВИДКІСТЬ та"
+	cont "Х-ОСОБЛИВІСТЬ."
 
-	para "Do you know where"
-	line "I can get them?"
+	para "Знаєш, де їх"
+	line "можна знайти?"
 	done
 
 _LavenderMartCooltrainerMReviveText::
-	text "You know REVIVE?"
-	line "It revives any"
-	cont "fainted #MON!"
+	text "Знаєш ОЖИВЛЕННЯ?"
+	line "Воно вертає до"
+	cont "життя будь-якого"
+	cont "ПОК'еМОНА!"
 	done
 
 _LavenderMartCooltrainerMNuggetText::
-	text "I found a NUGGET"
-	line "in the mountains."
+	text "Я знайшов"
+	line "САМОРОДОК у"
+	cont "горах."
 
-	para "I thought it was"
-	line "useless, but it"
-	cont "sold for ¥5000!"
+	para "Думав, він"
+	line "марний, та його"
+	cont "купили за"
+	cont "5000 ієн!"
 	done

@@ -1,25 +1,24 @@
 _PewterNidoranHouseNidoranText::
-	text "NIDORAN: Bowbow!@"
+	text "НІДОРАН: Бау-"
+	line "бау!@"
 	text_end
 
 _PewterNidoranHouseLittleBoyText::
-	text "NIDORAN sit!"
+	text "НІДОРАН, сидіти!"
 	done
 
 _PewterNidoranHouseMiddleAgedManText::
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "Наш ПОК'еМОН з"
+	line "обміну, з ним"
+	cont "важко впоратись."
 
-	para "An outsider is a"
-	line "#MON that you"
-	cont "get in a trade."
+	para "Отримані через"
+	line "обмін ростуть"
+	cont "швидко, та"
+	cont "можуть не слуха-"
+	cont "ти недосвідченого"
+	cont "ТРЕНЕРА!"
 
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
-
-	para "If only we had"
-	line "some BADGEs..."
+	para "Якби ми мали хоч"
+	line "якісь ЗНАЧКИ..."
 	done

@@ -1,146 +1,147 @@
 _PewterGymBrockPostBattleAdviceText::
-	text "There are all"
-	line "kinds of trainers"
-	cont "in the world!"
+	text "У світі багато"
+	line "різних тренерів!"
 
-	para "You appear to be"
-	line "very gifted as a"
-	cont "#MON trainer!"
+	para "Ти виглядаєш"
+	line "дуже обдарованим"
+	cont "тренером"
+	cont "ПОК'еМОНІВ!"
 
-	para "Go to the GYM in"
-	line "CERULEAN and test"
-	cont "your abilities!"
+	para "Йди у ЗАЛ міста"
+	line "СЕРУЛІН та"
+	cont "випробуй себе!"
 	done
 
 _PewterGymBrockWaitTakeThisText::
-	text "Wait! Take this"
-	line "with you!"
+	text "Стій! Візьми"
+	line "це з собою!"
 	done
 
 _PewterGymReceivedTM34Text::
-	text "<PLAYER> received"
-	line "TM34!@"
+	text "<PLAYER> отримує"
+	line "ТМ34!@"
 	text_end
 
 _TM34ExplanationText::
 	text_start
 
-	para "A TM contains a"
-	line "technique that"
-	cont "can be taught to"
-	cont "#MON!"
+	para "ТМ містить"
+	line "прийом, якого"
+	cont "можна навчити"
+	cont "ПОК'еМОНА!"
 
-	para "A TM is good only"
-	line "once! So when you"
-	cont "use one to teach"
-	cont "a new technique,"
-	cont "pick the #MON"
-	cont "carefully!"
+	para "ТМ діє лише"
+	line "один раз! Коли"
+	cont "вчитимеш новий"
+	cont "прийом, обирай"
+	cont "ПОК'еМОНА"
+	cont "дуже уважно!"
 
-	para "TM34 contains"
-	line "BIDE!"
+	para "ТМ34 містить"
+	line "ТЕРПІННЯ!"
 
-	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	para "Твій ПОК'еМОН"
+	line "вбиратиме шкоду"
+	cont "в бою, а потім"
+	cont "віддасть удвічі"
+	cont "більше!"
 	done
 
 _PewterGymTM34NoRoomText::
-	text "You don't have"
-	line "room for this!"
+	text "У тебе немає"
+	line "місця для цього!"
 	done
 
 _PewterGymBrockReceivedBoulderBadgeText::
-	text "I took"
-	line "you for granted."
+	text "Я недооцінив"
+	line "тебе."
 
-	para "As proof of your"
-	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	para "Як доказ твоєї"
+	line "перемоги, ось"
+	cont "КАМ'ЯНИЙ ЗНАЧОК!"
 
-	para "<PLAYER> received"
-	line "the BOULDERBADGE!@"
+	para "<PLAYER> отримує"
+	line "КАМ'ЯНИЙ ЗНАЧОК!@"
 	text_end
 
 _PewterGymBrockBoulderBadgeInfoText::
 	text_start
 
-	para "That's an official"
-	line "#MON LEAGUE"
-	cont "BADGE!"
+	para "Це офіційний"
+	line "ЗНАЧОК ЛІГИ"
+	cont "ПОК'еМОН!"
 
-	para "Its bearer's"
-	line "#MON become"
-	cont "more powerful!"
+	para "ПОК'еМОНИ"
+	line "власника стають"
+	cont "сильнішими!"
 
-	para "The technique"
-	line "FLASH can now be"
-	cont "used any time!"
+	para "Тепер можна"
+	line "вживати СПАЛАХ"
+	cont "будь-коли!"
 	prompt
 
 _PewterGymCooltrainerMBattleText::
-	text "Stop right there,"
-	line "kid!"
+	text "Ану стій,"
+	line "дитино!"
 
-	para "You're still light"
-	line "years from facing"
-	cont "BROCK!"
+	para "Тобі ще світлові"
+	line "роки до бою з"
+	cont "БРОКОМ!"
 	done
 
 _PewterGymCooltrainerMEndBattleText::
-	text "Darn!"
+	text "Дідько!"
 
-	para "Light years isn't"
-	line "time! It measures"
-	cont "distance!"
+	para "Світлові роки —"
+	line "це відстань,"
+	cont "а не час!"
 	prompt
-
+	
 _PewterGymCooltrainerMAfterBattleText::
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "Ти крутий,"
+	line "але не такий,"
+	cont "як БРОК!"
 	done
 
 _PewterGymGuidePreAdviceText::
-	text "Hiya! I can tell"
-	line "you have what it"
-	cont "takes to become a"
-	cont "#MON champ!"
+	text "Привіт! Я бачу,"
+	line "ти маєш усе,"
+	cont "щоб стати"
+	cont "чемпіоном"
+	cont "ПОК'еМОН!"
 
-	para "I'm no trainer,"
-	line "but I can tell"
-	cont "you how to win!"
+	para "Я не тренер,"
+	line "але підкажу,"
+	cont "як перемогти!"
 
-	para "Let me take you"
-	line "to the top!"
+	para "Я виведу тебе"
+	line "на вершину!"
 	done
 
 _PewterGymGuideBeginAdviceText::
-	text "All right! Let's"
-	line "get happening!"
+	text "Гаразд!"
+	line "Почнімо!"
 	prompt
 
 _PewterGymGuideAdviceText::
-	text "The 1st #MON"
-	line "out in a match is"
-	cont "at the top of the"
-	cont "#MON LIST!"
+	text "Перший ПОК'еМОН"
+	line "у списку йде у"
+	cont "бій першим!"
 
-	para "By changing the"
-	line "order of #MON,"
-	cont "matches could be"
-	cont "made easier!"
+	para "Змінюючи чергу"
+	line "ПОК'еМОНІВ,"
+	cont "ти полегшиш"
+	cont "свої бої!"
 	done
 
 _PewterGymGuideFreeServiceText::
-	text "It's a free"
-	line "service! Let's"
-	cont "get happening!"
+	text "Це безкоштовно!"
+	line "Почнімо!"
 	prompt
 
 _PewterGymGuidePostBattleText::
-	text "Just as I thought!"
-	line "You're #MON"
-	cont "champ material!"
+	text "Так я і думав!"
+	line "Ти — майбутній"
+	cont "чемпіон"
+	cont "ПОК'еМОН!"
 	done

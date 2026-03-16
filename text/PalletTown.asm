@@ -1,56 +1,55 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@"
+	text "ОАК: Гей! Стій!"
+	line "Не йди туди!@"
 	text_end
 
 _PalletTownOakItsUnsafeText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "ОАК: Небезпечно!"
+	line "Дикі ПОК'еМОНИ"
+	cont "живуть у траві!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Тобі потрібен"
+	line "власний ПОК'еМОН"
+	cont "для захисту."
+	cont "Я знаю!"
 
-	para "Here, come with"
-	line "me!"
+	para "Ходімо зі мною!"
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "Я теж рощу"
+	line "ПОК'еМОНІВ!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "Коли вони"
+	line "зміцніють, то"
+	cont "захистять мене!"
 	done
 
 _PalletTownFisherText::
-	text "Technology is"
-	line "incredible!"
+	text "Технології це"
+	line "неймовірно!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "Тепер можна"
+	line "зберігати речі"
+	cont "та ПОК'еМОНІВ"
+	cont "як дані в ПК!"
 	done
 
 _PalletTownOaksLabSignText::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "ЛАБОРАТОРІЯ"
+	line "ПРОФ.ОАКА"
 	done
 
 _PalletTownSignText::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "ПАЛЛЕТ ТАУН"
+	line "Відтінки твоїх"
+	cont "пригод чекають!"
 	done
 
 _PalletTownPlayersHouseSignText::
-	text "<PLAYER>'s house "
+	text "Дім <PLAYER>"
 	done
 
 _PalletTownRivalsHouseSignText::
-	text "<RIVAL>'s house "
+	text "Дім <RIVAL>"
 	done

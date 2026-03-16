@@ -1,45 +1,45 @@
 _PokemonTower4FChanneler1BattleText::
-	text "GHOST! No!"
-	line "Kwaaah!"
+	text "ПРИВИД! Ні!"
+	line "Кваааагх!"
 	done
 
 _PokemonTower4FChanneler1EndBattleText::
-	text "Where"
-	line "is the GHOST?"
+	text "Де"
+	line "цей ПРИВИД?"
 	prompt
 
 _PokemonTower4FChanneler1AfterBattleText::
-	text "I must have been"
-	line "dreaming..."
+	text "Мабуть, мені це"
+	line "наснилося..."
 	done
 
 _PokemonTower4FChanneler2BattleText::
-	text "Be cursed with"
-	line "me! Kwaaah!"
+	text "Будь проклятий"
+	line "зі мною! Кваах!"
 	done
 
 _PokemonTower4FChanneler2EndBattleText::
-	text "What!"
+	text "Що!"
 	prompt
 
 _PokemonTower4FChanneler2AfterBattleText::
-	text "We can't crack"
-	line "the identity of"
-	cont "the GHOSTs."
+	text "Ми не можемо"
+	line "розкрити особу"
+	cont "ПРИВИДІВ."
 	done
 
 _PokemonTower4FChanneler3BattleText::
-	text "Huhuhu..."
-	line "Beat me not!"
+	text "Ху-ху-ху..."
+	line "Не бий мене!"
 	done
 
 _PokemonTower4FChanneler3EndBattleText::
-	text "Huh?"
-	line "Who? What?"
+	text "Га?"
+	line "Хто? Що?"
 	prompt
 
 _PokemonTower4FChanneler3AfterBattleText::
-	text "May the departed"
-	line "souls of #MON"
-	cont "rest in peace..."
+	text "Нехай душі"
+	line "ПОК'еМОНІВ"
+	cont "спочивають..."
 	done

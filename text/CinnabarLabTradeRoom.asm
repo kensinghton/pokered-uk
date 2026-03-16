@@ -1,9 +1,9 @@
 _CinnabarLabTradeRoomSuperNerdText::
-	text "I found this very"
-	line "strange fossil in"
-	cont "MT.MOON!"
+	text "Я знайшов дуже"
+	line "дивні рештки на"
+	cont "ГОРІ МУН!"
 
-	para "I think it's a"
-	line "rare, prehistoric"
-	cont "#MON!"
+	para "Гадаю, це"
+	line "рідкісний древній"
+	cont "ПОК'еМОН!"
 	done

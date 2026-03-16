@@ -1,27 +1,26 @@
 _SaffronPidgeyHouseBrunetteGirlText::
-	text "Thank you for"
-	line "writing. I hope"
-	cont "to see you soon!"
+	text "Дякую, що"
+	line "пишеш. Скоро"
+	cont "побачимось!"
 
-	para "Hey! Don't look"
-	line "at my letter!"
+	para "Гей! Не читай"
+	line "мій лист!"
 	done
 
 _SaffronPidgeyHousePidgeyText::
-	text "PIDGEY: Kurukkoo!@"
+	text "ПІДЖІ: Куруккоо!@"
 	text_end
 
 _SaffronPidgeyHouseYoungsterText::
-	text "The COPYCAT is"
-	line "cute! I'm getting"
-	cont "her a # DOLL!"
+	text "ІМІТАТОРКА така"
+	line "мила! Я куплю"
+	cont "їй ЛЯЛЬКУ!"
 	done
 
 _SaffronPidgeyHousePaperText::
-	text "I was given a PP"
-	line "UP as a gift."
+	text "Мені подарували"
+	line "ПП-ПЛЮС."
 
-	para "It's used for"
-	line "increasing the PP"
-	cont "of techniques!"
+	para "Він збільшує ПП"
+	line "твоїх прийомів!"
 	done

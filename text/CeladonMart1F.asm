@@ -1,31 +1,32 @@
 _CeladonMart1FReceptionistText::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
+	text "Вітаю! Ласкаво"
+	line "просимо в"
+	cont "УНІВЕРМАГ ЦЕЛАДОН"
 
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	para "Дошка праворуч"
+	line "описує план"
+	cont "магазину."
 	done
 
 _CeladonMart1FDirectorySignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1П: ДОВІДКОВЕ"
+	line "    БЮРО"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2П: ТОВАРИ"
+	line "    ТРЕНЕРА"
 
-	para "3F: TV GAME SHOP"
+	para "3П: МАГАЗИН ІГОР"
 
-	para "4F: WISEMAN GIFTS"
+	para "4П: ДАРУНКИ"
+	line "    МУДРЕЦЯ"
 
-	para "5F: DRUG STORE"
+	para "5П: АПТЕКА"
 
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	para "ПЛОЩА НА ДАХУ:"
+	line "АВТОМАТИ З ВОДОЮ"
 	done
 
 _CeladonMart1FCurrentFloorSignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1П: ДОВІДКОВЕ"
+	line "    БЮРО"
 	done

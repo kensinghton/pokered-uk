@@ -1,42 +1,42 @@
 _SilphCo10FSilphWorkerFImScaredText::
-	text "Waaaaa!"
-	cont "I'm scared!"
+	text "Уаааа!"
+	line "Мені страшно!"
 	done
 
 _SilphCo10FSilphWorkerFQuietAboutMyCryingText::
-	text "Please keep quiet"
-	line "about my crying!"
+	text "Нікому не кажи,"
+	line "що я плакала!"
 	done
 
 _SilphCo10FRocketBattleText::
-	text "Welcome to the"
-	line "10F! So good of"
-	cont "you to join me!"
+	text "Вітаю на 10П!"
+	line "Радий, що ти"
+	cont "завітав!"
 	done
 
 _SilphCo10FRocketEndBattleText::
-	text "I'm"
-	line "stunned!"
+	text "Я"
+	line "вражений!"
 	prompt
 
 _SilphCo10FRocketAfterBattleText::
-	text "Nice try, but the"
-	line "boardroom is up"
-	cont "one more floor!"
+	text "Гарна спроба, та"
+	line "зала засідань"
+	cont "поверхом вище!"
 	done
 
 _SilphCo10FScientistBattleText::
-	text "Enough of your"
-	line "silly games!"
+	text "Досить цих"
+	line "дурних ігор!"
 	done
 
 _SilphCo10FScientistEndBattleText::
-	text "No"
-	line "continues left!"
+	text "Спроб не"
+	line "лишилося!"
 	prompt
 
 _SilphCo10FScientistAfterBattleText::
-	text "Are you satisfied"
-	line "with beating me?"
-	cont "Then go on home!"
+	text "Задоволений"
+	line "перемогою?"
+	cont "Йди вже додому!"
 	done

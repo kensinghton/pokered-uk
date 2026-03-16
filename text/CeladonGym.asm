@@ -1,68 +1,70 @@
 _CeladonGymErikaPreBattleText::
-	text "Hello. Lovely"
-	line "weather isn't it?"
-	cont "It's so pleasant."
+	text "Вітаю. Гарна"
+	line "погода, чи не"
+	cont "так? Приємно."
 
-	para "...Oh dear..."
-	line "I must have dozed"
-	cont "off. Welcome."
+	para "Ой лишенько..."
+	line "Я, мабуть,"
+	cont "задрімала. Вітаю."
 
-	para "My name is ERIKA."
-	line "I am the LEADER"
-	cont "of CELADON GYM."
+	para "Мене звуть ЕРІКА."
+	line "Я ЛІДЕР"
+	cont "ЗАЛУ ЦЕЛАДОНА."
 
-	para "I teach the art of"
-	line "flower arranging."
-	cont "My #MON are of"
-	cont "the grass-type."
+	para "Я вчу мистецтву"
+	line "ікебани. Мої"
+	cont "ПОК'еМОНИ"
+	cont "трав’яного типу."
 
-	para "Oh, I'm sorry, I"
-	line "had no idea that"
-	cont "you wished to"
-	cont "challenge me."
+	para "Ой, вибачте, я"
+	line "й гадки не мала,"
+	cont "що ви хочете"
+	cont "викликати мене."
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "Що ж, але я"
+	line "не програю."
 	done
 
 _CeladonGymErikaReceivedRainbowBadgeText::
-	text "Oh!"
-	line "I concede defeat."
+	text "Ох!"
+	line "Визнаю поразку."
 
-	para "You are remarkably"
-	line "strong."
+	para "Ви надзвичайно"
+	line "сильні."
 
-	para "I must confer you"
-	line "the RAINBOWBADGE."
+	para "Я мушу надати"
+	line "вам цей"
+	cont "ВЕСЕЛКОВИЙ ЗНАЧОК."
 	prompt
 
 _CeladonGymErikaPostBattleAdviceText::
-	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
+	text "Ви створюєте"
+	line "каталог"
+	cont "ПОК'еМОНІВ?"
+	cont "Я вражена."
 
-	para "I would never"
-	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	para "Я б ніколи не"
+	line "збирала їх, якби"
+	cont "вони були"
+	cont "непривабливі."
 	done
 
 _CeladonGymRainbowBadgeInfoText::
-	text "The RAINBOWBADGE"
-	line "will make #MON"
-	cont "up to L50 obey."
+	text "ВЕСЕЛКОВИЙ ЗНАЧОК"
+	line "змусить ПОК'еМОН"
+	cont "до Р50 слухатись."
 
-	para "It also allows"
-	line "#MON to use"
-	cont "STRENGTH in and"
-	cont "out of battle."
+	para "Він також дає"
+	line "змогу вживати"
+	cont "СИЛУ в бою та"
+	cont "поза ним."
 
-	para "Please also take"
-	line "this with you."
+	para "Будь ласка, ще"
+	line "візьміть це."
 	done
 
 _CeladonGymReceivedTM21Text::
-	text "<PLAYER> received"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -71,150 +73,151 @@ _CeladonGymReceivedTM21Text::
 _TM21ExplanationText::
 	text_start
 
-	para "TM21 contains"
-	line "MEGA DRAIN."
+	para "ТМ21 містить"
+	line "МЕГА-ДРЕНАЖ."
 
-	para "Half the damage"
-	line "it inflicts is"
-	cont "drained to heal"
-	cont "your #MON!"
+	para "Половина шкоди"
+	line "йде на лікування"
+	cont "вашого"
+	cont "ПОК'еМОНА!"
 	done
 
 _CeladonGymTM21NoRoomText::
-	text "You should make"
-	line "room for this."
+	text "Вам слід звіль-"
+	line "нити місце."
 	done
 
 _CeladonGymBattleText2::
-	text "Hey!"
+	text "Гей!"
 
-	para "You are not"
-	line "allowed in here!"
+	para "Тобі сюди"
+	line "не можна!"
 	done
 
 _CeladonGymEndBattleText2::
-	text "You're"
-	line "too rough!"
+	text "Ти"
+	line "занадто грубий!"
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "Bleaah!"
-	line "I hope ERIKA"
-	cont "wipes you out!"
+	text "Бе-е-е!"
+	line "Сподіваюсь, ЕРІКА"
+	cont "тебе розчавить!"
 	done
 
 _CeladonGymBattleText3::
-	text "I was getting"
-	line "bored."
+	text "Я вже почала"
+	line "нудьгувати."
 	done
 
 _CeladonGymEndBattleText3::
-	text "My"
-	line "makeup!"
+	text "Мій"
+	line "макіяж!"
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
-	line "are tough against"
-	cont "the water-type!"
+	text "Трав’яні ПОК'е-"
+	line "МОНИ сильні"
+	cont "проти водних!"
 
-	para "They also have an"
-	line "edge on rock and"
-	cont "ground #MON!"
+	para "Також вони мають"
+	line "перевагу над"
+	cont "кам’яними!"
 	done
 
 _CeladonGymBattleText4::
-	text "Aren't you the"
-	line "peeping Tom?"
+	text "Чи не ти той"
+	line "підглядач?"
 	done
 
 _CeladonGymEndBattleText4::
-	text "I'm"
-	line "in shock!"
+	text "Я"
+	line "в шоці!"
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	text "О, ти не"
+	line "підглядав? У нас"
+	cont "тут часто бувають"
+	cont "витріщаки!"
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my grass"
-	line "#MON!"
+	text "Поглянь на моїх"
+	line "ПОК'еМОНІВ!"
 
-	para "They're so easy"
-	line "to raise!"
+	para "Їх так легко"
+	line "виховувати!"
 	done
 
 _CeladonGymEndBattleText5::
-	text "No!"
+	text "Ні!"
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use grass-"
-	line "type #MON at"
-	cont "our GYM!"
+	text "У нашому ЗАЛІ"
+	line "ми вживаємо лише"
+	cont "трав’яних!"
 
-	para "We also use them"
-	line "for making flower"
-	cont "arrangements!"
+	para "Також вони нам"
+	line "помічні в"
+	cont "ікебані!"
 	done
 
 _CeladonGymBattleText6::
-	text "Don't bring any"
-	line "bugs or fire"
-	cont "#MON in here!"
+	text "Не принось сюди"
+	line "вогняних чи"
+	cont "комах!"
 	done
 
 _CeladonGymEndBattleText6::
-	text "Oh!"
-	line "You!"
+	text "Ох!"
+	line "Ти!"
 	prompt
 
 _CeladonGymAfterBattleText6::
-	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
-	cont "but she's also"
-	cont "very skilled!"
+	text "Наш ЛІДЕР ЕРІКА"
+	line "може й тиха,"
+	cont "але вона дуже"
+	cont "вправна!"
 	done
 
 _CeladonGymBattleText7::
-	text "Pleased to meet"
-	line "you. My hobby is"
-	cont "#MON training."
+	text "Рада знайомству."
+	line "Моє хобі — це"
+	cont "тренування."
 	done
 
 _CeladonGymEndBattleText7::
-	text "Oh!"
-	line "Splendid!"
+	text "Ох!"
+	line "Блискуче!"
 	prompt
 
 _CeladonGymAfterBattleText7::
-	text "I have a blind"
-	line "date coming up."
-	cont "I have to learn"
-	cont "to be polite."
+	text "У мене скоро"
+	line "побачення наосліп"
+	cont "Треба вчитися"
+	cont "ввічливості."
 	done
 
 _CeladonGymBattleText8::
-	text "Welcome to"
-	line "CELADON GYM!"
+	text "Вітаємо у"
+	line "ЗАЛІ ЦЕЛАДОНА!"
 
-	para "You better not"
-	line "underestimate"
-	cont "girl power!"
+	para "Краще не"
+	line "недооцінюй"
+	cont "жіночу силу!"
 	done
 
 _CeladonGymEndBattleText8::
-	text "Oh!"
-	line "Beaten!"
+	text "Ой!"
+	line "Побита!"
 	prompt
 
 _CeladonGymAfterBattleText8::
-	text "I didn't bring my"
-	line "best #MON!"
+	text "Я виставила не"
+	line "найкращих!"
 
-	para "Wait 'til next"
-	line "time!"
+	para "Чекай до"
+	line "наступного разу!"
 	done

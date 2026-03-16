@@ -1,47 +1,50 @@
 _PokemonMansion2FSuperNerdBattleText::
-	text "I can't get out!"
-	line "This old place is"
-	cont "one big puzzle!"
+	text "Я не можу вийти!"
+	line "Це старе місце —"
+	cont "одна головоломка!"
 	done
 
 _PokemonMansion2FSuperNerdEndBattleText::
-	text "Oh no!"
-	line "My bag of loot!"
+	text "О ні!"
+	line "Моя здобич!"
 	prompt
 
 _PokemonMansion2FSuperNerdAfterBattleText::
-	text "Switches open and"
-	line "close alternating"
-	cont "sets of doors!"
+	text "Перемикачі"
+	line "відчиняють різні"
+	cont "групи дверей!"
 	done
 
 _PokemonMansion2FDiary1Text::
-	text "Diary: July 5"
-	line "Guyana,"
-	cont "South America"
+	text "Щоденник: 5 лип."
+	line "Гайана,"
+	cont "Пд. Америка"
 
-	para "A new #MON was"
-	line "discovered deep"
-	cont "in the jungle."
+	para "Новий ПОК'еМОН"
+	line "був знайдений"
+	cont "глибоко в джунг-"
+	cont "лях."
 	done
 
 _PokemonMansion2FDiary2Text::
-	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
-	cont "#MON, MEW."
+	text "Щоденник: 10 лип."
+	line "Ми назвали"
+	cont "знайденого"
+	cont "істоту М'Ю."
 	done
 
 _PokemonMansion2FSwitchText::
-	text "A secret switch!"
+	text "Таємний"
+	line "перемикач!"
 
-	para "Press it?"
+	para "Натиснути?"
 	done
 
 _PokemonMansion2FSwitchPressedText::
-	text "Who wouldn't?"
+	text "А хто б не"
+	line "натиснув?"
 	prompt
 
 _PokemonMansion2FSwitchNotPressedText::
-	text "Not quite yet!"
+	text "Ще ні!"
 	done

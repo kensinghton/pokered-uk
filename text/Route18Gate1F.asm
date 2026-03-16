@@ -1,14 +1,14 @@
 _Route18Gate1FGuardYouNeedABicycleText::
-	text "You need a BICYCLE"
-	line "for CYCLING ROAD!"
+	text "Для ВЕЛОШЛЯХУ"
+	line "тобі потрібен"
+	cont "ВЕЛОСИПЕД!"
 	done
 
 _Route18Gate1FGuardCyclingRoadUphillText::
-	text "CYCLING ROAD is"
-	line "all uphill from"
-	cont "here."
+	text "ВЕЛОШЛЯХ далі"
+	line "йде лише вгору."
 	done
 
 _Route18Gate1FGuardExcuseMeText::
-	text "Excuse me!"
+	text "Перепрошую!"
 	done
