@@ -1,78 +1,78 @@
 _CinnabarLabFossilRoomScientist1Text::
-	text "Hiya!"
+	text "Привіт!"
 
-	para "I am important"
-	line "doctor!"
+	para "Я — важливий"
+	line "лікар!"
 
-	para "I study here rare"
-	line "#MON fossils!"
+	para "Я вивчаю рідкісні"
+	line "викопні ПОК'еМОН!"
 
-	para "You! Have you a"
-	line "fossil for me?"
+	para "Ти! Чи маєш"
+	line "викопне для мене?"
 	prompt
 
 _CinnabarLabFossilRoomScientist1NoFossilsText::
-	text "No! Is too bad!"
+	text "Ні! Дуже шкода!"
 	done
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText::
-	text "I take a little"
-	line "time!"
+	text "Мені треба"
+	line "трішки часу!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "Йди погуляй"
+	line "деякий час!"
 	done
 
 _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
-	text "Where were you?"
+	text "Де ти був?"
 
-	para "Your fossil is"
-	line "back to life!"
+	para "Твоє викопне"
+	line "ожило!"
 
-	para "It was @"
+	para "Це був @"
 	text_ram wStringBuffer
 	text_start
-	line "like I think!"
+	line "як я і думав!"
 	prompt
 
 _CinnabarLabFossilRoomScientist1SeesFossilText::
-	text "Oh! That is"
+	text "О! Це ж"
 	line "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "It is fossil of"
+	para "Це викопне від"
 	line "@"
 	text_ram wStringBuffer
-	text ", a"
-	cont "#MON that is"
-	cont "already extinct!"
+	text ", "
+	cont "ПОК'еМОНА, який"
+	cont "уже вимер!"
 
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
+	para "Мій апарат"
+	line "воскресіння"
+	cont "оживить цього"
+	cont "ПОК'еМОНА знову!"
 	done
 
 _CinnabarLabFossilRoomScientist1TakesFossilText::
-	text "So! You hurry and"
-	line "give me that!"
+	text "Тож швидше"
+	line "давай його сюди!"
 
-	para "<PLAYER> handed"
-	line "over @"
+	para "<PLAYER> віддає"
+	line "@"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText2::
-	text "I take a little"
-	line "time!"
+	text "Мені треба"
+	line "трішки часу!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "Йди погуляй"
+	line "деякий час!"
 	done
 
 _CinnabarLabFossilRoomScientist1ComeAgainText::
-	text "Aiyah! You come"
-	line "again!"
+	text "Айя! Приходь"
+	line "ще!"
 	done

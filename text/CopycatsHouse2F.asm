@@ -1,33 +1,32 @@
 _CopycatsHouse2FCopycatDoYouLikePokemonText::
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: Привіт!"
+	line "Любиш ПОК'еМОН?"
 
-	para "<PLAYER>: Uh no, I"
-	line "just asked you."
+	para "<PLAYER>: Е-ні, я"
+	line "лише запитав."
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: Га?"
+	line "Ти якась дивна!"
 
-	para "COPYCAT: Hmm?"
-	line "Quit mimicking?"
+	para "ІМІТАТОРКА: Гм?"
+	line "Не мавпувати?"
 
-	para "But, that's my"
-	line "favorite hobby!"
+	para "Але ж це моє"
+	line "улюблене хобі!"
 	prompt
 
 _CopycatsHouse2FCopycatTM31PreReceiveText::
-	text "Oh wow!"
-	line "A # DOLL!"
+	text "Ого! Справжня"
+	line "ПОК'еЛЯЛЬКА!"
 
-	para "For me?"
-	line "Thank you!"
+	para "Це мені? Дякую!"
 
-	para "You can have"
-	line "this, then!"
+	para "Тоді візьми"
+	line "ось це!"
 	prompt
 
 _CopycatsHouse2FCopycatReceivedTM31Text::
-	text "<PLAYER> received"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -36,65 +35,66 @@ _CopycatsHouse2FCopycatReceivedTM31Text::
 _CopycatsHouse2FCopycatTM31Explanation1Text::
 	text_start
 
-	para "TM31 contains my"
-	line "favorite, MIMIC!"
+	para "ТМ31 містить"
+	line "ІМІТАЦІЮ!"
 
-	para "Use it on a good"
-	line "#MON!@"
+	para "Вживай на гарних"
+	line "ПОК'еМОНАХ!@"
 	text_end
 
 _CopycatsHouse2FCopycatTM31Explanation2Text::
-	text "<PLAYER>: Hi!"
-	line "Thanks for TM31!"
+	text "<PLAYER>: Привіт!"
+	line "Дякую за ТМ31!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: Прошу?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: Чи це"
+	line "так весело —"
+	cont "імітувати кожен"
+	cont "мій рух?"
 
-	para "COPYCAT: You bet!"
-	line "It's a scream!"
+	para "ІМІТАТОРКА: Ще б!"
+	line "Це ж потіха!"
 	done
 
 _CopycatsHouse2FCopycatTM31NoRoomText::
-	text "Don't you want"
-	line "this?@"
+	text "Хіба ти не"
+	line "хочеш це?@"
 	text_end
 
 _CopycatsHouse2FDoduoText::
-	text "DODUO: Giiih!"
+	text "ДОДУО: Гіііх!"
 
-	para "MIRROR MIRROR ON"
-	line "THE WALL, WHO IS"
-	cont "THE FAIREST ONE"
-	cont "OF ALL?"
+	para "СВІТ МІЙ, ДЗЕР-"
+	line "КАЛЬЦЕ, СКАЖИ,"
+	cont "ХТО У СВІТІ"
+	cont "НАЙМИЛІШИЙ?"
 	done
 
 _CopycatsHouse2FRareDollText::
-	text "This is a rare"
-	line "#MON! Huh?"
-	cont "It's only a doll!"
+	text "Це рідкісний"
+	line "ПОК'еМОН! Га?"
+	cont "Це лише лялька!"
 	done
 
 _CopycatsHouse2FSNESText::
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "Гра з МАРІО, де"
+	line "у нього відро"
+	cont "на голові!"
 	done
 
 _CopycatsHouse2FPCMySecretsText::
 	text "..."
 
-	para "My Secrets!"
+	para "Мої секрети!"
 
-	para "Skill: Mimicry!"
-	line "Hobby: Collecting"
-	cont "dolls!"
-	cont "Favorite #MON:"
-	cont "CLEFAIRY!"
+	para "Вміння: Імітація"
+	line "Хобі: Колекція"
+	cont "ляльок!"
+	cont "Любий ПОК'еМОН:"
+	cont "КЛЕФЕЙРІ!"
 	done
 
 _CopycatsHouse2FPCCantSeeText::
-	text "Huh? Can't see!"
+	text "Га? Не бачу!"
 	done

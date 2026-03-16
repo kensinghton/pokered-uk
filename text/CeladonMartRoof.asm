@@ -1,21 +1,21 @@
 _CeladonMartRoofLittleGirlGiveHerWhichDrinkText::
-	text "Give her which"
-	line "drink?"
+	text "Який напій"
+	line "їй дати?"
 	done
 
 _CeladonMartRoofLittleGirlYayFreshWaterText::
-	text "Yay!"
+	text "Ура!"
 
-	para "FRESH WATER!"
+	para "СВІЖА ВОДА!"
 
-	para "Thank you!"
+	para "Дякую!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Візьми це від"
+	line "мене!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM13Text::
-	text "<PLAYER> received"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -26,26 +26,26 @@ _CeladonMartRoofLittleGirlTM13ExplanationText::
 
 	para "@"
 	text_ram wStringBuffer
-	text " contains"
-	line "ICE BEAM!"
+	text " містить"
+	line "КРИЖАНИЙ ПРОМІНЬ!"
 
-	para "It can freeze the"
-	line "target sometimes!@"
+	para "Він іноді може"
+	line "заморозити ціль!@"
 	text_end
 
 _CeladonMartRoofLittleGirlYaySodaPopText::
-	text "Yay!"
+	text "Ура!"
 
-	para "SODA POP!"
+	para "ГАЗОВКА!"
 
-	para "Thank you!"
+	para "Дякую!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Візьми це від"
+	line "мене!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM48Text::
-	text "<PLAYER> received"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -56,97 +56,98 @@ _CeladonMartRoofLittleGirlTM48ExplanationText::
 
 	para "@"
 	text_ram wStringBuffer
-	text " contains"
-	line "ROCK SLIDE!"
+	text " містить"
+	line "КАМЕНЕПАД!"
 
-	para "It can spook the"
-	line "target sometimes!@"
+	para "Він іноді може"
+	line "налякати ціль!@"
 	text_end
 
 _CeladonMartRoofLittleGirlYayLemonadeText::
-	text "Yay!"
+	text "Ура!"
 
-	para "LEMONADE!"
+	para "ЛИМОНАД!"
 
-	para "Thank you!"
+	para "Дякую!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Візьми це від"
+	line "мене!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM49Text::
-	text "<PLAYER> received"
-	line "TM49!@"
+	text "<PLAYER> отримує"
+	line "ТМ49!@"
 	text_end
 
 _CeladonMartRoofLittleGirlTM49ExplanationText::
 	text_start
 
-	para "TM49 contains"
-	line "TRI ATTACK!@"
+	para "ТМ49 містить"
+	line "ПОТРІЙНУ АТАКУ!@"
 	text_end
 
 _CeladonMartRoofLittleGirlNoRoomText::
-	text "You don't have"
-	line "space for this!@"
+	text "У тебе немає"
+	line "місця для цього!@"
 	text_end
 
 _CeladonMartRoofLittleGirlImNotThirstyText::
-	text "No thank you!"
-	line "I'm not thirsty"
-	cont "after all!@"
+	text "Ні, дякую!"
+	line "Я вже не хочу"
+	cont "пити!@"
 	text_end
 
 _CeladonMartRoofSuperNerdText::
-	text "My sister is a"
-	line "trainer, believe"
-	cont "it or not."
+	text "Моя сестра —"
+	line "ТРЕНЕР, віриш"
+	cont "чи ні."
 
-	para "But, she's so"
-	line "immature, she"
-	cont "drives me nuts!"
+	para "Але вона така"
+	line "мала, що аж"
+	cont "бісить мене!"
 	done
 
 _CeladonMartRoofLittleGirlImThirstyText::
-	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	text "Я хочу пити!"
+	line "Я хочу щось"
+	cont "випити!"
 	done
 
 _CeladonMartRoofLittleGirlGiveHerADrinkText::
-	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	text "Я хочу пити!"
+	line "Я хочу щось"
+	cont "випити!"
 
-	para "Give her a drink?"
+	para "Дати їй пити?"
 	done
 
 _CeladonMartRoofCurrentFloorSignText::
-	text "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	text "ПЛОЩА НА ДАХУ:"
+	line "АВТОМАТИ"
 	done
 
 _VendingMachineText1::
-	text "A vending machine!"
-	line "Here's the menu!"
+	text "Автомат!"
+	line "Ось меню!"
 	prompt
 
 _VendingMachineText4::
-	text "Oops, not enough"
-	line "money!"
+	text "Ой, бракує"
+	line "ієн!"
 	done
 
 _VendingMachineText5::
 	text_ram wStringBuffer
 	text_start
-	line "popped out!"
-	done
+	line "випало!@"
+	text_end
 
 _VendingMachineText6::
-	text "There's no more"
-	line "room for stuff!"
+	text "Більше немає"
+	line "місця для"
+	cont "речей!"
 	done
 
 _VendingMachineText7::
-	text "Not thirsty!"
+	text "Не хочу пити!"
 	done

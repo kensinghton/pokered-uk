@@ -1,97 +1,100 @@
 _CeruleanBadgeHouseMiddleAgedManText::
-	text "#MON BADGEs"
-	line "are owned only by"
-	cont "skilled trainers."
+	text "Значки покемонів"
+	line "мають лише"
+	cont "вправні тренери."
 
-	para "I see you have"
-	line "at least one."
+	para "Я бачу, що у вас"
+	line "є принаймні один."
 
-	para "Those BADGEs have"
-	line "amazing secrets!"
+	para "Ці значки мають"
+	line "дивовижні секрети!"
 	prompt
 
 _CeruleanBadgeHouseMiddleAgedManWhichBadgeText::
-	text "Now then..."
+	text "А тепер..."
 
-	para "Which of the 8"
-	line "BADGEs should I"
-	cont "describe?"
+	para "Про який із 8"
+	line "значків мені"
+	cont "розповісти?"
 	done
 
 _CeruleanBadgeHouseMiddleAgedManVisitAnyTimeText::
-	text "Come visit me any"
-	line "time you wish."
+	text "Приходьте до мене"
+	line "в будь-який час."
 	done
 
 _CeruleanBadgeHouseBoulderBadgeText::
-	text "The ATTACK of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Атака всіх"
+	line "покемонів трохи"
+	cont "збільшується."
 
-	para "It also lets you"
-	line "use FLASH any"
-	cont "time you desire."
+	para "Це також дозволяє"
+	line "використовувати"
+	cont "СПАЛАХ будь-коли."
 	prompt
 
 _CeruleanBadgeHouseCascadeBadgeText::
-	text "#MON up to L30"
-	line "will obey you."
+	text "Покемони до 30"
+	line "рівня будуть вас"
+	cont "слухатися."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Вище — вони стають"
+	line "некерованими!"
 
-	para "It also lets you"
-	line "use CUT outside"
-	cont "of battle."
+	para "Це також дозволяє"
+	line "використовувати"
+	cont "РІЗАННЯ поза боєм."
 	prompt
 
 _CeruleanBadgeHouseThunderBadgeText::
-	text "The SPEED of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Швидкість всіх"
+	line "покемонів трохи"
+	cont "збільшується."
 
-	para "It also lets you"
-	line "use FLY outside"
-	cont "of battle."
+	para "Це також дозволяє"
+	line "використовувати"
+	cont "ПОЛІТ поза боєм."
 	prompt
 
 _CeruleanBadgeHouseRainbowBadgeText::
-	text "#MON up to L50"
-	line "will obey you."
+	text "Покемони до 50"
+	line "рівня будуть вас"
+	cont "слухатися."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Вище — вони стають"
+	line "некерованими!"
 
-	para "It also lets you"
-	line "use STRENGTH out-"
-	cont "side of battle."
+	para "Це також дозволяє"
+	line "використовувати"
+	cont "СИЛУ поза боєм."
 	prompt
 
 _CeruleanBadgeHouseSoulBadgeText::
-	text "The DEFENSE of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Захист всіх"
+	line "покемонів трохи"
+	cont "збільшується."
 
-	para "It also lets you"
-	line "use SURF outside"
-	cont "of battle."
+	para "Це також дозволяє"
+	line "використовувати"
+	cont "СЕРФІНГ поза боєм."
 	prompt
 
 _CeruleanBadgeHouseMarshBadgeText::
-	text "#MON up to L70"
-	line "will obey you."
+	text "Покемони до 70"
+	line "рівня будуть вас"
+	cont "слухатися."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Вище — вони стають"
+	line "некерованими!"
 	prompt
 
 _CeruleanBadgeHouseVolcanoBadgeText::
-	text "Your #MON's"
-	line "SPECIAL abilities"
-	cont "increase a bit."
+	text "Спеціальні навички"
+	line "ваших покемонів"
+	cont "трохи зростають."
 	prompt
 
 _CeruleanBadgeHouseEarthBadgeText::
-	text "All #MON will"
-	line "obey you!"
+	text "Усі покемони будуть"
+	line "вас слухатися!"
 	prompt

@@ -1,62 +1,64 @@
 _DaycareGentlemanIntroText::
-	text "I run a DAYCARE."
-	line "Would you like me"
-	cont "to raise one of"
-	cont "your #MON?"
+	text "Я тримаю БУДИНОК"
+	line "ДОГЛЯДУ. Хочеш,"
+	cont "щоб я виховав"
+	cont "твого ПОК'еМОНА?"
 	done
 
 _DaycareGentlemanWhichMonText::
-	text "Which #MON"
-	line "should I raise?"
+	text "Якого ПОК'еМОНА"
+	line "мені виховати?"
 	prompt
 
 _DaycareGentlemanWillLookAfterMonText::
-	text "Fine, I'll look"
-	line "after @"
+	text "Добре, я погляну"
+	line "за @"
 	text_ram wNameBuffer
 	text_start
-	cont "for a while."
+	cont "деякий час."
 	prompt
 
 _DaycareGentlemanComeSeeMeInAWhileText::
-	text "Come see me in"
-	line "a while."
+	text "Заходь до мене"
+	line "згодом."
 	done
 
 _DaycareGentlemanMonHasGrownText::
-	text "Your @"
+	text "Твій @"
 	text_ram wNameBuffer
 	text_start
-	line "has grown a lot!"
+	line "добре підріс!"
 
-	para "By level, it's"
-	line "grown by @"
+	para "Він піднявся на"
+	line "@"
 	text_decimal wDayCareNumLevelsGrown, 1, 3
-	text "!"
+	text " рівн.!"
 
-	para "Aren't I great?"
+	para "Хіба я не"
+	line "молодець?"
 	prompt
 
 _DaycareGentlemanOweMoneyText::
-	text "You owe me ¥@"
+	text "Ти винен мені"
+	line "¥@"
 	text_bcd wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for the return"
-	cont "of this #MON."
+	line "за повернення"
+	cont "цього ПОК'еМОНА."
 	done
 
 _DaycareGentlemanGotMonBackText::
-	text "<PLAYER> got"
+	text "<PLAYER> забирає"
 	line "@"
 	text_ram wDayCareMonName
-	text " back!"
+	text " назад!"
 	done
 
 _DaycareGentlemanMonNeedsMoreTimeText::
-	text "Back already?"
-	line "Your @"
+	text "Вже повернувся?"
+	line "Твоєму @"
 	text_ram wNameBuffer
 	text_start
-	cont "needs some more"
-	cont "time with me."
+	cont "треба ще побути"
+	cont "зі мною."
 	prompt

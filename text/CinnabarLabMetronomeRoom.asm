@@ -1,64 +1,68 @@
 _CinnabarLabMetronomeRoomScientist1Text::
-	text "Tch-tch-tch!"
-	line "I made a cool TM!"
+	text "Тік-тік-тік!"
+	line "Я зробив круту"
+	cont "ТМ!"
 
-	para "It can cause all"
-	line "kinds of fun!"
+	para "Вона створює"
+	line "багато забав!"
 	prompt
 
 _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
-	text "<PLAYER> received "
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
-	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a METRONOME!"
+	text "Тік-тік-тік!"
+	line "Це звук"
+	cont "МЕТРОНОМА!"
 
-	para "It tweaks your"
-	line "#MON's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
+	para "Він стимулює"
+	line "мозок ПОК'еМОНА"
+	cont "вживати неві-"
+	cont "домі йому ходи!"
 	done
 
 _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
-	text "Your pack is"
-	line "crammed full!"
+	text "Твоя сумка"
+	line "набита вщерть!"
 	done
 
 _CinnabarLabMetronomeRoomScientist2Text::
-	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
-	cont "of #MON."
+	text "ІВІ може ево-"
+	line "люціонувати в"
+	cont "1 з 3 видів"
+	cont "ПОК'еМОНІВ."
 	done
 
 _CinnabarLabMetronomeRoomPCText::
-	text "There's an e-mail"
-	line "message!"
+	text "Тут електронне"
+	line "повідомлення!"
 
 	para "..."
 
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
+	para "3 легендарні"
+	line "птахи ПОК'еМОНИ"
+	cont "це АРТІКУНО,"
+	cont "ЗАПДОС та"
+	cont "МОЛТРЕС."
 
-	para "Their whereabouts"
-	line "are unknown."
+	para "Їх місцезнахо-"
+	line "дження невідоме."
 
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to CERULEAN."
+	para "Ми плануємо"
+	line "дослідити печеру"
+	cont "біля СЕРУЛІНА."
 
-	para "From: #MON"
-	line "RESEARCH TEAM"
+	para "Від: ГРУПА ДОС-"
+	line "ЛІДНИКІВ ПОК'еМОН"
 
 	para "..."
 	done
 
 _CinnabarLabMetronomeRoomAmberPipeText::
-	text "An amber pipe!"
+	text "Бурштинова"
+	line "люлька!"
 	done

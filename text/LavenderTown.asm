@@ -1,64 +1,66 @@
 _LavenderTownLittleGirlDoYouBelieveInGhostsText::
-	text "Do you believe in"
-	line "GHOSTs?"
+	text "Ти віриш у"
+	line "ПРИВИДІВ?"
 	done
 
 _LavenderTownLittleGirlSoThereAreBelieversText::
-	text "Really? So there"
-	line "are believers..."
+	text "Справді? Значить,"
+	line "віруючі є..."
 	done
 
 _LavenderTownLittleGirlHaHaGuessNotText::
-	text "Hahaha, I guess"
-	line "not."
+	text "Ха-ха-ха, мабуть,"
+	line "ні."
 
-	para "That white hand"
-	line "on your shoulder,"
-	cont "it's not real."
+	para "Та біла рука"
+	line "на твоєму плечі,"
+	cont "вона несправжня."
 	done
 
 _LavenderTownCooltrainerMText::
-	text "This town is known"
-	line "as the grave site"
-	cont "of #MON."
+	text "Це місто відоме"
+	line "як місце спокою"
+	cont "ПОК'еМОНІВ."
 
-	para "Memorial services"
-	line "are held in"
-	cont "#MON TOWER."
+	para "Поминальні служби"
+	line "проводяться у"
+	cont "ВЕЖІ ПОК'еМОН."
 	done
 
 _LavenderTownSuperNerdText::
-	text "GHOSTs appeared"
-	line "in #MON TOWER."
+	text "У ВЕЖІ ПОК'еМОН"
+	line "з'явилися"
+	cont "ПРИВИДИ."
 
-	para "I think they're"
-	line "the spirits of"
-	cont "#MON that the"
-	cont "ROCKETs killed."
+	para "Думаю, це душі"
+	line "ПОК'еМОНІВ, яких"
+	cont "вбили РОКЕТИ."
 	done
 
 _LavenderTownSignText::
-	text "LAVENDER TOWN"
-	line "The Noble Purple"
-	cont "Town"
+	text "ЛАВАНДОВЕ МІСТО"
+	line "Шляхетне"
+	cont "Пурпурове Місто"
 	done
 
 _LavenderTownSilphScopeSignText::
-	text "New SILPH SCOPE!"
+	text "Новий"
+	line "СІЛФ-ОКУЛЯР!"
 
-	para "Make the Invisible"
-	line "Plain to See!"
+	para "Зроби невидиме"
+	line "видимим!"
 
-	para "SILPH CO."
+	para "КОМПАНІЯ СІЛФ"
 	done
 
 _LavenderTownPokemonHouseSignText::
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "БУДИНОК"
+	line "ВОЛОНТЕРІВ"
+	cont "ПОК'еМОН"
 	done
 
 _LavenderTownPokemonTowerSignText::
-	text "May the Souls of"
-	line "#MON Rest Easy"
-	cont "#MON TOWER"
+	text "Хай спочинуть"
+	line "душі ПОК'еМОНІВ"
+	cont "ВЕЖА ПОК'еМОН"
 	done

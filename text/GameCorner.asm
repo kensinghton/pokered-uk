@@ -1,190 +1,199 @@
 _GameCornerBeauty1Text::
-	text "Welcome!"
+	text "Вітаємо!"
 
-	para "You can exchange"
-	line "your coins for"
-	cont "fabulous prizes"
-	cont "next door."
+	para "Ти можеш обміняти"
+	line "свої монети на"
+	cont "чудові призи"
+	cont "по сусідству."
 	done
 
 _GameCornerClerk1DoYouNeedSomeGameCoinsText::
-	text "Welcome to ROCKET"
-	line "GAME CORNER!"
+	text "Вітаємо в куточку"
+	line "ігор РОКЕТ!"
 
-	para "Do you need some"
-	line "game coins?"
+	para "Тобі потрібні"
+	line "ігрові монети?"
 
-	para "It's ¥1000 for 50"
-	line "coins. Would you"
-	cont "like some?"
+	para "Це ¥1000 за 50"
+	line "монет. Бажаєш"
+	cont "трохи?"
 	done
 
 _GameCornerClerk1ThanksHereAre50CoinsText::
-	text "Thanks! Here are"
-	line "your 50 coins!"
+	text "Дякуємо! Ось"
+	line "твої 50 монет!"
 	done
 
 _GameCornerClerk1PleaseComePlaySometimeText::
-	text "No? Please come"
-	line "play sometime!"
+	text "Ні? Що ж, заходь"
+	line "пограти іншим"
+	cont "разом!"
 	done
 
 _GameCornerClerk1CantAffordTheCoinsText::
-	text "You can't afford"
-	line "the coins!"
+	text "У тебе не"
+	line "вистачає грошей!"
 	done
 
 _GameCornerClerk1CoinCaseIsFullText::
-	text "Oops! Your COIN"
-	line "CASE is full."
+	text "Ой! Твій ФУТЛЯР"
+	line "ДЛЯ МОНЕТ повний."
 	done
 
 _GameCornerClerk1DontHaveCoinCaseText::
-	text "You don't have a"
-	line "COIN CASE!"
+	text "У тебе немає"
+	line "ФУТЛЯРА ДЛЯ"
+	cont "МОНЕТ!"
 	done
 
 _GameCornerMiddleAgedMan1Text::
-	text "Keep this quiet."
+	text "Тільки тихо."
 
-	para "It's rumored that"
-	line "this place is run"
-	cont "by TEAM ROCKET."
+	para "Кажуть, що цим"
+	line "місцем керує"
+	cont "КОМАНДА РОКЕТ."
 	done
 
 _GameCornerBeauty2Text::
-	text "I think these"
-	line "machines have"
-	cont "different odds."
+	text "Мені здається,"
+	line "у цих автоматів"
+	cont "різні шанси."
 	done
 
 _GameCornerFishingGuruWantToPlayText::
-	text "Kid, do you want"
-	line "to play?"
+	text "Малий, хочеш"
+	line "пограти?"
 	prompt
 
 _GameCornerFishingGuruReceived10CoinsText::
-	text "<PLAYER> received"
-	line "10 coins!@"
+	text "<PLAYER> отримує"
+	line "10 монет!@"
 	text_end
 
 _GameCornerFishingGuruDontNeedMyCoinsText::
-	text "You don't need my"
-	line "coins!"
+	text "Тобі не потрібні"
+	line "мої монети!"
 	done
 
 _GameCornerFishingGuruWinsComeAndGoText::
-	text "Wins seem to come"
-	line "and go."
+	text "Перемоги то"
+	line "приходять, то"
+	cont "йдуть."
 	done
 
 _GameCornerMiddleAgedWomanText::
-	text "I'm having a"
-	line "wonderful time!"
+	text "Я чудово"
+	line "проводжу час!"
 	done
 
 _GameCornerGymGuideChampInMakingText::
-	text "Hey!"
+	text "Гей!"
 
-	para "You have better"
-	line "things to do,"
-	cont "champ in making!"
+	para "У тебе є справи"
+	line "важливіші,"
+	cont "майбутній чемпе!"
 
-	para "CELADON GYM's"
-	line "LEADER is ERIKA!"
-	cont "She uses grass-"
-	cont "type #MON!"
+	para "ЛІДЕР ЗАЛУ"
+	line "СЕЛАДОНА — ЕРІКА!"
+	cont "Вона вживає"
+	cont "трав'яних"
+	cont "ПОК'еМОНІВ!"
 
-	para "She might appear"
-	line "docile, but don't"
-	cont "be fooled!"
+	para "Вона здається"
+	line "покірною, але не"
+	cont "дай себе надурити!"
 	done
 
 _GameCornerGymGuideTheyOfferRarePokemonText::
-	text "They offer rare"
-	line "#MON that can"
-	cont "be exchanged for"
-	cont "your coins."
+	text "Тут пропонують"
+	line "рідкісних"
+	cont "ПОК'еМОНІВ за"
+	cont "твої монети."
 
-	para "But, I just can't"
-	line "seem to win!"
+	para "Але я ніяк не"
+	line "можу виграти!"
 	done
 
 _GameCornerGamblerText::
-	text "Games are scary!"
-	line "It's so easy to"
-	cont "get hooked!"
+	text "Ігри — це лячно!"
+	line "Так легко"
+	cont "підсісти!"
 	done
 
 _GameCornerClerk2WantSomeCoinsText::
-	text "What's up? Want"
-	line "some coins?"
+	text "Як справи? Хочеш"
+	line "трохи монет?"
 	prompt
 
 _GameCornerClerk2Received20CoinsText::
-	text "<PLAYER> received"
-	line "20 coins!@"
+	text "<PLAYER> отримує"
+	line "20 монет!@"
 	text_end
 
 _GameCornerClerk2YouHaveLotsOfCoinsText::
-	text "You have lots of"
-	line "coins!"
+	text "У тебе і так"
+	line "багато монет!"
 	done
 
 _GameCornerClerk2INeedMoreCoinsText::
-	text "Darn! I need more"
-	line "coins for the"
-	cont "#MON I want!"
+	text "Дідько! Мені"
+	line "треба ще монет"
+	cont "на ПОК'еМОНА,"
+	cont "якого я хочу!"
 	done
 
 _GameCornerGentlemanThrowingMeOffText::
-	text "Hey, what? You're"
-	line "throwing me off!"
-	cont "Here are some"
-	cont "coins, shoo!"
+	text "Гей, що? Ти мене"
+	line "збиваєш! Ось,"
+	cont "візьми монети"
+	cont "і йди собі!"
 	prompt
 
 _GameCornerGentlemanReceived20CoinsText::
-	text "<PLAYER> received"
-	line "20 coins!@"
+	text "<PLAYER> отримує"
+	line "20 монет!@"
 	text_end
 
 _GameCornerGentlemanYouGotYourOwnCoinsText::
-	text "You've got your"
-	line "own coins!"
+	text "У тебе є власні"
+	line "монети!"
 	done
 
 _GameCornerGentlemanCloselyWatchTheReelsText::
-	text "The trick is to"
-	line "watch the reels"
-	cont "closely!"
+	text "Секрет у тому,"
+	line "щоб пильно"
+	cont "стежити за"
+	cont "барабанами!"
 	done
 
 _GameCornerRocketImGuardingThisPosterText::
-	text "I'm guarding this"
-	line "poster!"
-	cont "Go away, or else!"
+	text "Я охороняю цей"
+	line "плакат! Йди"
+	cont "геть, бо буде"
+	cont "зле!"
 	done
 
 _GameCornerRocketBattleEndText::
-	text "Dang!"
+	text "Дідько!"
 	prompt
 
 _GameCornerRocketAfterBattleText::
-	text "Our hideout might"
-	line "be discovered! I"
-	cont "better tell BOSS!"
+	text "Наше сховище"
+	line "можуть викрити!"
+	cont "Треба сказати"
+	cont "БОСУ!"
 	done
 
 _GameCornerPosterSwitchBehindPosterText::
-	text "Hey!"
+	text "Гей!"
 
-	para "A switch behind"
-	line "the poster!?"
-	cont "Let's push it!@"
+	para "Вимикач за"
+	line "плакатом!?"
+	cont "Натиснімо!@"
 	text_end
 
 _GameCornerOopsForgotCoinCaseText::
-	text "Oops! Forgot the"
-	line "COIN CASE!"
+	text "Ой! Забув свій"
+	line "ФУТЛЯР ДЛЯ"
+	cont "МОНЕТ!"
 	done

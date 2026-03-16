@@ -1,146 +1,158 @@
 _ChampionsRoomRivalIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Гей!"
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, <PLAYER>!"
+	para "Я з нетерпінням"
+	line "чекав на тебе,"
+	cont "<PLAYER>!"
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
+	para "Мій суперник"
+	line "має бути дужим,"
+	cont "щоб я був"
+	cont "напоготові!"
 
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
+	para "Поки я збирав"
+	line "ПОК'еДЕКС, я"
+	cont "шукав усюди"
+	cont "сильних"
+	cont "ПОК'еМОНІВ!"
 
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
+	para "І не тільки! Я"
+	line "зібрав склад,"
+	cont "що здолає"
+	cont "будь-який тип"
+	cont "ПОК'еМОНІВ!"
 
-	para "And now!"
+	para "І ось тепер!"
 
-	para "I'm the #MON"
-	line "LEAGUE champion!"
+	para "Я — ЧЕМПІОН"
+	line "ЛІГИ ПОК'еМОН!"
 
-	para "<PLAYER>! Do you"
-	line "know what that"
-	cont "means?"
+	para "<PLAYER>! Ти"
+	line "знаєш, що це"
+	cont "означає?"
 
-	para "I'll tell you!"
+	para "Я скажу тобі!"
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "Я найсильніший"
+	line "ТРЕНЕР у"
+	cont "цьому світі!"
 	done
 
 _RivalDefeatedText::
-	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	text "НІ!"
+	line "Це неможливо!"
+	cont "Ти здолав моїх"
+	cont "найкращих!"
 
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
+	para "Після всієї"
+	line "цієї праці,"
+	cont "щоб стати"
+	cont "ЧЕМПІОНОМ ЛІГИ?"
 
-	para "My reign is over"
-	line "already?"
-	cont "It's not fair!"
+	para "Моє панування"
+	line "вже скінчилося?"
+	cont "Це несправедливо!"
 	prompt
 
 _RivalVictoryText::
-	text "Hahaha!"
-	line "I won, I won!"
+	text "Ха-ха-ха!"
+	line "Я виграв!"
 
-	para "I'm too good for"
-	line "you, <PLAYER>!"
+	para "Я занадто"
+	line "гарний для"
+	cont "тебе, <PLAYER>!"
 
-	para "You did well to"
-	line "even reach me,"
-	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	para "Ти молодець,"
+	line "що дійшов до"
+	cont "мене, генія"
+	cont "ПОК'еМОНІВ!"
 
-	para "Nice try, loser!"
-	line "Hahaha!"
+	para "Гарна спроба,"
+	line "невдахо!"
+	cont "Ха-ха-ха!"
 	prompt
 
 _ChampionsRoomRivalAfterBattleText::
-	text "Why?"
-	line "Why did I lose?"
+	text "Чому?"
+	line "Чому я програв?"
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "Я не робив"
+	line "помилок при"
+	cont "вихованні"
+	cont "ПОК'еМОНІВ..."
 
-	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
+	para "Дідько! Ти —"
+	line "новий ЧЕМПІОН"
+	cont "ЛІГИ ПОК'еМОН!"
 
-	para "Although I don't"
-	line "like to admit it."
+	para "Хоч я і не"
+	line "хочу цього"
+	cont "визнавати."
 	done
 
 _ChampionsRoomOakText::
-	text "OAK: <PLAYER>!"
+	text "ОАК: <PLAYER>!"
 	done
 
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
-	cont "champion!"
+	text "ОАК: Отже, ти"
+	line "виграв! Мої"
+	cont "вітання! Ти"
+	cont "новий ЧЕМПІОН"
+	cont "ЛІГИ ПОК'еМОН!"
 
-	para "You've grown up so"
-	line "much since you"
-	cont "first left with"
+	para "Ти так виріс із"
+	line "того часу, як"
+	cont "вирушив разом з"
 	cont "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "<PLAYER>, you have"
-	line "come of age!"
+	para "<PLAYER>, ти"
+	line "став дорослим!"
 	done
 
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
-	line "disappointed!"
+	text "ОАК: <RIVAL>! Я"
+	line "розчарований!"
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
+	para "Я прийшов, як"
+	line "почув, що ти"
+	cont "здолав ЕЛІТНУ"
+	cont "ЧЕТВІРКУ!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "Але коли я"
+	line "прибув, ти вже"
+	cont "програв!"
 
-	para "<RIVAL>! Do you"
-	line "understand why"
-	cont "you lost?"
+	para "<RIVAL>! Чи ти"
+	line "розумієш, чому"
+	cont "програв?"
 
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
+	para "Ти забув,"
+	line "що до ПОК'еМОН"
+	cont "треба ставитись"
+	cont "з довірою та"
+	cont "любов'ю!"
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "Без них тобі"
+	line "вже ніколи не"
+	cont "бути ЧЕМПІОНОМ!"
 	done
 
 _ChampionsRoomOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "ОАК: <PLAYER>!"
 
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
+	para "Ти розумієш,"
+	line "що ця перемога"
+	cont "не лише твоя"
+	cont "заслуга!"
 
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
+	para "Зв'язок, який"
+	line "у вас із вашими"
+	cont "ПОК'еМОНАМИ —"
+	cont "дивовижний!"
 
 	para "<PLAYER>!"
-	line "Come with me!"
+	line "Йди зі мною!"
 	done

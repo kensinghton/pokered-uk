@@ -1,133 +1,139 @@
 _CeruleanGymMistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
+	text "Привіт, нове"
+	line "обличчя!"
 
-	para "Trainers who want"
-	line "to turn pro have"
-	cont "to have a policy"
-	cont "about #MON!"
+	para "ТРЕНЕРИ, які"
+	line "хочуть стати"
+	cont "профі, повинні"
+	cont "мати підхід до"
+	cont "ПОК'еМОНІВ!"
 
-	para "What is your"
-	line "approach when you"
-	cont "catch #MON?"
+	para "Який твій підхід,"
+	line "коли ти ловиш"
+	cont "ПОК'еМОНІВ?"
 
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
-	cont "#MON!"
+	para "Мій метод — це"
+	line "повний наступ"
+	cont "водними"
+	cont "ПОК'еМОНАМИ!"
 	done
 
 _CeruleanGymMistyTM11ExplanationText::
-	text "TM11 teaches"
-	line "BUBBLEBEAM!"
+	text "ТМ11 навчає"
+	line "БУЛЬБА-ПРОМЕНЮ!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "Вживай його на"
+	line "водному"
+	cont "ПОК'еМОНІ!"
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
+	text "КАСКАДНИЙ ЗНАЧОК"
+	line "змушує всіх"
+	cont "ПОК'еМОН до Р30"
+	cont "слухатись!"
 
-	para "That includes"
-	line "even outsiders!"
+	para "Це стосується"
+	line "навіть чужаків!"
 
-	para "There's more, you"
-	line "can now use CUT"
-	cont "any time!"
+	para "А ще ти тепер"
+	line "можеш вживати"
+	cont "РІЗАННЯ завжди!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
+	para "Ти можеш РІЗАТИ"
+	line "малі кущі,"
+	cont "щоб відкрити"
+	cont "нові шляхи!"
 
-	para "You can also have"
-	line "my favorite TM!"
+	para "Також тримай"
+	line "мою улюблену ТМ!"
 	done
 
 _CeruleanGymMistyReceivedTM11Text::
-	text "<PLAYER> received"
-	line "TM11!@"
+	text "<PLAYER> отримує"
+	line "ТМ11!@"
 	text_end
 
 _CeruleanGymMistyTM11NoRoomText::
-	text "You better make"
-	line "room for this!"
+	text "Тобі слід"
+	line "звільнити місце!"
 	done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::
-	text "Wow!"
-	line "You're too much!"
+	text "Ого!"
+	line "Ти занадто"
+	cont "сильний!"
 
-	para "All right!"
+	para "Добре!"
 
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!@"
+	para "Бери КАСКАДНИЙ"
+	line "ЗНАЧОК на доказ"
+	cont "перемоги!@"
 	text_end
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "Мене тобі"
+	line "буде цілком"
+	cont "достатньо!"
 
-	para "MISTY can wait!"
+	para "МІСТІ може"
+	line "почекати!"
 	done
 
 _CeruleanGymEndBattleText1::
-	text "You"
-	line "overwhelmed me!"
+	text "Ти мене"
+	line "приголомшив!"
 	prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "Тобі слід бити-"
+	line "ся з іншими,"
+	cont "щоб пізнати"
+	cont "свою силу."
 	done
 
 _CeruleanGymBattleText2::
-	text "Splash!"
+	text "Плюсь!"
 
-	para "I'm first up!"
-	line "Let's do it!"
+	para "Я перша!"
+	line "Нумо до бою!"
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text "Це неможливо!"
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
+	text "МІСТІ й далі"
+	line "ставатиме краще!"
 
-	para "She won't lose to"
-	line "someone like you!"
+	para "Вона не програє"
+	line "такому, як ти!"
 	done
 
 _CeruleanGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Йо! Майбутній"
+	line "чемпіоне!"
 
-	para "Here's my advice!"
+	para "Ось моя порада!"
 
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
+	para "ЛІДЕР МІСТІ —"
+	line "профі з водних"
+	cont "ПОК'еМОНІВ!"
 
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
+	para "Ти можеш висуши-"
+	line "ти їх трав'яними"
+	cont "ПОК'еМОНАМИ!"
 
-	para "Or, zap them with"
-	line "electricity!"
+	para "Або вдар їх"
+	line "електрикою!"
 	done
 
 _CeruleanGymGymGuideBeatMistyText::
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
+	text "Ти здолав МІСТІ!"
+	line "Що я казав?"
 
-	para "You and me kid,"
-	line "we make a pretty"
-	cont "darn good team!"
+	para "Ми з тобою,"
+	line "малий, чудова"
+	cont "команда!"
 	done

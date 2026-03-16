@@ -1,130 +1,133 @@
 _FightingDojoKarateMasterText::
-	text "Grunt!"
+	text "Грр-а!"
 
-	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
+	para "Я МАЙСТЕР"
+	line "КАРАТЕ! Я тут"
+	cont "ГОЛОВНИЙ!"
 
-	para "You wish to"
-	line "challenge us?"
-	cont "Expect no mercy!"
+	para "Хочеш кинути"
+	line "нам виклик?"
+	cont "Не чекай на"
+	cont "милість!"
 
-	para "Fwaaa!"
+	para "Фва-а-а!"
 	done
 
 _FightingDojoKarateMasterDefeatedText::
-	text "Hwa!"
-	line "Arrgh! Beaten!"
+	text "Хва!"
+	line "А-а-грх! Бит!"
 	prompt
 
 _FightingDojoKarateMasterIWillGiveYouAPokemonText::
-	text "Indeed, I have"
-	line "lost!"
+	text "І справді,"
+	line "я програв!"
 
-	para "But, I beseech"
-	line "you, do not take"
-	cont "our emblem as"
-	cont "your trophy!"
+	para "Благаю тебе,"
+	line "не забирай нашу"
+	cont "емблему як"
+	cont "свій трофей!"
 
-	para "In return, I will"
-	line "give you a prized"
-	cont "fighting #MON!"
+	para "Натомість я дам"
+	line "тобі цінного"
+	cont "бойового"
+	cont "ПОК'еМОНА!"
 
-	para "Choose whichever"
-	line "one you like!"
+	para "Обирай будь-яко-"
+	line "го до смаку!"
 	done
 
 _FightingDojoKarateMasterStayAndTrainWithUsText::
-	text "Ho!"
+	text "Хо!"
 
-	para "Stay and train at"
-	line "Karate with us!"
+	para "Лишайся та"
+	line "вчай карате"
+	cont "разом з нами!"
 	done
 
 _FightingDojoBlackbelt1BattleText::
-	text "Hoargh! Take your"
-	line "shoes off!"
+	text "Хо-арх! Мерщій"
+	line "скидай взуття!"
 	done
 
 _FightingDojoBlackbelt1EndBattleText::
-	text "I give"
-	line "up!"
+	text "Я здаюся!"
 	prompt
 
 _FightingDojoBlackbelt1AfterBattleText::
-	text "You wait 'til you"
-	line "see our Master!"
+	text "Почекай, поки"
+	line "побачиш Майстра!"
 
-	para "I'm a small fry"
-	line "compared to him!"
+	para "Я дрібнота"
+	line "порівняно з ним!"
 	done
 
 _FightingDojoBlackbelt2BattleText::
-	text "I hear you're"
-	line "good! Show me!"
+	text "Кажуть, ти"
+	line "сильний! Покажи!"
 	done
 
 _FightingDojoBlackbelt2EndBattleText::
-	text "Judge!"
-	line "1 point!"
+	text "Суддя!"
+	line "Одне очко!"
 	prompt
 
 _FightingDojoBlackbelt2AfterBattleText::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "Наш Майстер —"
+	line "боєць-профі!"
 	done
 
 _FightingDojoBlackbelt3BattleText::
-	text "Nothing tough"
-	line "frightens me!"
+	text "Мене не лякають"
+	line "труднощі!"
 
-	para "I break boulders"
-	line "for training!"
+	para "Я трощу скелі"
+	line "на тренуваннях!"
 	done
 
 _FightingDojoBlackbelt3EndBattleText::
-	text "Yow!"
-	line "Stubbed fingers!"
+	text "Ой! Пальці"
+	line "відбив!"
 	prompt
 
 _FightingDojoBlackbelt3AfterBattleText::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	text "Єдине, що нас"
+	line "лякає — це"
+	cont "психічна сила!"
 	done
 
 _FightingDojoBlackbelt4BattleText::
-	text "Hoohah!"
+	text "Хо-ха!"
 
-	para "You're trespassing"
-	line "in our FIGHTING"
-	cont "DOJO!"
+	para "Ти вдерся до"
+	line "нашого"
+	cont "БІЙЦІВСЬКОГО"
+	cont "ДОДЗЬО!"
 	done
 
 _FightingDojoBlackbelt4EndBattleText::
-	text "Oof!"
-	line "I give up!"
+	text "Ух!"
+	line "Я здаюся!"
 	prompt
 
 _FightingDojoBlackbelt4AfterBattleText::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "Найкращі бійці"
+	line "всієї країни"
+	cont "вчаться тут."
 	done
 
 _FightingDojoHitmonleePokeBallText::
-	text "You want the"
-	line "hard kicking"
-	cont "HITMONLEE?"
+	text "Хочеш обрати"
+	line "майстра ударів"
+	cont "ніг ХІТМОНЛІ?"
 	done
 
 _FightingDojoHitmonchanPokeBallText::
-	text "You want the"
-	line "piston punching"
-	cont "HITMONCHAN?"
+	text "Хочеш обрати"
+	line "майстра швидких"
+	cont "ударов ХІТМОНЧАН?"
 	done
 
 _FightingDojoBetterNotGetGreedyText::
-	text "Better not get"
-	line "greedy..."
+	text "Краще не"
+	line "жадібничати..."
 	done

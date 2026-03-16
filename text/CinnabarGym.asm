@@ -1,49 +1,50 @@
 _CinnabarGymBlainePreBattleText::
-	text "Hah!"
+	text "Ха!"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	para "Я БЛЕЙН! Я"
+	line "ЛІДЕР ЗАЛУ"
+	cont "ЦИННАБАРУ!"
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "Мої вогняні"
+	line "ПОК'еМОНИ"
+	cont "спалять усіх!"
 
-	para "Hah! You better"
-	line "have BURN HEAL!"
+	para "Ха! Краще май"
+	line "ЛІК ВІД ОПІКІВ!"
 	done
 
 _CinnabarGymBlaineReceivedVolcanoBadgeText::
-	text "I have"
-	line "burnt out!"
+	text "Я перегорів!"
 
-	para "You have earned"
-	line "the VOLCANOBADGE!@"
+	para "Ти здобув"
+	line "ВУЛКАНІЧНИЙ"
+	cont "ЗНАЧОК!@"
 	text_end
 
 _CinnabarGymBlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
+	text "ВОГНЕВИБУХ — це"
+	line "кращий прийом"
+	cont "стихії вогню!"
 
-	para "Don't waste it on"
-	line "water #MON!"
+	para "Не марнуй його"
+	line "на водних"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _CinnabarGymBlaineVolcanoBadgeInfoText::
-	text "Hah!"
+	text "Ха!"
 
-	para "The VOLCANOBADGE"
-	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
+	para "ВУЛКАНІЧНИЙ"
+	line "ЗНАЧОК посилює"
+	cont "ОСОБЛИВІ сили"
+	cont "твоїх ПОК'еМОН!"
 
-	para "Here, you can"
-	line "have this too!"
+	para "Ось, тримай ще"
+	line "і це!"
 	done
 
 _CinnabarGymBlaineReceivedTM38Text::
-	text "<PLAYER> received"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -52,161 +53,169 @@ _CinnabarGymBlaineReceivedTM38Text::
 _CinnabarGymBlaineTM38ExplanationText::
 	text_start
 
-	para "TM38 contains"
-	line "FIRE BLAST!"
+	para "ТМ38 містить"
+	line "ВОГНЕВИБУХ!"
 
-	para "Teach it to fire-"
-	line "type #MON!"
+	para "Навчи цього"
+	line "вогняних"
+	cont "ПОК'еМОНІВ!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "ЧАРМЕЛЕОН чи"
+	line "ПОНІТА — гарний"
+	cont "вибір!"
 	done
 
 _CinnabarGymBlaineTM38NoRoomText::
-	text "Make room for my"
-	line "gift!"
+	text "Звільни місце"
+	line "для дарунку!"
 	done
 
 _CinnabarGymSuperNerd1BattleText::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "Чи знаєш ти,"
+	line "яким палким є"
+	cont "подих істот?"
 	done
 
 _CinnabarGymSuperNerd1EndBattleText::
-	text "Yow!"
-	line "Hot, hot, hot!"
+	text "Ой! Гаряче,"
+	line "гаряче, палко!"
 	prompt
 
 _CinnabarGymSuperNerd1AfterBattleText::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
+	text "Вогонь, чи як"
+	line "кажуть точніше,"
+	cont "горіння..."
 
-	para "Blah, blah, blah,"
-	line "blah..."
+	para "Бла, бла, бла,"
+	line "бла..."
 	done
 
 _CinnabarGymSuperNerd2BattleText::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "Я був злодієм,"
+	line "та став чесним"
+	cont "ТРЕНЕРОМ!"
 	done
 
 _CinnabarGymSuperNerd2EndBattleText::
-	text "I"
-	line "surrender!"
+	text "Я здаюся!"
 	prompt
 
 _CinnabarGymSuperNerd2AfterBattleText::
-	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	text "Я не можу не"
+	line "красти чужих"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _CinnabarGymSuperNerd3BattleText::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
+	text "Тобі не виграти!"
+	line "Я вивчив"
+	cont "ПОК'еМОН"
+	cont "досконало!"
 	done
 
 _CinnabarGymSuperNerd3EndBattleText::
-	text "Waah!"
-	line "My studies!"
+	text "Ваах!"
+	line "Мої науки!"
 	prompt
 
 _CinnabarGymSuperNerd3AfterBattleText::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
+	text "Мої теорії"
+	line "надто складні"
+	cont "для тебе!"
 	done
 
 _CinnabarGymSuperNerd4BattleText::
-	text "I just like using"
-	line "fire #MON!"
+	text "Я просто люблю"
+	line "вживати вогняних"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _CinnabarGymSuperNerd4EndBattleText::
-	text "Too hot"
-	line "to handle!"
+	text "Надто"
+	line "гаряче!"
 	prompt
 
 _CinnabarGymSuperNerd4AfterBattleText::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
+	text "Якби ж був"
+	line "ПОК'еМОН-злодій!"
+	cont "Я б такого"
+	cont "взяв!"
 	done
 
 _CinnabarGymSuperNerd5BattleText::
-	text "I know why BLAINE"
-	line "became a trainer!"
+	text "Я знаю, чому"
+	line "БЛЕЙН став"
+	cont "ТРЕНЕРОМ!"
 	done
 
 _CinnabarGymSuperNerd5EndBattleText::
-	text "Ow!"
+	text "Ой!"
 	prompt
 
 _CinnabarGymSuperNerd5AfterBattleText::
-	text "BLAINE was lost"
-	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
+	text "БЛЕЙН заблукав"
+	line "у горах, коли"
+	cont "з'явився птах"
+	cont "ПОК'еМОН."
 
-	para "Its light enabled"
-	line "BLAINE to find"
-	cont "his way down!"
+	para "Світло дало"
+	line "йому знайти"
+	cont "шлях униз!"
 	done
 
 _CinnabarGymSuperNerd6BattleText::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "Я був у багатьох"
+	line "ЗАЛАХ, та цей —"
+	cont "мій улюблений!"
 	done
 
 _CinnabarGymSuperNerd6EndBattleText::
-	text "Yowza!"
-	line "Too hot!"
+	text "Овва!"
+	line "Надто палко!"
 	prompt
 
 _CinnabarGymSuperNerd6AfterBattleText::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "Нам, фанатам"
+	line "вогняних істот,"
+	cont "любі ПОНІТА"
+	cont "та НАЙНТЕЙЛЗ!"
 	done
 
 _CinnabarGymSuperNerd7BattleText::
-	text "Fire is weak"
-	line "against H2O!"
+	text "Вогонь слабкий"
+	line "проти H2O!"
 	done
 
 _CinnabarGymSuperNerd7EndBattleText::
-	text "Oh!"
-	line "Snuffed out!"
+	text "О!"
+	line "Мене загасили!"
 	prompt
 
 _CinnabarGymSuperNerd7AfterBattleText::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "Вода б'є вогонь!"
+	line "Але вогонь"
+	cont "плавить"
+	cont "крижаних"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _CinnabarGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Йо! Майбутній"
+	line "чемпіоне!"
 
-	para "The hot-headed"
-	line "BLAINE is a fire"
-	cont "#MON pro!"
+	para "Запальний БЛЕЙН"
+	line "— профі з вог-"
+	cont "няних ПОК'еМОН!"
 
-	para "Douse his spirits"
-	line "with water!"
+	para "Загаси його"
+	line "запал водою!"
 
-	para "You better take"
-	line "some BURN HEALs!"
+	para "Тобі варто мати"
+	line "ЛІКИ ВІД ОПІКІВ!"
 	done
 
 _CinnabarGymGymGuideBeatBlaineText::
-	text "<PLAYER>! You beat"
-	line "that fire brand!"
+	text "<PLAYER>! Ти здо-"
+	line "лав того"
+	cont "вогневія!"
 	done

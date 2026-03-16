@@ -1,31 +1,30 @@
 _FuchsiaGymKogaPostBattleAdviceText::
-	text "When afflicted by"
-	line "TOXIC, #MON"
-	cont "suffer more and"
-	cont "more as battle"
-	cont "progresses!"
+	text "Під дією ТОКСИНУ"
+	line "ПОК'еМОН страждає"
+	cont "все дужче з"
+	cont "кожним ходом!"
 
-	para "It will surely"
-	line "terrorize foes!"
+	para "Це точно нажахає"
+	line "твоїх ворогів!"
 	done
 
 _FuchsiaGymKogaSoulBadgeInfoText::
-	text "Now that you have"
-	line "the SOULBADGE,"
-	cont "the DEFENSE of"
-	cont "your #MON"
-	cont "increases!"
+	text "Тепер, коли ти"
+	line "маєш ДУШЕВНИЙ"
+	cont "ЗНАЧОК, ЗАХИСТ"
+	cont "твоїх ПОК'еМОН"
+	cont "зростає!"
 
-	para "It also lets you"
-	line "SURF outside of"
-	cont "battle!"
+	para "Він також дозво-"
+	line "ляє ПЛИВТИ поза"
+	cont "межами битви!"
 
-	para "Ah! Take this"
-	line "too!"
+	para "А! Візьми ще"
+	line "й це!"
 	done
 
 _FuchsiaGymKogaReceivedTM06Text::
-	text "<PLAYER> received"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -33,162 +32,166 @@ _FuchsiaGymKogaReceivedTM06Text::
 
 _FuchsiaGymKogaTM06ExplanationText::
 	text_start
-	para "TM06 contains"
-	line "TOXIC!"
+	para "ТМ06 містить"
+	line "ТОКСИН!"
 
-	para "It is a secret"
-	line "technique over"
-	cont "400 years old!"
+	para "Це секретна"
+	line "техніка, якій"
+	cont "понад 400 років!"
 	done
 
 _FuchsiaGymKogaTM06NoRoomText::
-	text "Make space for"
-	line "this, child!"
+	text "Звільни місце"
+	line "для цього, дитя!"
 	done
 
 _FuchsiaGymRocker1BattleText::
-	text "Strength isn't"
-	line "the key for"
-	cont "#MON!"
+	text "Сила — це не"
+	line "головне для"
+	cont "ПОК'еМОНА!"
 
-	para "It's strategy!"
+	para "Важлива тактика!"
 
-	para "I'll show you how"
-	line "strategy can beat"
-	cont "brute strength!"
+	para "Я покажу, як"
+	line "тактика б'є"
+	cont "грубу силу!"
 	done
 
 _FuchsiaGymRocker1EndBattleText::
-	text "What?"
-	line "Extraordinary!"
+	text "Що? Неймовірно!"
 	prompt
 
 _FuchsiaGymRocker1AfterBattleText::
-	text "So, you mix brawn"
-	line "with brains?"
-	cont "Good strategy!"
+	text "То ти поєднуєш"
+	line "м'язи з розумом?"
+	cont "Вдала тактика!"
 	done
 
 _FuchsiaGymRocker2BattleText::
-	text "I wanted to become"
-	line "a ninja, so I"
-	cont "joined this GYM!"
+	text "Я хотів стати"
+	line "ніндзя, тому й"
+	cont "прийшов у цей"
+	cont "ЗАЛ!"
 	done
 
 _FuchsiaGymRocker2EndBattleText::
-	text "I'm done"
-	line "for!"
+	text "Зі мною"
+	line "покінчено!"
 	prompt
 
 _FuchsiaGymRocker2AfterBattleText::
-	text "I will keep on"
-	line "training under"
-	cont "KOGA, my ninja"
-	cont "master!"
+	text "Я тренуватимусь"
+	line "і далі під оком"
+	cont "КОГИ, мого"
+	cont "майстра-ніндзя!"
 	done
 
 _FuchsiaGymRocker3BattleText::
-	text "Let's see you"
-	line "beat my special"
-	cont "techniques!"
+	text "Погляньмо, чи"
+	line "здолаєш ти мої"
+	cont "особливі прийоми!"
 	done
 
 _FuchsiaGymRocker3EndBattleText::
-	text "You"
-	line "had me fooled!"
+	text "Тобі вдалося"
+	line "мене обдурити!"
 	prompt
 
 _FuchsiaGymRocker3AfterBattleText::
-	text "I like poison and"
-	line "sleep techniques,"
-	cont "as they linger"
-	cont "after battle!"
+	text "Люблю отруту"
+	line "та сон, бо вони"
+	cont "діють і після"
+	cont "битви!"
 	done
 
 _FuchsiaGymRocker4BattleText::
-	text "Stop right there!"
+	text "Ану стій!"
 
-	para "Our invisible"
-	line "walls have you"
-	cont "frustrated?"
+	para "Наші невидимі"
+	line "стіни тебе"
+	cont "заплутали?"
 	done
 
 _FuchsiaGymRocker4EndBattleText::
-	text "Whoa!"
-	line "He's got it!"
+	text "Овва!"
+	line "Він розібрався!"
 	prompt
 
 _FuchsiaGymRocker4AfterBattleText::
-	text "You impressed me!"
-	line "Here's a hint!"
+	text "Ти вразив мене!"
+	line "Ось підказка!"
 
-	para "Look very closely"
-	line "for gaps in the"
-	cont "invisible walls!"
+	para "Шукай шпарини"
+	line "в невидимих"
+	cont "стінах дуже"
+	cont "уважно!"
 	done
 
 _FuchsiaGymRocker5BattleText::
-	text "I also study the"
-	line "way of the ninja"
-	cont "with master KOGA!"
+	text "Я теж вивчаю"
+	line "шлях ніндзя з"
+	cont "майстром КОГОЮ!"
 
-	para "Ninja have a long"
-	line "history of using"
-	cont "animals!"
+	para "Ніндзя мають"
+	line "давню історію"
+	cont "вживання звірів!"
 	done
 
 _FuchsiaGymRocker5EndBattleText::
-	text "Awoo!"
+	text "Ау-у-у!"
 	prompt
 
 _FuchsiaGymRocker5AfterBattleText::
-	text "I still have much"
-	line "to learn!"
+	text "Мені ще багато"
+	line "чому треба"
+	cont "навчитися!"
 	done
 
 _FuchsiaGymRocker6BattleText::
-	text "Master KOGA comes"
-	line "from a long line"
-	cont "of ninjas!"
+	text "Майстер КОГА"
+	line "походить з дав-"
+	cont "нього роду"
+	cont "ніндзя!"
 
-	para "What did you"
-	line "descend from?"
+	para "А від кого"
+	line "походиш ти?"
 	done
 
 _FuchsiaGymRocker6EndBattleText::
-	text "Dropped"
-	line "my balls!"
+	text "Впустив"
+	line "свої кулі!"
 	prompt
 
 _FuchsiaGymRocker6AfterBattleText::
-	text "Where there is"
-	line "light, there is"
-	cont "shadow!"
+	text "Де є світло,"
+	line "там є і тінь!"
 
-	para "Light and shadow!"
-	line "Which do you"
-	cont "choose?"
+	para "Світло чи тінь!"
+	line "Що обереш"
+	cont "саме ти?"
 	done
 
 _FuchsiaGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Йо! Майбутній"
+	line "чемпіоне!"
 
-	para "FUCHSIA GYM is"
-	line "riddled with"
-	cont "invisible walls!"
+	para "ЗАЛ ФУКСІЇ по-"
+	line "вний невидимих"
+	cont "стін!"
 
-	para "KOGA might appear"
-	line "close, but he's"
-	cont "blocked off!"
+	para "КОГА здається"
+	line "близьким, але"
+	cont "шлях закрито!"
 
-	para "You have to find"
-	line "gaps in the walls"
-	cont "to reach him!"
+	para "Шукай проходи"
+	line "між стінами,"
+	cont "щоб дійти"
+	cont "до нього!"
 	done
 
 _FuchsiaGymGymGuideBeatKogaText::
-	text "It's amazing how"
-	line "ninja can terrify"
-	cont "even now!"
+	text "Дивно, як"
+	line "ніндзя можуть"
+	cont "жахати навіть"
+	cont "сьогодні!"
 	done

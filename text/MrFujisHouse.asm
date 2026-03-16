@@ -1,55 +1,56 @@
 _MrFujisHouseSuperNerdMrFujiIsntHereText::
-	text "That's odd, MR.FUJI"
-	line "isn't here."
-	cont "Where'd he go?"
+	text "Дивно, пана"
+	line "ФУДЗІ немає."
+	cont "Куди він пішов?"
 	done
 
 _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
-	text "MR.FUJI had been"
-	line "praying alone for"
-	cont "CUBONE's mother."
+	text "Пан ФУДЗІ сам"
+	line "молився за"
+	cont "матір К'ЮБОНА."
 	done
 
 _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
-	text "This is really"
-	line "MR.FUJI's house."
+	text "Це справді дім"
+	line "пана ФУДЗІ."
 
-	para "He's really kind!"
+	para "Він дуже добрий!"
 
-	para "He looks after"
-	line "abandoned and"
-	cont "orphaned #MON!"
+	para "Він доглядає за"
+	line "покинутими"
+	cont "ПОК'еМОНАМИ!"
 	done
 
 _MrFujisHouseLittleGirlPokemonAreNiceToHugText::
-	text "It's so warm!"
-	line "#MON are so"
-	cont "nice to hug!"
+	text "Так тепло!"
+	line "ПОК'еМОНІВ так"
+	cont "приємно"
+	cont "обіймати!"
 	done
 
 _MrFujisHousePsyduckText::
-	text "PSYDUCK: Gwappa!@"
+	text "ПСАЙДАК: Гвапа!@"
 	text_end
 
 _MrFujisHouseNidorinoText::
-	text "NIDORINO: Gaoo!@"
+	text "НІДОРИНО: Гаоо!@"
 	text_end
 
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
-	text "MR.FUJI: <PLAYER>."
+	text "ПАН ФУДЗІ: <PLAYER>."
 
-	para "Your #DEX quest"
-	line "may fail without"
-	cont "love for your"
-	cont "#MON."
+	para "Твій ПОК'еДЕКС-"
+	line "квест провалить-"
+	cont "ся без любові до"
+	cont "ПОК'еМОНІВ."
 
-	para "I think this may"
-	line "help your quest."
+	para "Думаю, це тобі"
+	line "допоможе."
 	prompt
 
 _MrFujisHouseMrFujiReceivedPokeFluteText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> отримує"
+	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
@@ -57,33 +58,33 @@ _MrFujisHouseMrFujiReceivedPokeFluteText::
 _MrFujisHouseMrFujiPokeFluteExplanationText::
 	text_start
 
-	para "Upon hearing #"
-	line "FLUTE, sleeping"
-	cont "#MON will"
-	cont "spring awake."
+	para "Зачувши ПОК'е-"
+	line "ФЛЕЙТУ, сонні"
+	cont "ПОК'еМОНИ"
+	cont "миттю прокинуться."
 
-	para "It works on all"
-	line "sleeping #MON."
+	para "Це діє на всіх"
+	line "сонних ПОК'еМОН."
 	done
 
 _MrFujisHouseMrFujiPokeFluteNoRoomText::
-	text "You must make"
-	line "room for this!"
+	text "Ти маєш звільни-"
+	line "ти місце!"
 	done
 
 _MrFujisHouseMrFujiHasMyFluteHelpedYouText::
-	text "MR.FUJI: Has my"
-	line "FLUTE helped you?"
+	text "ПАН ФУДЗІ: Чи"
+	line "ФЛЕЙТА допомогла?"
 	done
 
 _MrFujisHouseMrFujiPokedexText::
-	text "#MON Monthly"
-	line "Grand Prize"
-	cont "Drawing!"
+	text "Щомісячний розі-"
+	line "граш призів"
+	cont "ПОК'еМОН!"
 
-	para "The application"
-	line "form is..."
+	para "Форма для"
+	line "заявки..."
 
-	para "Gone! It's been"
-	line "clipped out!"
+	para "Зникла! Її"
+	line "хтось вирізав!"
 	done
