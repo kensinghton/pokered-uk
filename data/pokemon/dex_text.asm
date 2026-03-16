@@ -1,1509 +1,1467 @@
 _RhydonDexEntry::
-	text "Protected by an"
-	next "armor-like hide,"
-	next "it is capable of"
+	text "Захищений шкірою,"
+	next "схожою на броню,"
+	next "він здатний"
 
-	page "living in molten"
-	next "lava of 3,600"
-	next "degrees"
+	page "жити у розплав-"
+	next "леній лаві при"
+	next "3600 градусах"
 	dex
 
 _KangaskhanDexEntry::
-	text "The infant rarely"
-	next "ventures out of"
-	next "its mother's"
+	text "Маля рідко"
+	next "виходить із"
+	next "материнської"
 
-	page "protective pouch"
-	next "until it is 3"
-	next "years old"
+	page "захисної сумки,"
+	next "доки йому не"
+	next "виповниться 3"
 	dex
 
 _NidoranMDexEntry::
-	text "Stiffens its ears"
-	next "to sense danger."
-	next "The larger its"
+	text "Нащулює вуха,"
+	next "щоб відчути лихо."
+	next "Чим більші його"
 
-	page "horns, the more"
-	next "powerful its"
-	next "secreted venom"
+	page "роги, тим більшу"
+	next "силу має його"
+	next "отрута"
 	dex
 
 _ClefairyDexEntry::
-	text "Its magical and"
-	next "cute appeal has"
-	next "many admirers."
+	text "Його чарівність"
+	next "та милий вигляд"
+	next "мають фанатів."
 
-	page "It is rare and"
-	next "found only in"
-	next "certain areas"
+	page "Він рідкісний і"
+	next "живе лише у"
+	next "певних місцях"
 	dex
 
 _SpearowDexEntry::
-	text "Eats bugs in"
-	next "grassy areas. It"
-	next "has to flap its"
+	text "Їсть комах у"
+	next "траві. Йому до-"
+	next "водиться часто"
 
-	page "short wings at"
-	next "high speed to"
-	next "stay airborne"
+	page "махати крилами,"
+	next "щоб триматися"
+	next "у повітрі"
 	dex
 
 _VoltorbDexEntry::
-	text "Usually found in"
-	next "power plants."
-	next "Easily mistaken"
+	text "Живе на електро-"
+	next "станціях. Його"
+	next "часто плутають"
 
-	page "for a # BALL,"
-	next "they have zapped"
-	next "many people"
+	page "із ПОКЕБОЛОМ,"
+	next "що призводить до"
+	next "ударів струмом"
 	dex
 
 _NidokingDexEntry::
-	text "It uses its"
-	next "powerful tail in"
-	next "battle to smash,"
+	text "У бою він вико-"
+	next "ристовує хвіст,"
+	next "щоб розчавити,"
 
-	page "constrict, then"
-	next "break the prey's"
-	next "bones"
+	page "здавити, а потім"
+	next "зламати кістки"
+	next "своєї здобичі"
 	dex
 
 _SlowbroDexEntry::
-	text "The SHELLDER that"
-	next "is latched onto"
-	next "SLOWPOKE's tail"
+	text "Кажуть, ШЕЛЛДЕР,"
+	next "що вчепився у"
+	next "хвіст СЛОУПОКА,"
 
-	page "is said to feed"
-	next "on the host's left"
-	next "over scraps"
+	page "харчується за-"
+	next "лишками їжі"
+	next "господаря"
 	dex
 
 _IvysaurDexEntry::
-	text "When the bulb on"
-	next "its back grows"
-	next "large, it appears"
+	text "Коли бутон на"
+	next "спині виростає,"
+	next "він втрачає"
 
-	page "to lose the"
-	next "ability to stand"
-	next "on its hind legs"
+	page "здатність стояти"
+	next "на задніх"
+	next "лапах"
 	dex
 
 _ExeggutorDexEntry::
-	text "Legend has it that"
-	next "on rare occasions,"
-	next "one of its heads"
+	text "Легенда каже,"
+	next "що іноді одна з"
+	next "його голів"
 
-	page "will drop off and"
-	next "continue on as an"
-	next "EXEGGCUTE"
+	page "відпадає і стає"
+	next "окремим"
+	next "ЕКЗЕК’ЮТОМ"
 	dex
 
 _LickitungDexEntry::
-	text "Its tongue can be"
-	next "extended like a"
-	next "chameleon's. It"
+	text "Його язик може"
+	next "витягуватися як"
+	next "у хамелеона. Він"
 
-	page "leaves a tingling"
-	next "sensation when it"
-	next "licks enemies"
+	page "залишає відчуття"
+	next "поколювання,"
+	next "коли лиже ворога"
 	dex
 
 _ExeggcuteDexEntry::
-	text "Often mistaken"
-	next "for eggs."
-	next "When disturbed,"
+	text "Часто плутають"
+	next "із яйцями. Якщо"
+	next "їх потурбувати,"
 
-	page "they quickly"
-	next "gather and attack"
-	next "in swarms"
+	page "вони миттю"
+	next "збираються та"
+	next "атакують зграєю"
 	dex
 
 _GrimerDexEntry::
-	text "Appears in filthy"
-	next "areas. Thrives by"
-	next "sucking up"
+	text "Живе у брудних"
+	next "місцях. Поглинає"
+	next "токсичний бруд,"
 
-	page "polluted sludge"
-	next "that is pumped"
-	next "out of factories"
+	page "що витікає із"
+	next "труб заводів"
+	next "і фабрик"
 	dex
 
 _GengarDexEntry::
-	text "Under a full moon,"
-	next "this #MON"
-	next "likes to mimic"
+	text "Під повним міся-"
+	next "цем цей ПОКЕМОН"
+	next "любить імітувати"
 
-	page "the shadows of"
-	next "people and laugh"
-	next "at their fright"
+	page "тіні людей та"
+	next "сміятися з їх-"
+	next "нього переляку"
 	dex
 
 _NidoranFDexEntry::
-	text "Although small,"
-	next "its venomous"
-	next "barbs render this"
+	text "Попри малий"
+	next "розмір, отруйні"
+	next "шипи роблять"
 
-	page "#MON dangerous."
-	next "The female has"
-	next "smaller horns"
+	page "цього ПОКЕМОНА"
+	next "небезпечним."
+	next "У самиць роги менші"
 	dex
 
 _NidoqueenDexEntry::
-	text "Its hard scales"
-	next "provide strong"
-	next "protection. It"
+	text "Тверда луска"
+	next "надає йому міц-"
+	next "ний захист. Він"
 
-	page "uses its hefty"
-	next "bulk to execute"
-	next "powerful moves"
+	page "використовує"
+	next "свою масу для"
+	next "потужних атак"
 	dex
 
 _CuboneDexEntry::
-	text "Because it never"
-	next "removes its skull"
-	next "helmet, no one"
+	text "Він ніколи не"
+	next "знімає свій"
+	next "шолом-череп,"
 
-	page "has ever seen"
-	next "this #MON's"
-	next "real face"
+	page "тому ніхто не"
+	next "бачив його"
+	next "справжнє обличчя"
 	dex
 
 _RhyhornDexEntry::
-	text "Its massive bones"
-	next "are 1000 times"
-	next "harder than human"
+	text "Його масивні"
+	next "кістки у 1000 раз"
+	next "міцніші за люд-"
 
-	page "bones. It can"
-	next "easily knock a"
-	next "trailer flying"
+	page "ські. Він легко"
+	next "може протаранити"
+	next "вантажівку"
 	dex
 
 _LaprasDexEntry::
-	text "A #MON that"
-	next "has been over-"
-	next "hunted almost to"
+	text "Цей ПОКЕМОН був"
+	next "майже винищений."
+	next "Він може перево-"
 
-	page "extinction. It"
-	next "can ferry people"
-	next "across the water"
+	page "зити людей на"
+	next "своїй спині че-"
+	next "рез воду"
 	dex
 
 _ArcanineDexEntry::
-	text "A #MON that"
-	next "has been admired"
-	next "since the past"
+	text "Цим ПОКЕМОНОМ"
+	next "захоплювалися з"
+	next "давніх часів за"
 
-	page "for its beauty."
-	next "It runs agilely"
-	next "as if on wings"
+	page "його красу. Він"
+	next "бігає так легко,"
+	next "ніби на крилах"
 	dex
 
 _MewDexEntry::
-	text "So rare that it"
-	next "is still said to"
-	next "be a mirage by"
+	text "Він такий рідкіс-"
+	next "ний, що багато"
+	next "вчених вважають"
 
-	page "many experts. Only"
-	next "a few people have"
-	next "seen it worldwide"
+	page "його міражем. У"
+	next "всьому світі його"
+	next "бачили одиниці"
 	dex
 
 _GyaradosDexEntry::
-	text "Rarely seen in"
-	next "the wild. Huge"
-	next "and vicious, it"
+	text "Рідко зустріча-"
+	next "ється на волі."
+	next "Він здатний зни-"
 
-	page "is capable of"
-	next "destroying entire"
-	next "cities in a rage"
+	page "щити цілі міста,"
+	next "коли впадає у"
+	next "лють"
 	dex
 
 _ShellderDexEntry::
-	text "Its hard shell"
-	next "repels any kind"
-	next "of attack."
+	text "Його тверда"
+	next "мушля відбиває"
+	next "будь-яку атаку."
 
-	page "It is vulnerable"
-	next "only when its"
-	next "shell is open"
+	page "Він вразливий,"
+	next "лише коли мушля"
+	next "відкрита"
 	dex
 
 _TentacoolDexEntry::
-	text "Drifts in shallow"
-	next "seas. Anglers who"
-	next "hook them by"
+	text "Дрейфує у морях."
+	next "Рибалки, що ло-"
+	next "влять його випад-"
 
-	page "accident are"
-	next "often punished by"
-	next "its stinging acid"
+	page "ково, часто стра-"
+	next "ждають від його"
+	next "отруйних опіків"
 	dex
 
 _GastlyDexEntry::
-	text "Almost invisible,"
-	next "this gaseous"
-	next "#MON cloaks"
+	text "Майже невидимий,"
+	next "цей газовий"
+	next "ПОКЕМОН огортає"
 
-	page "the target and"
-	next "puts it to sleep"
-	next "without notice"
+	page "ціль і непомітно"
+	next "занурює її у"
+	next "глибокий сон"
 	dex
 
 _ScytherDexEntry::
-	text "With ninja-like"
-	next "agility and speed,"
-	next "it can create the"
+	text "Зі спритністю"
+	next "ніндзя він"
+	next "може створювати"
 
-	page "illusion that"
-	next "there is more"
-	next "than one"
+	page "ілюзію того, що"
+	next "перед вами декі-"
+	next "лька противників"
 	dex
 
 _StaryuDexEntry::
-	text "An enigmatic"
-	next "#MON that can"
-	next "effortlessly"
+	text "Загадковий ПОКЕ-"
+	next "МОН, здатний без"
+	next "зусиль відновити"
 
-	page "regenerate any"
-	next "appendage it"
-	next "loses in battle"
+	page "будь-яку кінців-"
+	next "ку, втрачену у"
+	next "бою"
 	dex
 
 _BlastoiseDexEntry::
-	text "A brutal #MON"
-	next "with pressurized"
-	next "water jets on its"
+	text "Має на панцирі"
+	next "водомети під ви-"
+	next "соким тиском."
 
-	page "shell. They are"
-	next "used for high"
-	next "speed tackles"
+	page "Використовує їх"
+	next "для потужних"
+	next "таранних атак"
 	dex
 
 _PinsirDexEntry::
-	text "If it fails to"
-	next "crush the victim"
-	next "in its pincers,"
+	text "Якщо йому не вда-"
+	next "сться роздавити"
+	next "жертву клешнями,"
 
-	page "it will swing it"
-	next "around and toss"
-	next "it hard"
+	page "він підкине її"
+	next "високо вгору"
+	next "із силою"
 	dex
 
 _TangelaDexEntry::
-	text "The whole body is"
-	next "swathed with wide"
-	next "vines that are"
+	text "Все його тіло"
+	next "вкрите ліанами,"
+	next "схожими на во-"
 
-	page "similar to sea-"
-	next "weed. Its vines"
-	next "shake as it walks"
+	page "дорості. Вони"
+	next "хитаються під"
+	next "час ходьби"
 	dex
 
 _GrowlitheDexEntry::
-	text "Very protective"
-	next "of its territory."
-	next "It will bark and"
+	text "Завзято захищає"
+	next "свою територію."
+	next "Він гавкає та"
 
-	page "bite to repel"
-	next "intruders from"
-	next "its space"
+	page "кусається, щоб"
+	next "прогнати чужин-"
+	next "ців"
 	dex
 
 _OnixDexEntry::
-	text "As it grows, the"
-	next "stone portions of"
-	next "its body harden"
+	text "З віком кам'яні"
+	next "частини його"
+	next "тіла тверднуть і"
 
-	page "to become similar"
-	next "to a diamond, but"
-	next "colored black"
+	page "стають схожими"
+	next "на чорний"
+	next "алмаз"
 	dex
 
 _FearowDexEntry::
-	text "With its huge and"
-	next "magnificent wings,"
-	next "it can keep aloft"
+	text "Завдяки величним"
+	next "крилам він може"
+	next "довго парити у"
 
-	page "without ever"
-	next "having to land"
-	next "for rest"
+	page "небі, навіть не"
+	next "сідаючи на"
+	next "відпочинок"
 	dex
 
 _PidgeyDexEntry::
-	text "A common sight in"
-	next "forests and woods."
-	next "It flaps its"
+	text "Часто зустріча-"
+	next "ється у лісах."
+	next "Він махає крила-"
 
-	page "wings at ground"
-	next "level to kick up"
-	next "blinding sand"
+	page "ми над землею,"
+	next "щоб підняти"
+	next "хмару піску"
 	dex
 
 _SlowpokeDexEntry::
-	text "Incredibly slow"
-	next "and dopey. It"
-	next "takes 5 seconds"
+	text "Дуже повільний"
+	next "та забудькуватий."
+	next "Йому потрібно"
 
-	page "for it to feel"
-	next "pain when under"
-	next "attack"
+	page "5 секунд, щоб"
+	next "відчути біль"
+	next "від атаки"
 	dex
 
 _KadabraDexEntry::
-	text "It emits special"
-	next "alpha waves from"
-	next "its body that"
+	text "Випромінює особ-"
+	next "ливі альфа-хвилі"
+	next "своїм тілом, які"
 
-	page "induce headaches"
-	next "just by being"
-	next "close by"
+	page "викликають біль"
+	next "у голові тих,"
+	next "хто поруч"
 	dex
 
 _GravelerDexEntry::
-	text "Rolls down slopes"
-	next "to move. It rolls"
-	next "over any obstacle"
+	text "Котиться вниз зі"
+	next "схилів, долаючи"
+	next "будь-які пере-"
 
-	page "without slowing"
-	next "or changing its"
-	next "direction"
+	page "шкоди, не зміню-"
+	next "ючи напрямку та"
+	next "швидкості"
 	dex
 
 _ChanseyDexEntry::
-	text "A rare and elusive"
-	next "#MON that is"
-	next "said to bring"
+	text "Рідкісний ПОКЕ-"
+	next "МОН, який, за"
+	next "переказами,"
 
-	page "happiness to those"
-	next "who manage to get"
-	next "it"
+	page "приносить щастя"
+	next "тому, хто зміг"
+	next "його зловити"
 	dex
 
 _MachokeDexEntry::
-	text "Its muscular body"
-	next "is so powerful, it"
-	next "must wear a power"
+	text "Його м'язисте"
+	next "тіло настільки"
+	next "сильне, що він"
 
-	page "save belt to be"
-	next "able to regulate"
-	next "its motions"
+	page "носить пояс, аби"
+	next "стримувати свою"
+	next "руйнівну силу"
 	dex
 
 _MrMimeDexEntry::
-	text "If interrupted"
-	next "while it is"
-	next "miming, it will"
+	text "Якщо його перер-"
+	next "вати під час"
+	next "пантоміми, він"
 
-	page "slap around the"
-	next "offender with its"
-	next "broad hands"
+	page "відлупцює кривд-"
+	next "ника своїми"
+	next "великими руками"
 	dex
 
 _HitmonleeDexEntry::
-	text "When in a hurry,"
-	next "its legs lengthen"
-	next "progressively."
+	text "Коли він поспі-"
+	next "шає, його ноги"
+	next "поступово видов-"
 
-	page "It runs smoothly"
-	next "with extra long,"
-	next "loping strides"
+	page "жуються, дозво-"
+	next "ляючи бігти ве-"
+	next "личезними кроками"
 	dex
 
 _HitmonchanDexEntry::
-	text "While apparently"
-	next "doing nothing, it"
-	next "fires punches in"
+	text "Здається, ніби"
+	next "він нерухомий,"
+	next "але він завдає"
 
-	page "lightning fast"
-	next "volleys that are"
-	next "impossible to see"
+	page "удари з блис-"
+	next "кавичною швид-"
+	next "кістю"
 	dex
 
 _ArbokDexEntry::
-	text "It is rumored that"
-	next "the ferocious"
-	next "warning markings"
+	text "Кажуть, що злові-"
+	next "сні візерунки на"
+	next "його животі від-"
 
-	page "on its belly"
-	next "differ from area"
-	next "to area"
+	page "різняються залеж-"
+	next "но від місця"
+	next "проживання"
 	dex
 
 _ParasectDexEntry::
-	text "A host-parasite"
-	next "pair in which the"
-	next "parasite mushroom"
+	text "Пара грибів"
+	next "повністю захопи-"
+	next "ла тіло комахи."
 
-	page "has taken over the"
-	next "host bug. Prefers"
-	next "damp places"
+	page "Він надає пере-"
+	next "вагу вологим та"
+	next "темним місцям"
 	dex
 
 _PsyduckDexEntry::
-	text "While lulling its"
-	next "enemies with its"
-	next "vacant look, this"
+	text "Присипляючи увагу"
+	next "порожнім погля-"
+	next "дом, він раптово"
 
-	page "wily #MON will"
-	next "use psychokinetic"
-	next "powers"
+	page "використовує"
+	next "свої психокіне-"
+	next "тичні здібності"
 	dex
 
 _DrowzeeDexEntry::
-	text "Puts enemies to"
-	next "sleep then eats"
-	next "their dreams."
+	text "Присипляє ворогів"
+	next "і з’їдає їхні"
+	next "сни. Йому може"
 
-	page "Occasionally gets"
-	next "sick from eating"
-	next "bad dreams"
+	page "стати зле, якщо"
+	next "він з'їсть"
+	next "поганий сон"
 	dex
 
 _GolemDexEntry::
-	text "Its boulder-like"
-	next "body is extremely"
-	next "hard. It can"
+	text "Його кам'яне"
+	next "тіло надзвичайно"
+	next "міцне. Він легко"
 
-	page "easily withstand"
-	next "dynamite blasts"
-	next "without damage"
+	page "може витримати"
+	next "вибух динаміту"
+	next "без ушкоджень"
 	dex
 
 _MagmarDexEntry::
-	text "Its body always"
-	next "burns with an"
-	next "orange glow that"
+	text "Його тіло завжди"
+	next "палає помаранче-"
+	next "вим світлом, що"
 
-	page "enables it to"
-	next "hide perfectly"
-	next "among flames"
+	page "дозволяє йому"
+	next "ховатися серед"
+	next "полум'я"
 	dex
 
 _ElectabuzzDexEntry::
-	text "Normally found"
-	next "near power plants,"
-	next "they can wander"
+	text "Живе біля елект-"
+	next "ростанцій, але"
+	next "іноді заходить"
 
-	page "away and cause"
-	next "major blackouts"
-	next "in cities"
+	page "у міста, викли-"
+	next "каючи масштабні"
+	next "вимкнення світла"
 	dex
 
 _MagnetonDexEntry::
-	text "Formed by several"
-	next "MAGNEMITEs linked"
-	next "together. They"
+	text "Складається з"
+	next "кількох МАГНЕМІ-"
+	next "ТІВ. Вони часто"
 
-	page "frequently appear"
-	next "when sunspots"
-	next "flare up"
+	page "з'являються під"
+	next "час спалахів на"
+	next "Сонці"
 	dex
 
 _KoffingDexEntry::
-	text "Because it stores"
-	next "several kinds of"
-	next "toxic gases in"
+	text "Оскільки він"
+	next "зберігає в тілі"
+	next "токсичні гази,"
 
-	page "its body, it is"
-	next "prone to exploding"
-	next "without warning"
+	page "він може вибух-"
+	next "нути без жодного"
+	next "попередження"
 	dex
 
 _MankeyDexEntry::
-	text "Extremely quick to"
-	next "anger. It could"
-	next "be docile one"
+	text "Його дуже легко"
+	next "розлютити. Він"
+	next "може бути спо-"
 
-	page "moment then"
-	next "thrashing away"
-	next "the next instant"
+	page "кійним, а вже за"
+	next "мить впасти у"
+	next "шаленство"
 	dex
 
 _SeelDexEntry::
-	text "The protruding"
-	next "horn on its head"
-	next "is very hard."
+	text "Ріг на його го-"
+	next "лові надзвичайно"
+	next "міцний. Він"
 
-	page "It is used for"
-	next "bashing through"
-	next "thick ice"
+	page "потрібен, щоб"
+	next "пробивати товс-"
+	next "тий шар льоду"
 	dex
 
 _DiglettDexEntry::
-	text "Lives about one"
-	next "yard underground"
-	next "where it feeds on"
+	text "Живе під землею,"
+	next "де харчується"
+	next "корінням. Іноді"
 
-	page "plant roots. It"
-	next "sometimes appears"
-	next "above ground"
+	page "його можна"
+	next "побачити на"
+	next "поверхні"
 	dex
 
 _TaurosDexEntry::
-	text "When it targets"
-	next "an enemy, it"
-	next "charges furiously"
+	text "Коли він обирає"
+	next "ціль, то несамо-"
+	next "вито мчить на"
 
-	page "while whipping its"
-	next "body with its"
-	next "long tails"
+	page "неї, б'ючи себе"
+	next "хвостами по"
+	next "боках"
 	dex
 
 _FarfetchdDexEntry::
-	text "The sprig of"
-	next "green onions it"
-	next "holds is its"
+	text "Стебло цибулі,"
+	next "яке він тримає,"
+	next "це його зброя."
 
-	page "weapon. It is"
-	next "used much like a"
-	next "metal sword"
+	page "Він володіє ним"
+	next "як справжнім"
+	next "мечем"
 	dex
 
 _VenonatDexEntry::
-	text "Lives in the"
-	next "shadows of tall"
-	next "trees where it"
+	text "Живе у тіні ви-"
+	next "соких дерев,"
+	next "харчуючись кома-"
 
-	page "eats insects. It"
-	next "is attracted by"
-	next "light at night"
+	page "хами. Вночі його"
+	next "приваблює світло"
+	next "ліхтарів"
 	dex
 
 _DragoniteDexEntry::
-	text "An extremely"
-	next "rarely seen"
-	next "marine #MON."
+	text "Рідкісний морсь-"
+	next "кий ПОКЕМОН."
+	next "Кажуть, його ро-"
 
-	page "Its intelligence"
-	next "is said to match"
-	next "that of humans"
+	page "зум не посту-"
+	next "пається людсь-"
+	next "кому"
 	dex
 
 _DoduoDexEntry::
-	text "A bird that makes"
-	next "up for its poor"
-	next "flying with its"
+	text "Птах, що не вміє"
+	next "добре літати,"
+	next "але дуже швидко"
 
-	page "fast foot speed."
-	next "Leaves giant"
-	next "footprints"
+	page "бігає. Залишає"
+	next "після себе вели-"
+	next "чезні сліди"
 	dex
 
 _PoliwagDexEntry::
-	text "Its newly grown"
-	next "legs prevent it"
-	next "from running. It"
+	text "Його нові лапки"
+	next "ще занадто слаб-"
+	next "кі для бігу. Він"
 
-	page "appears to prefer"
-	next "swimming than"
-	next "trying to stand"
+	page "надає перевагу"
+	next "плаванню, ніж"
+	next "ходьбі"
 	dex
 
 _JynxDexEntry::
-	text "It seductively"
-	next "wiggles its hips"
-	next "as it walks. It"
+	text "Спокусливо хитає"
+	next "стегнами під час"
+	next "ходьби, змушуючи"
 
-	page "can cause people"
-	next "to dance in"
-	next "unison with it"
+	page "інших людей"
+	next "танцювати в"
+	next "унісон із ним"
 	dex
 
 _MoltresDexEntry::
-	text "Known as the"
-	next "legendary bird of"
-	next "fire. Every flap"
+	text "Легендарний птах"
+	next "вогню. Кожен по-"
+	next "мах його крил"
 
-	page "of its wings"
-	next "creates a dazzling"
-	next "flash of flames"
+	page "створює яскраве"
+	next "палахкотливе"
+	next "полум’я"
 	dex
 
 _ArticunoDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear to"
+	text "Легендарний птах,"
+	next "який з’являється"
+	next "перед тими, хто"
 
-	page "doomed people who"
-	next "are lost in icy"
-	next "mountains"
+	page "заблукав у за-"
+	next "сніжених крижа-"
+	next "них горах"
 	dex
 
 _ZapdosDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear"
+	text "Легендарний птах,"
+	next "який з'являється"
+	next "серед хмар і"
 
-	page "from clouds while"
-	next "dropping enormous"
-	next "lightning bolts"
+	page "випускає величез-"
+	next "ні блискавки у"
+	next "своїх ворогів"
 	dex
 
 _DittoDexEntry::
-	text "Capable of copying"
-	next "an enemy's genetic"
-	next "code to instantly"
+	text "Здатен копіювати"
+	next "генетичний код"
+	next "противника,"
 
-	page "transform itself"
-	next "into a duplicate"
-	next "of the enemy"
+	page "миттєво стаючи"
+	next "його точною"
+	next "копією"
 	dex
 
 _MeowthDexEntry::
-	text "Adores circular"
-	next "objects. Wanders"
-	next "the streets on a"
+	text "Обожнює кругляш-"
+	next "ки. Щоночі блу-"
+	next "кає вулицями у"
 
-	page "nightly basis to"
-	next "look for dropped"
-	next "loose change"
+	page "пошуках загубле-"
+	next "них монет та"
+	next "інших дрібничок"
 	dex
 
 _KrabbyDexEntry::
-	text "Its pincers are"
-	next "not only powerful"
-	next "weapons, they are"
+	text "Його клешні — не"
+	next "тільки зброя, а й"
+	next "засіб підтримки"
 
-	page "used for balance"
-	next "when walking"
-	next "sideways"
+	page "балансу під час"
+	next "ходьби боком"
 	dex
 
 _VulpixDexEntry::
-	text "At the time of"
-	next "birth, it has"
-	next "just one tail."
+	text "При народженні"
+	next "має лише один"
+	next "хвіст, який з"
 
-	page "The tail splits"
-	next "from its tip as"
-	next "it grows older"
+	page "часом розділя-"
+	next "ється на декі-"
+	next "лька нових"
 	dex
 
 _NinetalesDexEntry::
-	text "Very smart and"
-	next "very vengeful."
-	next "Grabbing one of"
+	text "Дуже розумний та"
+	next "мстивий. Той,"
+	next "хто торкнеться"
 
-	page "its many tails"
-	next "could result in a"
-	next "1000-year curse"
+	page "його хвоста,"
+	next "буде проклятий"
+	next "на 1000 років"
 	dex
 
 _PikachuDexEntry::
-	text "When several of"
-	next "these #MON"
-	next "gather, their"
+	text "Коли збирається"
+	next "багато таких"
+	next "ПОКЕМОНІВ, вони"
 
-	page "electricity could"
-	next "build and cause"
-	next "lightning storms"
+	page "можуть викликати"
+	next "потужні грозові"
+	next "бурі"
 	dex
 
 _RaichuDexEntry::
-	text "Its long tail"
-	next "serves as a"
-	next "ground to protect"
+	text "Його довгий хвіст"
+	next "заземлює тіло,"
+	next "захищаючи від"
 
-	page "itself from its"
-	next "own high voltage"
-	next "power"
+	page "високої напруги,"
+	next "яку він сам"
+	next "створює"
 	dex
 
 _DratiniDexEntry::
-	text "Long considered a"
-	next "mythical #MON"
-	next "until recently"
+	text "Довгий час вва-"
+	next "жався міфічним,"
+	next "поки не знайшли"
 
-	page "when a small"
-	next "colony was found"
-	next "living underwater"
+	page "невелику колонію"
+	next "глибоко під"
+	next "водою"
 	dex
 
 _DragonairDexEntry::
-	text "A mystical #MON"
-	next "that exudes a"
-	next "gentle aura."
+	text "Містичний ПОКЕ-"
+	next "МОН, що випромі-"
+	next "нює м'яку ауру."
 
-	page "Has the ability"
-	next "to change climate"
-	next "conditions"
+	page "Він має здат-"
+	next "ність змінювати"
+	next "клімат"
 	dex
 
 _KabutoDexEntry::
-	text "A #MON that"
-	next "was resurrected"
-	next "from a fossil"
+	text "ПОКЕМОН, якого"
+	next "воскресили з"
+	next "викопних решток"
 
-	page "found in what was"
-	next "once the ocean"
-	next "floor eons ago"
+	page "із дна давнього"
+	next "океану"
 	dex
 
 _KabutopsDexEntry::
-	text "Its sleek shape is"
-	next "perfect for swim-"
-	next "ming. It slashes"
+	text "Його обтічне тіло"
+	next "ідеально підхо-"
+	next "дить для плавання."
 
-	page "prey with its"
-	next "claws and drains"
-	next "the body fluids"
+	page "Він роздирає"
+	next "здобич пазурами"
+	next "та п'є її соки"
 	dex
 
 _HorseaDexEntry::
-	text "Known to shoot"
-	next "down flying bugs"
-	next "with precision"
+	text "Здатен влучно"
+	next "збивати літаючих"
+	next "комах струменем"
 
-	page "blasts of ink"
-	next "from the surface"
-	next "of the water"
+	page "чорнила з-під"
+	next "самої поверхні"
+	next "води"
 	dex
 
 _SeadraDexEntry::
-	text "Capable of swim-"
-	next "ming backwards by"
-	next "rapidly flapping"
+	text "Вміє плавати за-"
+	next "дом, швидко ма-"
+	next "хаючи грудними"
 
-	page "its wing-like"
-	next "pectoral fins and"
-	next "stout tail"
+	page "плавцями та міц-"
+	next "ним хвостом"
 	dex
 
 _SandshrewDexEntry::
-	text "Burrows deep"
-	next "underground in"
-	next "arid locations"
+	text "Риє глибокі нори"
+	next "у посушливих"
+	next "місцях подалі"
 
-	page "far from water."
-	next "It only emerges"
-	next "to hunt for food"
+	page "від води. Вила-"
+	next "зить лише для"
+	next "полювання"
 	dex
 
 _SandslashDexEntry::
-	text "Curls up into a"
-	next "spiny ball when"
-	next "threatened. It"
+	text "Згортається у"
+	next "колючу кулю для"
+	next "захисту. Може"
 
-	page "can roll while"
-	next "curled up to"
-	next "attack or escape"
+	page "котитися, щоб"
+	next "атакувати або"
+	next "втекти"
 	dex
 
 _OmanyteDexEntry::
-	text "Although long"
-	next "extinct, in rare"
-	next "cases, it can be"
+	text "Хоча він давно"
+	next "вимер, у рідкіс-"
+	next "них випадках його"
 
-	page "genetically"
-	next "resurrected from"
-	next "fossils"
+	page "можна воскресити"
+	next "за допомогою"
+	next "генетики"
 	dex
 
 _OmastarDexEntry::
-	text "A prehistoric"
-	next "#MON that died"
-	next "out when its"
+	text "Доісторичний ПО-"
+	next "КЕМОН, що вимер,"
+	next "бо занадто важка"
 
-	page "heavy shell made"
-	next "it impossible to"
-	next "catch prey"
+	page "мушля заважала"
+	next "йому полювати"
 	dex
 
 _JigglypuffDexEntry::
-	text "When its huge eyes"
-	next "light up, it sings"
-	next "a mysteriously"
+	text "Коли його очі"
+	next "засвічуються, він"
+	next "співає мелодію,"
 
-	page "soothing melody"
-	next "that lulls its"
-	next "enemies to sleep"
+	page "яка миттєво при-"
+	next "сипляє ворогів"
 	dex
 
 _WigglytuffDexEntry::
-	text "The body is soft"
-	next "and rubbery. When"
-	next "angered, it will"
+	text "Тіло м'яке та"
+	next "гумове. Коли він"
+	next "злиться, то на-"
 
-	page "suck in air and"
-	next "inflate itself to"
-	next "an enormous size"
+	page "дувається до ве-"
+	next "личезних розмі-"
+	next "рів"
 	dex
 
 _EeveeDexEntry::
-	text "Its genetic code"
-	next "is irregular."
-	next "It may mutate if"
+	text "Його генетичний"
+	next "код нестабільний."
+	next "Він мутує під"
 
-	page "it is exposed to"
-	next "radiation from"
-	next "element STONEs"
+	page "дією випроміню-"
+	next "вання стихійних"
+	next "каменів"
 	dex
 
 _FlareonDexEntry::
-	text "When storing"
-	next "thermal energy in"
-	next "its body, its"
+	text "Накопичуючи теп-"
+	next "лову енергію,"
+	next "його температура"
 
-	page "temperature could"
-	next "soar to over 1600"
-	next "degrees"
+	page "може піднятися"
+	next "вище 1600 гра-"
+	next "дусів"
 	dex
 
 _JolteonDexEntry::
-	text "It accumulates"
-	next "negative ions in"
-	next "the atmosphere to"
+	text "Він накопичує іо-"
+	next "ни в атмосфері,"
+	next "щоб випускати"
 
-	page "blast out 10000-"
-	next "volt lightning"
-	next "bolts"
+	page "блискавки нап-"
+	next "ругою 10 000"
+	next "вольт"
 	dex
 
 _VaporeonDexEntry::
-	text "Lives close to"
-	next "water. Its long"
-	next "tail is ridged"
+	text "Живе біля води."
+	next "Його плавник на"
+	next "хвості часто"
 
-	page "with a fin which"
-	next "is often mistaken"
-	next "for a mermaid's"
+	page "плутають із хво-"
+	next "стом русалки"
 	dex
 
 _MachopDexEntry::
-	text "Loves to build"
-	next "its muscles."
-	next "It trains in all"
+	text "Обожнює тренува-"
+	next "ти м'язи. Він"
+	next "вивчає всі види"
 
-	page "styles of martial"
-	next "arts to become"
-	next "even stronger"
+	page "бойових мис-"
+	next "тецтв, щоб стати"
+	next "сильнішим"
 	dex
 
 _ZubatDexEntry::
-	text "Forms colonies in"
-	next "perpetually dark"
-	next "places. Uses"
+	text "Живе колоніями у"
+	next "темних місцях."
+	next "Використовує"
 
-	page "ultrasonic waves"
-	next "to identify and"
-	next "approach targets"
+	page "ультразвук, щоб"
+	next "орієнтуватися у"
+	next "просторі"
 	dex
 
 _EkansDexEntry::
-	text "Moves silently"
-	next "and stealthily."
-	next "Eats the eggs of"
+	text "Рухається тихо"
+	next "та непомітно."
+	next "Поїдає пташині"
 
-	page "birds, such as"
-	next "PIDGEY and"
-	next "SPEAROW, whole"
+	page "яйця цілими,"
+	next "нападаючи на"
+	next "гнізда"
 	dex
 
 _ParasDexEntry::
-	text "Burrows to suck"
-	next "tree roots. The"
-	next "mushrooms on its"
+	text "Риє землю, щоб"
+	next "гризти коріння."
+	next "Гриби на спині"
 
-	page "back grow by draw-"
-	next "ing nutrients from"
-	next "the bug host"
+	page "ростуть за раху-"
+	next "нок самої ко-"
+	next "махи"
 	dex
 
 _PoliwhirlDexEntry::
-	text "Capable of living"
-	next "in or out of"
-	next "water. When out"
+	text "Може жити як у"
+	next "воді, так і на"
+	next "суші. На березі"
 
-	page "of water, it"
-	next "sweats to keep"
-	next "its body slimy"
+	page "виділяє слиз,"
+	next "щоб шкіра була"
+	next "вологою"
 	dex
 
 _PoliwrathDexEntry::
-	text "An adept swimmer"
-	next "at both the front"
-	next "crawl and breast"
+	text "Майстерний пла-"
+	next "вець. Він легко"
+	next "може обігнати"
 
-	page "stroke. Easily"
-	next "overtakes the best"
-	next "human swimmers"
+	page "найкращих плав-"
+	next "ців серед людей"
 	dex
 
 _WeedleDexEntry::
-	text "Often found in"
-	next "forests, eating"
-	next "leaves."
+	text "Його часто можна"
+	next "знайти у лісі."
+	next "Він має гостре"
 
-	page "It has a sharp"
-	next "venomous stinger"
-	next "on its head"
+	page "отруйне жало на"
+	next "голові"
 	dex
 
 _KakunaDexEntry::
-	text "Almost incapable"
-	next "of moving, this"
-	next "#MON can only"
+	text "Майже нерухомий."
+	next "Цей ПОКЕМОН мо-"
+	next "же лише зміцню-"
 
-	page "harden its shell"
-	next "to protect itself"
-	next "from predators"
+	page "вати панцир для"
+	next "захисту від"
+	next "хижаків"
 	dex
 
 _BeedrillDexEntry::
-	text "Flies at high"
-	next "speed and attacks"
-	next "using its large"
+	text "Літає на великій"
+	next "швидкості та"
+	next "атакує жалами на"
 
-	page "venomous stingers"
-	next "on its forelegs"
-	next "and tail"
+	page "лапах та хвості"
 	dex
 
 _DodrioDexEntry::
-	text "Uses its three"
-	next "brains to execute"
-	next "complex plans."
+	text "Використовує три"
+	next "мізки для плану-"
+	next "вання атак. Коли"
 
-	page "While two heads"
-	next "sleep, one head"
-	next "stays awake"
+	page "дві голови сплять,"
+	next "одна завжди"
+	next "чуває"
 	dex
 
 _PrimeapeDexEntry::
-	text "Always furious"
-	next "and tenacious to"
-	next "boot. It will not"
+	text "Завжди розлюче-"
+	next "ний. Він не при-"
+	next "пинить погоню,"
 
-	page "abandon chasing"
-	next "its quarry until"
-	next "it is caught"
+	page "доки не наздо-"
+	next "жене свою здо-"
+	next "бич"
 	dex
 
 _DugtrioDexEntry::
-	text "A team of DIGLETT"
-	next "triplets."
-	next "It triggers huge"
+	text "Трійця ДІГЛЕТТІВ."
+	next "Вони викликають"
+	next "землетруси,"
 
-	page "earthquakes by"
-	next "burrowing 60 miles"
-	next "underground"
+	page "риючи тунелі"
+	next "глибоко під"
+	next "землею"
 	dex
 
 _VenomothDexEntry::
-	text "The dust-like"
-	next "scales covering"
-	next "its wings are"
+	text "Пилок на його"
+	next "крилах має різ-"
+	next "ні кольори,"
 
-	page "color coded to"
-	next "indicate the kinds"
-	next "of poison it has"
+	page "що вказують на"
+	next "тип отрути"
 	dex
 
 _DewgongDexEntry::
-	text "Stores thermal"
-	next "energy in its"
-	next "body. Swims at a"
+	text "Накопичує тепло у"
+	next "тілі. Плаває у"
+	next "крижаній воді зі"
 
-	page "steady 8 knots"
-	next "even in intensely"
-	next "cold waters"
+	page "швидкістю 8"
+	next "вузлів"
 	dex
 
 _CaterpieDexEntry::
-	text "Its short feet"
-	next "are tipped with"
-	next "suction pads that"
+	text "Його лапки мають"
+	next "присоски, які до-"
+	next "зволяють йому"
 
-	page "enable it to"
-	next "tirelessly climb"
-	next "slopes and walls"
+	page "легко лазити по"
+	next "вертикальних"
+	next "стінах"
 	dex
 
 _MetapodDexEntry::
-	text "This #MON is"
-	next "vulnerable to"
-	next "attack while its"
+	text "Цей ПОКЕМОН дуже"
+	next "вразливий, поки"
+	next "його панцир ще"
 
-	page "shell is soft,"
-	next "exposing its weak"
-	next "and tender body"
+	page "м'який і не може"
+	next "захистити слабке"
+	next "тіло"
 	dex
 
 _ButterfreeDexEntry::
-	text "In battle, it"
-	next "flaps its wings"
-	next "at high speed to"
+	text "У бою він махає"
+	next "крилами, випус-"
+	next "каючи отруйний"
 
-	page "release highly"
-	next "toxic dust into"
-	next "the air"
+	page "пил у повітря"
 	dex
 
 _MachampDexEntry::
-	text "Using its heavy"
-	next "muscles, it throws"
-	next "powerful punches"
+	text "Завдяки велетенсь-"
+	next "ким м'язам він"
+	next "завдає ударів,"
 
-	page "that can send the"
-	next "victim clear over"
-	next "the horizon"
+	page "які відкидають"
+	next "ворога за го-"
+	next "ризонт"
 	dex
 
 _GolduckDexEntry::
-	text "Often seen swim-"
-	next "ming elegantly by"
-	next "lake shores. It"
+	text "Його часто бачать"
+	next "на берегах озер."
+	next "Він схожий на"
 
-	page "is often mistaken"
-	next "for the Japanese"
-	next "monster, Kappa"
+	page "японського мон-"
+	next "стра Каппу"
 	dex
 
 _HypnoDexEntry::
-	text "When it locks eyes"
-	next "with an enemy, it"
-	next "will use a mix of"
+	text "Коли він дивиться"
+	next "в очі ворога, то"
+	next "використовує"
 
-	page "PSI moves such as"
-	next "HYPNOSIS and"
-	next "CONFUSION"
+	page "ПСІ-атаки, як-от"
+	next "ГІПНОЗ та"
+	next "ЗАМІШАННЯ"
 	dex
 
 _GolbatDexEntry::
-	text "Once it strikes,"
-	next "it will not stop"
-	next "draining energy"
+	text "Напавши на жерт-"
+	next "ву, він п’є її"
+	next "енергію, поки не"
 
-	page "from the victim"
-	next "even if it gets"
-	next "too heavy to fly"
+	page "стане занадто"
+	next "важким, щоб"
+	next "літати"
 	dex
 
 _MewtwoDexEntry::
-	text "It was created by"
-	next "a scientist after"
-	next "years of horrific"
+	text "Він був створений"
+	next "ученим після"
+	next "років жахливих"
 
-	page "gene splicing and"
-	next "DNA engineering"
-	next "experiments"
+	page "генетичних експе-"
+	next "риментів"
 	dex
 
 _SnorlaxDexEntry::
-	text "Very lazy. Just"
-	next "eats and sleeps."
-	next "As its rotund"
+	text "Дуже ледачий."
+	next "Тільки їсть та"
+	next "спить. З часом"
 
-	page "bulk builds, it"
-	next "becomes steadily"
-	next "more slothful"
+	page "він стає все"
+	next "більш огрядним"
 	dex
 
 _MagikarpDexEntry::
-	text "In the distant"
-	next "past, it was"
-	next "somewhat stronger"
+	text "У далекому мину-"
+	next "лому він був"
+	next "сильнішим за"
 
-	page "than the horribly"
-	next "weak descendants"
-	next "that exist today"
+	page "своїх неймовірно"
+	next "слабких нащадків"
 	dex
 
 _MukDexEntry::
-	text "Thickly covered"
-	next "with a filthy,"
-	next "vile sludge. It"
+	text "Вкритий густим"
+	next "токсичним брудом."
+	next "Навіть його"
 
-	page "is so toxic, even"
-	next "its footprints"
-	next "contain poison"
+	page "сліди містять"
+	next "сильну отруту"
 	dex
 
 _KinglerDexEntry::
-	text "The large pincer"
-	next "has 10000 hp of"
-	next "crushing power."
+	text "Його велика клеш-"
+	next "ня має нищівну"
+	next "силу, але через"
 
-	page "However, its huge"
-	next "size makes it"
-	next "unwieldy to use"
+	page "вагу нею важко"
+	next "користуватися"
 	dex
 
 _CloysterDexEntry::
-	text "When attacked, it"
-	next "launches its"
-	next "horns in quick"
+	text "Захищаючись, він"
+	next "стріляє шипами."
+	next "Ніхто не бачив,"
 
-	page "volleys. Its"
-	next "innards have"
-	next "never been seen"
+	page "що знаходиться"
+	next "всередині його"
+	next "мушлі"
 	dex
 
 _ElectrodeDexEntry::
-	text "It stores electric"
-	next "energy under very"
-	next "high pressure."
+	text "Накопичує елект-"
+	next "роенергію під"
+	next "високим тиском."
 
-	page "It often explodes"
-	next "with little or no"
-	next "provocation"
+	page "Часто вибухає"
+	next "без жодної при-"
+	next "чини"
 	dex
 
 _ClefableDexEntry::
-	text "A timid fairy"
-	next "#MON that is"
-	next "rarely seen. It"
+	text "Боязкий ПОКЕМОН-"
+	next "фея. Він миттю"
+	next "ховається, щойно"
 
-	page "will run and hide"
-	next "the moment it"
-	next "senses people"
+	page "відчує присут-"
+	next "ність людей"
 	dex
 
 _WeezingDexEntry::
-	text "Where two kinds"
-	next "of poison gases"
-	next "meet, 2 KOFFINGs"
+	text "Там, де змішують-"
+	next "ся отруйні гази,"
+	next "два КОФФІНГИ"
 
-	page "can fuse into a"
-	next "WEEZING over many"
-	next "years"
+	page "можуть злитися у"
+	next "ВІЗІНГА"
 	dex
 
 _PersianDexEntry::
-	text "Although its fur"
-	next "has many admirers,"
-	next "it is tough to"
+	text "Хоча його хутро"
+	next "дуже красиве, він"
+	next "має складний"
 
-	page "raise as a pet"
-	next "because of its"
-	next "fickle meanness"
+	page "та підступний"
+	next "характер"
 	dex
 
 _MarowakDexEntry::
-	text "The bone it holds"
-	next "is its key weapon."
-	next "It throws the"
+	text "Його головна"
+	next "зброя — кістка."
+	next "Він майстерно"
 
-	page "bone skillfully"
-	next "like a boomerang"
-	next "to KO targets"
+	page "кидає її, наче"
+	next "бумеранг"
 	dex
 
 _HaunterDexEntry::
-	text "Because of its"
-	next "ability to slip"
-	next "through block"
+	text "Завдяки здатнос-"
+	next "ті проходити"
+	next "крізь стіни,"
 
-	page "walls, it is said"
-	next "to be from an-"
-	next "other dimension"
+	page "кажуть, що він з"
+	next "іншого виміру"
 	dex
 
 _AbraDexEntry::
-	text "Using its ability"
-	next "to read minds, it"
-	next "will identify"
+	text "Він читає думки"
+	next "і відчуває небез-"
+	next "пеку, тому миттю"
 
-	page "impending danger"
-	next "and TELEPORT to"
-	next "safety"
+	page "ТЕЛЕПОРТУЄТЬСЯ"
+	next "у безпечне місце"
 	dex
 
 _AlakazamDexEntry::
-	text "Its brain can out-"
-	next "perform a super-"
-	next "computer."
+	text "Його мозок пра-"
+	next "цює швидше за"
+	next "суперкомп'ютер."
 
-	page "Its intelligence"
-	next "quotient is said"
-	next "to be 5,000"
+	page "Його IQ сягає"
+	next "5000"
 	dex
 
 _PidgeottoDexEntry::
-	text "Very protective"
-	next "of its sprawling"
-	next "territorial area,"
+	text "Завзято захищає"
+	next "свою територію"
+	next "та люто атакує"
 
-	page "this #MON will"
-	next "fiercely peck at"
-	next "any intruder"
+	page "кожного, хто на"
+	next "неї зазіхне"
 	dex
 
 _PidgeotDexEntry::
-	text "When hunting, it"
-	next "skims the surface"
-	next "of water at high"
+	text "Полюючи, він лі-"
+	next "тає над водою і"
+	next "схоплює здобич,"
 
-	page "speed to pick off"
-	next "unwary prey such"
-	next "as MAGIKARP"
+	page "наприклад,"
+	next "МАДЖИКАРПІВ"
 	dex
 
 _StarmieDexEntry::
-	text "Its central core"
-	next "glows with the"
-	next "seven colors of"
+	text "Його серцевина"
+	next "сяє всіма кольо-"
+	next "рами веселки."
 
-	page "the rainbow. Some"
-	next "people value the"
-	next "core as a gem"
+	page "Дехто вважає її"
+	next "коштовним каме-"
+	next "нем"
 	dex
 
 _BulbasaurDexEntry::
-	text "A strange seed was"
-	next "planted on its"
-	next "back at birth."
+	text "Дивне насіння"
+	next "було посаджене"
+	next "на його спині"
 
-	page "The plant sprouts"
-	next "and grows with"
-	next "this #MON"
+	page "при народженні."
+	next "Воно росте ра-"
+	next "зом із ним"
 	dex
 
 _VenusaurDexEntry::
-	text "The plant blooms"
-	next "when it is"
-	next "absorbing solar"
+	text "Квітка розквітає,"
+	next "коли вбирає со-"
+	next "нячну енергію."
 
-	page "energy. It stays"
-	next "on the move to"
-	next "seek sunlight"
+	page "Він постійно"
+	next "шукає сонячне"
+	next "світло"
 	dex
 
 _TentacruelDexEntry::
-	text "The tentacles are"
-	next "normally kept"
-	next "short. On hunts,"
+	text "Зазвичай його"
+	next "щупальця короткі."
+	next "У бою він їх ви-"
 
-	page "they are extended"
-	next "to ensnare and"
-	next "immobilize prey"
+	page "тягує, щоб обхо-"
+	next "пити здобич"
 	dex
 
 _GoldeenDexEntry::
-	text "Its tail fin"
-	next "billows like an"
-	next "elegant ballroom"
+	text "Плавник на хвос-"
+	next "ті нагадує роз-"
+	next "кішну сукню."
 
-	page "dress, giving it"
-	next "the nickname of"
-	next "the Water Queen"
+	page "Її називають"
+	next "Королевою води"
 	dex
 
 _SeakingDexEntry::
-	text "In the autumn"
-	next "spawning season,"
-	next "they can be seen"
+	text "Восени, у сезон"
+	next "нересту, можна"
+	next "побачити, як во-"
 
-	page "swimming power-"
-	next "fully up rivers"
-	next "and creeks"
+	page "ни затято пли-"
+	next "вуть вгору по"
+	next "річках"
 	dex
 
 _PonytaDexEntry::
-	text "Its hooves are 10"
-	next "times harder than"
-	next "diamonds. It can"
+	text "Його копита у 10"
+	next "разів міцніші за"
+	next "алмаз. Він може"
 
-	page "trample anything"
-	next "completely flat"
-	next "in little time"
+	page "розтоптати будь-"
+	next "що за лічені"
+	next "хвилини"
 	dex
 
 _RapidashDexEntry::
-	text "Very competitive,"
-	next "this #MON will"
-	next "chase anything"
+	text "Дуже азартний."
+	next "Він наздоганяє"
+	next "будь-що, аби"
 
-	page "that moves fast"
-	next "in the hopes of"
-	next "racing it"
+	page "помірятися"
+	next "швидкістю"
 	dex
 
 _RattataDexEntry::
-	text "Bites anything"
-	next "when it attacks."
-	next "Small and very"
+	text "Кусає все навко-"
+	next "ло. Він малий і"
+	next "дуже спритний,"
 
-	page "quick, it is a"
-	next "common sight in"
-	next "many places"
+	page "його можна зус-"
+	next "тріти будь-де"
 	dex
 
 _RaticateDexEntry::
-	text "It uses its whis-"
-	next "kers to maintain"
-	next "its balance."
+	text "Він використовує"
+	next "вуса для підтрим-"
+	next "ки балансу."
 
-	page "It apparently"
-	next "slows down if"
-	next "they are cut off"
+	page "Без них він бі-"
+	next "гає набагато"
+	next "повільніше"
 	dex
 
 _NidorinoDexEntry::
-	text "An aggressive"
-	next "#MON that is"
-	next "quick to attack."
+	text "Агресивний ПОКЕ-"
+	next "МОН, що миттю"
+	next "кидається у бій."
 
-	page "The horn on its"
-	next "head secretes a"
-	next "powerful venom"
+	page "Його ріг виділяє"
+	next "сильну отруту"
 	dex
 
 _NidorinaDexEntry::
-	text "The female's horn"
-	next "develops slowly."
-	next "Prefers physical"
+	text "Ріг самиці росте"
+	next "повільно. Вона"
+	next "надає перевагу"
 
-	page "attacks such as"
-	next "clawing and"
-	next "biting"
+	page "укусам та ударам"
+	next "кігтями"
 	dex
 
 _GeodudeDexEntry::
-	text "Found in fields"
-	next "and mountains."
-	next "Mistaking them"
+	text "Живе у горах."
+	next "Люди часто на-"
+	next "ступають на ньо-"
 
-	page "for boulders,"
-	next "people often step"
-	next "or trip on them"
+	page "го, плутаючи із"
+	next "звичайним каме-"
+	next "нем"
 	dex
 
 _PorygonDexEntry::
-	text "A #MON that"
-	next "consists entirely"
-	next "of programming"
+	text "ПОКЕМОН, що скла-"
+	next "дається лише з"
+	next "програмного коду."
 
-	page "code. Capable of"
-	next "moving freely in"
-	next "cyberspace"
+	page "Здатен вільно"
+	next "рухатися у"
+	next "кіберпросторі"
 	dex
 
 _AerodactylDexEntry::
-	text "A ferocious, pre-"
-	next "historic #MON"
-	next "that goes for the"
+	text "Лютий доісторич-"
+	next "ний ПОКЕМОН, що"
+	next "впивається воро-"
 
-	page "enemy's throat"
-	next "with its serrated"
-	next "saw-like fangs"
+	page "гові в горло сво-"
+	next "їми гострими"
+	next "іклами"
 	dex
 
 _MagnemiteDexEntry::
-	text "Uses anti-gravity"
-	next "to stay suspended."
-	next "Appears without"
+	text "Ширяє у повітрі"
+	next "завдяки антигра-"
+	next "вітації. Раптово"
 
-	page "warning and uses"
-	next "THUNDER WAVE and"
-	next "similar moves"
+	page "з'являється та"
+	next "б'є ворогів"
+	next "струмом"
 	dex
 
 _CharmanderDexEntry::
-	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
+	text "Надає перевагу"
+	next "гарячим місцям."
+	next "Коли йде дощ,"
 
-	page "is said to spout"
-	next "from the tip of"
-	next "its tail"
+	page "з кінчика його"
+	next "хвоста йде пара"
 	dex
 
 _SquirtleDexEntry::
-	text "After birth, its"
-	next "back swells and"
-	next "hardens into a"
+	text "Після народження"
+	next "його спина тверд-"
+	next "не, стаючи міц-"
 
-	page "shell. Powerfully"
-	next "sprays foam from"
-	next "its mouth"
+	page "ним панциром."
+	next "Плюється піною"
 	dex
 
 _CharmeleonDexEntry::
-	text "When it swings"
-	next "its burning tail,"
-	next "it elevates the"
+	text "Коли він махає"
+	next "своїм палаючим"
+	next "хвостом, темпе-"
 
-	page "temperature to"
-	next "unbearably high"
-	next "levels"
+	page "ратура навколо"
+	next "стає неймовірно"
+	next "високою"
 	dex
 
 _WartortleDexEntry::
-	text "Often hides in"
-	next "water to stalk"
-	next "unwary prey. For"
+	text "Часто ховається у"
+	next "воді, чатуючи на"
+	next "здобич. Його"
 
-	page "swimming fast, it"
-	next "moves its ears to"
-	next "maintain balance"
+	page "вуха допомагають"
+	next "тримати баланс"
+	next "під час плавання"
 	dex
 
 _CharizardDexEntry::
-	text "Spits fire that"
-	next "is hot enough to"
-	next "melt boulders."
+	text "Вивергає вогонь,"
+	next "що може плавити"
+	next "скелі. Може"
 
-	page "Known to cause"
-	next "forest fires"
-	next "unintentionally"
+	page "спричинити лі-"
+	next "сову пожежу"
 	dex
 
 _OddishDexEntry::
-	text "During the day,"
-	next "it keeps its face"
-	next "buried in the"
+	text "Вдень він ховає"
+	next "обличчя під зем-"
+	next "лею. Вночі він"
 
-	page "ground. At night,"
-	next "it wanders around"
-	next "sowing its seeds"
+	page "блукає навколо,"
+	next "розкидаючи на-"
+	next "сіння"
 	dex
 
 _GloomDexEntry::
-	text "The fluid that"
-	next "oozes from its"
-	next "mouth isn't drool."
+	text "Рідина, що тече з"
+	next "його рота — це"
+	next "не слина, а нек-"
 
-	page "It is a nectar"
-	next "that is used to"
-	next "attract prey"
+	page "тар, що приваб-"
+	next "лює здобич"
 	dex
 
 _VileplumeDexEntry::
-	text "The larger its"
-	next "petals, the more"
-	next "toxic pollen it"
+	text "Чим більші пелю-"
+	next "стки, тим більше"
+	next "в них отрути."
 
-	page "contains. Its big"
-	next "head is heavy and"
-	next "hard to hold up"
+	page "Йому важко три-"
+	next "мати голову"
 	dex
 
 _BellsproutDexEntry::
-	text "A carnivorous"
-	next "#MON that traps"
-	next "and eats bugs."
+	text "Хижий ПОКЕМОН,"
+	next "що поїдає комах."
+	next "Вбирає вологу"
 
-	page "It uses its root"
-	next "feet to soak up"
-	next "needed moisture"
+	page "своїми коренями-"
+	next "лапками"
 	dex
 
 _WeepinbellDexEntry::
-	text "It spits out"
-	next "POISONPOWDER to"
-	next "immobilize the"
+	text "Випускає отруйний"
+	next "пилок, щоб знеру-"
+	next "хомити ворога,"
 
-	page "enemy and then"
-	next "finishes it with"
-	next "a spray of ACID"
+	page "а потім атакує"
+	next "КИСЛОТОЮ"
 	dex
 
 _VictreebelDexEntry::
-	text "Said to live in"
-	next "huge colonies"
-	next "deep in jungles,"
+	text "Кажуть, живе у"
+	next "джунглях велики-"
+	next "ми колоніями,"
 
-	page "although no one"
-	next "has ever returned"
-	next "from there"
+	page "але звідти ще"
+	next "ніхто не повер-"
+	next "тався"
 	dex

@@ -1,231 +1,225 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Ухилився від"
+	line "кинутого БОЛЛА!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Цього ПОК'еМОНА"
+	line "не спіймати!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
-	line "#MON!"
+	text "Ти схибив мимо"
+	line "ПОК'еМОНА!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Дідько! ПОК'еМОН"
+	line "вирвався!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught! "
+	text "Ой! Здавалося,"
+	line "він піймався!"
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Ех! Було так"
+	line "близько!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
-	line "@"
-	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text "Чудово!"
+	line "@ був"
+	cont "спійманий!@"
 	text_end
 
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "BILL's PC!"
+	text " був"
+	line "перенесений у"
+	cont "ПК БІЛЛА!"
 	prompt
 
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	text " був"
+	line "перенесений у"
+	cont "чийсь ПК!"
 	prompt
 
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
-	cont "@"
-	text_ram wEnemyMonNick
-	text "!@"
+	text "Нові дані"
+	line "ПОК'еДЕКСА для"
+	cont "@!@"
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
-	line "@"
-	text_ram wNameBuffer
-	text "!"
+	text "<PLAYER> сів на"
+	line "@!"
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "Тут ніде"
+	line "злізти!"
 	prompt
 
 _VitaminStatRoseText::
-	text_ram wNameBuffer
-	text "'s"
-	line "@"
+	text "Параметр @"
+	line "у @"
 	text_ram wStringBuffer
-	text " rose."
+	text " зріс."
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Це не матиме"
+	line "жодного ефекту."
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> кинув"
+	line "ПРИНАДУ."
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> кинув"
+	line "КАМІНЬ."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "Заграв на"
+	line "ПОК'еФЛЕЙТІ."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Яка приємна"
+	line "мелодія!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Усі сплячі"
+	line "ПОК'еМОНИ"
+	cont "прокинулися."
 	prompt
 
 _PlayedFluteHadEffectText::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> грає на"
+	line "ПОК'еФЛЕЙТІ.@"
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
+	text "Монети"
 	line "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text " "
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Так! ПРЕДМЕТШУКАЧ"
+	line "каже, що річ"
+	cont "десь поруч."
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Ні! ПРЕДМЕТШУКАЧ"
+	line "не реагує."
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Підняти ОП якого"
+	line "прийому?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Відновити ОП"
+	line "якого прийому?"
 	done
 
 _PPMaxedOutText::
+	text "ОП @"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "is maxed out."
+	text_start
+	line "на максимумі."
 	prompt
 
 _PPIncreasedText::
+	text "ОП @"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "increased."
+	text_start
+	line "збільшено."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "ОП відновлено."
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "Запущено ТМ!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "Запущено ПМ!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
-	line "@"
-	text_ram wStringBuffer
-	text "!"
+	text "Там міститься"
+	line "@!"
 
-	para "Teach @"
+	para "Навчити @"
 	text_ram wStringBuffer
 	text_start
-	line "to a #MON?"
+	line "ПОК'еМОНА?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wNameBuffer
-	text " is not"
-	line "compatible with"
+	text " не"
+	line "сумісний із"
 	cont "@"
 	text_ram wStringBuffer
 	text "."
 
-	para "It can't learn"
+	para "Він не вивчить"
 	line "@"
 	text_ram wStringBuffer
 	text "."
 	prompt
 
 _ItemUseNotTimeText::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that! "
+	text "ОАК: <PLAYER>!"
+	line "Зараз не час"
+	cont "для цього!"
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "Це не твоє,"
+	line "не чіпай!"
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Це не матиме"
+	line "жодного ефекту."
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "Тренер відбив"
+	line "ПОК'еБОЛЛ!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Не будь злодієм!"
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "Тут не можна"
+	next "їздити."
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
-	line "@"
+	text "Не можна СЕРФИТИ"
+	line "на @"
 	text_ram wNameBuffer
-	text " here!"
+	text " тут!"
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "БОКС ПОК'еМОН"
+	line "повний! Не можу"
+	cont "це вжити!"
 	prompt

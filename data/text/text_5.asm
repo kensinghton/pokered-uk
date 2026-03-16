@@ -1,104 +1,104 @@
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
+	text "Приходьте ще!"
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "Ми готуємося."
+	line "Зачекайте."
 	done
 
 _UsedStrengthText::
 	text_ram wNameBuffer
-	text " used"
-	line "STRENGTH.@"
+	text " вживає"
+	line "СИЛУ.@"
 	text_end
 
 _CanMoveBouldersText::
 	text_ram wNameBuffer
-	text " can"
-	line "move boulders."
+	text " може"
+	line "рухати валуни."
 	prompt
 
 _CurrentTooFastText::
-	text "The current is"
-	line "much too fast!"
+	text "Течія занадто"
+	line "швидка!"
 	prompt
 
 _CyclingIsFunText::
-	text "Cycling is fun!"
-	line "Forget SURFing!"
+	text "Їздити круто!"
+	line "Забудь СЕРФІНГ!"
 	prompt
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
-	line "lights the area!"
+	text "Сліпучий СПАЛАХ"
+	line "освітлює все!"
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
+	text "Перенос до ост."
+	line "ПОК'еЦЕНТРУ."
 	done
 
 _CannotUseTeleportNowText::
 	text_ram wNameBuffer
-	text " can't"
-	line "use TELEPORT now."
+	text " зараз"
+	line "не може"
+	cont "ТЕЛЕПОРТ."
 	prompt
 
 _CannotFlyHereText::
 	text_ram wNameBuffer
-	text " can't"
-	line "FLY here."
+	text " не"
+	line "може тут у"
+	cont "ПОЛІТ."
 	prompt
 
 _NotHealthyEnoughText::
-	text "Not healthy"
-	line "enough."
+	text "Замало ОЗ."
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
-	line "is required."
+	text "Ні! Потрібен"
+	line "новий ЗНАЧОК."
 	prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
+	text "Тут не можна"
+	line "вживати речі."
 	prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
+	text "Тут не можна"
+	line "злізти."
 	prompt
 
 _GotMonText::
-	text "<PLAYER> got"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wNameBuffer
 	text "!@"
 	text_end
 
 _SentToBoxText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Місця для"
+	line "ПОК'еМОНІВ нема!"
 	cont "@"
 	text_ram wBoxMonNicks
-	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	text " вислано"
+	cont "в БОКС ПК @"
 	text_ram wStringBuffer
-	text " on PC!"
+	text "!"
 	done
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Місця для"
+	line "ПОК'еМОНІВ нема!"
 
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
+	para "БОКС ПОК'еМОН"
+	line "повний і не"
+	cont "приймає нових!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Зміни БОКС у"
+	line "ПОК'еЦЕНТРІ!"
 	done
+	

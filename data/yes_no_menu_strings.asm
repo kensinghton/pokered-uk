@@ -18,29 +18,29 @@ TwoOptionMenuStrings:
 	assert_table_length NUM_TWO_OPTION_MENUS
 
 .NoYesMenu:
-	db   "NO"
-	next "YES@"
+	db   "НІ"
+	next "ТАК@"
 
 .YesNoMenu:
-	db   "YES"
-	next "NO@"
+	db   "ТАК"
+	next "НІ@"
 
 .NorthWestMenu:
-	db   "NORTH"
-	next "WEST@"
+	db   "ПІВНІЧНИЙ"
+	next "ЗАХІД@"
 
 .SouthEastMenu:
-	db   "SOUTH"
-	next "EAST@"
+	db   "ПІВДЕННИЙ"
+	next "СХІД@"
 
 .NorthEastMenu:
-	db   "NORTH"
-	next "EAST@"
+	db   "ПІВНІЧНИЙ"
+	next "СХІД@"
 
 .TradeCancelMenu:
-	db   "TRADE"
-	next "CANCEL@"
+	db   "ТОРГУВАТИ"
+	next "СКАСУВАТИ@"
 
 .HealCancelMenu:
-	db   "HEAL"
-	next "CANCEL@"
+	db   "ЛІКУВАТИ"
+	next "СКАСУВАТИ@"

@@ -6,13 +6,13 @@ InGameTrade_CheckForTradeEvo:
 ; Graveler's English name and Haunter's early English name "Spectre".
 ; The final release replaced Graveler and Haunter in TradeMons.
 	ld a, [wInGameTradeReceiveMonName]
-	cp 'G' ; GRAVELER
+	cp 'Г' ; GRAVELER
 	jr z, .nameMatched
 	; "SPECTRE" (HAUNTER)
-	cp 'S'
+	cp 'С'
 	ret nz
 	ld a, [wInGameTradeReceiveMonName + 1]
-	cp 'P'
+	cp 'П'
 	ret nz
 .nameMatched
 	ld a, [wPartyCount]

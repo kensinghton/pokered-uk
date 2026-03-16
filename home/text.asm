@@ -176,13 +176,13 @@ PlaceCommandCharacter::
 	inc de
 	jp PlaceNextChar
 
-TMCharText::      db "TM@"
-TrainerCharText:: db "TRAINER@"
-PCCharText::      db "PC@"
-RocketCharText::  db "ROCKET@"
-PlacePOKeText::   db "POKé@"
+TMCharText::      db "ТМ@"
+TrainerCharText:: db "ТРЕНЕР@"
+PCCharText::      db "ПК@"
+RocketCharText::  db "РОКЕТ@"
+PlacePOKeText::   db "ПОК'е@"
 SixDotsCharText:: db "……@"
-EnemyText::       db "Enemy @"
+EnemyText::       db "Ворог @"
 PlacePKMNText::   db "<PK><MN>@"
 
 ContText::

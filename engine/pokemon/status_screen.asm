@@ -203,17 +203,17 @@ NamePointers2:
 	dw wDayCareMonName
 
 TypesIDNoOTText:
-	db   "TYPE1/"
-	next "TYPE2/"
+	db   "ТИП 1/"
+	next "ТИП 2/"
 	next "<ID>№/"
-	next "OT/"
+	next "ТРНР/"
 	next "@"
 
 StatusText:
-	db "STATUS/@"
+	db "СТАТУС/@"
 
 OKText:
-	db "OK@"
+	db "ОК@"
 
 ; Draws a line starting from hl high b and wide c
 DrawLineBox:
@@ -281,10 +281,10 @@ PrintStatsBox:
 	ret
 
 .StatsText:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPEED"
-	next "SPECIAL@"
+	db   "АТАКА"
+	next "ЗАХИСТ"
+	next "ШВИДКІСТЬ"
+	next "СПЕЦІАЛ@"
 
 StatusScreen2:
 	ldh a, [hTileAnimations]
@@ -458,8 +458,8 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "EXP POINTS"
-	next "LEVEL UP@"
+	db   "ОЧКИ ДОСВ."
+	next "РІВЕНЬ+@"
 
 StatusScreen_ClearName:
 	ld bc, NAME_LENGTH - 1

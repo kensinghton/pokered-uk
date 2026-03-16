@@ -826,8 +826,8 @@ ItemUseMedicine:
 	ld [wActionResultOrTookBattleTurn], a ; item use failed
 	jp PrintText
 .emptyPartyText
-	text "You don't have"
-	line "any #MON!"
+	text "В тебе жодного"
+	line "ПОК'еМОНа!"
 	prompt
 .notUsingSoftboiled
 	call DisplayPartyMenu

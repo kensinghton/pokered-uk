@@ -17,10 +17,10 @@ CeladonGym_Script:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "CELADON CITY@"
+	db "ЦЕЛАДОН СІТІ@"
 
 .LeaderName:
-	db "ERIKA@"
+	db "ЕРІКА@"
 
 CeladonGymResetScripts:
 	xor a ; SCRIPT_CELADONGYM_DEFAULT

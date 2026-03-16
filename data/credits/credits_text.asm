@@ -65,138 +65,144 @@ CreditsTextPointers:
 	dw CredFukui
 	dw CredClub
 	dw CredPAAD
+	dw CredTransUK
+	dw CredAks
 	assert_table_length NUM_CRED_STRINGS
 
 CredVersion:
 IF DEF(_RED)
-	db -8, "RED VERSION STAFF@"
+	db -8, "ЧЕРВОНА ВЕРСІЯ:@"
 ENDC
 IF DEF(_BLUE)
-	db -8, "BLUE VERSION STAFF@"
+	db -8, "СИНЯ ВЕРСІЯ:@"
 ENDC
 CredTajiri:
-	db -6, "SATOSHI TAJIRI@"
+	db -6, "САТОШІ ТАДЖИРІ@"
 CredTaOota:
-	db -6, "TAKENORI OOTA@"
+	db -6, "ТАКЕНОРІ ООТА@"
 CredMorimoto:
-	db -7, "SHIGEKI MORIMOTO@"
+	db -7, "ШІГЕКІ МОРІМОТО@"
 CredWatanabe:
-	db -7, "TETSUYA WATANABE@"
+	db -7, "ТЕТСУЯ ВАТАНАБЕ@"
 CredMasuda:
-	db -6, "JUNICHI MASUDA@"
+	db -6, "ДЖУНІЧІ МАСУДА@"
 CredNisino:
-	db -5, "KOHJI NISINO@"
+	db -5, "КОДЖІ НІСІНО@"
 CredSugimori:
-	db -5, "KEN SUGIMORI@"
+	db -5, "КЕН СУГІМОРІ@"
 CredNishida:
-	db -6, "ATSUKO NISHIDA@"
+	db -6, "АЦУКО НІСІДА@"
 CredMiyamoto:
-	db -7, "SHIGERU MIYAMOTO@"
+	db -7, "СІГЕРУ МІЯМОТО@"
 CredKawaguchi:
-	db -8, "TAKASHI KAWAGUCHI@"
+	db -8, "ТАКАСІ КАВАГУЧІ@"
 CredIshihara:
-	db -8, "TSUNEKAZU ISHIHARA@"
+	db -8, "ЦУНЕКАЗУ ІШІХАРА@"
 CredYamauchi:
-	db -7, "HIROSHI YAMAUCHI@"
+	db -7, "ХІРОСІ ЯМАУЧІ@"
 CredZinnai:
-	db -7, "HIROYUKI ZINNAI@"
+	db -7, "ХІРОЮКІ ЦІНАТА@"
 CredHishida:
-	db -7, "TATSUYA HISHIDA@"
+	db -7, "ТАЦУЯ ХІСІДА@"
 CredSakai:
-	db -6, "YASUHIRO SAKAI@"
+	db -6, "ЯСУХІРО САКАІ@"
 CredYamaguchi:
-	db -7, "WATARU YAMAGUCHI@"
+	db -7, "ВАТАРУ ЯМАГУСІ@"
 CredYamamoto:
-	db -8, "KAZUYUKI YAMAMOTO@"
+	db -8, "КАЗУЮКІ ЯМАМОТО@"
 CredTaniguchi:
-	db -8, "RYOHSUKE TANIGUCHI@"
+	db -8, "РЬОСУКЄ ТАНІГУСІ@"
 CredNonomura:
-	db -8, "FUMIHIRO NONOMURA@"
+	db -8, "ФУМІХІРО НОНОМУРА@"
 CredFuziwara:
-	db -7, "MOTOFUMI FUZIWARA@"
+	db -7, "МОТОФУМІ ФУЦІВАРА@"
 CredMatsusima:
-	db -7, "KENJI MATSUSIMA@"
+	db -7, "КЕНЖІ МАЦУСІМА@"
 CredTomisawa:
-	db -7, "AKIHITO TOMISAWA@"
+	db -7, "АКІХІТО ТОМІСАВА@"
 CredKawamoto:
-	db -7, "HIROSHI KAWAMOTO@"
+	db -7, "ХІРОСІ КАВАМОТО@"
 CredKakei:
-	db -6, "AKIYOSHI KAKEI@"
+	db -6, "АКІЙОСІ КАКЕІ@"
 CredTsuchiya:
-	db -7, "KAZUKI TSUCHIYA@"
+	db -7, "КАЗУКІ ЦУЧІЙА@"
 CredTaNakamura:
-	db -6, "TAKEO NAKAMURA@"
+	db -6, "ТАКЕО НАКАМУРА@"
 CredYuda:
-	db -6, "MASAMITSU YUDA@"
+	db -6, "МАСАМІЦІ ЮДА@"
 CredMon:
-	db -3, "#MON@"
+	db -3, "ПОК'еМОН@"
 CredDirector:
-	db -3, "DIRECTOR@"
+	db -3, "РЕЖИСЕР@"
 CredProgrammers:
-	db -5, "PROGRAMMERS@"
+	db -5, "ПРОГРАМІСТИ@"
 CredCharDesign:
-	db -7, "CHARACTER DESIGN@"
+	db -7, "ДИЗАЙН ПЕРСОНАЖІВ@"
 CredMusic:
-	db -2, "MUSIC@"
+	db -2, "МУЗИКА@"
 CredSoundEffects:
-	db -6, "SOUND EFFECTS@"
+	db -6, "ЗВУКОВІ ЕФЕКТИ@"
 CredGameDesign:
-	db -5, "GAME DESIGN@"
+	db -5, "ГЕЙМДИЗАЙН@"
 CredMonsterDesign:
-	db -6, "MONSTER DESIGN@"
+	db -6, "ДИЗАЙН МОНСТРІВ@"
 CredGameScene:
-	db -6, "GAME SCENARIO@"
+	db -6, "СЦЕНАРІЙ@"
 CredParam:
-	db -8, "PARAMETRIC DESIGN@"
+	db -8, "ДИЗАЙН ПАРАМЕТРІВ@"
 CredMap:
-	db -4, "MAP DESIGN@"
+	db -4, "ДИЗАЙН МАП@"
 CredTest:
-	db -7, "PRODUCT TESTING@"
+	db -7, "ТЕСТУВАННЯ@"
 CredSpecial:
-	db -6, "SPECIAL THANKS@"
+	db -6, "ОКРЕМА ПОДЯКА@"
 CredProducers:
-	db -4, "PRODUCERS@"
+	db -4, "ПРОДЮСЕРИ@"
 CredProducer:
-	db -4, "PRODUCER@"
+	db -4, "ПРОДЮСЕР@"
 CredExecutive:
-	db -8, "EXECUTIVE PRODUCER@"
+	db -8, "ВИКОНАВЧИЙ ПРОДЮСЕР@"
 CredTamada:
-	db -6, "SOUSUKE TAMADA@"
+	db -6, "СОУСУКЄ ТАМАДА@"
 CredSaOota:
-	db -5, "SATOSHI OOTA@"
+	db -5, "САТОСІ ООТА@"
 CredYoshikawa:
-	db -6, "RENA YOSHIKAWA@"
+	db -6, "РЕНА ЙОСІКАВА@"
 CredToOota:
-	db -6, "TOMOMICHI OOTA@"
+	db -6, "ТОМІЧІ ООТА@"
 CredUSStaff:
-	db -7, "US VERSION STAFF@"
+	db -7, "ВЕРСІЯ ДЛЯ США@"
 CredUSCoord:
-	db -7, "US COORDINATION@"
+	db -7, "КООРДИНАТОР@"
 CredTilden:
-	db -5, "GAIL TILDEN@"
+	db -5, "ГЕЙЛ ТІЛДЕН@"
 CredKawakami:
-	db -6, "NAOKO KAWAKAMI@"
+	db -6, "НАОКО КАВАКАМІ@"
 CredHiNakamura:
-	db -6, "HIRO NAKAMURA@"
+	db -6, "ХІРО НАКАМУРА@"
 CredGiese:
-	db -6, "WILLIAM GIESE@"
+	db -6, "ВІЛЬЯМ ГЕЙЗ@"
 CredOsborne:
-	db -5, "SARA OSBORNE@"
+	db -5, "САРА ОЗБОРН@"
 CredTrans:
-	db -7, "TEXT TRANSLATION@"
+	db -7, "ПЕРЕКЛАД АНГЛІЙСЬКОЮ@"
 CredOgasawara:
-	db -6, "NOB OGASAWARA@"
+	db -6, "НОБ ОГАСАВАРА@"
 CredIwata:
-	db -5, "SATORU IWATA@"
+	db -5, "САТОРУ ІВАТА@"
 CredIzushi:
-	db -7, "TAKEHIRO IZUSHI@"
+	db -7, "ТАКЕХІРО ІЖУСІ@"
 CredHarada:
-	db -7, "TAKAHIRO HARADA@"
+	db -7, "ТАКАХІРО ХАРАДА@"
 CredMurakawa:
-	db -7, "TERUKI MURAKAWA@"
+	db -7, "ТЕРУКІ МУРАКАВА@"
 CredFukui:
-	db -5, "KOHTA FUKUI@"
+	db -5, "КОХТА ФУКУІ@"
 CredClub:
-	db -9, "NCL SUPER MARIO CLUB@"
+	db -9, "НЦЛ СУПЕР МАРІО КЛУБ@"
 CredPAAD:
-	db -5, "PAAD TESTING@"
+	db -5, "ПААД ТЕСТІНГ@"
+CredTransUK:
+	db -7, "ПЕРЕКЛАД УКРАЇНСЬКОЮ@"
+CredAks:
+	db -6, "МИКИТА АКС БОНДАРЕНКО@"	

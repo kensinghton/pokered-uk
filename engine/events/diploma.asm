@@ -98,20 +98,20 @@ DiplomaTextPointersAndCoords:
 	diploma_text  9, 16, DiplomaGameFreak
 
 DiplomaText:
-	db CIRCLE_TILE_ID, "Diploma", CIRCLE_TILE_ID, "@"
+	db CIRCLE_TILE_ID, "Диплом", CIRCLE_TILE_ID, "@"
 
 DiplomaPlayer:
-	db "Player@"
+	db "Гравець@"
 
 DiplomaEmptyText:
 	db "@"
 
 DiplomaCongrats:
-	db   "Congrats! This"
-	next "diploma certifies"
-	next "that you have"
-	next "completed your"
-	next "#DEX.@"
+	db   "Вітаємо! Цей"
+	next "диплом засвідчує"
+	next "що ти завершив"
+	next "збирати свій"
+	next "ПОК'еДЕКС.@"
 
 DiplomaGameFreak:
-	db "GAME FREAK@"
+	db "ГЕЙМ ФРІК@"

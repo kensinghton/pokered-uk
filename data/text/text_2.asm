@@ -1,7 +1,7 @@
 _AIBattleWithdrawText::
 	text_ram wTrainerName
-	text " with-"
-	line "drew @"
+	text " із-"
+	line "витяг @"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
@@ -9,32 +9,33 @@ _AIBattleWithdrawText::
 _AIBattleUseItemText::
 	text_ram wTrainerName
 	text_start
-	line "used @"
+	line "використав @"
 	text_ram wNameBuffer
 	text_start
-	cont "on @"
+	cont "на @"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
 
 _TradeWentToText::
 	text_ram wStringBuffer
-	text " went"
-	line "to @"
+	text " пішов"
+	line "в @"
 	text_ram wLinkEnemyTrainerName
 	text "."
 	done
 
 _TradeForText::
-	text "For <PLAYER>'s"
+	text "Для"
 	line "@"
 	text_ram wStringBuffer
+	text "<PLAYER>-а"
 	text ","
 	done
 
 _TradeSendsText::
 	text_ram wLinkEnemyTrainerName
-	text " sends"
+	text " відправляє"
 	line "@"
 	text_ram wNameBuffer
 	text "."
@@ -42,18 +43,17 @@ _TradeSendsText::
 
 _TradeWavesFarewellText::
 	text_ram wLinkEnemyTrainerName
-	text " waves"
-	line "farewell as"
+	text " маше"
+	line "на все добре"
 	done
 
 _TradeTransferredText::
 	text_ram wNameBuffer
-	text " is"
-	line "transferred."
+	text " переноситься."
 	done
 
 _TradeTakeCareText::
-	text "Take good care of"
+	text "Піклуйся добре за"
 	line "@"
 	text_ram wNameBuffer
 	text "."
@@ -61,818 +61,852 @@ _TradeTakeCareText::
 
 _TradeWillTradeText::
 	text_ram wLinkEnemyTrainerName
-	text " will"
-	line "trade @"
+	text " буде"
+	line "торгувати @"
 	text_ram wNameBuffer
 	text_start
 	done
 
 _TradeforText::
-	text "for <PLAYER>'s"
-	line "@"
+	line "для @"
+	text "<PLAYER>-я"
 	text_ram wStringBuffer
 	text "."
 	done
 
 _PlaySlotMachineText::
-	text "A slot machine!"
-	line "Want to play?"
+	text "Слот-машина!"
+	line "Хочеш зіграти?"
 	done
 
 _OutOfCoinsSlotMachineText::
-	text "Darn!"
-	line "Ran out of coins!"
+	text "Дідько!"
+	line "Скінчились"
+	line "монетки!"
 	done
 
 _BetHowManySlotMachineText::
-	text "Bet how many"
-	line "coins?"
+	text "Скільки поставити"
+	line "монеток?"
 	done
 
 _StartSlotMachineText::
-	text "Start!"
+	text "Почати!"
 	done
 
 _NotEnoughCoinsSlotMachineText::
-	text "Not enough"
-	line "coins!"
+	text "Не вистачає"
+	line "монеток!"
 	prompt
 
 _OneMoreGoSlotMachineText::
-	text "One more "
-	line "go?"
+	text "Ще раз?"
 	done
 
 _LinedUpText::
-	text " lined up!"
-	line "Scored @"
+	text " вишикувались!"
+	line "Вийшло @"
 	text_ram wStringBuffer
-	text " coins!"
+	text " монеток!"
 	done
 
 _NotThisTimeText::
-	text "Not this time!"
+	text "Не цього разу!"
 	prompt
 
 _YeahText::
-	text "Yeah!@"
+	text "Так!@"
 	text_end
 
 _DexSeenOwnedText::
-	text "#DEX   Seen:@"
+	text "ПОК'еДЕКС Бачив:@"
 	text_decimal wDexRatingNumMonsSeen, 1, 3
 	text_start
-	line "         Owned:@"
+	line "           Має:@"
 	text_decimal wDexRatingNumMonsOwned, 1, 3
 	text_end
 
 _DexRatingText::
-	text "#DEX Rating<COLON>"
+	text "ПОК'еДЕКС Рейтинг<COLON>"
 	done
 
 _GymStatueText1::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "ПОК'еДЕКС ЗАЛ:"
+	cont "ЛІДЕР: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "ТРЕНЕРИ-ПЕРЕМОЖЦІ"
 	line "<RIVAL>"
 	done
 
 _GymStatueText2::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "ПОК'еДЕКС ЗАЛ:"
+	cont "ЛІДЕР: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "ТРЕНЕРИ-ПЕРЕМОЖЦІ"
 	line "<RIVAL>"
 	cont "<PLAYER>"
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	text "ПОК'еМОН ЦЕНТРи"
+	line "вилікують твоїх"
+	cont "втомлених, пора-"
+	cont "нених ПОК'еМОНів"
+	cont "чи безсвідомі!"
 	done
 
 _PewterCityPokecenterGuyText::
-	text "Yawn!"
+	text "Позіхає!"
 
-	para "When JIGGLYPUFF"
-	line "sings, #MON"
-	cont "get drowsy..."
+	para "Коли ДЖИГЛІПАФ"
+	line "співає, ПОК'еМОНи"
+	cont "стають сонливими."
 
-	para "...Me too..."
-	line "Snore..."
+	para "...Я теж..."
+	line "Хропить..."
 	done
 
 _CeruleanPokecenterGuyText::
-	text "BILL has lots of"
-	line "#MON!"
+	text "ПК БІЛЛа має"
+	line "купу ПОК'еМОНів!"
 
-	para "He collects rare"
-	line "ones too!"
+	para "Також він збирає"
+	line "рідкісних!"
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
-	line "skulls, right?"
+	text "КУБОНи носять"
+	line "черепа, вірно?"
 
-	para "People will pay a"
-	line "lot for one!"
+	para "Люди платять"
+	line "багато за них!"
 	done
 
 _MtMoonPokecenterBenchGuyText::
-	text "If you have too"
-	line "many #MON, you"
-	cont "should store them"
-	cont "via PC!"
+	text "Якщо в тебе"
+	line "забагато"
+	cont "ПОК'еМОНів, ти"
+	cont "можеш помістити"
+	cont "зайвих в ПК!"
 	done
 
 _RockTunnelPokecenterGuyText::
-	text "I heard that"
-	line "GHOSTs haunt"
-	cont "LAVENDER TOWN!"
+	text "Я чув, що ПРИВИДИ"
+	line "дошкуляють"
+	cont "жителям ЛАВЕНДЕР"
+	cont "ТАУН!"
 	done
 
 _UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch #MON."
+	text "Я б хотів"
+	line "спіймати"
+	cont "ПОК'еМОНа."
 	done
 
 _UnusedBenchGuyText2::
-	text "I'm tired from"
-	line "all the fun..."
+	text "Я так втомився"
+	line "від усіх цих"
+	cont "веселощів..."
 	done
 
 _UnusedBenchGuyText3::
-	text "SILPH's manager"
-	line "is hiding in the"
-	cont "SAFARI ZONE."
+	text "Менеджер СІЛФ"
+	line "ховається в"
+	cont "САФАРІ-ЗОНІ."
 	done
 
 _VermilionPokecenterGuyText::
-	text "It is true that a"
-	line "higher level"
-	cont "#MON will be"
-	cont "more powerful..."
+	text "Це правда, що"
+	line "ПОК'еМОН вищого"
+	cont "рівня буде"
+	cont "могутнішим..."
 
-	para "But, all #MON"
-	line "will have weak"
-	cont "points against"
-	cont "specific types."
+	para "Але кожен"
+	line "ПОК'еМОН має"
+	cont "слабкі місця"
+	cont "проти певних"
+	cont "типів."
 
-	para "So, there is no"
-	line "universally"
-	cont "strong #MON."
+	para "Тож не існує"
+	line "універсально"
+	cont "сильного"
+	cont "ПОК'еМОНа."
 	done
 
 _CeladonCityPokecenterGuyText::
-	text "If I had a BIKE,"
-	line "I would go to"
-	cont "CYCLING ROAD!"
+	text "Мав би я"
+	line "БІСИКЛЬ, я б"
+	cont "поїхав на"
+	cont "ВЕЛОШЛЯХ!"
 	done
 
 _FuchsiaCityPokecenterGuyText::
-	text "If you're studying "
-	line "#MON, visit"
-	cont "the SAFARI ZONE."
+	text "Якщо вивчаєш"
+	line "ПОК'еМОНів,"
+	cont "відвідай"
+	cont "САФАРІ-ЗОНУ."
 
-	para "It has all sorts"
-	line "of rare #MON."
+	para "Там є всякі"
+	line "рідкісні"
+	cont "ПОК'еМОНи."
 	done
 
 _CinnabarPokecenterGuyText::
-	text "#MON can still"
-	line "learn techniques"
-	cont "after canceling"
-	cont "evolution."
+	text "ПОК'еМОНи ще"
+	line "вчать техніки"
+	cont "після скасування"
+	cont "еволюції."
 
-	para "Evolution can wait"
-	line "until new moves"
-	cont "have been learned."
+	para "Вона зачекає,"
+	line "поки не будуть"
+	cont "вивчені нові"
+	cont "прийоми."
 	done
 
 _SaffronCityPokecenterGuyText1::
-	text "It would be great"
-	line "if the ELITE FOUR"
-	cont "came and stomped"
-	cont "TEAM ROCKET!"
+	text "Було б круто,"
+	line "якби ЕЛІТНА"
+	cont "ЧЕТВІРКА прийшла"
+	cont "і розбила"
+	cont "КОМАНДУ РОКЕТ!"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "TEAM ROCKET took"
-	line "off! We can go"
-	cont "out safely again!"
-	cont "That's great!"
+	text "КОМАНДА РОКЕТ"
+	line "забралася! Ми"
+	cont "знову можемо"
+	cont "вільно гуляти!"
+	cont "Це чудово!"
 	done
 
 _CeladonCityHotelText::
-	text "My sis brought me"
-	line "on this vacation!"
+	text "Сестра взяла"
+	line "мене з собою у"
+	cont "цю відпустку!"
 	done
 
 _BookcaseText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Вщент забито"
+	line "книгами про"
+	cont "ПОК'еМОНів!"
 	done
 
 _NewBicycleText::
-	text "A shiny new"
-	line "BICYCLE!"
+	text "Блискучий новий"
+	line "БІЦИКЛ!"
 	done
 
 _PushStartText::
-	text "Push START to"
-	line "open the MENU!"
+	text "Тисни СТАРТ,"
+	line "щоб відкрити"
+	cont "МЕНЮ!"
 	done
 
 _SaveOptionText::
-	text "The SAVE option is"
-	line "on the MENU"
-	cont "screen."
+	text "Опція ЗБЕРЕГТИ"
+	line "знаходиться на"
+	cont "екрані МЕНЮ."
 	done
 
 _StrengthsAndWeaknessesText::
-	text "All #MON types"
-	line "have strong and"
-	cont "weak points"
-	cont "against others."
+	text "Усі типи"
+	line "ПОК'еМОНів мають"
+	cont "сильні та слабкі"
+	cont "сторони проти"
+	cont "інших типів."
 	done
 
 _TimesUpText::
-	text "PA: Ding-dong!"
+	text "ГУЧНОМОВЕЦЬ:"
+	line "Дінь-дон!"
 
-	para "Time's up!"
+	para "Час вичерпано!"
 	prompt
 
 _GameOverText::
-	text "PA: Your SAFARI"
-	line "GAME is over!"
+	text "ГУЧНОМОВЕЦЬ: Ваша"
+	line "САФАРІ-ГРА"
+	cont "закінчена!"
 	done
 
 _CinnabarGymQuizIntroText::
-	text "#MON Quiz!"
+	text "ПОК'е-Вікторина!"
 
-	para "Get it right and"
-	line "the door opens to"
-	cont "the next room!"
+	para "Дай вірну"
+	line "відповідь і"
+	cont "двері відчиняться"
+	cont "в іншу кімнату!"
 
-	para "Get it wrong and"
-	line "face a trainer!"
+	para "Якщо помилишся,"
+	line "будеш битися"
+	cont "із тренером!"
 
-	para "If you want to"
-	line "conserve your"
-	cont "#MON for the"
-	cont "GYM LEADER..."
+	para "Якщо хочеш"
+	line "зберегти своїх"
+	cont "ПОК'еМОНів для"
+	cont "ЛІДЕРА ЗАЛУ..."
 
-	para "Then get it right!"
-	line "Here we go!"
+	para "То відповідай"
+	line "вірно! Погнали!"
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	text "КАТЕРПІ"
+	line "еволюціонує у"
+	cont "БАТЕРФРІ?"
 	done
-
 _CinnabarQuizQuestionsText2::
-	text "There are 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	text "Існує 9"
+	line "офіційних ЗНАЧКІВ"
+	cont "ЛІГИ ПОК'еМОНІВ?"
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
-	line "times?"
+	text "ПОЛІВАГ"
+	line "еволюціонує"
+	cont "3 рази?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Are thunder moves"
-	line "effective against"
-	cont "ground element-"
-	cont "type #MON?"
+	text "Чи ефективні"
+	line "громові атаки"
+	cont "проти ПОК'еМОНІВ"
+	cont "земного типу?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "#MON of the"
-	line "same kind and"
-	cont "level are not"
-	cont "identical?"
+	text "ПОК'еМОНИ одного"
+	line "виду та рівня"
+	cont "не є абсолютно"
+	cont "ідентичними?"
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "TM28 contains"
-	line "TOMBSTONER?"
+	text "Чи містить ТМ28"
+	line "прийом"
+	cont "МОГИЛЬНИК?"
 	done
 
 _CinnabarGymQuizCorrectText::
-	text "You're absolutely"
-	line "correct!"
+	text "Це абсолютно"
+	line "правильно!"
 
-	para "Go on through!@"
+	para "Проходь далі!@"
 	text_end
 
 _CinnabarGymQuizIncorrectText::
-	text "Sorry! Bad call!"
+	text "Вибач! Невірна"
+	line "відповідь!"
 	prompt
 
 _MagazinesText::
-	text "#MON magazines!"
+	text "Журнали про"
+	line "ПОК'еМОНІВ!"
 
-	para "#MON notebooks!"
+	para "Записники про"
+	line "ПОК'еМОНІВ!"
 
-	para "#MON graphs!"
+	para "Графіки про"
+	line "ПОК'еМОНІВ!"
 	done
 
 _BillsHouseMonitorText::
-	text "TELEPORTER is"
-	line "displayed on the"
-	cont "PC monitor."
+	text "ТЕЛЕПОРТ"
+	line "відображено на"
+	cont "моніторі ПК."
 	done
 
 _BillsHouseInitiatedText::
-	text "<PLAYER> initiated"
-	line "TELEPORTER's Cell"
-	cont "Separator!@"
+	text "<PLAYER> запустив"
+	line "Розділювач Клітин"
+	cont "ТЕЛЕПОРТА!@"
 	text_end
 
 _BillsHousePokemonListText1::
-	text "BILL's favorite"
-	line "#MON list!"
+	text "Список улюблених"
+	line "ПОК'еМОНІВ БІЛЛА!"
 	prompt
 
 _BillsHousePokemonListText2::
-	text "Which #MON do"
-	line "you want to see?"
+	text "Якого ПОК'еМОНА"
+	line "хочеш побачити?"
 	done
-
 _OakLabEmailText::
-	text "There's an e-mail"
-	line "message here!"
+	text "Тут є електронне"
+	line "повідомлення!"
 
 	para "..."
 
-	para "Calling all"
-	line "#MON trainers!"
+	para "Закликаємо всіх"
+	line "тренерів"
+	cont "ПОК'еМОНів!"
 
-	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
+	para "Елітні тренери"
+	line "ЛІГИ ПОК'еМОН"
+	cont "готові прийняти"
+	cont "всіх охочих!"
 
-	para "Bring your best"
-	line "#MON and see"
-	cont "how you rate as a"
-	cont "trainer!"
+	para "Бери найкращих"
+	line "ПОК'еМОНів і"
+	cont "перевір свої"
+	cont "сили тренера!"
 
-	para "#MON LEAGUE HQ"
-	line "INDIGO PLATEAU"
+	para "ШТАБ ЛІГИ"
+	line "ПЛАТО ІНДІГО"
 
-	para "PS: PROF.OAK,"
-	line "please visit us!"
+	para "ПС: ПРОФ.ОАК,"
+	line "відвідайте нас!"
 	cont "..."
 	done
 
 _GameCornerCoinCaseText::
-	text "A COIN CASE is"
-	line "required!"
+	text "Потрібен"
+	line "ФУТЛЯР МОНЕТ!"
 	done
 
 _GameCornerNoCoinsText::
-	text "You don't have"
-	line "any coins!"
+	text "У тебе немає"
+	line "жодної монети!"
 	done
 
 _GameCornerOutOfOrderText::
-	text "OUT OF ORDER"
-	line "This is broken."
+	text "НЕ ПРАЦЮЄ"
+	line "Зламано."
 	done
 
 _GameCornerOutToLunchText::
-	text "OUT TO LUNCH"
-	line "This is reserved."
+	text "ПЕРЕРВА"
+	line "Зарезервовано."
 	done
 
 _GameCornerSomeonesKeysText::
-	text "Someone's keys!"
-	line "They'll be back."
+	text "Чиїсь ключі!"
+	line "За ними ще"
+	cont "повернуться."
 	done
 
 _JustAMomentText::
-	text "Just a moment."
+	text "Хвилиночку."
 	done
 
 TMNotebookText::
-	text "It's a pamphlet"
-	line "on TMs."
+	text "Це буклет"
+	line "про ТМ."
 
 	para "..."
 
-	para "There are 50 TMs"
-	line "in all."
+	para "Всього існує"
+	line "50 ТМ."
 
-	para "There are also 5"
-	line "HMs that can be"
-	cont "used repeatedly."
+	para "Також є 5 ПМ,"
+	line "які можна"
+	cont "використовувати"
+	cont "багаторазово."
 
-	para "SILPH CO.@"
+	para "СІЛЬФ КОМПАНІ.@"
 	text_end
 
 _TurnPageText::
-	text "Turn the page?"
+	text "Перегорнути"
+	line "сторінку?"
 	done
 
 _ViridianSchoolNotebookText5::
-	text "GIRL: Hey! Don't"
-	line "look at my notes!@"
+	text "ДІВЧИНКА: Ей!"
+	line "Не дивися в"
+	cont "мої записи!@"
 	text_end
 
 _ViridianSchoolNotebookText1::
-	text "Looked at the"
-	line "notebook!"
+	text "Дивлюся в"
+	line "записник!"
 
-	para "First page..."
+	para "Перша сторінка..."
 
-	para "# BALLs are"
-	line "used to catch"
-	cont "#MON."
+	para "ПОК'еБОЛЛи"
+	line "використовують,"
+	cont "щоб ловити"
+	cont "ПОК'еМОНів."
 
-	para "Up to 6 #MON"
-	line "can be carried."
+	para "Можна нести до"
+	line "6 ПОК'еМОНів."
 
-	para "People who raise"
-	line "and make #MON"
-	cont "fight are called"
-	cont "#MON trainers."
+	para "Людей, які"
+	line "тренують"
+	cont "ПОК'еМОНів для"
+	cont "боїв, називають"
+	cont "тренерами."
 	prompt
-
 _ViridianSchoolNotebookText2::
-	text "Second page..."
+	text "Друга сторінка..."
 
-	para "A healthy #MON"
-	line "may be hard to"
-	cont "catch, so weaken"
-	cont "it first!"
+	para "Здорового"
+	line "ПОК'еМОНа важко"
+	cont "спіймати, тому"
+	cont "спершу ослаб його!"
 
-	para "Poison, burns and"
-	line "other damage are"
-	cont "effective!"
+	para "Отрута, опіки та"
+	line "інша шкода"
+	cont "ефективні!"
 	prompt
 
 _ViridianSchoolNotebookText3::
-	text "Third page..."
+	text "Третя сторінка..."
 
-	para "#MON trainers"
-	line "seek others to"
-	cont "engage in #MON"
-	cont "fights."
+	para "Тренери шукають"
+	line "інших, щоб"
+	cont "битися"
+	cont "ПОК'еМОНами."
 
-	para "Battles are"
-	line "constantly fought"
-	cont "at #MON GYMs."
+	para "Битви постійно"
+	line "точаться в"
+	cont "ЗАЛАХ ПОК'еМОН."
 	prompt
 
 _ViridianSchoolNotebookText4::
-	text "Fourth page..."
+	text "Четверта сторінка..."
 
-	para "The goal for"
-	line "#MON trainers"
-	cont "is to beat the "
-	cont "top 8 #MON"
-	cont "GYM LEADERs."
+	para "Мета тренера —"
+	line "перемогти"
+	cont "8 найкращих"
+	cont "ЛІДЕРІВ ЗАЛУ."
 
-	para "Do so to earn the"
-	line "right to face..."
+	para "Зроби це, щоб"
+	line "отримати право"
+	cont "зійтися з..."
 
-	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	para "ЕЛІТНОЮ ЧЕТВІРКОЮ"
+	line "ЛІГИ ПОК'еМОН!"
 	prompt
 
 _EnemiesOnEverySideText::
-	text "Enemies on every"
-	line "side!"
+	text "Вороги з усіх"
+	line "боків!"
 	done
 
 _WhatGoesAroundComesAroundText::
-	text "What goes around"
-	line "comes around!"
+	text "Що посієш,"
+	line "те й пожнеш!"
 	done
 
 _FightingDojoText::
-	text "FIGHTING DOJO"
+	text "БОЙОВЕ ДОДЗЬО"
 	done
 
 _IndigoPlateauHQText::
-	text "INDIGO PLATEAU"
-	line "#MON LEAGUE HQ"
+	text "ПЛАТО ІНДІГО"
+	line "ШТАБ ЛІГИ ПОК'еМОН"
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
-	line "playing the SNES!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	text "<PLAYER> грає"
+	line "на СУПЕРНІНТЕНДО!"
+	cont "...Гаразд!"
+	cont "Час вирушати!"
 	done
 
 _Route15UpstairsBinocularsText::
-	text "Looked into the"
-	line "binoculars..."
+	text "Дивлюся в"
+	line "бінокль..."
 
-	para "A large, shining"
-	line "bird is flying"
-	cont "toward the sea."
+	para "Великий сяючий"
+	line "птах летить у"
+	cont "бік моря."
 	done
 
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Викопний АЕРОДАКТІЛ"
+	line "Первісний та"
+	cont "рідкісний"
+	cont "ПОК'еМОН."
 	done
 
 _KabutopsFossilText::
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Викопний КАБУТОПС"
+	line "Первісний та"
+	cont "рідкісний"
+	cont "ПОК'еМОН."
 	done
 
 _LinkCableHelpText1::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРАМ"
 
-	para "Using a Game Link"
-	line "Cable"
+	para "Використання"
+	line "ГЕЙМЛІНК кабелю"
 	prompt
 
 _LinkCableHelpText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "Який заголовок"
+	line "хочеш прочитати?"
 	done
 
 _LinkCableInfoText1::
-	text "When you have"
-	line "linked your GAME"
-	cont "BOY with another"
-	cont "GAME BOY, talk to"
-	cont "the attendant on"
-	cont "the right in any"
-	cont "#MON CENTER."
+	text "Коли з’єднаєш"
+	line "свій ГЕЙМБОЙ з"
+	cont "іншим ГЕЙМБОЙ,"
+	cont "поговори з"
+	cont "працівником"
+	cont "праворуч у будь-"
+	cont "якому ПОК'еЦЕНТРІ."
 	prompt
 
 _LinkCableInfoText2::
-	text "COLOSSEUM lets"
-	line "you play against"
-	cont "a friend."
+	text "КОЛІЗЕЙ дозволяє"
+	line "грати проти"
+	cont "друга."
 	prompt
 
 _LinkCableInfoText3::
-	text "TRADE CENTER is"
-	line "used for trading"
-	cont "#MON."
+	text "ЦЕНТР ОБМІНУ"
+	line "для обміну"
+	cont "ПОК'еМОНАМИ."
 	prompt
 
 _ViridianSchoolBlackboardText1::
-	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
-	cont "during battles."
+	text "Дошка описує"
+	line "зміни СТАТУСУ"
+	cont "ПОК'еМОНІВ"
+	cont "під час бою."
 	prompt
 
 _ViridianSchoolBlackboardText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "Який розділ"
+	line "хочеш прочитати?"
 	done
 
 _ViridianBlackboardSleepText::
-	text "A #MON can't"
-	line "attack if it's"
-	cont "asleep!"
+	text "ПОК'еМОН не може"
+	line "бити, поки спить!"
 
-	para "#MON will stay"
-	line "asleep even after"
-	cont "battles."
+	para "Не прокинеться"
+	line "навіть після"
+	cont "закінчення бою."
 
-	para "Use AWAKENING to"
-	line "wake them up!"
+	para "Використовуй"
+	line "ПРОБУДЖЕННЯ!"
 	prompt
 
 _ViridianBlackboardPoisonText::
-	text "When poisoned, a"
-	line "#MON's health"
-	cont "steadily drops."
+	text "При отруєнні ОЗ"
+	line "ПОК'еМОНА"
+	cont "поступово падають."
 
-	para "Poison lingers"
-	line "after battles."
+	para "Отрута лишається"
+	line "після бою."
 
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
+	para "Використовуй"
+	line "АНТІДОТ!"
 	prompt
 
 _ViridianBlackboardPrlzText::
-	text "Paralysis could"
-	line "make #MON"
-	cont "moves misfire!"
+	text "Параліч може"
+	line "зірвати атаку"
+	cont "ПОК'еМОНА!"
 
-	para "Paralysis remains"
-	line "after battles."
+	para "Він лишається"
+	line "після бою."
 
-	para "Use PARLYZ HEAL"
-	line "for treatment!"
+	para "Використовуй"
+	line "ЛІКУВ.ПАРАЛ.!"
 	prompt
 
 _ViridianBlackboardBurnText::
-	text "A burn reduces"
-	line "power and speed."
-	cont "It also causes"
-	cont "ongoing damage."
+	text "Опік знижує"
+	line "силу та швидкість"
+	cont "та завдає шкоди."
 
-	para "Burns remain"
-	line "after battles."
+	para "Опіки лишаються"
+	line "після бою."
 
-	para "Use BURN HEAL to"
-	line "cure a burn!"
+	para "Використовуй"
+	line "ЛІКУВ.ОПІКІВ!"
 	prompt
 
 _ViridianBlackboardFrozenText::
-	text "If frozen, a"
-	line "#MON becomes"
-	cont "totally immobile!"
+	text "Заморожений"
+	line "ПОК'еМОН зовсім"
+	cont "не може рухатись!"
 
-	para "It stays frozen"
-	line "even after the"
-	cont "battle ends."
+	para "Він не розтане"
+	line "навіть після"
+	cont "закінчення бою."
 
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	para "Використовуй"
+	line "ЛІКУВ.ОБМЕРЗ.!"
 	prompt
 
 _VermilionGymTrashText::
-	text "Nope, there's"
-	line "only trash here."
+	text "Ні, тут лише"
+	line "сміття."
 	done
 
 _VermilionGymTrashSuccessText1::
-	text "Hey! There's a"
-	line "switch under the"
-	cont "trash!"
-	cont "Turn it on!"
+	text "Гей! Під сміттям"
+	line "є вмикач!"
+	cont "Тисни на нього!"
 
-	para "The 1st electric"
-	line "lock opened!@"
+	para "1-й ел. замок"
+	line "відчинився!@"
 	text_end
 
 _VermilionGymTrashSuccessText2::
-	text "Hey! There's"
-	line "another switch"
-	cont "under the trash!"
-	cont "Turn it on!"
+	text "Гей! Під сміттям"
+	line "є ще один!"
+	cont "Тисни на нього!"
 	prompt
 
 _VermilionGymTrashSuccessText3::
-	text "The 2nd electric"
-	line "lock opened!"
+	text "2-й ел. замок"
+	line "відчинився!"
 
-	para "The motorized door"
-	line "opened!@"
+	para "Двері з мотором"
+	line "відчинилися!@"
 	text_end
 
 _VermilionGymTrashFailText::
-	text "Nope! There's"
-	line "only trash here."
-	cont "Hey! The electric"
-	cont "locks were reset!@"
+	text "Ні! Тут лише"
+	line "сміття. Ой!"
+	cont "Ел. замки були"
+	cont "перезапущені!@"
 	text_end
 
 _FoundHiddenItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> знаходить"
 	line "@"
 	text_ram wNameBuffer
 	text "!@"
 	text_end
 
 _HiddenItemBagFullText::
-	text "But, <PLAYER> has"
-	line "no more room for"
-	cont "other items!"
+	text "Але у <PLAYER>"
+	line "немає місця для"
+	cont "інших речей!"
 	done
 
 _FoundHiddenCoinsText::
-	text "<PLAYER> found"
+	text "<PLAYER> знаходить"
 	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!@"
+	text " монет!@"
 	text_end
 
 _FoundHiddenCoins2Text::
-	text "<PLAYER> found"
+	text "<PLAYER> знаходить"
 	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!@"
+	text " монет!@"
 	text_end
 
 _DroppedHiddenCoinsText::
 	text_start
-	para "Oops! Dropped"
-	line "some coins!"
+	para "Ой! Розсипав"
+	line "трохи монет!"
 	done
 
 _IndigoPlateauStatuesText1::
-	text "INDIGO PLATEAU"
+	text "ПЛАТО ІНДІГО"
 	prompt
 
 _IndigoPlateauStatuesText2::
-	text "The ultimate goal"
-	line "of trainers!"
-	cont "#MON LEAGUE HQ"
+	text "Найвища мета"
+	line "для тренерів!"
+	cont "ШТАБ ЛІГИ"
+	cont "ПОК'еМОН"
 	done
 
 _IndigoPlateauStatuesText3::
-	text "The highest"
-	line "#MON authority"
-	cont "#MON LEAGUE HQ"
+	text "Найвищий орган"
+	line "ПОК'еМОНІВ"
+	cont "ШТАБ ЛІГИ"
+	cont "ПОК'еМОН"
 	done
 
 _PokemonBooksText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Вщент забито"
+	line "книгами про"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _DiglettSculptureText::
-	text "It's a sculpture"
-	line "of DIGLETT."
+	text "Це скульптура"
+	line "ДІГЛЕТА."
 	done
 
 _ElevatorText::
-	text "This is an"
-	line "elevator."
+	text "Це ліфт."
 	done
 
 _TownMapText::
-	text "A TOWN MAP.@"
+	text "МАПА МІСТА.@"
 	text_end
 
 _PokemonStuffText::
-	text "Wow! Tons of"
-	line "#MON stuff!"
+	text "Ого! Купа"
+	line "речей ПО'кеМОН!"
 	done
 
 _OutOfSafariBallsText::
-	text "PA: Ding-dong!"
+	text "ГУЧНОМОВЕЦЬ:"
+	line "Дінь-дон!"
 
-	para "You are out of"
-	line "SAFARI BALLs!"
+	para "У вас скінчились"
+	line "САФАРІ-БОЛЛи!"
 	prompt
 
 _WildRanText::
-	text "Wild @"
+	text "Дикий @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "втік!"
 	prompt
 
 _EnemyRanText::
-	text "Enemy @"
+	text "Ворожий @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "втік!"
 	prompt
 
 _HurtByPoisonText::
-	text "<USER>'s"
-	line "hurt by poison!"
+	text "<USER>"
+	line "страждає від отрути!"
 	prompt
 
 _HurtByBurnText::
-	text "<USER>'s"
-	line "hurt by the burn!"
+	text "<USER>"
+	line "страждає від опіку!"
 	prompt
 
 _HurtByLeechSeedText::
-	text "LEECH SEED saps"
-	line "<USER>!"
+	text "НАСІННЯ-П'ЯВКА"
+	line "висмоктує <USER>!"
 	prompt
 
 _EnemyMonFaintedText::
-	text "Enemy @"
+	text "Ворожий @"
 	text_ram wEnemyMonNick
 	text_start
-	line "fainted!"
+	line "знепритомнів!"
 	prompt
 
 _MoneyForWinningText::
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> отримує"
+	line "¥@"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for winning!"
+	line "за перемогу!"
 	prompt
 
 _TrainerDefeatedText::
-	text "<PLAYER> defeated"
+	text "<PLAYER> перемагає"
 	line "@"
 	text_ram wTrainerName
 	text "!"
@@ -881,28 +915,29 @@ _TrainerDefeatedText::
 _PlayerMonFaintedText::
 	text_ram wBattleMonNick
 	text_start
-	line "fainted!"
+	line "знепритомнів!"
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "Наступний"
+	line "ПОК'еМОН?"
 	done
 
 _Rival1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Так!"
+	line "Хіба я не крутий?"
 	prompt
 
 _PlayerBlackedOutText2::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "У <PLAYER> нема"
+	line "готових ПОК'еМОНІВ!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "Темрява в очах..."
+	line "Свідомість втрачена!"
 	prompt
 
 _LinkBattleLostText::
-	text "<PLAYER> lost to"
+	text "<PLAYER> програє"
 	line "@"
 	text_ram wTrainerName
 	text "!"
@@ -910,169 +945,168 @@ _LinkBattleLostText::
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text " is"
-	line "about to use"
+	text " хоче"
+	line "виставити"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!"
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "Чи змінить"
+	line "<PLAYER> ПОК'еМОНА?"
 	done
 
 _TrainerSentOutText::
 	text_ram wTrainerName
-	text " sent"
-	line "out @"
+	text " виставляє"
+	line "@"
 	text_ram wEnemyMonNick
 	text "!"
 	done
 
 _NoWillText::
-	text "There's no will"
-	line "to fight!"
+	text "Немає сил битися!"
 	prompt
 
 _CantEscapeText::
-	text "Can't escape!"
+	text "Не вдалося втекти!"
 	prompt
 
 _NoRunningText::
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "Ні! Від тренера"
+	line "не втечеш!"
 	prompt
 
 _GotAwayText::
-	text "Got away safely!"
+	text "Вдалося втекти!"
 	prompt
 
 _ItemsCantBeUsedHereText::
-	text "Items can't be"
-	line "used here."
+	text "Тут не можна"
+	line "використовувати"
+	cont "речі."
 	prompt
 
 _AlreadyOutText::
 	text_ram wBattleMonNick
-	text " is"
-	line "already out!"
+	text " вже"
+	line "в бою!"
 	prompt
 
 _MoveNoPPText::
-	text "No PP left for"
-	line "this move!"
+	text "Брак ОП для"
+	line "цього прийому!"
 	prompt
 
 _MoveDisabledText::
-	text "The move is"
-	line "disabled!"
+	text "Прийом заблоковано!"
 	prompt
 
 _NoMovesLeftText::
 	text_ram wBattleMonNick
-	text " has no"
-	line "moves left!"
+	text " не має"
+	line "більше прийомів!"
 	done
 
 _MultiHitText::
-	text "Hit the enemy"
+	text "Влучив у ворога"
 	line "@"
 	text_decimal wPlayerNumHits, 1, 1
-	text " times!"
+	text " разів!"
 	prompt
 
 _ScaredText::
 	text_ram wBattleMonNick
-	text " is too"
-	line "scared to move!"
+	text " дуже"
+	line "наляканий!"
 	prompt
 
 _GetOutText::
-	text "GHOST: Get out..."
-	line "Get out..."
+	text "ПРИВИД: Йди геть..."
+	line "Йди геть..."
 	prompt
 
 _FastAsleepText::
 	text "<USER>"
-	line "is fast asleep!"
+	line "міцно спить!"
 	prompt
 
 _WokeUpText::
 	text "<USER>"
-	line "woke up!"
+	line "прокинувся!"
 	prompt
 
 _IsFrozenText::
 	text "<USER>"
-	line "is frozen solid!"
+	line "повністю замерз!"
 	prompt
 
 _FullyParalyzedText::
-	text "<USER>'s"
-	line "fully paralyzed!"
+	text "<USER>"
+	line "паралізований!"
 	prompt
 
 _FlinchedText::
 	text "<USER>"
-	line "flinched!"
+	line "здригнувся!"
 	prompt
 
 _MustRechargeText::
 	text "<USER>"
-	line "must recharge!"
+	line "має перепочити!"
 	prompt
 
 _DisabledNoMoreText::
-	text "<USER>'s"
-	line "disabled no more!"
+	text "Дія блокування"
+	line "прийому минула!"
 	prompt
 
 _IsConfusedText::
 	text "<USER>"
-	line "is confused!"
+	line "збентежений!"
 	prompt
 
 _HurtItselfText::
-	text "It hurt itself in"
-	line "its confusion!"
+	text "Вдарив себе у"
+	line "збентеженні!"
 	prompt
 
 _ConfusedNoMoreText::
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER>"
+	line "більше не"
+	cont "збентежений!"
 	prompt
 
 _SavingEnergyText::
 	text "<USER>"
-	line "is saving energy!"
+	line "накопичує енергію!"
 	prompt
 
 _UnleashedEnergyText::
 	text "<USER>"
-	line "unleashed energy!"
+	line "вивільнив енергію!"
 	prompt
 
 _ThrashingAboutText::
-	text "<USER>'s"
-	line "thrashing about!"
+	text "<USER>"
+	line "лютує!"
 	done
 
 _AttackContinuesText::
-	text "<USER>'s"
-	line "attack continues!"
+	text "Атака <USER>"
+	line "триває!"
 	done
 
 _CantMoveText::
 	text "<USER>"
-	line "can't move!"
+	line "не може рухатись!"
 	prompt
 
 _MoveIsDisabledText::
-	text "<USER>'s"
-	line "@"
+	text "Прийом @"
 	text_ram wNameBuffer
-	text " is"
-	cont "disabled!"
+	text_start
+	line "у <USER>"
+	cont "заблоковано!"
 	prompt
 
 _ActorNameText::
@@ -1081,16 +1115,16 @@ _ActorNameText::
 
 _UsedMove1Text::
 	text_start
-	line "used @"
+	line "використовує @"
 	text_end
 
 _UsedMove2Text::
 	text_start
-	line "used @"
+	line "використовує @"
 	text_end
 
 _UsedInsteadText::
-	text "instead,"
+	text "натомість,"
 	cont "@"
 	text_end
 
@@ -1119,173 +1153,173 @@ _EndUsedMove5Text::
 	done
 
 _AttackMissedText::
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>:"
+	line "промахнувся!"
 	prompt
 
 _KeptGoingAndCrashedText::
 	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	line "промахнувся та"
+	cont "впав!"
 	prompt
 
 _UnaffectedText::
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET> не"
+	line "відчуває дії!"
 	prompt
 
 _DoesntAffectMonText::
-	text "It doesn't affect"
+	text "Це не діє на"
 	line "<TARGET>!"
 	prompt
 
 _CriticalHitText::
-	text "Critical hit!"
+	text "Критичний удар!"
 	prompt
 
 _OHKOText::
-	text "One-hit KO!"
+	text "Нокаут з удару!"
 	prompt
 
 _LoafingAroundText::
 	text_ram wBattleMonNick
-	text " is"
-	line "loafing around."
+	text " просто"
+	line "байдикує."
 	prompt
 
 _BeganToNapText::
 	text_ram wBattleMonNick
-	text " began"
-	line "to nap!"
+	text " вирішив"
+	line "подрімати!"
 	prompt
 
 _WontObeyText::
 	text_ram wBattleMonNick
-	text " won't"
-	line "obey!"
+	text " не"
+	line "слухається!"
 	prompt
 
 _TurnedAwayText::
 	text_ram wBattleMonNick
-	text " turned"
-	line "away!"
+	text " просто"
+	line "відвернувся!"
 	prompt
 
 _IgnoredOrdersText::
 	text_ram wBattleMonNick
 	text_start
-	line "ignored orders!"
+	line "ігнорує накази!"
 	prompt
 
 _SubstituteTookDamageText::
-	text "The SUBSTITUTE"
-	line "took damage for"
+	text "ДВІЙНИК прийняв"
+	line "удар за"
 	cont "<TARGET>!"
 	prompt
 
 _SubstituteBrokeText::
-	text "<TARGET>'s"
-	line "SUBSTITUTE broke!"
+	text "ДВІЙНИК"
+	line "<TARGET> зник!"
 	prompt
 
 _BuildingRageText::
-	text "<USER>'s"
-	line "RAGE is building!"
+	text "ЛЮТЬ <USER>"
+	line "наростає!"
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
-	next "failed!"
+	text "ДЗЕРКАЛЬНИЙ ХІД"
+	next "не вдався!"
 	prompt
 
 _HitXTimesText::
-	text "Hit @"
+	text "Влучив @"
 	text_decimal wEnemyNumHits, 1, 1
-	text " times!"
+	text " разів!"
 	prompt
 
 _GainedText::
 	text_ram wNameBuffer
-	text " gained"
+	text " здобув"
 	line "@"
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
+	text "з ДОСВ.ВСІМ,"
 	cont "@"
 	text_end
 
 _BoostedText::
-	text "a boosted"
+	text "бонусні"
 	cont "@"
 	text_end
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " Очок ДОСВІДУ!"
 	prompt
 
 _GrewLevelText::
 	text_ram wNameBuffer
-	text " grew"
-	line "to level @"
+	text " виріс"
+	line "до рівня @"
 	text_decimal wCurEnemyLevel, 1, 3
 	text "!@"
 	text_end
 
 _WildMonAppearedText::
-	text "Wild @"
+	text "Дикий @"
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "з'явився!"
 	prompt
 
 _HookedMonAttackedText::
-	text "The hooked"
+	text "Спійманий"
 	line "@"
 	text_ram wEnemyMonNick
 	text_start
-	cont "attacked!"
+	cont "атакує!"
 	prompt
 
 _EnemyAppearedText::
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "з'явився!"
 	prompt
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text " хоче"
+	line "битися!"
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	text "ПРИЗРАКОБАЧ"
+	line "викрив особу"
+	cont "ПРИВИДА!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "Дідько! ПРИВИДА"
+	line "не розпізнати!"
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "Вперед, @"
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "Давай, @"
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "Добий, @"
 	text_end
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @"
+	text "Ворог ослаб!"
+	line "Добий, @"
 	text_end
 
 _PlayerMon1Text::
@@ -1299,490 +1333,493 @@ _PlayerMon2Text::
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "досить!@"
 	text_end
 
 _OKExclamationText::
-	text "OK!@"
+	text "ДОБРЕ!@"
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "гарно!@"
 	text_end
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "Назад!"
 	done
 
 _SuperEffectiveText::
-	text "It's super"
-	line "effective!"
+	text "Це надзвичайно"
+	line "ефективно!"
 	prompt
 
 _NotVeryEffectiveText::
-	text "It's not very"
-	line "effective..."
+	text "Це не дуже"
+	line "ефективно..."
 	prompt
 
 _SafariZoneEatingText::
-	text "Wild @"
+	text "Дикий @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is eating!"
+	line "їсть!"
 	prompt
 
 _SafariZoneAngryText::
-	text "Wild @"
+	text "Дикий @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is angry!"
+	line "лютує!"
 	prompt
 
 ; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
+	text "<PLAYER> підібрав"
 	line "¥@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text "!"
 	prompt
 
 _ClearSaveDataText::
-	text "Clear all saved"
-	line "data?"
+	text "Стерти всі дані"
+	line "збереження?"
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want? "
+	text "Який поверх вам"
+	line "потрібен? "
 	done
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Обери ПОК'еМОНА."
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
-	line "#MON?"
+	text "На якого ПОК'е-"
+	line "МОНА вжити річ?"
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
-	line "#MON?"
+	text "Якого ПОК'еМОНА"
+	line "виставити?"
 	done
 
 _PartyMenuUseTMText::
-	text "Use TM on which"
-	line "#MON?"
+	text "На якого ПОК'е-"
+	line "МОНА вжити ТМ?"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
-	line "where?"
+	text "Куди перемістити"
+	line "ПОК'еМОНА?"
 	done
 
 _PotionText::
 	text_ram wNameBuffer
 	text_start
-	line "recovered by @"
+	line "відновив @"
 	text_decimal wHPBarHPDifference, 2, 3
-	text "!"
+	text " ОЗ!"
 	done
 
 _AntidoteText::
 	text_ram wNameBuffer
-	text " was"
-	line "cured of poison!"
+	text " був"
+	line "вилікуваний від"
+	cont "отрути!"
 	done
 
 _ParlyzHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "rid of paralysis!"
+	text " був"
+	line "зцілений від"
+	cont "паралічу!"
 	done
 
 _BurnHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "burn was healed!"
+	text " був"
+	line "вилікуваний від"
+	cont "опіку!"
 	done
 
 _IceHealText::
 	text_ram wNameBuffer
-	text " was"
-	line "defrosted!"
+	text " був"
+	line "розморожений!"
 	done
 
 _AwakeningText::
 	text_ram wNameBuffer
 	text_start
-	line "woke up!"
+	line "прокинувся!"
 	done
 
 _FullHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "health returned!"
+	text " став"
+	line "повністю здоровим!"
 	done
 
 _ReviveText::
 	text_ram wNameBuffer
 	text_start
-	line "is revitalized!"
+	line "ожив!"
 	done
 
 _RareCandyText::
 	text_ram wNameBuffer
-	text " grew"
-	line "to level @"
+	text " виріс"
+	line "до рівня @"
 	text_decimal wCurEnemyLevel, 1, 3
 	text "!@"
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> вмикає"
+	line "ПК."
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
-	line "PC."
+	text "Увійшов у ПК БІЛЛА."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Вхід у Систему"
+	line "Зберіг. ПОК'еМОН."
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "PC."
+	text "Увійшов у чийсь"
+	line "ПК."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Вхід у Систему"
+	line "Зберіг. ПОК'еМОН."
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my PC."
+	text "Увійшов у мій ПК."
 
-	para "Accessed Item"
-	line "Storage System."
+	para "Вхід у Систему"
+	line "Зберіг. речей."
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> вмикає"
+	line "ПК."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "Що ти хочеш"
+	line "зробити?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Що ти хочеш"
+	line "залишити?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "Скільки?"
 	done
 
 _ItemWasStoredText::
 	text_ram wNameBuffer
-	text " was"
-	line "stored via PC."
+	text " було"
+	line "залишено в ПК."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "Тобі нічого"
+	line "залишати."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "Немає місця для"
+	line "речей у ПК."
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "Що ти хочеш"
+	line "забрати?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "Скільки?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
+	text "Забрав"
 	line "@"
 	text_ram wNameBuffer
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "Нічого не"
+	line "збережено."
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
-	prompt
+	text "Ти не можеш"
+	line "нести більше"
+	cont "речей."
+	done
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "Що ти хочеш"
+	line "викинути?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "Скільки?"
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "Вхід на сайт"
+	line "ЛІГИ ПОК'еМОН."
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "Вхід у список"
+	line "ЗАЛИ СЛАВИ."
 	prompt
 
 _SwitchOnText::
-	text "Switch on!"
+	text "Увімкнено!"
 	prompt
 
 _WhatText::
-	text "What?"
+	text "Що?"
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
-	line "#MON?"
+	text "Якого ПОК'еМОНА"
+	line "залишити?"
 	done
 
 _MonWasStoredText::
 	text_ram wStringBuffer
-	text " was"
-	line "stored in Box @"
+	text " було"
+	line "залишено в Боксі @"
 	text_ram wBoxNumString
 	text "."
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	text "Не можна лишити"
+	line "останнього!"
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "Ой! Цей Бокс"
+	line "повний ПОК'еМОН."
 	prompt
 
 _MonIsTakenOutText::
 	text_ram wStringBuffer
-	text " is"
-	line "taken out."
-	cont "Got @"
+	text " було"
+	line "забрано."
+	cont "Отримано @"
 	text_ram wStringBuffer
 	text "."
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	text "Що? Тут немає"
+	line "ПОК'еМОНІВ!"
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	text "Ти не можеш"
+	line "взяти ще ПО'кеМОН."
 
-	para "Deposit #MON"
-	line "first."
+	para "Спершу залиш"
+	line "когось у ПК."
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
-	line "#MON?"
+	text "Якого ПОК'еМОНА"
+	line "відпустити?"
 	done
 
 _OnceReleasedText::
-	text "Once released,"
+	text "Якщо відпустити,"
 	line "@"
 	text_ram wStringBuffer
-	text " is"
-	cont "gone forever. OK?"
+	text " зникне"
+	cont "назавжди. Згода?"
 	done
 
 _MonWasReleasedText::
 	text_ram wStringBuffer
-	text " was"
-	line "released outside."
-	cont "Bye @"
+	text " було"
+	line "відпущено на волю."
+	cont "Бувай, @"
 	text_ram wStringBuffer
 	text "!"
 	prompt
 
 _RequireCoinCaseText::
-	text "A COIN CASE is"
-	line "required!@"
+	text "Потрібен"
+	line "ФУТЛЯР МОНЕТ!@"
 	text_end
 
 _ExchangeCoinsForPrizesText::
-	text "We exchange your"
-	line "coins for prizes."
+	text "Ми міняємо ваші"
+	line "монети на призи."
 	prompt
 
 _WhichPrizeText::
-	text "Which prize do"
-	line "you want?"
+	text "Який приз"
+	line "ти хочеш?"
 	done
 
 _HereYouGoText::
-	text "Here you go!@"
+	text "Ось, тримай!@"
 	text_end
 
 _SoYouWantPrizeText::
-	text "So, you want"
+	text "Тож, ти хочеш"
 	line "@"
 	text_ram wNameBuffer
 	text "?"
 	done
 
 _SorryNeedMoreCoinsText::
-	text "Sorry, you need"
-	line "more coins.@"
+	text "Вибач, тобі"
+	line "треба ще монет.@"
 	text_end
 
 _OopsYouDontHaveEnoughRoomText::
-	text "Oops! You don't"
-	line "have enough room.@"
+	text "Ой! У тебе"
+	line "замало місця.@"
 	text_end
 
 _OhFineThenText::
-	text "Oh, fine then.@"
+	text "О, ну гаразд.@"
 	text_end
 
 _GetDexRatedText::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "Хочеш оцінити"
+	line "свій ПОК'еДЕКС?"
 	done
 
 _ClosedOaksPCText::
-	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	text "Зв'язок з ПК"
+	line "ПРОФ.ОАКА закрито.@"
 	text_end
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's PC."
+	text "Вхід у ПК"
+	line "ПРОФ.ОАКА."
 
-	para "Accessed #DEX"
-	line "Rating System."
+	para "Вхід у Систему"
+	line "оцінки ПОК'еДЕКСА."
 	prompt
 
 _WhereWouldYouLikeText::
-	text "Where would you"
-	line "like to go?"
+	text "Куди б ти"
+	line "хотів вирушити?"
 	done
 
 _PleaseWaitText::
-	text "OK, please wait"
-	line "just a moment."
+	text "Добре, зачекай"
+	line "хвилиночку."
 	done
 
 _LinkCanceledText::
-	text "The link was"
-	line "canceled."
+	text "Зв'язок було"
+	line "скасовано."
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Привіт!"
+	line "Вітаю у світі"
+	cont "ПОК'еМОН!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Мене звуть ОАК!"
+	line "Люди звуть мене"
+	cont "ПОК'еМОН Професор!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "Цей світ"
+	line "населений"
+	cont "створіннями - "
+	cont "ПОК'еМОН!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "Для деяких людей,"
+	line "ПОК'еМОН то хатні"
+	cont "тварини. Інші"
+	cont "беруть їх на бої."
 
-	para "Myself..."
+	para "Щодо мене..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "Я вивчаю ПОК'еМОН"
+	line "по професії."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "По перше, як"
+	line "тебе звуть?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Це мій онук."
+	line "Він є твоїм"
+	cont "супротивником з"
+	cont "часів дитсадка."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Емм, а як його"
+	line "звуть, нагадаєш?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Твоя власна при-"
+	line "года з ПОК'еМОН по-"
+	cont "чинається зараз!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Світ мрій та"
+	line "пригод із ПОК'еМОН"
+	cont "чекає!"
+	cont "Гайда до нього!"
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	text "Чи бажаєш дати"
+	line "власне ім'я"
+	cont "@"
 	text_ram wNameBuffer
 	text "?"
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Чудово! То тебе"
+	line "звуть <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Вірно! Я згадав!"
+	line "Його звуть"
+	cont "<RIVAL>!"
 	prompt
 
 _WillBeTradedText::
 	text_ram wNameOfPlayerMonToBeTraded
-	text " and"
+	text " та"
 	line "@"
 	text_ram wNameBuffer
-	text " will"
-	cont "be traded."
+	text " будуть"
+	cont "обмінені."
 	done
 
 _TextIDErrorText::
 	text_decimal hTextID, 1, 2
-	text " ERROR."
+	text " ПОМИЛКА."
 	done
 
 _ContCharText::

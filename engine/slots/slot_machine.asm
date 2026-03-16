@@ -148,9 +148,9 @@ MainSlotMachineLoop:
 	jp MainSlotMachineLoop
 
 CoinMultiplierSlotMachineText:
-	db   "×3"
-	next "×2"
-	next "×1@"
+	db   "х3"
+	next "х2"
+	next "х1@"
 
 OutOfCoinsSlotMachineText:
 	text_far _OutOfCoinsSlotMachineText

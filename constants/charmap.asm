@@ -89,89 +89,121 @@
 
 ; Actual characters (from gfx/font/font.png)
 
-	charmap "A",         $80
-	charmap "B",         $81
-	charmap "C",         $82
-	charmap "D",         $83
-	charmap "E",         $84
-	charmap "F",         $85
-	charmap "G",         $86
-	charmap "H",         $87
-	charmap "I",         $88
-	charmap "J",         $89
-	charmap "K",         $8a
-	charmap "L",         $8b
-	charmap "M",         $8c
-	charmap "N",         $8d
-	charmap "O",         $8e
-	charmap "P",         $8f
-	charmap "Q",         $90
-	charmap "R",         $91
-	charmap "S",         $92
-	charmap "T",         $93
-	charmap "U",         $94
-	charmap "V",         $95
-	charmap "W",         $96
-	charmap "X",         $97
-	charmap "Y",         $98
-	charmap "Z",         $99
+	charmap "А",         $80 ;first line
+	charmap "Б",         $81
+	charmap "В",         $82
+	charmap "Г",         $83
+	charmap "Д",         $84
+	charmap "Е",         $85
+	charmap "Є",         $86
+	charmap "Ж",         $87
+	charmap "З",         $88
+	charmap "И",         $89
+	charmap "І",         $8a
+	charmap "Ї",         $8b
+	charmap "Й",         $8c
+	charmap "К",         $8d
+	charmap "Л",         $8e
+	charmap "М",         $8f
+	charmap "Н",         $90 ;newline
+	charmap "О",         $91
+	charmap "П",         $92
+	charmap "Р",         $93
+	charmap "С",         $94
+	charmap "Т",         $95
+	charmap "У",         $96
+	charmap "Ф",         $97
+	charmap "Х",         $98
+	charmap "Ц",         $99
+	charmap "Ч",         $9a
+	charmap "Ш",         $9b
+	charmap "Щ",         $9c
+	charmap "Ь",         $9d
+	charmap "Ю",         $9e
+	charmap "Я",         $9f
+	charmap "а",         $a0 ;third line
+	charmap "б",         $a1
+	charmap "в",         $a2
+	charmap "г",         $a3
+	charmap "д",         $a4
+	charmap "е",         $a5
+	charmap "є",         $a6
+	charmap "ж",         $a7
+	charmap "з",         $a8
+	charmap "и",         $a9
+	charmap "і",         $aa
+	charmap "ї",         $ab
+	charmap "й",         $ac
+	charmap "к",         $ad
+	charmap "л",         $ae
+	charmap "м",         $af
+	charmap "н",         $b0 ;fourth line
+	charmap "о",         $b1
+	charmap "п",         $b2
+	charmap "р",         $b3
+	charmap "с",         $b4
+	charmap "т",         $b5
+	charmap "у",         $b6
+	charmap "ф",         $b7
+	charmap "х",         $b8
+	charmap "ц",         $b9
+	charmap "ч",         $ba
+	charmap "ш",        $bb
+	charmap "щ",        $bc
+	charmap "ь",        $bd
+	charmap "ю",        $be
+	charmap "я",        $bf
 
-	charmap "(",         $9a
-	charmap ")",         $9b
-	charmap ":",         $9c
-	charmap ";",         $9d
-	charmap "[",         $9e
-	charmap "]",         $9f
-
-	charmap "a",         $a0
-	charmap "b",         $a1
-	charmap "c",         $a2
-	charmap "d",         $a3
-	charmap "e",         $a4
-	charmap "f",         $a5
-	charmap "g",         $a6
-	charmap "h",         $a7
-	charmap "i",         $a8
-	charmap "j",         $a9
-	charmap "k",         $aa
-	charmap "l",         $ab
-	charmap "m",         $ac
-	charmap "n",         $ad
-	charmap "o",         $ae
-	charmap "p",         $af
-	charmap "q",         $b0
-	charmap "r",         $b1
-	charmap "s",         $b2
-	charmap "t",         $b3
-	charmap "u",         $b4
-	charmap "v",         $b5
-	charmap "w",         $b6
-	charmap "x",         $b7
-	charmap "y",         $b8
-	charmap "z",         $b9
-
-	charmap "é",         $ba
-	charmap "'d",        $bb
-	charmap "'l",        $bc
-	charmap "'s",        $bd
-	charmap "'t",        $be
-	charmap "'v",        $bf
-
+	charmap "Ґ",        $c0
+	charmap "ґ",        $c1
+	charmap "'е",        $c2
+	charmap "A",        $80
+	charmap "B",        $82
+	charmap "C",        $94
+	charmap "D",        $84
+	charmap "E",        $85
+	charmap "F",        $c8
+	charmap "G",        $c9
+	charmap "H",        $90
+	charmap "I",        $8a
+	charmap "J",        $cc
+	charmap "K",        $8d
+	charmap "L",        $ce
+	charmap "M",        $8f
+	
+	charmap "+",        $d0
+	charmap "(",        $d1
+	charmap ")",        $d2
+	charmap "[",        $d3
+	charmap "]",        $d4
+	charmap ":",        $d5
+	charmap ";",        $d6
+	charmap "₴",        $d7
+	charmap "N",        $d8
+	charmap "O",        $91
+	charmap "P",        $93
+	charmap "R",        $9f
+	charmap "S",        $dc
+	charmap "T",        $95
+	charmap "U",        $de
+	charmap "V",        $df
+	
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
-
-	charmap "'r",        $e4
-	charmap "'m",        $e5
+	charmap "—",         $e3
+	
+	charmap "W",        $e4
+	charmap "X",        $98
 
 	charmap "?",         $e6
 	charmap "!",         $e7
 	charmap ".",         $e8
 
-	charmap "ァ",         $e9 ; katakana small a, unused
-	charmap "ゥ",         $ea ; katakana small u, unused
-	charmap "ェ",         $eb ; katakana small e, unused
+	charmap "Y",         $96 ; katakana small a, unused
+	charmap "Z",         $ea ; katakana small u, unused
+	charmap "ZZ",         $eb ; katakana small e, unused
 
 	charmap "▷",         $ec
 	charmap "▶",         $ed
@@ -198,34 +230,34 @@
 
 ; Japanese kana, for those bits of text that were not translated to English
 
-	charmap "ガ", $05
-	charmap "ギ", $06
-	charmap "グ", $07
-	charmap "ゲ", $08
-	charmap "ゴ", $09
-	charmap "ザ", $0a
-	charmap "ジ", $0b
-	charmap "ズ", $0c
-	charmap "ゼ", $0d
-	charmap "ゾ", $0e
-	charmap "ダ", $0f
-	charmap "ヂ", $10
-	charmap "ヅ", $11
-	charmap "デ", $12
-	charmap "ド", $13
+	charmap "a", $a0
+	charmap "b", $bd
+	charmap "c", $b4
+	charmap "d", $08
+	charmap "e", $a5
+	charmap "f", $0a
+	charmap "g", $0b
+	charmap "h", $0c
+	charmap "i", $aa
+	charmap "j", $0e
+	charmap "k", $ad
+	charmap "l", $10
+	charmap "m", $11
+	charmap "n", $b2
+	charmap "o", $b1
 
-	charmap "バ", $19
-	charmap "ビ", $1a
-	charmap "ブ", $1b
-	charmap "ボ", $1c
+	charmap "p", $b3
+	charmap "q", $1a
+	charmap "r", $1b
+	charmap "s", $1c
 
-	charmap "が", $26
-	charmap "ぎ", $27
-	charmap "ぐ", $28
-	charmap "げ", $29
-	charmap "ご", $2a
-	charmap "ざ", $2b
-	charmap "じ", $2c
+	charmap "t", $26
+	charmap "u", $a9
+	charmap "v", $28
+	charmap "w", $29
+	charmap "x", $b8
+	charmap "y", $b6
+	charmap "z", $2c
 	charmap "ず", $2d
 	charmap "ぜ", $2e
 	charmap "ぞ", $2f

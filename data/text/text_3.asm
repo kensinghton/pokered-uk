@@ -1,141 +1,142 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "Дані файлу"
+	line "знищено!"
 	prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "SAVE the game?"
+	text "Бажаєш"
+	line "ЗБЕРЕГТИ гру?"
 	done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
+	text "<PLAYER> зберіг"
+	line "гру!"
 	done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	text "Старий файл буде"
+	line "стерто для"
+	cont "збер. Добре?"
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	text "При зміні БОКСА"
+	line "ПОК'еМОНІВ дані"
+	cont "буде збережено."
 
-	para "Is that okay?"
+	para "Добре?"
 	done
 
 _ChooseABoxText::
-	text "Choose a"
-	line "<PKMN> BOX.@"
+	text "Обери БОКС"
+	line "ПОК'еМОН.@"
 	text_end
 
 _EvolvedText::
 	text_ram wStringBuffer
-	text " evolved"
+	text " еволюціонував"
 	done
 
 _IntoText::
 	text_start
-	line "into @"
+	line "в @"
 	text_ram wNameBuffer
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
+	text "Га? @"
 	text_ram wStringBuffer
 	text_start
-	line "stopped evolving!"
+	line "припинив"
+	cont "еволюцію!"
 	prompt
 
 _IsEvolvingText::
-	text "What? @"
+	text "Що? @"
 	text_ram wStringBuffer
 	text_start
-	line "is evolving!"
+	line "еволюціонує!"
 	done
 
 _FellAsleepText::
 	text "<TARGET>"
-	line "fell asleep!"
+	line "заснув!"
 	prompt
 
 _AlreadyAsleepText::
-	text "<TARGET>'s"
-	line "already asleep!"
+	text "<TARGET>"
+	line "вже спить!"
 	prompt
 
 _PoisonedText::
 	text "<TARGET>"
-	line "was poisoned!"
+	line "був отруєний!"
 	prompt
 
 _BadlyPoisonedText::
-	text "<TARGET>'s"
-	line "badly poisoned!"
+	text "<TARGET>"
+	line "сильно отруєний!"
 	prompt
 
 _BurnedText::
 	text "<TARGET>"
-	line "was burned!"
+	line "був обпалений!"
 	prompt
 
 _FrozenText::
 	text "<TARGET>"
-	line "was frozen solid!"
+	line "повністю замерз!"
 	prompt
 
 _FireDefrostedText::
-	text "Fire defrosted"
+	text "Вогонь розморозив"
 	line "<TARGET>!"
 	prompt
 
 _MonsStatsRoseText::
-	text "<USER>'s"
-	line "@"
+	text "У <USER>"
+	line "параметр @"
 	text_ram wStringBuffer
 	text "@"
 	text_end
 
 _GreatlyRoseText::
-	text "<SCROLL>greatly@"
+	text "<SCROLL>значно@"
 	text_end
 
 _RoseText::
-	text " rose!"
+	text " зріс!"
 	prompt
 
 _MonsStatsFellText::
-	text "<TARGET>'s"
-	line "@"
+	text "У <TARGET>"
+	line "параметр @"
 	text_ram wStringBuffer
 	text "@"
 	text_end
 
 _GreatlyFellText::
-	text "<SCROLL>greatly@"
+	text "<SCROLL>значно@"
 	text_end
 
 _FellText::
-	text " fell!"
+	text " впав!"
 	prompt
 
 _RanFromBattleText::
 	text "<USER>"
-	line "ran from battle!"
+	line "втік з бою!"
 	prompt
 
 _RanAwayScaredText::
 	text "<TARGET>"
-	line "ran away scared!"
+	line "втік від страху!"
 	prompt
 
 _WasBlownAwayText::
 	text "<TARGET>"
-	line "was blown away!"
+	line "був здутий!"
 	prompt
 
 _ChargeMoveEffectText::
@@ -144,181 +145,183 @@ _ChargeMoveEffectText::
 
 _MadeWhirlwindText::
 	text_start
-	line "made a whirlwind!"
+	line "викликав вихор!"
 	prompt
 
 _TookInSunlightText::
 	text_start
-	line "took in sunlight!"
+	line "вбирає сонце!"
 	prompt
 
 _LoweredItsHeadText::
 	text_start
-	line "lowered its head!"
+	line "опустив голову!"
 	prompt
 
 _SkyAttackGlowingText::
 	text_start
-	line "is glowing!"
+	line "почав сяяти!"
 	prompt
 
 _FlewUpHighText::
 	text_start
-	line "flew up high!"
+	line "злетів високо!"
 	prompt
 
 _DugAHoleText::
 	text_start
-	line "dug a hole!"
+	line "вирив нору!"
 	prompt
 
 _BecameConfusedText::
 	text "<TARGET>"
-	line "became confused!"
+	line "тепер у стані"
+	cont "збентеження!"
 	prompt
 
 _MimicLearnedMoveText::
 	text "<USER>"
-	line "learned"
+	line "вивчив прийом"
 	cont "@"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _MoveWasDisabledText::
-	text "<TARGET>'s"
-	line "@"
+	text "Прийом @"
 	text_ram wNameBuffer
-	text " was"
-	cont "disabled!"
+	text_start
+	line "у <TARGET>"
+	cont "заблоковано!"
 	prompt
 
 _NothingHappenedText::
-	text "Nothing happened!"
+	text "Нічого не"
+	line "сталося!"
 	prompt
 
 _NoEffectText::
-	text "No effect!"
+	text "Без ефекту!"
 	prompt
 
 _ButItFailedText::
-	text "But, it failed! "
+	text "Але не вдалося! "
 	prompt
 
 _DidntAffectText::
-	text "It didn't affect"
-	line "<TARGET>!"
+	text "Це не подіяло"
+	line "на <TARGET>!"
 	prompt
 
 _IsUnaffectedText::
 	text "<TARGET>"
-	line "is unaffected!"
+	line "не відчуває дії!"
 	prompt
 
 _ParalyzedMayNotAttackText::
-	text "<TARGET>'s"
-	line "paralyzed! It may"
-	cont "not attack!"
+	text "<TARGET>"
+	line "паралізований!"
+	cont "Не може бити!"
 	prompt
 
 _SubstituteText::
-	text "It created a"
-	line "SUBSTITUTE!"
+	text "Створено"
+	line "ДВІЙНИКА!"
 	prompt
 
 _HasSubstituteText::
 	text "<USER>"
-	line "has a SUBSTITUTE!"
+	line "має ДВІЙНИКА!"
 	prompt
 
 _TooWeakSubstituteText::
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "Занадто слабкий"
+	line "для ДВІЙНИКА!"
 	prompt
 
 _CoinsScatteredText::
-	text "Coins scattered"
-	line "everywhere!"
+	text "Монети розсипані"
+	line "всюди!"
 	prompt
 
 _GettingPumpedText::
-	text "<USER>'s"
-	line "getting pumped!"
+	text "<USER>"
+	line "надихається!"
 	prompt
 
 _WasSeededText::
 	text "<TARGET>"
-	line "was seeded!"
+	line "був обсіяний!"
 	prompt
 
 _EvadedAttackText::
 	text "<TARGET>"
-	line "evaded attack!"
+	line "ухилився!"
 	prompt
 
 _HitWithRecoilText::
-	text "<USER>'s"
-	line "hit with recoil!"
+	text "<USER>"
+	line "отримав віддачу!"
 	prompt
 
 _ConvertedTypeText::
-	text "Converted type to"
-	line "<TARGET>'s!"
+	text "Змінив тип на"
+	line "тип <TARGET>!"
 	prompt
 
 _StatusChangesEliminatedText::
-	text "All STATUS changes"
-	line "are eliminated!"
+	text "Всі зміни СТАТУСУ"
+	line "було скасовано!"
 	prompt
 
 _StartedSleepingEffect::
 	text "<USER>"
-	line "started sleeping!"
+	line "заснув!"
 	done
 
 _FellAsleepBecameHealthyText::
 	text "<USER>"
-	line "fell asleep and"
-	cont "became healthy!"
+	line "заснув та"
+	cont "оздоровився!"
 	done
 
 _RegainedHealthText::
 	text "<USER>"
-	line "regained health!"
+	line "відновив сили!"
 	prompt
 
 _TransformedText::
 	text "<USER>"
-	line "transformed into"
+	line "перетворився на"
 	cont "@"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _LightScreenProtectedText::
-	text "<USER>'s"
-	line "protected against"
-	cont "special attacks!"
+	text "<USER>"
+	line "захищений від"
+	cont "спец. атак!"
 	prompt
 
 _ReflectGainedArmorText::
 	text "<USER>"
-	line "gained armor!"
+	line "посилив броню!"
 	prompt
 
 _ShroudedInMistText::
-	text "<USER>'s"
-	line "shrouded in mist!"
+	text "<USER>"
+	line "окутаний туманом!"
 	prompt
 
 _SuckedHealthText::
-	text "Sucked health from"
-	line "<TARGET>!"
+	text "Висмоктав життя"
+	line "з <TARGET>!"
 	prompt
 
 _DreamWasEatenText::
-	text "<TARGET>'s"
-	line "dream was eaten!"
+	text "Сон <TARGET>"
+	line "був з'їдений!"
 	prompt
 
 _TradeCenterOpponentText::
@@ -328,3 +331,4 @@ _TradeCenterOpponentText::
 _ColosseumOpponentText::
 	text "!"
 	done
+	

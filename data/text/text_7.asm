@@ -1,5 +1,5 @@
 _ItemUseText001::
-	text "<PLAYER> used@"
+	text "<PLAYER> вживає@"
 	text_end
 
 _ItemUseText002::
@@ -8,7 +8,7 @@ _ItemUseText002::
 	done
 
 _GotOnBicycleText1::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> сів на@"
 	text_end
 
 _GotOnBicycleText2::
@@ -17,184 +17,186 @@ _GotOnBicycleText2::
 	prompt
 
 _GotOffBicycleText1::
-	text "<PLAYER> got off@"
+	text "<PLAYER> зліз із@"
 	text_end
 
 _GotOffBicycleText2::
-	text "the @"
+	text "@"
 	text_ram wStringBuffer
 	text "."
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
+	text "Викинув"
 	line "@"
 	text_ram wNameBuffer
 	text "."
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
+	text "Викинути"
 	line "@"
 	text_ram wStringBuffer
 	text "?"
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "Це занадто"
+	line "важливо!"
 	prompt
 
 _AlreadyKnowsText::
 	text_ram wNameBuffer
-	text " knows"
+	text " знає"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "Під'єднай кабель"
+	line "ось так!"
 	prompt
 
 _TradedForText::
-	text "<PLAYER> traded"
+	text "<PLAYER> міняє"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text " for"
+	text " на"
 	cont "@"
 	text_ram wInGameTradeReceiveMonName
 	text "!@"
 	text_end
 
 _WannaTrade1Text::
-	text "I'm looking for"
-	line "@"
-	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
-
-	para "trade one for"
-	line "@"
-	text_ram wInGameTradeReceiveMonName
-	text "? "
-	done
-
-_NoTrade1Text::
-	text "Awww!"
-	line "Oh well..."
-	done
-
-_WrongMon1Text::
-	text "What? That's not"
+	text "Я шукаю"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "If you get one,"
-	line "come back here!"
+	para "Обміняєш на"
+	line "@"
+	text_ram wInGameTradeReceiveMonName
+	text "?"
+	done
+
+_NoTrade1Text::
+	text "Ех..."
+	line "Ну гаразд..."
+	done
+
+_WrongMon1Text::
+	text "Що? Це не"
+	line "@"
+	text_ram wInGameTradeGiveMonName
+	text "!"
+
+	para "Як знайдеш,"
+	line "повертайся!"
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "О, дякую!"
 	done
 
 _AfterTrade1Text::
-	text "Isn't my old"
+	text "Хіба мій старий"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
-	text " great?"
+	text " не"
+	cont "чудовий?"
 	done
 
 _WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
+	text "Привіт! Не"
+	line "хочеш обміняти"
 
-	para "your @"
+	para "свого @"
 	text_ram wInGameTradeGiveMonName
 	text_start
-	line "for @"
+	line "на @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade2Text::
-	text "Well, if you"
-	line "don't want to..."
+	text "Ну, як не"
+	line "хочеш..."
 	done
 
 _WrongMon2Text::
-	text "Hmmm? This isn't"
+	text "Гм? Це не"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "Think of me when"
-	line "you get one."
+	para "Згадай про мене,"
+	line "як знайдеш."
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "Дякую!"
 	done
 
 _AfterTrade2Text::
-	text "The @"
+	text "@"
 	text_ram wInGameTradeGiveMonName
-	text " you"
-	line "traded to me"
+	text ", якого"
+	line "ти мені дав,"
 
-	para "went and evolved!"
+	para "еволюціонував!"
 	done
 
 _WannaTrade3Text::
-	text "Hi! Do you have"
+	text "Привіт! Маєш"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "?"
 
-	para "Want to trade it"
-	line "for @"
+	para "Обміняєш його"
+	line "на @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "Дуже шкода."
 	done
 
 _WrongMon3Text::
-	text "...This is no"
+	text "...Це не"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "Як знайдеш,"
+	line "міняйся зі мною!"
 	done
 
 _Thanks3Text::
-	text "Thanks pal!"
+	text "Дякую, друже!"
 	done
 
 _AfterTrade3Text::
-	text "How is my old"
+	text "Як мій старий"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 
-	para "My @"
+	para "Мій @"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	line "doing great!"
+	text_start
+	line "почувається"
+	cont "чудово!"
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to CUT!"
+	text "Тут нічого"
+	line "РІЗАТИ!"
 	prompt
 
 _UsedCutText::
 	text_ram wNameBuffer
-	text " hacked"
-	line "away with CUT!"
+	text " вживає"
+	line "РІЗАННЯ!"
 	prompt
