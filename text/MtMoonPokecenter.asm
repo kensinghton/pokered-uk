@@ -10,7 +10,7 @@ _MtMoonPokecenterYoungsterText::
 _MtMoonPokecenterGentlemanText::
 	text "КОМАНДА РОКЕТ"
 	line "нападає на"
-	cont "жителів СЕРУЛІНА."
+	cont "жителів ЦЕРУЛЕАНа."
 
 	para "РОКЕТИ завжди у"
 	line "випуску новин!"
@@ -23,7 +23,7 @@ _MtMoonPokecenterMagikarpSalesmanIGotADealText::
 
 	para "Віддам тобі"
 	line "МАДЖІКАРПА за"
-	cont "якихось 500 ієн!"
+	cont "якихось 500 ¥!"
 	cont "Що скажеш?"
 	done
 

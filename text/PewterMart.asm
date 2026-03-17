@@ -6,7 +6,7 @@ _PewterMartYoungsterText::
 
 	para "Він зовсім слаб-"
 	line "кий, а коштував"
-	cont "500 ієн!"
+	cont "500 ¥!"
 	done
 
 _PewterMartSuperNerdText::

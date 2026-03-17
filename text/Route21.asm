@@ -1,137 +1,140 @@
 _Route21Fisher1BattleText::
-	text "You want to know"
-	line "if the fish are"
-	cont "biting?"
+	text "Хочеш знати, чи"
+	line "клює риба?"
 	done
 
 _Route21Fisher1EndBattleText::
-	text "Dang!"
+	text "Дідько!"
 	prompt
 
 _Route21Fisher1AfterBattleText::
-	text "I can't catch"
-	line "anything good!"
+	text "Я не можу зло-"
+	line "вити нічого"
+	cont "цікавого!"
 	done
 
 _Route21Fisher2BattleText::
-	text "I got a big haul!"
-	line "Wanna go for it?"
+	text "Маю гарний улов!"
+	line "Хочеш битися?"
 	done
 
 _Route21Fisher2EndBattleText::
-	text "Darn"
-	line "MAGIKARP!"
+	text "Клятий"
+	line "МАДЖИКАРП!"
 	prompt
 
 _Route21Fisher2AfterBattleText::
-	text "I seem to only"
-	line "catch MAGIKARP!"
+	text "Здається, я"
+	line "ловлю лише"
+	cont "МАДЖИКАРПІВ!"
 	done
 
 _Route21Swimmer1BattleText::
-	text "The sea cleanses"
-	line "my body and soul!"
+	text "Море очищує"
+	line "тіло і душу!"
 	done
 
 _Route21Swimmer1EndBattleText::
-	text "Ayah!"
+	text "Айя!"
 	prompt
 
 _Route21Swimmer1AfterBattleText::
-	text "I like the"
-	line "mountains too!"
+	text "Мені також"
+	line "подобаються"
+	cont "гори!"
 	done
 
 _Route21Swimmer2BattleText::
-	text "What's wrong with"
-	line "me swimming?"
+	text "Що не так з"
+	line "моїм плаванням?"
 	done
 
 _Route21Swimmer2EndBattleText::
-	text "Cheap"
-	line "shot!"
+	text "Підступний"
+	line "удар!"
 	prompt
 
 _Route21Swimmer2AfterBattleText::
-	text "I look like what?"
-	line "A studded inner"
-	cont "tube? Get lost!"
+	text "Я на кого схожа?"
+	line "На шиповану"
+	cont "камеру? Зникни!"
 	done
 
 _Route21Swimmer3BattleText::
-	text "I caught all my"
-	line "#MON at sea!"
+	text "Я впіймав усіх"
+	line "ПОК'еМОНІВ у"
+	cont "морі!"
 	done
 
 _Route21Swimmer3EndBattleText::
-	text "Diver!!"
-	line "Down!!"
+	text "Нирець!!"
+	line "Пішов на дно!!"
 	prompt
 
 _Route21Swimmer3AfterBattleText::
-	text "Where'd you catch"
-	line "your #MON?"
+	text "Де ти впіймав"
+	line "своїх"
+	cont "ПОК'еМОНІВ?"
 	done
 
 _Route21Swimmer4BattleText::
-	text "Right now, I'm in"
-	line "a triathlon meet!"
+	text "Зараз я на"
+	line "змаганнях з"
+	cont "тріатлону!"
 	done
 
 _Route21Swimmer4EndBattleText::
-	text "Pant..."
-	line "pant...pant..."
+	text "Хе... хе... хе..."
 	prompt
 
 _Route21Swimmer4AfterBattleText::
-	text "I'm beat!"
-	line "But, I still have"
-	cont "the bike race and"
-	cont "marathon left!"
+	text "Я виснажений!"
+	line "Та попереду ще"
+	cont "велогонка та"
+	cont "марафон!"
 	done
 
 _Route21Swimmer5BattleText::
-	text "Ahh! Feel the sun"
-	line "and the wind!"
+	text "Ах! Відчуй це"
+	line "сонце і вітер!"
 	done
 
 _Route21Swimmer5EndBattleText::
-	text "Yow!"
-	line "I lost!"
+	text "Ой! Я програв!"
 	prompt
 
 _Route21Swimmer5AfterBattleText::
-	text "I'm sunburnt to a"
-	line "crisp!"
+	text "Я згорів на"
+	line "сонці вщент!"
 	done
 
 _Route21Fisher3BattleText::
-	text "Hey, don't scare"
-	line "away the fish!"
+	text "Гей, не лякай"
+	line "мені рибу!"
 	done
 
 _Route21Fisher3EndBattleText::
-	text "Sorry!"
-	line "I didn't mean it!"
+	text "Вибач! Я"
+	line "не хотів!"
 	prompt
 
 _Route21Fisher3AfterBattleText::
-	text "I was just angry"
-	line "that I couldn't"
-	cont "catch anything."
+	text "Я просто злився,"
+	line "що не можу"
+	cont "нічого зловити."
 	done
 
 _Route21Fisher4BattleText::
-	text "Keep me company"
-	line "'til I get a hit!"
+	text "Побудь зі мною,"
+	line "поки не клюне!"
 	done
 
 _Route21Fisher4EndBattleText::
-	text "That"
-	line "burned some time."
+	text "Це вбило"
+	line "трохи часу."
 	prompt
 
 _Route21Fisher4AfterBattleText::
-	text "Oh wait! I got a"
-	line "bite! Yeah!"
+	text "Ой, чекай!"
+	line "Клює! Є-є!"
 	done

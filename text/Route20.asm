@@ -1,155 +1,163 @@
 _Route20Swimmer1BattleText::
-	text "The water is"
-	line "shallow here."
+	text "Тут доволі"
+	line "мілко."
 	done
 
 _Route20Swimmer1EndBattleText::
-	text "Splash!"
+	text "Плюх!"
 	prompt
 
 _Route20Swimmer1AfterBattleText::
-	text "I wish I could"
-	line "ride my #MON."
+	text "Шкода, що я не"
+	line "можу їздити на"
+	cont "своїм ПОК'еМОНІ."
 	done
 
 _Route20Swimmer2BattleText::
-	text "SEAFOAM is a"
-	line "quiet getaway!"
+	text "МОРЕПІННЯ — це"
+	line "тихий куточок!"
 	done
 
 _Route20Swimmer2EndBattleText::
-	text "Quit it!"
+	text "Облиш це!"
 	prompt
 
 _Route20Swimmer2AfterBattleText::
-	text "There's a huge"
-	line "cavern underneath"
-	cont "this island."
+	text "Під цим"
+	line "островом є"
+	cont "величезна печера."
 	done
 
 _Route20Swimmer3BattleText::
-	text "I love floating"
-	line "with the fishes!"
+	text "Люблю дрейфувати"
+	line "разом з рибами!"
 	done
 
 _Route20Swimmer3EndBattleText::
-	text "Yowch!"
+	text "Ой!"
 	prompt
 
 _Route20Swimmer3AfterBattleText::
-	text "Want to float"
-	line "with me?"
+	text "Хочеш"
+	line "подрейфувати"
+	cont "зі мною?"
 	done
 
 _Route20Swimmer4BattleText::
-	text "Are you on"
-	line "vacation too?"
+	text "Ти теж на"
+	line "відпочинку?"
 	done
 
 _Route20Swimmer4EndBattleText::
-	text "No"
-	line "mercy at all!"
+	text "Жодного"
+	line "милосердя!"
 	prompt
 
 _Route20Swimmer4AfterBattleText::
-	text "SEAFOAM used to"
-	line "be one island!"
+	text "МОРЕПІННІ колись"
+	line "були одним"
+	cont "островом!"
 	done
 
 _Route20Swimmer5BattleText::
-	text "Check out my buff"
-	line "physique!"
+	text "Оціни мою"
+	line "сталеву статуру!"
 	done
 
 _Route20Swimmer5EndBattleText::
-	text "Wimpy!"
+	text "Слабак!"
 	prompt
 
 _Route20Swimmer5AfterBattleText::
-	text "I should've been"
-	line "buffing up my"
-	cont "#MON, not me!"
+	text "Слід було"
+	line "гойдати ПОК'еМОН,"
+	cont "а не м'язи!"
 	done
 
 _Route20Swimmer6BattleText::
-	text "Why are you"
-	line "riding a #MON?"
-	cont "Can't you swim?"
+	text "Чому ти їздиш"
+	line "на ПОК'еМОНІ?"
+	cont "Плавати не вмієш?"
 	done
 
 _Route20Swimmer6EndBattleText::
-	text "Ouch!"
-	line "Torpedoed!"
-	prompt
+	text "Ой! Мене"
+	line "торпедували!"
+	done
 
 _Route20Swimmer6AfterBattleText::
-	text "Riding a #MON"
-	line "sure looks fun!"
+	text "Їздити на"
+	line "ПОК'еМОНІ — це,"
+	cont "мабуть, весело!"
 	done
 
 _Route20CooltrainerMBattleText::
-	text "I rode my bird"
-	line "#MON here!"
+	text "Я прилетів сюди"
+	line "на своєму птаху-"
+	cont "ПОК'еМОНІ!"
 	done
 
 _Route20CooltrainerMEndBattleText::
-	text "Oh"
-	line "no!"
-	prompt
+	text "О ні!"
+	done
 
 _Route20CooltrainerMAfterBattleText::
-	text "My birds can't"
-	line "FLY me back!"
+	text "Мої птахи не"
+	line "зможуть відвезти"
+	cont "мене назад!"
 	done
 
 _Route20Swimmer7BattleText::
-	text "My boy friend gave"
-	line "me big pearls!"
+	text "Мій хлопець дав"
+	line "мені великі"
+	cont "перлини!"
 	done
 
 _Route20Swimmer7EndBattleText::
-	text "Don't"
-	line "touch my pearls!"
+	text "Не чіпай мої"
+	line "перлини!"
 	prompt
 
 _Route20Swimmer7AfterBattleText::
-	text "Will my pearls"
-	line "grow bigger"
-	cont "inside CLOYSTER?"
+	text "Чи виростуть"
+	line "перлини всередині"
+	cont "КЛОЙСТЕРА?"
 	done
 
 _Route20Swimmer8BattleText::
-	text "I swam here from"
-	line "CINNABAR ISLAND!"
+	text "Я приплив сюди"
+	line "з ОСТРОВА"
+	cont "СИННАБАР!"
 	done
 
 _Route20Swimmer8EndBattleText::
-	text "I'm"
-	line "so disappointed!"
+	text "Я так"
+	line "розчарований!"
 	prompt
 
 _Route20Swimmer8AfterBattleText::
-	text "#MON have"
-	line "taken over an"
-	cont "abandoned mansion"
-	cont "on CINNABAR!"
+	text "ПОК'еМОНИ"
+	line "захопили порожню"
+	cont "садибу на"
+	cont "СИННАБАРІ!"
 	done
 
 _Route20Swimmer9BattleText::
-	text "CINNABAR, in the"
-	line "west, has a LAB"
-	cont "for #MON."
+	text "На СИННАБАРІ, на"
+	line "заході, є ЛАБ"
+	cont "для ПОК'еМОНІВ."
 	done
 
 _Route20Swimmer9EndBattleText::
-	text "Wait!"
+	text "Стій!"
 	prompt
 
 _Route20Swimmer9AfterBattleText::
-	text "CINNABAR is a "
-	line "volcanic island!"
+	text "СИННАБАР — це"
+	line "вулканічний"
+	cont "острів!"
 	done
 
 _Route20SeafoamIslandsSignText::
-	text "SEAFOAM ISLANDS"
+	text "МОРЕПІННІ ОСТРОВИ"
 	done

@@ -54,7 +54,7 @@ _CinnabarLabMetronomeRoomPCText::
 
 	para "Ми плануємо"
 	line "дослідити печеру"
-	cont "біля СЕРУЛІНА."
+	cont "біля ЦЕРУЛЕАН."
 
 	para "Від: ГРУПА ДОС-"
 	line "ЛІДНИКІВ ПОК'еМОН"

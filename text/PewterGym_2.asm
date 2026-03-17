@@ -8,7 +8,7 @@ _PewterGymBrockPostBattleAdviceText::
 	cont "ПОК'еМОНІВ!"
 
 	para "Йди у ЗАЛ міста"
-	line "СЕРУЛІН та"
+	line "ЦЕРУЛЕАН та"
 	cont "випробуй себе!"
 	done
 

@@ -1,120 +1,128 @@
 _Route16Biker1BattleText::
-	text "What do you want?"
+	text "Чого тобі треба?"
 	done
 
 _Route16Biker1EndBattleText::
-	text "Don't you"
-	line "dare laugh!"
+	text "Не смій"
+	line "сміятися!"
 	prompt
 
 _Route16Biker1AfterBattleText::
-	text "We like just"
-	line "hanging here,"
-	cont "what's it to you?"
+	text "Нам подобається"
+	line "тут виснути,"
+	cont "тобі що до того?"
 	done
 
 _Route16Biker2BattleText::
-	text "Nice BIKE!"
-	line "Hand it over!"
+	text "Крутий"
+	line "ВЕЛОСИПЕД!"
+	cont "Віддавай його!"
 	done
 
 _Route16Biker2EndBattleText::
-	text "Knock"
-	line "out!"
+	text "Нокаут!"
 	prompt
 
 _Route16Biker2AfterBattleText::
-	text "Forget it, who"
-	line "needs your BIKE!"
+	text "Забудь, кому"
+	line "треба твій"
+	cont "ВЕЛОСИПЕД!"
 	done
 
 _Route16Biker3BattleText::
-	text "Come out and play,"
-	line "little mouse!"
+	text "Виходь пограти,"
+	line "маленька мишко!"
 	done
 
 _Route16Biker3EndBattleText::
-	text "You"
-	line "little rat!"
+	text "Ах ти ж"
+	line "маленький пацюк!"
 	prompt
 
 _Route16Biker3AfterBattleText::
-	text "I hate losing!"
-	line "Get away from me!"
+	text "Ненавиджу"
+	line "програвати! Йди"
+	cont "геть від мене!"
 	done
 
 _Route16biker4BattleText::
-	text "Hey, you just"
-	line "bumped me!"
+	text "Гей, ти щойно"
+	line "штовхнув мене!"
 	done
 
 _Route16Biker4EndBattleText::
-	text "Kaboom!"
+	text "Ка-бум!"
 	prompt
 
 _Route16Biker4AfterBattleText::
-	text "You can also get"
-	line "to FUCHSIA from"
-	cont "VERMILION using a"
-	cont "coastal road."
+	text "До ФУКСІЇ можна"
+	line "дійти також із"
+	cont "ВЕРМІЛІОНА"
+	cont "узбережною"
+	cont "дорогою."
 	done
 
 _Route16Biker5BattleText::
-	text "I'm feeling"
-	line "hungry and mean!"
+	text "Я почуваюся"
+	line "голодним і злим!"
 	done
 
 _Route16Biker5EndBattleText::
-	text "Bad,"
-	line "bad, bad!"
+	text "Погано,"
+	line "кепсько, зле!"
 	prompt
 
 _Route16Biker5AfterBattleText::
-	text "I like my #MON"
-	line "ferocious! They"
-	cont "tear up enemies!"
+	text "Люблю лютих"
+	line "ПОК'еМОНІВ! Вони"
+	cont "рвуть ворогів"
+	cont "на шматки!"
 	done
 
 _Route16Biker6BattleText::
-	text "Sure, I'll go!"
+	text "Звісно, я в"
+	line "справі!"
 	done
 
 _Route16Biker6EndBattleText::
-	text "Don't make"
-	line "me mad!"
+	text "Не зли"
+	line "мене!"
 	prompt
 
 _Route16Biker6AfterBattleText::
-	text "I like harassing"
-	line "people with my"
-	cont "vicious #MON!"
+	text "Люблю діставати"
+	line "людей своїми"
+	cont "лютими"
+	cont "ПОК'еМОНАМИ!"
 	done
 
 _Route16Text7::
-	text "A sleeping #MON"
-	line "blocks the way!"
+	text "Сонний ПОК'еМОН"
+	line "перекрив шлях!"
 	done
 
 _Route16SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "СНОРЛАКС"
+	line "прокинувся!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Він напав у"
+	line "страшній люті!"
 	done
 
 _Route16SnorlaxReturnedToMountainsText::
-	text "With a big yawn,"
-	line "SNORLAX returned"
-	cont "to the mountains!"
+	text "З позіхом,"
+	line "СНОРЛАКС пішов"
+	cont "назад до гір!"
 	done
 
 _Route16CyclingRoadSignText::
-	text "Enjoy the slope!"
-	line "CYCLING ROAD"
+	text "Насолоджуйтесь"
+	line "спуском!"
+	cont "ВЕЛОТРАСА"
 	done
 
 _Route16SignText::
-	text "ROUTE 16"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "ШЛЯХ 16"
+	line "ЦЕЛАДОН СІТІ —"
+	cont "ФУКСІЯ СІТІ"
 	done

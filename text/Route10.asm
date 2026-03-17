@@ -1,108 +1,116 @@
 _Route10SuperNerd1BattleText::
-	text "Wow, are you a"
-	line "#MANIAC too?"
-	cont "Want to see my"
-	cont "collection?"
+	text "Ого, ти теж"
+	line "ПОК'еМАНІЯК?"
+	cont "Хочеш бачити"
+	cont "мою колекцію?"
 	done
 
 _Route10SuperNerd1EndBattleText::
-	text "Humph."
-	line "I'm not angry!"
+	text "Гм."
+	line "Я не злюся!"
 	prompt
 
 _Route10SuperNerd1AfterBattleText::
-	text "I have more rare"
-	line "#MON at home!"
+	text "Вдома я маю"
+	line "ще рідкісніших"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _Route10Hiker1BattleText::
-	text "Ha-hahah-ah-ha!"
+	text "Ха-хаха-ха-ха!"
 	done
 
 _Route10Hiker1EndBattleText::
-	text "Ha-haha!"
-	line "Not laughing!"
-	cont "Ha-hay fever!"
-	cont "Haha-ha-choo!"
+	text "Ха-хаха!"
+	line "Це не сміх!"
+	cont "Сінна лихоманка!"
+	cont "Ха-ха-ха-пчих!"
 	prompt
 
 _Route10Hiker1AfterBattleText::
-	text "Haha-ha-choo!"
-	line "Ha-choo!"
-	cont "Snort! Snivel!"
+	text "Ха-ха-ха-пчих!"
+	line "Ха-пчих!"
+	cont "Шморг! Пхик!"
 	done
 
 _Route10SuperNerd2BattleText::
-	text "Hi kid, want to"
-	line "see my #MON?"
+	text "Привіт, хочеш"
+	line "глянути на моїх"
+	cont "ПОК'еМОНІВ?"
 	done
 
 _Route10SuperNerd2EndBattleText::
-	text "Oh no!"
-	line "My #MON!"
+	text "О ні!"
+	line "Мої ПОК'еМОНИ!"
 	prompt
 
 _Route10SuperNerd2AfterBattleText::
-	text "I don't like you"
-	line "for beating me!"
+	text "Ти мені не"
+	line "подобаєшся, бо"
+	cont "здолав мене!"
 	done
 
 _Route10CooltrainerF1BattleText::
-	text "I've been to a"
-	line "#MON GYM a few"
-	cont "times. But, I"
-	cont "lost each time."
+	text "Я була в ЗАЛІ"
+	line "ПОК'еМОНІВ"
+	cont "кілька разів."
+	cont "Та щоразу"
+	cont "програвала."
 	done
 
 _Route10CooltrainerF1EndBattleText::
-	text "Ohh!"
-	line "Blew it again!"
+	text "Ох!"
+	line "Знову провал!"
 	prompt
 
 _Route10CooltrainerF1AfterBattleText::
-	text "I noticed some"
-	line "#MANIACs"
-	cont "prowling around."
+	text "Я бачила, як"
+	line "тут вештаються"
+	cont "ПОК'еМАНІЯКИ."
 	done
 
 _Route10Hiker2BattleText::
-	text "Ah! This mountain"
-	line "air is delicious!"
+	text "Ах! Гірське"
+	line "повітря таке"
+	cont "смачне!"
 	done
 
 _Route10Hiker2EndBattleText::
-	text "That"
-	line "cleared my head!"
+	text "Це"
+	line "прояснило мені"
+	cont "голову!"
 	prompt
 
 _Route10Hiker2AfterBattleText::
-	text "I feel bloated on"
-	line "mountain air!"
+	text "Мене аж"
+	line "розпирає від"
+	cont "гірського"
+	cont "повітря!"
 	done
 
 _Route10CooltrainerF2BattleText::
-	text "I'm feeling a bit"
-	line "faint from this"
-	cont "tough hike."
+	text "Мені аж млосно"
+	line "від цього"
+	cont "важкого походу."
 	done
 
 _Route10CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not up to it!"
+	text "Я не можу"
+	line "цього винести!"
 	prompt
 
 _Route10CooltrainerF2AfterBattleText::
-	text "The #MON here"
-	line "are so chunky!"
-	cont "There should be a"
-	cont "pink one with a"
-	cont "floral pattern!"
+	text "ПОК'еМОНИ тут"
+	line "такі пухкенькі!"
+	cont "Тут має бути"
+	cont "один рожевий з"
+	cont "квітками!"
 	done
 
 _Route10RockTunnelSignText::
-	text "ROCK TUNNEL"
+	text "КАМ'ЯНИЙ ТУННЕЛЬ"
 	done
 
 _Route10PowerPlantSignText::
-	text "POWER PLANT"
+	text "ЕЛЕКТРОСТАНЦІЯ"
 	done

@@ -1,157 +1,158 @@
 _Route19CooltrainerM1BattleText::
-	text "Have to warm up"
-	line "before my swim!"
+	text "Треба розім'ятись"
+	line "перед запливом!"
 	done
 
 _Route19CooltrainerM1EndBattleText::
-	text "All"
-	line "warmed up!"
+	text "Розім'явся!"
 	prompt
 
 _Route19CooltrainerM1AfterBattleText::
-	text "Thanks, kid! I'm"
-	line "ready for a swim!"
+	text "Дякую, малий! Я"
+	line "готовий пливти!"
 	done
 
 _Route19CooltrainerM2BattleText::
-	text "Wait! You'll have"
-	line "a heart attack!"
+	text "Стій! Отримаєш"
+	line "серцевий напад!"
 	done
 
 _Route19CooltrainerM2EndBattleText::
-	text "Ooh!"
-	line "That's chilly!"
+	text "Ох!"
+	line "Холоднувато!"
 	prompt
 
 _Route19CooltrainerM2AfterBattleText::
-	text "Watch out for"
-	line "TENTACOOL!"
+	text "Стережися"
+	line "ТЕНТАКУЛІВ!"
 	done
 
 _Route19Swimmer1BattleText::
-	text "I love swimming!"
-	line "What about you?"
+	text "Люблю плавати!"
+	line "А ти як?"
 	done
 
 _Route19Swimmer1EndBattleText::
-	text "Belly"
-	line "flop!"
+	text "Плазом у воду!"
 	prompt
 
 _Route19Swimmer1AfterBattleText::
-	text "I can beat #MON"
-	line "at swimming!"
+	text "Я обжену"
+	line "ПОК'еМОН у"
+	cont "плаванні!"
 	done
 
 _Route19Swimmer2BattleText::
-	text "What's beyond the"
-	line "horizon?"
+	text "Що там, за"
+	line "горизонтом?"
 	done
 
 _Route19Swimmer2EndBattleText::
-	text "Glub!"
+	text "Бульк!"
 	prompt
 
 _Route19Swimmer2AfterBattleText::
-	text "I see a couple of"
-	line "islands!"
+	text "Я бачу пару"
+	line "островів!"
 	done
 
 _Route19Swimmer3BattleText::
-	text "I tried diving"
-	line "for #MON, but"
-	cont "it was a no go!"
+	text "Я пірнав за"
+	line "ПОК'еМОНАМИ, та"
+	cont "марно!"
 	done
 
 _Route19Swimmer3EndBattleText::
-	text "Help!"
+	text "Рятуйте!"
 	prompt
 
 _Route19Swimmer3AfterBattleText::
-	text "You have to fish"
-	line "for sea #MON!"
+	text "Морських"
+	line "ПОК'еМОН треба"
+	cont "вудити!"
 	done
 
 _Route19Swimmer4BattleText::
-	text "I look at the"
-	line "sea to forget!"
+	text "Дивлюся в море,"
+	line "щоб забутись!"
 	done
 
 _Route19Swimmer4EndBattleText::
-	text "Ooh!"
-	line "Traumatic!"
+	text "Ох!"
+	line "Травматично!"
 	prompt
 
 _Route19Swimmer4AfterBattleText::
-	text "I'm looking at the"
-	line "sea to forget!"
+	text "Я дивлюся в"
+	line "море, щоб"
+	cont "забутись!"
 	done
 
 _Route19Swimmer5BattleText::
-	text "Oh, I just love"
-	line "your ride! Can I"
-	cont "have it if I win?"
+	text "Твій звір —"
+	line "клас! Даси, як"
+	cont "я виграю?"
 	done
 
 _Route19Swimmer5EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "Ой!"
+	line "Я програла!"
 	prompt
 
 _Route19Swimmer5AfterBattleText::
-	text "It's still a long"
-	line "way to go to"
-	cont "SEAFOAM ISLANDS."
+	text "До МОРЕПІННИХ"
+	line "ОСТРОВІВ ще"
+	cont "далеко."
 	done
 
 _Route19Swimmer6BattleText::
-	text "Swimming's great!"
-	line "Sunburns aren't!"
+	text "Плавати — круто!"
+	line "Обпікатись — ні!"
 	done
 
 _Route19Swimmer6EndBattleText::
-	text "Shocker!"
+	text "Який шок!"
 	prompt
 
 _Route19Swimmer6AfterBattleText::
-	text "My boy friend"
-	line "wanted to swim to"
-	cont "SEAFOAM ISLANDS."
+	text "Мій друг хотів"
+	line "до МОРЕПІННИХ"
+	cont "ОСТРОВІВ."
 	done
 
 _Route19Swimmer7BattleText::
-	text "These waters are"
-	line "treacherous!"
+	text "Ці води"
+	line "підступні!"
 	done
 
 _Route19Swimmer7EndBattleText::
-	text "Ooh!"
-	line "Dangerous!"
+	text "Ох!"
+	line "Небезпечно!"
 	prompt
 
 _Route19Swimmer7AfterBattleText::
-	text "I got a cramp!"
-	line "Glub, glub..."
+	text "Судома вхопила!"
+	line "Бульк, бульк..."
 	done
 
 _Route19Swimmer8BattleText::
-	text "I swam here, but"
-	line "I'm tired."
+	text "Доплив сюди, та"
+	line "я втомився."
 	done
 
 _Route19Swimmer8EndBattleText::
-	text "I'm"
-	line "exhausted..."
+	text "Я виснажений..."
 	prompt
 
 _Route19Swimmer8AfterBattleText::
-	text "LAPRAS is so big,"
-	line "it must keep you"
-	cont "dry on water."
+	text "ЛАПРАС великий,"
+	line "на нім не"
+	cont "змокнеш у воді."
 	done
 
 _Route19SignText::
-	text "SEA ROUTE 19"
-	line "FUCHSIA CITY -"
-	cont "SEAFOAM ISLANDS"
+	text "МОРСЬКИЙ ШЛЯХ 19"
+	line "ФУКСІЯ СІТІ —"
+	cont "МОРЕПІННІ"
+	cont "ОСТРОВИ"
 	done

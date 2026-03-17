@@ -1,179 +1,193 @@
 _Route13CooltrainerM1BattleText::
-	text "My bird #MON"
-	line "want to scrap!"
+	text "Мої птахи-"
+	line "ПОК'еМОНИ хочуть"
+	cont "битися!"
 	done
 
 _Route13CooltrainerM1EndBattleText::
-	text "My"
-	line "bird combo lost?"
+	text "Моя пташина"
+	line "комбінація"
+	cont "програла?"
 	prompt
 
 _Route13CooltrainerM1AfterBattleText::
-	text "My #MON look"
-	line "happy even though"
-	cont "they lost."
+	text "Мої ПОК'еМОНИ"
+	line "щасливі, хоч і"
+	cont "програли."
 	done
 
 _Route13CooltrainerF1BattleText::
-	text "I'm told I'm good"
-	line "for a kid!"
+	text "Кажуть, я гарна"
+	line "як для малої!"
 	done
 
 _Route13CooltrainerF1EndBattleText::
-	text "Ohh!"
-	line "I lost!"
+	text "Ох! Я"
+	line "програла!"
 	prompt
 
 _Route13CooltrainerF1AfterBattleText::
-	text "I want to become"
-	line "a good trainer."
-	cont "I'll train hard."
+	text "Я хочу стати"
+	line "гарним тренером."
+	cont "Буду вправно"
+	cont "тренуватися."
 	done
 
 _Route13CooltrainerF2BattleText::
-	text "Wow! Your BADGEs"
-	line "are too cool!"
+	text "Ого! Твої"
+	line "ЗНАЧКИ такі"
+	cont "круті!"
 	done
 
 _Route13CooltrainerF2EndBattleText::
-	text "Not"
-	line "enough!"
+	text "Недостатньо!"
 	prompt
 
 _Route13CooltrainerF2AfterBattleText::
-	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	text "Ти маєш ці"
+	line "ЗНАЧКИ від"
+	cont "ЛІДЕРІВ ЗАЛУ."
+	cont "Я знаю!"
 	done
 
 _Route13CooltrainerF3BattleText::
-	text "My cute #MON"
-	line "wish to make your"
-	cont "acquaintance."
+	text "Мої милі"
+	line "ПОК'еМОНИ"
+	cont "хочуть з тобою"
+	cont "познайомитись."
 	done
 
 _Route13CooltrainerF3EndBattleText::
-	text "Wow!"
-	line "You totally won!"
+	text "Ого! Ти"
+	line "повністю"
+	cont "переміг!"
 	prompt
 
 _Route13CooltrainerF3AfterBattleText::
-	text "You have to make"
-	line "#MON fight to"
-	cont "toughen them up!"
+	text "ПОК'еМОНИ мають"
+	line "битися, щоб"
+	cont "ставати сильні-"
+	cont "шими!"
 	done
 
 _Route13CooltrainerF4BattleText::
-	text "I found CARBOS in"
-	line "a cave once."
+	text "Якось я знайшла"
+	line "ВУГЛЕВОДИ в"
+	cont "печері."
 	done
 
 _Route13CooltrainerF4EndBattleText::
-	text "Just"
-	line "messed up!"
+	text "Я просто"
+	line "схибила!"
 	prompt
 
 _Route13CooltrainerF4AfterBattleText::
-	text "CARBOS boosted"
-	line "the SPEED of my"
-	cont "#MON."
+	text "ВУГЛЕВОДИ"
+	line "підвищили"
+	cont "ШВИДКІСТЬ моїх"
+	cont "ПОК'еМОНІВ."
 	done
 
 _Route13CooltrainerM2BattleText::
-	text "The wind's blowing"
-	line "my way!"
+	text "Вітер дме"
+	line "в мій бік!"
 	done
 
 _Route13CooltrainerM2EndBattleText::
-	text "The"
-	line "wind turned!"
+	text "Вітер"
+	line "змінився!"
 	prompt
 
 _Route13CooltrainerM2AfterBattleText::
-	text "I'm beat. I guess"
-	line "I'll FLY home."
+	text "Я побитий. Мабуть"
+	line "ПОЛЕЧУ додому."
 	done
 
 _Route13Beauty1BattleText::
-	text "Sure, I'll play"
-	line "with you!"
+	text "Звісно, я"
+	line "пограю з тобою!"
 	done
 
 _Route13Beauty1EndBattleText::
-	text "Oh!"
-	line "You little brute!"
+	text "Ой!"
+	line "Ти малий"
+	cont "грубіян!"
 	prompt
 
 _Route13Beauty1AfterBattleText::
-	text "I wonder which is"
-	line "stronger, male or"
-	cont "female #MON?"
+	text "Цікаво, хто"
+	line "сильніший,"
+	cont "самець чи"
+	cont "самиця ПОК'еМОН?"
 	done
 
 _Route13Beauty2BattleText::
-	text "Do you want to"
-	line "#MON with me?"
+	text "Хочеш зіграти в"
+	line "ПОК'еМОН зі мною?"
 	done
 
 _Route13Beauty2EndBattleText::
-	text "It's over"
-	line "already?"
+	text "Це вже"
+	line "скінчилося?"
 	prompt
 
 _Route13Beauty2AfterBattleText::
-	text "I don't know"
-	line "anything about"
-	cont "#MON. I just"
-	cont "like cool ones!"
+	text "Я нічого не"
+	line "знаю про"
+	cont "ПОК'еМОН. Мені"
+	cont "просто подо-"
+	cont "баються круті!"
 	done
 
 _Route13BikerBattleText::
-	text "What're you"
-	line "lookin' at?"
+	text "Чого ти"
+	line "вилупився?"
 	done
 
 _Route13BikerEndBattleText::
-	text "Dang!"
-	line "Stripped gears!"
+	text "Дідько!"
+	line "Злетіли"
+	cont "шестерні!"
 	prompt
 
 _Route13BikerAfterBattleText::
-	text "Get lost!"
+	text "Зникни!"
 	done
 
 _Route13CooltrainerM3BattleText::
-	text "I always go with"
-	line "bird #MON!"
+	text "Я завжди обираю"
+	line "птахів-"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _Route13CooltrainerM3EndBattleText::
-	text "Out"
-	line "of power!"
+	text "Запас сил"
+	line "вичерпано!"
 	prompt
 
 _Route13CooltrainerM3AfterBattleText::
-	text "I wish I could"
-	line "fly like PIDGEY"
-	cont "and PIDGEOTTO..."
+	text "Хотів би я"
+	line "літати як ПІДЖІ"
+	cont "та ПІДЖЕОТТО..."
 	done
 
 _Route13TrainerTips1Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРУ"
 
-	para "Look to the left"
-	line "of that post!"
+	para "Дивись ліворуч"
+	line "від того стовпа!"
 	done
 
 _Route13TrainerTips2Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРУ"
 
-	para "Use SELECT to"
-	line "switch items in"
-	cont "the ITEM window!"
+	para "Тисни SELECT,"
+	line "щоб міняти речі"
+	cont "у вікні ПРЕДМЕТ!"
 	done
 
 _Route13SignText::
-	text "ROUTE 13"
-	line "North to SILENCE"
-	cont "BRIDGE"
+	text "ШЛЯХ 13"
+	line "Північ до"
+	cont "МОСТУ ТИШІ"
 	done

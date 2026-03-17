@@ -1,74 +1,78 @@
 _RocketHideoutB1FRocket5EndBattleText::
-	text "Why...?@"
+	text "Чому...?@"
 	text_end
 
 _RocketHideoutB1FRocket1BattleText::
-	text "Who are you? How"
-	line "did you get here?"
+	text "Ти хто такий?"
+	line "Як ти сюди"
+	cont "потрапив?"
 	done
 
 _RocketHideoutB1FRocket1EndBattleText::
-	text "Oww!"
-	line "Beaten!"
+	text "Ой! Мене"
+	line "побили!"
 	prompt
 
 _RocketHideoutB1FRocket1AfterBattleText::
-	text "Are you dissing"
-	line "TEAM ROCKET?"
+	text "Ти зневажаєш"
+	line "КОМАНДУ РОКЕТ?"
 	done
 
 _RocketHideoutB1FRocket2BattleText::
-	text "You broke into"
-	line "our operation?"
+	text "Ти вдерся до"
+	line "нашої операції?"
 	done
 
 _RocketHideoutB1FRocket2EndBattleText::
-	text "Burnt!"
+	text "Спікся!"
 	prompt
 
 _RocketHideoutB1FRocket2AfterBattleText::
-	text "You're not going"
-	line "to get away with"
-	cont "this, brat!"
+	text "Це тобі просто"
+	line "так не минеться,"
+	cont "ти, малявко!"
 	done
 
 _RocketHideoutB1FRocket3BattleText::
-	text "Intruder alert!"
+	text "Увага!"
+	line "Вторгнення!"
 	done
 
 _RocketHideoutB1FRocket3EndBattleText::
-	text "I"
-	line "can't do it!"
+	text "Я не можу"
+	line "цього зробити!"
 	prompt
 
 _RocketHideoutB1FRocket3AfterBattleText::
-	text "SILPH SCOPE?"
-	line "I don't know"
-	cont "where it is!"
+	text "ПРИЗРАКОБАЧ?"
+	line "Я не знаю,"
+	cont "де він!"
 	done
 
 _RocketHideoutB1FRocket4BattleText::
-	text "Why did you come"
-	line "here?"
+	text "Чого ти сюди"
+	line "прийшов?"
 	done
 
 _RocketHideoutB1FRocket4EndBattleText::
-	text "This"
-	line "won't do!"
+	text "Це нікуди"
+	line "не годиться!"
 	prompt
 
 _RocketHideoutB1FRocket4AfterBattleText::
-	text "OK, I'll talk!"
-	line "Take the elevator"
-	cont "to see my BOSS!"
+	text "ОК, я скажу!"
+	line "Їдь ліфтом,"
+	cont "щоб побачити"
+	cont "мого БОСА!"
 	done
 
 _RocketHideoutB1FRocket5BattleText::
-	text "Are you lost, you"
-	line "little rat?"
+	text "Заблукав,"
+	line "маленький"
+	cont "пацюче?"
 	done
 
 _RocketHideoutB1FRocket5AfterBattleText::
-	text "Uh-oh, that fight"
-	line "opened the door!"
+	text "Ой-ой, цей бій"
+	line "відчинив двері!"
 	done

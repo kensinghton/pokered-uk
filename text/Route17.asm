@@ -1,195 +1,203 @@
 _Route17Biker1BattleText::
-	text "There's no money"
-	line "in fighting kids!"
+	text "На битвах з"
+	line "дітьми грошей не"
+	cont "заробиш!"
 	done
 
 _Route17Biker1EndBattleText::
-	text "Burned"
-	line "out!"
+	text "Спікся!"
 	prompt
 
 _Route17Biker1AfterBattleText::
-	text "Good stuff is"
-	line "lying around on"
-	cont "CYCLING ROAD!"
+	text "На ВЕЛОТРАСІ"
+	line "валяється багато"
+	cont "цікавого!"
 	done
 
 _Route17Biker2BattleText::
-	text "What do you want,"
-	line "kiddo?"
+	text "Чого тобі треба,"
+	line "малюче?"
 	done
 
 _Route17Biker2EndBattleText::
-	text "Whoo!"
+	text "Ого!"
 	prompt
 
 _Route17Biker2AfterBattleText::
-	text "I could belly-"
-	line "bump you outta"
-	cont "here!"
+	text "Я міг би пузом"
+	line "виштовхати тебе"
+	cont "звідси!"
 	done
 
 _Route17Biker3BattleText::
-	text "You heading to"
-	line "FUCHSIA?"
+	text "Прямуєш до"
+	line "ФУКСІЇ?"
 	done
 
 _Route17Biker3EndBattleText::
-	text "Crash and"
-	line "burn!"
+	text "Розбився"
+	line "вщент!"
 	prompt
 
 _Route17Biker3AfterBattleText::
-	text "I love racing"
-	line "downhill!"
+	text "Люблю ганяти на"
+	line "спусках!"
 	done
 
 _Route17Biker4BattleText::
-	text "We're BIKERs!"
-	line "Highway stars!"
+	text "Ми БАЙКЕРИ!"
+	line "Зірки автострад!"
 	done
 
 _Route17Biker4EndBattleText::
-	text "Smoked!"
+	text "У диму!"
 	prompt
 
 _Route17Biker4AfterBattleText::
-	text "Are you looking"
-	line "for adventure?"
+	text "Шукаєш пригод?"
 	done
 
 _Route17Biker5BattleText::
-	text "Let VOLTORB"
-	line "electrify you!"
+	text "Нехай ВОЛЬТОРБ"
+	line "ударить тебе"
+	cont "струмом!"
 	done
 
 _Route17Biker5EndBattleText::
-	text "Grounded"
-	line "out!"
+	text "Заземлений!"
 	prompt
 
 _Route17Biker5AfterBattleText::
-	text "I got my VOLTORB"
-	line "at the abandoned"
-	cont "POWER PLANT."
+	text "Я впіймав"
+	line "ВОЛЬТОРБА на"
+	cont "занедбаній"
+	cont "ЕЛЕКТРОСТАНЦІЇ."
 	done
 
 _Route17Biker6BattleText::
-	text "My #MON won't"
-	line "evolve! Why?"
+	text "Мій ПОК'еМОН не"
+	line "розвивається!"
+	cont "Чому?"
 	done
 
 _Route17Biker6EndBattleText::
-	text "Why,"
-	line "you!"
+	text "Ах ти ж!"
 	prompt
 
 _Route17Biker6AfterBattleText::
-	text "Maybe some #MON"
-	line "need element"
-	cont "STONEs to evolve."
+	text "Може деяким"
+	line "ПОК'еМОНАМ"
+	cont "потрібні"
+	cont "стихійні КАМЕНІ."
 	done
 
 _Route17Biker7BattleText::
-	text "I need a little"
-	line "exercise!"
+	text "Мені треба"
+	line "трохи"
+	cont "розім'ятися!"
 	done
 
 _Route17Biker7EndBattleText::
-	text "Whew!"
-	line "Good workout!"
+	text "Хух!"
+	line "Гарне"
+	cont "тренування!"
 	prompt
 
 _Route17Biker7AfterBattleText::
-	text "I'm sure I lost"
-	line "weight there!"
+	text "Впевнений, я"
+	line "скинув вагу!"
 	done
 
 _Route17Biker8BattleText::
-	text "Be a rebel!"
+	text "Будь бунтарем!"
 	done
 
 _Route17Biker8EndBattleText::
-	text "Aaaargh!"
+	text "Аааааргх!"
 	prompt
 
 _Route17Biker8AfterBattleText::
-	text "Be ready to fight"
-	line "for your beliefs!"
+	text "Будь готовим"
+	line "битись за свої"
+	cont "переконання!"
 	done
 
 _Route17Biker9BattleText::
-	text "Nice BIKE!"
-	line "How's it handle?"
+	text "Гарний"
+	line "ВЕЛОСИПЕД!"
+	cont "Як він у"
+	cont "керуванні?"
 	done
 
 _Route17Biker9EndBattleText::
-	text "Shoot!"
+	text "Дідько!"
 	prompt
 
 _Route17Biker9AfterBattleText::
-	text "The slope makes"
-	line "it hard to steer!"
+	text "Через схил ним"
+	line "важко кермувати!"
 	done
 
 _Route17Biker10BattleText::
-	text "Get lost kid!"
-	line "I'm bushed!"
+	text "Зникни, малий!"
+	line "Я виснажений!"
 	done
 
 _Route17Biker10EndBattleText::
-	text "Are you"
-	line "satisfied?"
+	text "Ти тепер"
+	line "задоволений?"
 	prompt
 
 _Route17Biker10AfterBattleText::
-	text "I need to catch"
-	line "a few Zs!"
+	text "Мені треба"
+	line "трохи подрімати!"
 	done
 
 _Route17NoticeSign1Text::
-	text "It's a notice!"
+	text "Це оголошення!"
 
-	para "Watch out for"
-	line "discarded items!"
+	para "Стережіться"
+	line "покинутих речей!"
 	done
 
 _Route17TrainerTips1Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРУ"
 
-	para "All #MON are"
-	line "unique."
+	para "Усі ПОК'еМОНИ"
+	line "унікальні."
 
-	para "Even #MON of"
-	line "the same type and"
-	cont "level grow at"
-	cont "different rates."
+	para "Навіть ті, що"
+	line "мають однаковий"
+	cont "тип та рівень,"
+	cont "ростуть по-"
+	cont "різному."
 	done
 
 _Route17TrainerTips2Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРУ"
 
-	para "Press the A or B"
-	line "Button to stay in"
-	cont "place while on a"
-	cont "slope."
+	para "Тисни кнопку"
+	line "A чи B, щоб"
+	cont "стояти на місці"
+	cont "на схилі."
 	done
 
 _Route17SignText::
-	text "ROUTE 17"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "ШЛЯХ 17"
+	line "ЦЕЛАДОН СІТІ —"
+	cont "ФУКСІЯ СІТІ"
 	done
 
 _Route17NoticeSign2Text::
-	text "It's a notice!"
+	text "Це оголошення!"
 
-	para "Don't throw the"
-	line "game, throw #"
-	cont "BALLs instead!"
+	para "Не зливай гру,"
+	line "кидай краще"
+	cont "ПОК'е-БОЛИ!"
 	done
 
 _Route17CyclingRoadEndsSignText::
-	text "CYCLING ROAD"
-	line "Slope ends here!"
+	text "ВЕЛОТРАСА"
+	line "Схил закінчується"
+	cont "тут!"
 	done

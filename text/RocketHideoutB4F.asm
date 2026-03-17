@@ -1,74 +1,81 @@
 _RocketHideoutB4FGiovanniImpressedYouGotHereText::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "Що ж! Мушу"
+	line "сказати, я"
+	cont "вражений, що ти"
+	cont "дістався сюди!"
 	done
 
 _RocketHideoutB4FGiovanniWhatCannotBeText::
-	text "WHAT!"
-	line "This cannot be!"
+	text "ЩО!"
+	line "Цього не може"
+	cont "бути!"
 	prompt
 
 _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
-	text "I see that you"
-	line "raise #MON"
-	cont "with utmost care."
+	text "Я бачу, що ти"
+	line "виховуєш"
+	cont "ПОКéМОНІВ з"
+	cont "великою"
+	cont "турботою."
 
-	para "A child like you"
-	line "would never"
-	cont "understand what I"
-	cont "hope to achieve."
+	para "Дитина як ти"
+	line "ніколи не збаг-"
+	cont "не, чого я праг-"
+	cont "ну досягти."
 
-	para "I shall step"
-	line "aside this time!"
+	para "Цього разу я"
+	line "відступлю!"
 
-	para "I hope we meet"
-	line "again..."
+	para "Сподіваюся, ми"
+	line "зустрінемося..."
 	done
 
 _RocketHideoutB4FRocket1BattleText::
-	text "I know you! You"
-	line "ruined our plans"
-	cont "at MT.MOON!"
+	text "Я тебе знаю! Ти"
+	line "зіпсував наші"
+	cont "плани на"
+	cont "ГОРІ МУН!"
 	done
 
 _RocketHideoutB4FRocket1EndBattleText::
-	text "Burned"
-	line "again!"
+	text "Знову"
+	line "провал!"
 	prompt
 
 _RocketHideoutB4FRocket1AfterBattleText::
-	text "Do you have"
-	line "something against"
-	cont "TEAM ROCKET?"
+	text "Маєш щось"
+	line "проти"
+	cont "КОМАНДИ РОКЕТ?"
 	done
 
 _RocketHideoutB4FRocket2BattleText::
-	text "How can you not"
-	line "see the beauty of"
-	cont "our evil?"
+	text "Як ти можеш"
+	line "не бачити"
+	cont "краси нашого"
+	cont "зла?"
 	done
 
 _RocketHideoutB4FRocket2EndBattleText::
-	text "Ayaya!"
+	text "Ая-яй!"
 	prompt
 
 _RocketHideoutB4FRocket2AfterBattleText::
-	text "BOSS! I'm sorry I"
-	line "failed you!"
+	text "БОСЕ! Вибачте,"
+	line "що я підвів"
+	cont "вас!"
 	done
 
 _RocketHideoutB4FRocket3BattleText::
-	text "The elevator"
-	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	text "Ліфт не працює?"
+	line "У кого"
+	cont "КЛЮЧ ЛІФТА?"
 	done
 
 _RocketHideoutB4FRocket3EndBattleText::
-	text "No!"
+	text "Ні!"
 	prompt
 
 _RocketHideoutB4FRocket3AfterBattleText::
-	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	text "О ні! Я впустив"
+	line "КЛЮЧ ЛІФТА!"
 	done

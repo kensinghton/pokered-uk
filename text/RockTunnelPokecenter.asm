@@ -11,5 +11,5 @@ _RockTunnelPokecenterGentlemanText::
 _RockTunnelPokecenterFisherText::
 	text "Я продав марний"
 	line "САМОРОДОК за"
-	cont "5000 ієн!"
+	cont "5000 ¥!"
 	done

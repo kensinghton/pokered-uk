@@ -1,172 +1,183 @@
 _Route15CooltrainerF1BattleText::
-	text "Let me try out the"
-	line "#MON I just"
-	cont "got in a trade!"
+	text "Дай мені випро-"
+	line "бувати ПОК'еМОНА,"
+	cont "якого я щойно"
+	cont "виміняла!"
 	done
 
 _Route15CooltrainerF1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Недостатньо"
+	line "добре!"
 	prompt
 
 _Route15CooltrainerF1AfterBattleText::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #MON you"
-	cont "get in a trade."
+	text "Ти не можеш"
+	line "змінити прізвище"
+	cont "ПОК'еМОНА,"
+	cont "отриманого"
+	cont "через обмін."
 
-	para "Only the Original"
-	line "Trainer can."
+	para "Лише Перший"
+	line "Тренер може."
 	done
 
 _Route15CooltrainerF2BattleText::
-	text "You look gentle,"
-	line "so I think I can"
-	cont "beat you!"
+	text "Ти на вигляд"
+	line "лагідний, тож"
+	cont "я здолаю тебе!"
 	done
 
 _Route15CooltrainerF2EndBattleText::
-	text "No,"
-	line "wrong!"
+	text "Ні,"
+	line "помилочка!"
 	prompt
 
 _Route15CooltrainerF2AfterBattleText::
-	text "I'm afraid of"
-	line "BIKERs, they look"
-	cont "so ugly and mean!"
+	text "Я боюсь"
+	line "БАЙКЕРІВ, вони"
+	cont "такі огидні та"
+	cont "злі!"
 	done
 
 _Route15CooltrainerM1BattleText::
-	text "When I whistle, I"
-	line "can summon bird"
-	cont "#MON!"
+	text "Коли я свищу, я"
+	line "кличу птахів-"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _Route15CooltrainerM1EndBattleText::
-	text "Ow!"
-	line "That's tragic!"
+	text "Ой! Це"
+	line "трагедія!"
 	prompt
 
 _Route15CooltrainerM1AfterBattleText::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "Мабуть, я не"
+	line "створений для"
+	cont "битв."
 	done
 
 _Route15CooltrainerM2BattleText::
-	text "Hmm? My birds are"
-	line "shivering! You're"
-	cont "good, aren't you?"
+	text "Гм? Мої птахи"
+	line "тремтять! Ти"
+	cont "вправний, еге ж?"
 	done
 
 _Route15CooltrainerM2EndBattleText::
-	text "Just"
-	line "as I thought!"
+	text "Я так і"
+	line "думав!"
 	prompt
 
 _Route15CooltrainerM2AfterBattleText::
-	text "Did you know moves"
-	line "like EARTHQUAKE"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "А ти знав, що"
+	line "удари як-от"
+	cont "ЗЕМЛЕТРУС"
+	cont "не діють на"
+	cont "птахів?"
 	done
 
 _Route15Beauty1BattleText::
-	text "Oh, you're a"
-	line "little cutie!"
+	text "Ой, ти таке"
+	line "миле дитятко!"
 	done
 
 _Route15Beauty1EndBattleText::
-	text "You looked"
-	line "so cute too!"
+	text "Ти теж"
+	line "виглядав мило!"
 	prompt
 
 _Route15Beauty1AfterBattleText::
-	text "I forgive you!"
-	line "I can take it!"
+	text "Я прощаю тебе!"
+	line "Я це витримаю!"
 	done
 
 _Route15Beauty2BattleText::
-	text "I raise #MON"
-	line "because I live"
-	cont "alone!"
+	text "Я рощу"
+	line "ПОК'еМОНІВ, бо"
+	cont "живу сама!"
 	done
 
 _Route15Beauty2EndBattleText::
-	text "I didn't"
-	line "ask for this!"
+	text "Я не"
+	line "просила про це!"
 	prompt
 
 _Route15Beauty2AfterBattleText::
-	text "I just like going"
-	line "home to be with"
-	cont "my #MON!"
+	text "Мені просто по-"
+	line "добається йти"
+	cont "додому до моїх"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _Route15Biker1BattleText::
-	text "Hey kid! C'mon!"
-	line "I just got these!"
+	text "Гей, малий!"
+	line "Давай! Я щойно"
+	cont "їх дістав!"
 	done
 
 _Route15Biker1EndBattleText::
-	text "Why"
-	line "not?"
+	text "Та чому"
+	line "ні?"
 	prompt
 
 _Route15Biker1AfterBattleText::
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	text "Живемо один раз,"
+	line "тож я живу як"
+	cont "злочинець!"
+	cont "КОМАНДА РОКЕТ"
+	cont "ПРАВИТЬ!"
 	done
 
 _Route15Biker2BattleText::
-	text "Fork over all your"
-	line "cash when you"
-	cont "lose to me, kid!"
+	text "Гони свою"
+	line "готівку, коли"
+	cont "програєш мені!"
 	done
 
 _Route15Biker2EndBattleText::
-	text "That"
-	line "can't be true!"
+	text "Це не"
+	line "може бути"
+	cont "правдою!"
 	prompt
 
 _Route15Biker2AfterBattleText::
-	text "I was just joking"
-	line "about the money!"
+	text "Я просто"
+	line "жартував щодо"
+	cont "грошей!"
 	done
 
 _Route15CooltrainerF3BattleText::
-	text "What's cool?"
-	line "Trading #MON!"
+	text "Що круто? Обмін"
+	line "ПОК'еМОНАМИ!"
 	done
 
 _Route15CooltrainerF3EndBattleText::
-	text "I"
-	line "said trade!"
+	text "Я казала"
+	line "про обмін!"
 	prompt
 
 _Route15CooltrainerF3AfterBattleText::
-	text "I trade #MON"
-	line "with my friends!"
+	text "Я міняюсь"
+	line "ПОК'еМОНАМИ з"
+	cont "друзями!"
 	done
 
 _Route15CooltrainerF4BattleText::
-	text "Want to play with"
-	line "my #MON?"
+	text "Хочеш пограти з"
+	line "моїм ПОК'еМОНОМ?"
 	done
 
 _Route15CooltrainerF4EndBattleText::
-	text "I was"
-	line "too impatient!"
+	text "Я була"
+	line "надто нетерпляча"
 	prompt
 
 _Route15CooltrainerF4AfterBattleText::
-	text "I'll go train with"
-	line "weaker people.@"
+	text "Піду тренуватись"
+	line "на слабших.@"
 	text_end
 
 _Route15SignText::
-	text "ROUTE 15"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "ШЛЯХ 15"
+	line "Захід до"
+	cont "ФУКСІЯ СІТІ"
 	done

@@ -1,135 +1,139 @@
 _SilphCo11FSilphPresidentText::
-	text "PRESIDENT: Thank"
-	line "you for saving"
-	cont "SILPH!"
+	text "ПРЕЗИДЕНТ: Дякую"
+	line "за порятунок"
+	cont "СІЛЬФ!"
 
-	para "I will never"
-	line "forget you saved"
-	cont "us in our moment"
-	cont "of peril!"
+	para "Я не забуду, як"
+	line "ти врятував нас"
+	cont "у скрутний час!"
 
-	para "I have to thank"
-	line "you in some way!"
+	para "Мушу тобі якось"
+	line "віддячити!"
 
-	para "Because I am rich,"
-	line "I can give you"
-	cont "anything!"
+	para "Я багатий, тому"
+	line "можу дати тобі"
+	cont "будь-що!"
 
-	para "Here, maybe this"
-	line "will do!"
+	para "Ось, можливо,"
+	line "це підійде!"
 	prompt
 
 _SilphCo11FSilphPresidentReceivedMasterBallText::
-	text "<PLAYER> got a"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SilphCo11FSilphPresidentMasterBallDescriptionText::
-	text "PRESIDENT: You"
-	line "can't buy that"
-	cont "anywhere!"
+	text "ПРЕЗИДЕНТ: Це"
+	line "ніде не купити!"
 
-	para "It's our secret"
-	line "prototype MASTER"
-	cont "BALL!"
+	para "Це наш секретний"
+	line "прототип —"
+	cont "МАЙСТЕРБОЛ!"
 
-	para "It will catch any"
-	line "#MON without"
-	cont "fail!"
+	para "Він впіймає"
+	line "будь-якого"
+	cont "ПОК'еМОНА без"
+	cont "жодних невдач!"
 
-	para "You should be"
-	line "quiet about using"
-	cont "it, though."
+	para "Але краще"
+	line "нікому не кажи"
+	cont "про нього."
 	done
 
 _SilphCo11FSilphPresidentNoRoomText::
-	text "You have no"
-	line "room for this."
+	text "У тебе немає"
+	line "місця для цього."
 	done
 
 _SilphCo11FBeautyText::
-	text "SECRETARY: Thank"
-	line "you for rescuing"
-	cont "all of us!"
+	text "СЕКРЕТАРКА:"
+	line "Дякую за"
+	cont "порятунок всіх"
+	cont "нас!"
 
-	para "We admire your"
-	line "courage."
+	para "Ми захоплюємося"
+	line "твоєю мужністю."
 	done
 
 _SilphCo11FGiovanniText::
-	text "Ah <PLAYER>!"
-	line "So we meet again!"
+	text "А, <PLAYER>!"
+	line "Тож ми знову"
+	cont "зустрілися!"
 
-	para "The PRESIDENT and"
-	line "I are discussing"
-	cont "a vital business"
-	cont "proposition."
+	para "Ми з ПРЕЗИДЕНТОМ"
+	line "обговорюємо"
+	cont "важливу справу."
 
-	para "Keep your nose"
-	line "out of grown-up"
-	cont "matters..."
+	para "Не пхай свого"
+	line "носа у дорослі"
+	cont "справи..."
 
-	para "Or, experience a"
-	line "world of pain!"
+	para "Або пізнаєш"
+	line "світ болю!"
 	done
 
 _SilphCo10FGiovanniILostAgainText::
-	text "Arrgh!!"
-	line "I lost again!?"
+	text "Аргх!!"
+	line "Я знову"
+	cont "програв!?"
 	prompt
 
 _SilphCo11FGiovanniYouRuinedOurPlansText::
-	text "Blast it all!"
-	line "You ruined our"
-	cont "plans for SILPH!"
+	text "Хай йому грець!"
+	line "Ти зруйнував"
+	cont "плани на СІЛЬФ!"
 
-	para "But, TEAM ROCKET"
-	line "will never fall!"
+	para "Та КОМАНДА"
+	line "РОКЕТ ніколи"
+	cont "не впаде!"
 
-	para "<PLAYER>! Never"
-	line "forget that all"
-	cont "#MON exist"
-	cont "for TEAM ROCKET!"
+	para "<PLAYER>! Запам'ятай,"
+	line "що ПОК'еМОНИ"
+	cont "існують для"
+	cont "КОМАНДИ РОКЕТ!"
 
-	para "I must go, but I"
-	line "shall return!"
+	para "Я маю йти,"
+	line "але я повернуся!"
 	done
 
 _SilphCo11FRocket1BattleText::
-	text "Stop right there!"
-	line "Don't you move!"
+	text "Ану стій!"
+	line "Не рухайся!"
 	done
 
 _SilphCo11FRocket1EndBattleText::
-	text "Don't..."
-	line "Please!"
+	text "Не треба..."
+	line "Будь ласка!"
 	prompt
 
 _SilphCo11FRocket1AfterBattleText::
-	text "So, you want to"
-	line "see my BOSS?"
+	text "То ти хочеш"
+	line "бачити мого"
+	cont "БОСА?"
 	done
 
 _SilphCo11FRocket2BattleText::
-	text "Halt! Do you have"
-	line "an appointment"
-	cont "with my BOSS?"
+	text "Стій! Ти маєш"
+	line "призначену"
+	cont "зустріч з БОСОМ?"
 	done
 
 _SilphCo11FRocket2EndBattleText::
-	text "Gaah!"
-	line "Demolished!"
+	text "Гаах!"
+	line "Розгромлений!"
 	prompt
 
 _SilphCo11FRocket2AfterBattleText::
-	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	text "Будь обережним,"
+	line "БОС любить"
+	cont "сильних"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _SilphCo10FPorygonText::
-	text "The monitor has"
-	line "#MON on it!"
+	text "На моніторі"
+	line "ПОК'еМОН!"
 	done

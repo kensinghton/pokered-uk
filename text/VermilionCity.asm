@@ -1,127 +1,131 @@
 _VermilionCityBeautyText::
-	text "We're careful"
-	line "about pollution!"
+	text "Ми дбаємо про"
+	line "чистоту!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+	para "Кажуть, ГРАЙМЕР"
+	line "плодиться у"
+	cont "брудній жижі!"
 	done
 
 _VermilionCityGambler1DidYouSeeText::
-	text "Did you see S.S."
-	line "ANNE moored in"
-	cont "the harbor?"
+	text "Бачив П.П.АННУ,"
+	line "що стоїть у"
+	cont "порту?"
 	done
 
 _VermilionCityGambler1SSAnneDepartedText::
-	text "So, S.S.ANNE has"
-	line "departed!"
+	text "Отже, П.П.АННА"
+	line "відпливла!"
 
-	para "She'll be back in"
-	line "about a year."
+	para "Вона повернеться"
+	line "десь за рік."
 	done
 
 _VermilionCitySailor1WelcomeToSSAnneText::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Вітаємо на"
+	line "П.П.АННІ!"
 	done
 
 _VermilionCitySailor1DoYouHaveATicketText::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Вітаємо на"
+	line "П.П.АННІ!"
 
-	para "Excuse me, do you"
-	line "have a ticket?"
+	para "Вибачте, чи є у"
+	line "вас квиток?"
 	prompt
 
 _VermilionCitySailor1FlashedTicketText::
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET!"
+	text "<PLAYER> показує"
+	line "КВИТОК П.П.!"
 
-	para "Great! Welcome to"
-	line "S.S.ANNE!"
+	para "Чудово! Вітаємо"
+	line "на П.П.АННІ!"
 	done
 
 _VermilionCitySailor1YouNeedATicketText::
-	text "<PLAYER> doesn't"
-	line "have the needed"
-	cont "S.S.TICKET."
+	text "У <PLAYER> немає"
+	line "необхідного"
+	cont "КВИТКА П.П."
 
-	para "Sorry!"
+	para "Вибачте!"
 
-	para "You need a ticket"
-	line "to get aboard."
+	para "Вам потрібен"
+	line "квиток, щоб"
+	cont "зійти на борт."
 	done
 
 _VermilionCitySailor1ShipSetSailText::
-	text "The ship set sail."
+	text "Корабель відплив"
 	done
 
 _VermilionCityGambler2Text::
-	text "I'm putting up a"
-	line "building on this"
-	cont "plot of land."
+	text "Я будую дім на"
+	line "цій ділянці."
 
-	para "My #MON is"
-	line "tamping the land."
+	para "Мій ПОК'еМОН"
+	line "ущільнює ґрунт."
 	done
 
 _VermilionCityMachopText::
-	text "MACHOP: Guoh!"
-	line "Gogogoh!@"
+	text "МАЧОП: Гуох!"
+	line "Гогогох!@"
 	text_end
 
 _VermilionCityMachopStompingTheLandFlatText::
 	text_start
-	para "A MACHOP is"
-	line "stomping the land"
-	cont "flat."
+	para "МАЧОП притуптує"
+	line "землю рівно."
 	done
 
 _VermilionCitySailor2Text::
-	text "S.S.ANNE is a"
-	line "famous luxury"
-	cont "cruise ship."
+	text "П.П.АННА — це"
+	line "відомий люкс-"
+	cont "лайнер."
 
-	para "We visit VERMILION"
-	line "once a year."
+	para "Ми заходимо у"
+	line "ВЕРМІЛІОН раз"
+	cont "на рік."
 	done
 
 _VermilionCitySignText::
-	text "VERMILION CITY"
-	line "The Port of"
-	cont "Exquisite Sunsets"
+	text "ВЕРМІЛІОН СІТІ"
+	line "Порт вишуканих"
+	cont "заходів сонця"
 	done
 
 _VermilionCityNoticeSignText::
-	text "NOTICE!"
+	text "УВАГА!"
 
-	para "ROUTE 12 may be"
-	line "blocked off by a"
-	cont "sleeping #MON."
+	para "ШЛЯХ 12 може"
+	line "бути закритий"
+	cont "сонним"
+	cont "ПОК'еМОНОМ."
 
-	para "Detour through"
-	line "ROCK TUNNEL to"
-	cont "LAVENDER TOWN."
+	para "Йдіть в обхід"
+	line "через КАМ'ЯНИЙ"
+	cont "ТУННЕЛЬ до"
+	cont "ЛАВЕНДЕР ТАУН."
 
-	para "VERMILION POLICE"
+	para "ПОЛІЦІЯ"
+	line "ВЕРМІЛІОНА"
 	done
 
 _VermilionCityPokemonFanClubSignText::
-	text "#MON FAN CLUB"
-	line "All #MON fans"
-	cont "welcome!"
+	text "ФАН-КЛУБ"
+	line "ПОК'еМОНІВ"
+	cont "Вітаємо усіх"
+	cont "фанатів!"
 	done
 
 _VermilionCityGymSignText::
-	text "VERMILION CITY"
-	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	text "ВЕРМІЛІОН СІТІ"
+	line "ЗАЛ ПОК'еМОНІВ"
+	cont "ЛІДЕР: ЛТ.СЕРДЖ"
 
-	para "The Lightning "
-	line "American!"
+	para "Блискавичний"
+	line "американець!"
 	done
 
 _VermilionCityHarborSignText::
-	text "VERMILION HARBOR"
+	text "ПОРТ ВЕРМІЛІОНА"
 	done

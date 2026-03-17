@@ -1,59 +1,59 @@
 _NameRatersHouseNameRaterWantMeToRateText::
-	text "Hello, hello!"
-	line "I am the official"
-	cont "NAME RATER!"
+	text "Привіт, привіт!"
+	line "Я — офіційний"
+	cont "ОЦІНЮВАЧ ІМЕН!"
 
-	para "Want me to rate"
-	line "the nicknames of"
-	cont "your #MON?"
+	para "Хочеш, щоб я"
+	line "оцінив прізвиська"
+	cont "твоїх ПОКéМОНІВ?"
 	done
 
 _NameRatersHouseNameRaterWhichPokemonText::
-	text "Which #MON"
-	line "should I look at?"
+	text "Якого ПОКéМОНА"
+	line "мені оглянути?"
 	prompt
 
 _NameRatersHouseNameRaterGiveItANiceNameText::
 	text_ram wNameBuffer
-	text ", is it?"
-	line "That is a decent"
-	cont "nickname!"
+	text ", так?"
+	line "Це пристойне"
+	cont "прізвисько!"
 
-	para "But, would you"
-	line "like me to give"
-	cont "it a nicer name?"
+	para "Але чи не хочеш"
+	line "ти дати йому"
+	cont "краще ім'я?"
 
-	para "How about it?"
+	para "Як щодо цього?"
 	done
 
 _NameRatersHouseNameRaterWhatShouldWeNameItText::
-	text "Fine! What should"
-	line "we name it?"
+	text "Гаразд! Як ми"
+	line "його назвемо?"
 	prompt
 
 _NameRatersHouseNameRaterPokemonHasBeenRenamedText::
-	text "OK! This #MON"
-	line "has been renamed"
+	text "ОК! Цей ПОКéМОН"
+	line "тепер зветься"
 	cont "@"
 	text_ram wBuffer
 	text "!"
 
-	para "That's a better"
-	line "name than before!"
+	para "Це ім'я краще,"
+	line "ніж попереднє!"
 	done
 
 _NameRatersHouseNameRaterComeAnyTimeYouLikeText::
-	text "Fine! Come any"
-	line "time you like!"
+	text "Добре! Заходь у"
+	line "будь-який час!"
 	done
 
 _NameRatersHouseNameRaterATrulyImpeccableNameText::
 	text_ram wNameBuffer
-	text ", is it?"
-	line "That is a truly"
-	cont "impeccable name!"
+	text ", так?"
+	line "Це воістину"
+	cont "бездоганне ім'я!"
 
-	para "Take good care of"
+	para "Дбай добре про"
 	line "@"
 	text_ram wNameBuffer
 	text "!"

@@ -1,63 +1,70 @@
 _SSAnne2FWaiterText::
-	text "This ship, she is"
-	line "a luxury liner"
-	cont "for trainers!"
+	text "Цей корабель —"
+	line "люкс-лайнер для"
+	cont "тренерів!"
 
-	para "At every port, we"
-	line "hold parties with"
-	cont "invited trainers!"
+	para "У кожнім порту"
+	line "ми влаштовуємо"
+	cont "свята для"
+	cont "запрошених!"
 	done
 
 _SSAnne2FRivalText::
-	text "<RIVAL>: Bonjour!"
+	text "<RIVAL>: Бонжур!"
 	line "<PLAYER>!"
 
-	para "Imagine seeing"
-	line "you here!"
+	para "Не чекав"
+	line "побачити тебе"
+	cont "тут!"
 
-	para "<PLAYER>, were you"
-	line "really invited?"
+	para "<PLAYER>, тебе"
+	line "справді"
+	cont "запросили?"
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "Ну, як просу-"
+	line "вається твій"
+	cont "ПОК'еДЕКС?"
 
-	para "I already caught"
-	line "40 kinds, pal!"
+	para "Я вже впіймав"
+	line "40 видів, друже!"
 
-	para "Different kinds"
-	line "are everywhere!"
+	para "Різні види"
+	line "трапляються"
+	cont "повсюди!"
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "Полазь у"
+	line "густій траві!"
 	done
 
 _SSAnne2FRivalDefeatedText::
-	text "Humph!"
+	text "Гм!"
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "Принаймні ти"
+	line "тренуєш своїх"
+	cont "ПОК'еМОНІВ!"
 	prompt
 
 _SSAnne2FRivalVictoryText::
-	text "<PLAYER>! What are"
-	line "you, seasick?"
+	text "<PLAYER>! Що з"
+	line "тобою, морська"
+	cont "недуга?"
 
-	para "You should shape"
-	line "up, pal!"
+	para "Тобі слід"
+	line "зібратись,"
+	cont "друже!"
 	prompt
 
 _SSAnne2FRivalCutMasterText::
-	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	text "<RIVAL>: Чув,"
+	line "що на борту є"
+	cont "майстер ЗРІЗУ."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "Але то просто"
+	line "хворий старий!"
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "Та сам ЗРІЗ"
+	line "дуже корисний!"
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "Збігай до нього!"
+	line "Бувай!"
 	done

@@ -1,108 +1,110 @@
 _Museum1FScientist1ComeAgainText::
-	text "Come again!"
+	text "Заходь ще!"
 	done
 
 _Museum1FScientist1WouldYouLikeToComeInText::
-	text "It's ¥50 for a"
-	line "child's ticket."
+	text "Дитячий квиток"
+	line "коштує ¥50."
 
-	para "Would you like to"
-	line "come in?"
+	para "Бажаєш зайти?"
 	done
 
 _Museum1FScientist1ThankYouText::
-	text "Right, ¥50!"
-	line "Thank you!"
+	text "Так, ¥50!"
+	line "Дякую!"
 	done
 
 _Museum1FScientist1DontHaveEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "У тебе не виста-"
+	line "чає грошей."
 	prompt
 
 _Museum1FScientist1DoYouKnowWhatAmberIsText::
-	text "You can't sneak"
-	line "in the back way!"
+	text "Не можна зайти"
+	line "з чорного ходу!"
 
-	para "Oh, whatever!"
-	line "Do you know what"
-	cont "AMBER is?"
+	para "А, байдуже! Чи"
+	line "знаєш ти, що"
+	cont "таке БУРШТИН?"
 	done
 
 _Museum1FScientist1TheresALabSomewhereText::
-	text "There's a lab"
-	line "somewhere trying"
-	cont "to resurrect"
-	cont "ancient #MON"
-	cont "from AMBER."
+	text "Десь є лаборат-"
+	line "орія, що намага-"
+	cont "ється оживити"
+	cont "давніх ПОКéМОН"
+	cont "з БУРШТИНУ."
 	done
 
 _Museum1FScientist1AmberIsFossilizedTreeSapText::
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "БУРШТИН — це"
+	line "скам'яніла"
+	cont "деревна смола."
 	done
 
 _Museum1FScientist1GoToOtherSideText::
-	text "Please go to the"
-	line "other side!"
+	text "Будь ласка, йди"
+	line "на інший бік!"
 	done
 
 _Museum1FScientist1TakePlentyOfTimeText::
-	text "Take plenty of"
-	line "time to look!"
+	text "Оглядай усе не"
+	line "поспішаючи!"
 	done
 
 _Museum1FGamblerText::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "Це просто чудо-"
+	line "ве викопне!"
 	done
 
 _Museum1FScientist2TakeThisToAPokemonLabText::
-	text "Ssh! I think that"
-	line "this chunk of"
-	cont "AMBER contains"
-	cont "#MON DNA!"
+	text "Тсс! Я думаю,"
+	line "що цей шматок"
+	cont "БУРШТИНУ має"
+	cont "ДНК ПОКéМОНА!"
 
-	para "It would be great"
-	line "if #MON could"
-	cont "be resurrected"
-	cont "from it!"
+	para "Було б круто,"
+	line "якби з нього"
+	cont "оживили"
+	cont "ПОКéМОНА!"
 
-	para "But, my colleagues"
-	line "just ignore me!"
+	para "Та колеги мене"
+	line "ігнорують!"
 
-	para "So I have a favor"
-	line "to ask!"
+	para "Тому я маю"
+	line "прохання!"
 
-	para "Take this to a"
-	line "#MON LAB and"
-	cont "get it examined!"
+	para "Віднеси це в"
+	line "ЛАБОРАТОРІЮ"
+	cont "ПОКéМОН на"
+	cont "експертизу!"
 	prompt
 
 _Museum1FScientist2ReceivedOldAmberText::
-	text "<PLAYER> received"
-	line "OLD AMBER!@"
+	text "<PLAYER> отримує"
+	line "СТАР.БУРШТИН!@"
 	text_end
 
 _Museum1FScientist2GetTheOldAmberCheckText::
-	text "Ssh! Get the OLD"
-	line "AMBER checked!"
+	text "Тсс! Перевір"
+	line "СТАР.БУРШТИН!"
 	done
 
 _Museum1FScientist2YouDontHaveSpaceText::
-	text "You don't have"
-	line "space for this!"
+	text "У тебе немає"
+	line "місця для"
+	cont "цього!"
 	done
 
 _Museum1FScientist3Text::
-	text "We are proud of 2"
-	line "fossils of very"
-	cont "rare, prehistoric"
-	cont "#MON!"
+	text "Ми пишаємося"
+	line "2 викопними"
+	cont "дуже рідкісних,"
+	cont "доісторичних"
+	cont "ПОКéМОНІВ!"
 	done
 
 _Museum1FOldAmberText::
-	text "The AMBER is"
-	line "clear and gold!"
+	text "БУРШТИН чистий"
+	line "та золотавий!"
 	done

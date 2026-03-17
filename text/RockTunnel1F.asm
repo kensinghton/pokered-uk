@@ -1,115 +1,118 @@
 _RockTunnel1FHiker1BattleText::
-	text "This tunnel goes"
-	line "a long way, kid!"
+	text "Цей тунель дуже"
+	line "довгий, малий!"
 	done
 
 _RockTunnel1FHiker1EndBattleText::
-	text "Doh!"
-	line "You win!"
+	text "Овва!"
+	line "Ти переміг!"
 	prompt
 
 _RockTunnel1FHiker1AfterBattleText::
-	text "Watch for ONIX!"
-	line "It can put the"
-	cont "squeeze on you!"
+	text "Стережись ОНІКСА!"
+	line "Він може тебе"
+	cont "затиснути!"
 	done
 
 _RockTunnel1FHiker2BattleText::
-	text "Hmm. Maybe I'm"
-	line "lost in here..."
+	text "Гм. Може я"
+	line "тут заблукав..."
 	done
 
 _RockTunnel1FHiker2EndBattleText::
-	text "Ease up!"
-	line "What am I doing?"
-	cont "Which way is out?"
+	text "Легше! Що"
+	line "я роблю? Де"
+	cont "тут вихід?"
 	prompt
 
 _RockTunnel1FHiker2AfterBattleText::
-	text "That sleeping"
-	line "#MON on ROUTE"
-	cont "12 forced me to"
-	cont "take this detour."
+	text "Той сонний"
+	line "ПОKéMOH на ШЛЯХУ"
+	cont "12 змусив мене"
+	cont "піти в обхід."
 	done
 
 _RockTunnel1FHiker3BattleText::
-	text "Outsiders like"
-	line "you need to show"
-	cont "me some respect!"
+	text "Чужинці як ти"
+	line "мають поважати"
+	cont "мене!"
 	done
 
 _RockTunnel1FHiker3EndBattleText::
-	text "I give!"
+	text "Здаюся!"
 	prompt
 
 _RockTunnel1FHiker3AfterBattleText::
-	text "You're talented"
-	line "enough to hike!"
+	text "Ти досить"
+	line "вправний для"
+	cont "походів!"
 	done
 
 _RockTunnel1FSuperNerdBattleText::
-	text "#MON fight!"
-	line "Ready, go!"
+	text "Бій ПОKéMOHІВ!"
+	line "Готуйся, марш!"
 	done
 
 _RockTunnel1FSuperNerdEndBattleText::
-	text "Game"
-	line "over!"
+	text "Гру"
+	line "закінчено!"
 	prompt
 
 _RockTunnel1FSuperNerdAfterBattleText::
-	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	text "Ну що ж, спіймаю"
+	line "ЗУБАТА дорогою!"
 	done
 
 _RockTunnel1FCooltrainerF1BattleText::
-	text "Eek! Don't try"
-	line "anything funny in"
-	cont "the dark!"
+	text "Ой! Не вигадуй"
+	line "дурниць у"
+	cont "темряві!"
 	done
 
 _RockTunnel1FCooltrainerF1EndBattleText::
-	text "It"
-	line "was too dark!"
+	text "Було занадто"
+	line "темно!"
 	prompt
 
 _RockTunnel1FCooltrainerF1AfterBattleText::
-	text "I saw a MACHOP"
-	line "in this tunnel!"
+	text "Я бачила МАЧОПА"
+	line "в цьому тунелі!"
 	done
 
 _RockTunnel1FCooltrainerF2BattleText::
-	text "I came this far"
-	line "for #MON!"
+	text "Я пройшла такий"
+	line "шлях заради"
+	cont "ПОKéMOHІВ!"
 	done
 
 _RockTunnel1FCooltrainerF2EndBattleText::
-	text "I'm"
-	line "out of #MON!"
+	text "У мене не"
+	line "лишилось"
+	cont "ПОKéMOHІВ!"
 	prompt
 
 _RockTunnel1FCooltrainerF2AfterBattleText::
-	text "You looked cute"
-	line "and harmless!"
+	text "Ти здався милим"
+	line "і нешкідливим!"
 	done
 
 _RockTunnel1FCooltrainerF3BattleText::
-	text "You have #MON!"
-	line "Let's start!"
+	text "Маєш ПОKéMOHІВ!"
+	line "Починаймо!"
 	done
 
 _RockTunnel1FCooltrainerF3EndBattleText::
-	text "You"
-	line "play hard!"
+	text "Ти"
+	line "граєш завзято!"
 	prompt
 
 _RockTunnel1FCooltrainerF3AfterBattleText::
-	text "Whew! I'm all"
-	line "sweaty now!"
+	text "Хух! Я тепер"
+	line "аж змокріла!"
 	done
 
 _RockTunnel1FSignText::
-	text "ROCK TUNNEL"
-	line "CERULEAN CITY -"
-	cont "LAVENDER TOWN"
+	text "КАМ'ЯНИЙ ТУННЕЛЬ"
+	line "ЦЕРУЛЕАН СІТІ -"
+	cont "ЛАВЕНДЕР ТАУН"
 	done

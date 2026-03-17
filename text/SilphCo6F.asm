@@ -1,107 +1,109 @@
 _SilphCo6FSilphWorkerM1TookOverTheBuildingText::
-	text "The ROCKETs came"
-	line "and took over the"
-	cont "building!"
+	text "РОКЕТИ прийшли"
+	line "та захопили"
+	cont "будівлю!"
 	done
 
 _SilphCo6FSilphWorkerM1BackToWorkText::
-	text "Well, better get"
-	line "back to work!"
+	text "Що ж, краще"
+	line "повернутися до"
+	cont "роботи!"
 	done
 
 _SilphCo6FSilphWorkerMHelpMePleaseText::
-	text "Oh dear, oh dear."
-	line "Help me please!"
+	text "О лишенько. Будь"
+	line "ласка, поможи!"
 	done
 
 _SilphCo6FSilphWorkerMWeGotEngagedText::
-	text "We got engaged!"
-	line "Heheh!"
+	text "Ми заручилися!"
+	line "Хе-хе!"
 	done
 
 _SilphCo6FSilphWorkerF1SuchACowardText::
-	text "Look at him! He's"
-	line "such a coward!"
+	text "Глянь на нього!"
+	line "Він такий"
+	cont "боягуз!"
 	done
 
 _SilphCo6FSilphWorkerF1HaveToMarryHimText::
-	text "I feel so sorry"
-	line "for him, I have"
-	cont "to marry him!"
+	text "Мені так його"
+	line "шкода, що мушу"
+	cont "вийти за нього!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketConquerWorldText::
-	text "TEAM ROCKET is"
-	line "trying to conquer"
-	cont "the world with"
-	cont "#MON!"
+	text "КОМАНДА РОКЕТ"
+	line "хоче підкорити"
+	cont "світ за допомо-"
+	cont "гою ПОК'еМОНІВ!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketRanText::
-	text "TEAM ROCKET ran"
-	line "because of you!"
+	text "КОМАНДА РОКЕТ"
+	line "втекла через"
+	cont "тебе!"
 	done
 
 _SilphCo6FSilphWorkerM3TargetedSilphText::
-	text "They must have"
-	line "targeted SILPH"
-	cont "for our #MON"
-	cont "products."
+	text "Певно, СІЛЬФ"
+	line "став ціллю че-"
+	cont "рез наші товари"
+	cont "для ПОК'еМОНІВ."
 	done
 
 _SilphCo6FSilphWorkerM3WorkForSilphText::
-	text "Come work for"
-	line "SILPH when you"
-	cont "get older!"
+	text "Приходь робити"
+	line "в СІЛЬФ, коли"
+	cont "підростеш!"
 	done
 
 _SilphCo6FRocket1BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Я один з 4"
+	line "БРАТІВ РОКЕТ!"
 	done
 
 _SilphCo6FRocket1EndBattleText::
-	text "Flame"
-	line "out!"
+	text "Спікся!"
 	prompt
 
 _SilphCo6FRocket1AfterBattleText::
-	text "No matter!"
-	line "My brothers will"
-	cont "avenge me!"
+	text "Байдуже! Мої"
+	line "брати помстяться"
+	cont "за мене!"
 	done
 
 _SilphCo6FScientistBattleText::
-	text "That rotten"
-	line "PRESIDENT!"
+	text "Цей мерзенний"
+	line "ПРЕЗИДЕНТ!"
 
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	para "Він не мав ме-"
+	line "не відсилати у"
+	cont "ФІЛІЮ ТІКСІ!"
 	done
 
 _SilphCo6FScientistEndBattleText::
-	text "Shoot!"
+	text "Дідько!"
 	prompt
 
 _SilphCo6FScientistAfterBattleText::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "ФІЛІЯ ТІКСІ?"
+	line "Це в російській"
+	cont "глушині!"
 	done
 
 _SilphCo6FRocket2BattleText::
-	text "You dare betray"
-	line "TEAM ROCKET?"
+	text "Ти смієш зра-"
+	line "джувати"
+	cont "КОМАНДУ РОКЕТ?"
 	done
 
 _SilphCo6FRocket2EndBattleText::
-	text "You"
-	line "traitor!"
+	text "Ти зрадник!"
 	prompt
 
 _SilphCo6FRocket2AfterBattleText::
-	text "If you stand for"
-	line "justice, you"
-	cont "betray evil!"
+	text "Обираючи спра-"
+	line "ведливість, ти"
+	cont "зраджуєш зло!"
 	done

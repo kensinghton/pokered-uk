@@ -1,133 +1,146 @@
 _Route11Gambler1BattleText::
-	text "Win, lose or draw!"
+	text "Перемога,"
+	line "програш чи"
+	cont "нічия!"
 	done
 
 _Route11Gambler1EndBattleText::
-	text "Atcha!"
-	line "Didn't go my way!"
+	text "Атча!"
+	line "Пішло не"
+	cont "по-моєму!"
 	prompt
 
 _Route11Gambler1AfterBattleText::
-	text "#MON is life!"
-	line "And to live is to"
-	cont "gamble!"
+	text "ПОК'еМОН — це"
+	line "життя! А жити —"
+	cont "це ризикувати!"
 	done
 
 _Route11Gambler2BattleText::
-	text "Competition! I"
-	line "can't get enough!"
+	text "Змагання! Мені"
+	line "їх завжди мало!"
 	done
 
 _Route11Gambler2EndBattleText::
-	text "I had"
-	line "a chance!"
+	text "У мене"
+	line "був шанс!"
 	prompt
 
 _Route11Gambler2AfterBattleText::
-	text "You can't be a"
-	line "coward in the"
-	cont "world of #MON!"
+	text "Не будь боягузом"
+	line "у світі"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _Route11Youngster1BattleText::
-	text "Let's go, but"
-	line "don't cheat!"
+	text "Погнали, але"
+	line "без шахрайства!"
 	done
 
 _Route11Youngster1EndBattleText::
-	text "Huh?"
-	line "That's not right!"
+	text "Га?"
+	line "Це неправильно!"
 	prompt
 
 _Route11Youngster1AfterBattleText::
-	text "I did my best! I"
-	line "have no regrets!"
+	text "Я виклався"
+	line "на повну! Не"
+	cont "шкодую ні про"
+	cont "що!"
 	done
 
 _Route11SuperNerd1BattleText::
-	text "Careful!"
-	line "I'm laying down"
-	cont "some cables!"
+	text "Обережно!"
+	line "Я прокладаю"
+	cont "тут кабелі!"
 	done
 
 _Route11SuperNerd1EndBattleText::
-	text "That"
-	line "was electric!"
+	text "Це було"
+	line "електрично!"
 	prompt
 
 _Route11SuperNerd1AfterBattleText::
-	text "Spread the word"
-	line "to save energy!"
+	text "Кажи всім,"
+	line "що енергію"
+	cont "треба берегти!"
 	done
 
 _Route11Youngster2BattleText::
-	text "I just became a"
-	line "trainer! But, I"
-	cont "think I can win!"
+	text "Я тільки став"
+	line "тренером! Але"
+	cont "думаю, що"
+	cont "переможу!"
 	done
 
 _Route11Youngster2EndBattleText::
-	text "My"
-	line "#MON couldn't!"
+	text "Мій"
+	line "ПОК'еМОН не"
+	cont "зміг!"
 	prompt
 
 _Route11Youngster2AfterBattleText5::
-	text "What do you want?"
-	line "Leave me alone!"
+	text "Чого тобі"
+	line "треба? Лиши"
+	cont "мене у спокої!"
 	done
 
 _Route11Gambler3BattleText::
-	text "Fwahaha! I have"
-	line "never lost!"
+	text "Фвахаха! Я ще"
+	line "ні разу не"
+	cont "програвав!"
 	done
 
 _Route11Gambler3EndBattleText::
-	text "My"
-	line "first loss!"
+	text "Мій"
+	line "перший програш!"
 	prompt
 
 _Route11Gambler3AfterBattleText::
-	text "Luck of the draw!"
-	line "Just luck!"
+	text "Просто вдача!"
+	line "Лише вдача!"
 	done
 
 _Route11Gambler4BattleText::
-	text "I have never won"
-	line "before..."
+	text "Я ще ніколи"
+	line "не вигравав..."
 	done
 
 _Route11Gambler4EndBattleText::
-	text "I saw"
-	line "this coming..."
+	text "Я так і"
+	line "знала..."
 	prompt
 
 _Route11Gambler4AfterBattleText::
-	text "It's just luck."
-	line "Luck of the draw."
+	text "Це просто"
+	line "вдача. Удача"
+	cont "у грі."
 	done
 
 _Route11Youngster3BattleText::
-	text "I'm the best in"
-	line "my class!"
+	text "Я найкращий у"
+	line "своєму класі!"
 	done
 
 _Route11Youngster3EndBattleText::
-	text "Darn!"
-	line "I need to make my"
-	cont "#MON stronger!"
+	text "Дідько!"
+	line "Треба підсилити"
+	cont "своїх ПОК'еМОН!"
 	prompt
 
 _Route11Youngster3AfterBattleText::
-	text "There's a fat"
-	line "#MON that"
-	cont "comes down from"
-	cont "the mountains."
+	text "Є один товстий"
+	line "ПОК'еМОН, що"
+	cont "спускається з"
+	cont "гір."
 
-	para "It's strong if"
-	line "you can get it."
+	para "Він сильний,"
+	line "якщо його"
+	cont "впіймати."
 	done
 
 _Route11SuperNerd2BattleText::
-	text "Watch out for"
-	line "live wires!"
+	text "Стережися"
+	line "оголених"
+	cont "дротів!"
 	done

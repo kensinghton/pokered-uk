@@ -35,5 +35,5 @@ _Route4MtMoonSignText::
 _Route4SignText::
 	text "МАРШРУТ 4"
 	line "ГОРА МУН —"
-	cont "СЕРУЛІН СІТІ"
+	cont "ЦЕРУЛЕАН СІТІ"
 	done

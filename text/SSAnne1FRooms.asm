@@ -1,105 +1,111 @@
 _SSAnne1FRoomsWigglytuffText::
-	text "WIGGLYTUFF: Puup"
-	line "pupuu!@"
+	text "ВІГГЛІТАФФ: Пууп"
+	line "пупуу!@"
 	text_end
 
 _SSAnne1FRoomsGentleman1BattleText::
-	text "I travel alone"
-	line "on my journeys!"
+	text "Я подорожую сам"
+	line "у своїх мандрах!"
 
-	para "My #MON are my"
-	line "only friends!"
+	para "Мої ПОК'еМОНИ —"
+	line "мої єдині друзі!"
 	done
 
 _SSAnne1FRoomsGentleman1EndBattleText::
-	text "My, my"
-	line "friends..."
+	text "Ой, мої"
+	line "друзі..."
 	prompt
 
 _SSAnne1FRoomsGentleman1AfterBattleText::
-	text "You should be"
-	line "nice to friends!"
+	text "Слід бути добрим"
+	line "до друзів!"
 	done
 
 _SSAnne1FRoomsGentleman2BattleText::
-	text "You pup! How dare"
-	line "you barge in!"
+	text "Ти, щеня! Як ти"
+	line "смієш вриватися!"
 	done
 
 _SSAnne1FRoomsGentleman2EndBattleText::
-	text "Humph!"
-	line "You rude child!"
+	text "Гм! Яка"
+	line "неввічлива"
+	cont "дитина!"
 	prompt
 
 _SSAnne1FRoomsGentleman2AfterBattleText::
-	text "I wish to be left"
-	line "alone! Get out!"
+	text "Я хочу побути"
+	line "на самоті! Вийди"
 	done
 
 _SSAnne1FRoomsYoungsterBattleText::
-	text "I love #MON!"
-	line "Do you?"
+	text "Я люблю"
+	line "ПОК'еМОН! А ти?"
 	done
 
 _SSAnne1FRoomsYoungsterEndBattleText::
-	text "Wow! "
-	line "You're great!"
+	text "Ого!"
+	line "Ти супер!"
 	prompt
 
 _SSAnne1FRoomsYoungsterAfterBattleText::
-	text "Let me be your"
-	line "friend, OK?"
+	text "Давай будемо"
+	line "друзями, га?"
 
-	para "Then we can trade"
-	line "#MON!"
+	para "Тоді ми зможемо"
+	line "обмінюватися"
+	cont "ПОК'еМОНАМИ!"
 	done
 
 _SSAnne1FRoomsCooltrainerFBattleText::
-	text "I collected these"
-	line "#MON from all"
-	cont "around the world!"
+	text "Я збирала цих"
+	line "ПОК'еМОНІВ по"
+	cont "всьому світу!"
 	done
 
 _SSAnne1FRoomsCooltrainerFEndBattleText::
-	text "Oh no!"
-	line "I went around the"
-	cont "world for these!"
+	text "О ні! Я об'їхала"
+	line "весь світ заради"
+	cont "них!"
 	prompt
 
 _SSAnne1FRoomsCooltrainerFAfterBattleText::
-	text "You hurt my poor"
-	line "worldly #MON!"
+	text "Ти поранив моїх"
+	line "бідних мандрів-"
+	cont "них ПОК'еМОНІВ!"
 
-	para "I demand that you"
-	line "heal them at a"
-	cont "#MON CENTER!"
+	para "Я вимагаю, щоб"
+	line "ти зцілив їх у"
+	cont "ПОК'еЦЕНТРІ!"
 	done
 
 _SSAnne1FRoomsGirl1Text::
-	text "Waiter, I would"
-	line "like a cherry pie"
-	cont "please!"
+	text "Офіціанте, я б"
+	line "хотіла вишневий"
+	cont "пиріг!"
 	done
 
 _SSAnne1FRoomsMiddleAgedManText::
-	text "A cruise is so"
-	line "elegant yet cozy!"
+	text "Круїз — це так"
+	line "елегантно та"
+	cont "затишно!"
 	done
 
 _SSAnne1FRoomsLittleGirlText::
-	text "I always travel"
-	line "with WIGGLYTUFF!"
+	text "Я завжди"
+	line "подорожую з"
+	cont "ВІГГЛІТАФФОМ!"
 	done
 
 _SSAnne1FRoomsGirl2Text::
-	text "We are cruising"
-	line "around the world."
+	text "Ми мандруємо"
+	line "навколо світу."
 	done
 
 _SSAnne1FRoomsGentleman3Text::
-	text "Ssh! I'm a GLOBAL"
-	line "POLICE agent!"
+	text "Тсс! Я агент"
+	line "ГЛОБАЛЬНОЇ"
+	cont "ПОЛІЦІЇ!"
 
-	para "I'm on the trail"
-	line "of TEAM ROCKET!"
+	para "Я йду по сліду"
+	line "КОМАНДИ РОКЕТ!"
 	done

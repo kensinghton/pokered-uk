@@ -1,173 +1,178 @@
 _Route14CooltrainerM1BattleText::
-	text "You need to use"
-	line "TMs to teach good"
-	cont "moves to #MON!"
+	text "Тобі треба ТМ,"
+	line "щоб навчати"
+	cont "ПОК'еМОНІВ гарним"
+	cont "прийомам!"
 	done
 
 _Route14CooltrainerM1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Недостатньо"
+	line "добре!"
 	prompt
 
 _Route14CooltrainerM1AfterBattleText::
-	text "You have some HMs"
-	line "right? #MON"
-	cont "can't ever forget"
-	cont "those moves."
+	text "У тебе є ХМ,"
+	line "правда? ПОК'еМОН"
+	cont "ніколи не забуде"
+	cont "ці прийоми."
 	done
 
 _Route14CooltrainerM2BattleText::
-	text "My bird #MON"
-	line "should be ready"
-	cont "for battle."
+	text "Мої птахи-"
+	line "ПОК'еМОНИ мають"
+	cont "бути готовими"
+	cont "до бою."
 	done
 
 _Route14CooltrainerM2EndBattleText::
-	text "Not"
-	line "ready yet!"
+	text "Ще не готові!"
 	prompt
 
 _Route14CooltrainerM2AfterBattleText::
-	text "They need to learn"
-	line "better moves."
+	text "Їм треба вивчити"
+	line "кращі прийоми."
 	done
 
 _Route14CooltrainerM3BattleText::
-	text "TMs are on sale"
-	line "in CELADON!"
-	cont "But, only a few"
-	cont "people have HMs!"
+	text "ТМ продаються у"
+	line "ЦЕЛАДОН СІТІ!"
+	cont "Та лише одиниці"
+	cont "мають ХМ!"
 	done
 
 _Route14CooltrainerM3EndBattleText::
-	text "Aww,"
-	line "bummer!"
+	text "Ох,"
+	line "яка прикрість!"
 	prompt
 
 _Route14CooltrainerM3AfterBattleText::
-	text "Teach #MON"
-	line "moves of the same"
-	cont "element type for"
-	cont "more power."
+	text "Навчай ПОК'еМОН"
+	line "прийомам того ж"
+	cont "типу для більшої"
+	cont "сили."
 	done
 
 _Route14CooltrainerM4BattleText::
-	text "Have you taught"
-	line "your bird #MON"
-	cont "how to FLY?"
+	text "Ти навчив своїх"
+	line "птахів-ПОК'еМОН"
+	cont "вмінню ПОЛІТ?"
 	done
 
 _Route14CooltrainerM4EndBattleText::
-	text "Shot"
-	line "down in flames!"
+	text "Збитий"
+	line "у вогні!"
 	prompt
 
 _Route14CooltrainerM4AfterBattleText::
-	text "Bird #MON are"
-	line "my true love!"
+	text "Птахи-ПОК'еМОНИ —"
+	line "моє справжнє"
+	cont "кохання!"
 	done
 
 _Route14CooltrainerM5BattleText::
-	text "Have you heard of"
-	line "the legendary"
-	cont "#MON?"
+	text "Ти чув про"
+	line "легендарних"
+	cont "ПОК'еМОНІВ?"
 	done
 
 _Route14CooltrainerM5EndBattleText::
-	text "Why?"
-	line "Why'd I lose?"
+	text "Чому?"
+	line "Чому я програв?"
 	prompt
 
 _Route14CooltrainerM5AfterBattleText::
-	text "The 3 legendary"
-	line "#MON are all"
-	cont "birds of prey."
+	text "Всі 3 легендарні"
+	line "ПОК'еМОНИ — це"
+	cont "хижі птахи."
 	done
 
 _Route14CooltrainerM6BattleText::
-	text "I'm not into it,"
-	line "but OK! Let's go!"
+	text "Я не в гуморі,"
+	line "та добре!"
+	cont "Погнали!"
 	done
 
 _Route14CooltrainerM6EndBattleText::
-	text "I"
-	line "knew it!"
+	text "Я"
+	line "так і знав!"
 	prompt
 
 _Route14CooltrainerM6AfterBattleText::
-	text "Winning, losing,"
-	line "it doesn't matter"
-	cont "in the long run!"
+	text "Перемога чи"
+	line "програш — це не"
+	cont "важливо зрештою!"
 	done
 
 _Route14Biker1BattleText::
-	text "C'mon, c'mon."
-	line "Let's go, let's"
-	cont "go, let's go!"
+	text "Давай, давай."
+	line "Вперед, вперед,"
+	cont "вперед!"
 	done
 
 _Route14Biker1EndBattleText::
-	text "Arrg!"
-	line "Lost! Get lost!"
+	text "Арг!"
+	line "Програв! Згинь!"
 	prompt
 
 _Route14Biker1AfterBattleText::
-	text "What, what, what?"
-	line "What do you want?"
+	text "Що, що, що?"
+	line "Чого тобі треба?"
 	done
 
 _Route14Biker2BattleText::
-	text "Perfect! I need to"
-	line "burn some time!"
+	text "Чудово! Мені"
+	line "якраз треба"
+	cont "вбити час!"
 	done
 
 _Route14Biker2EndBattleText::
-	text "What?"
-	line "You!?"
+	text "Що?"
+	line "Ти!?"
 	prompt
 
 _Route14Biker2AfterBattleText::
-	text "Raising #MON"
-	line "is a drag, man."
+	text "Тренувати"
+	line "ПОК'еМОНІВ —"
+	cont "нудьга, чувак."
 	done
 
 _Route14Biker3BattleText::
-	text "We ride out here"
-	line "because there's"
-	cont "more room!"
+	text "Ми їздимо тут,"
+	line "бо тут більше"
+	cont "місця!"
 	done
 
 _Route14Biker3EndBattleText::
-	text "Wipe out!"
+	text "Розгром!"
 	prompt
 
 _Route14Biker3AfterBattleText::
-	text "It's cool you"
-	line "made your #MON"
-	cont "so strong!"
+	text "Круто, що ти"
+	line "зробив своїх"
+	cont "ПОК'еМОН дужими!"
 
-	para "Might is right!"
-	line "And you know it!"
+	para "Сила — це право!"
+	line "Ти ж це знаєш!"
 	done
 
 _Route14Biker4BattleText::
-	text "#MON fight?"
-	line "Cool! Rumble!"
+	text "Бій ПОК'еМОНІВ?"
+	line "Круто! Погнали!"
 	done
 
 _Route14Biker4EndBattleText::
-	text "Blown"
-	line "away!"
+	text "Мене"
+	line "аж здуло!"
 	prompt
 
 _Route14Biker4AfterBattleText::
-	text "You know who'd"
-	line "win, you and me"
-	cont "one on one!"
+	text "Знаєш, хто б ви-"
+	line "грав сам на сам,"
+	cont "ти чи я!"
 	done
 
 _Route14SignText::
-	text "ROUTE 14"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "ШЛЯХ 14"
+	line "Захід до"
+	cont "ФУКСІЯ СІТІ"
 	done

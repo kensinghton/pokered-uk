@@ -1,78 +1,79 @@
 _PokemonTower7FMrFujiRescueText::
-	text "MR.FUJI: Heh? You"
-	line "came to save me?"
+	text "ПАН ФУДЗІ: Ге?"
+	line "Прийшов мене"
+	cont "врятувати?"
 
-	para "Thank you. But, I"
-	line "came here of my"
-	cont "own free will."
+	para "Дякую. Але я"
+	line "прийшов сюди"
+	cont "з власної волі."
 
-	para "I came to calm"
-	line "the soul of"
-	cont "CUBONE's mother."
+	para "Я прийшов, щоб"
+	line "заспокоїти душу"
+	cont "матері К'ЮБОНА."
 
-	para "I think MAROWAK's"
-	line "spirit has gone"
-	cont "to the afterlife."
+	para "Думаю, дух"
+	line "МАРОВАКА пішов"
+	cont "у потойбіччя."
 
-	para "I must thank you"
-	line "for your kind"
-	cont "concern!"
+	para "Дякую тобі за"
+	line "твою щиру"
+	cont "турботу!"
 
-	para "Follow me to my"
-	line "home, #MON"
-	cont "HOUSE at the foot"
-	cont "of this tower."
+	para "Ходімо в мій"
+	line "дім, БУДИНОК"
+	cont "ПОКéМОН біля"
+	cont "цієї башти."
 	done
 
 _PokemonTower7FRocket1BattleText::
-	text "What do you want?"
-	line "Why are you here?"
+	text "Чого тобі треба?"
+	line "Чому ти тут?"
 	done
 
 _PokemonTower7FRocket1EndBattleText::
-	text "I give up!"
+	text "Я здаюся!"
 	prompt
 
 _PokemonTower7FRocket1AfterBattleText::
-	text "I'm not going to"
-	line "forget this!"
+	text "Я цього не"
+	line "забуду!"
 	done
 
 _PokemonTower7FRocket2BattleText::
-	text "This old guy came"
-	line "and complained"
-	cont "about us harming"
-	cont "useless #MON!"
+	text "Цей старий"
+	line "жалівся, що ми"
+	cont "б'ємо марних"
+	cont "ПОКéМОНІВ!"
 
-	para "We're talking it"
-	line "over as adults!"
+	para "Ми тут говоримо"
+	line "як дорослі!"
 	done
 
 _PokemonTower7FRocket2EndBattleText::
-	text "Please!"
-	line "No more!"
+	text "Благаю!"
+	line "Досить!"
 	prompt
 
 _PokemonTower7FRocket2AfterBattleText::
-	text "#MON are only"
-	line "good for making"
-	cont "money!"
+	text "ПОКéМОНИ добрі"
+	line "лише для"
+	cont "заробітку!"
 
-	para "Stay out of our"
-	line "business!"
+	para "Не втручайся у"
+	line "наші справи!"
 	done
 
 _PokemonTower7FRocket3BattleText::
-	text "You're not saving"
-	line "anyone, kid!"
+	text "Ти нікого не"
+	line "врятуєш, малий!"
 	done
 
 _PokemonTower7FRocket3EndBattleText::
-	text "Don't"
-	line "fight us ROCKETs!"
+	text "Не бийся з"
+	line "нами, РОКЕТАМИ!"
 	prompt
 
 _PokemonTower7FRocket3AfterBattleText::
-	text "You're not getting"
-	line "away with this!"
+	text "Це тобі просто"
+	line "так не минеться!"
 	done

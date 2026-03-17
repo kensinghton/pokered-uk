@@ -1,67 +1,69 @@
 _Route24CooltrainerM1YouBeatOurContestText::
-	text "Congratulations!"
-	line "You beat our 5"
-	cont "contest trainers!@"
+	text "Вітаю! Ти здолав"
+	line "наших 5 тренерів"
+	cont "у змаганні!@"
 	text_end
 
 _Route24CooltrainerM1YouJustEarnedAPrizeText::
 	text_start
 
-	para "You just earned a"
-	line "fabulous prize!"
+	para "Ти щойно виграв"
+	line "чудовий приз!"
 	prompt
 
 _Route24CooltrainerM1ReceivedNuggetText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> отримує"
+	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _Route24CooltrainerM1NoRoomText::
-	text "You don't have"
-	line "any room!"
+	text "У тебе немає"
+	line "вільного місця!"
 	done
 
 _Route24CooltrainerM1JoinTeamRocketText::
-	text "By the way, would"
-	line "you like to join"
-	cont "TEAM ROCKET?"
+	text "До речі, хочеш"
+	line "приєднатися до"
+	cont "КОМАНДИ РОКЕТ?"
 
-	para "We're a group"
-	line "dedicated to evil"
-	cont "using #MON!"
+	para "Ми — організація,"
+	line "що творить зло,"
+	cont "маючи ПОК'еМОН!"
 
-	para "Want to join?"
+	para "Хочеш до нас?"
 
-	para "Are you sure?"
+	para "Ти впевнений?"
 
-	para "Come on, join us!"
+	para "Давай, йди до"
+	line "нас!"
 
-	para "I'm telling you"
-	line "to join!"
+	para "Я кажу тобі"
+	line "приєднуйся!"
 
-	para "OK, you need"
-	line "convincing!"
+	para "ОК, тебе треба"
+	line "переконати!"
 
-	para "I'll make you an"
-	line "offer you can't"
-	cont "refuse!"
+	para "Я зроблю тобі"
+	line "пропозицію, від"
+	cont "якої ти не"
+	cont "відмовишся!"
 	done
 
 _Route24CooltrainerM1DefeatedText::
-	text "Arrgh!"
-	line "You are good!"
+	text "Аргх!"
+	line "Ти вправний!"
 	prompt
 
 _Route24CooltrainerM1YouCouldBecomeATopLeaderText::
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
-	cont "TEAM ROCKET!"
+	text "З твоїм хистом"
+	line "ти міг би стати"
+	cont "топ-лідером у"
+	cont "КОМАНДІ РОКЕТ!"
 	done
 
 _Route24CooltrainerM2BattleText::
-	text "I saw your feat"
-	line "from the grass!"
+	text "Я бачив твій"
+	line "подвиг із трави!"
 	done

@@ -1,152 +1,157 @@
 _SaffronCityRocket1Text::
-	text "What do you want?"
-	line "Get lost!"
+	text "Чого тобі треба?"
+	line "Зникни!"
 	done
 
 _SaffronCityRocket2Text::
-	text "BOSS said he'll"
-	line "take this town!"
+	text "БОС сказав, що"
+	line "захопить місто!"
 	done
 
 _SaffronCityRocket3Text::
-	text "Get out of the"
-	line "way!"
+	text "Геть з дороги!"
 	done
 
 _SaffronCityRocket4Text::
-	text "SAFFRON belongs"
-	line "to TEAM ROCKET!"
+	text "САФФРОН належить"
+	line "КОМАНДІ РОКЕТ!"
 	done
 
 _SaffronCityRocket5Text::
-	text "Being evil makes"
-	line "me feel so alive!"
+	text "Бути злим —"
+	line "це справжній"
+	cont "кайф!"
 	done
 
 _SaffronCityRocket6Text::
-	text "Ow! Watch where"
-	line "you're walking!"
+	text "Ой! Дивись,"
+	line "куди преш!"
 	done
 
 _SaffronCityRocket7Text::
-	text "With SILPH under"
-	line "control, we can"
-	cont "exploit #MON"
-	cont "around the world!"
+	text "Маючи СІЛЬФ під"
+	line "контролем, ми"
+	cont "експлуатуватиме-"
+	cont "мо ПОК'еМОНІВ"
+	cont "в усьому світі!"
 	done
 
 _SaffronCityScientistText::
-	text "You beat TEAM"
-	line "ROCKET all alone?"
-	cont "That's amazing!"
+	text "Ти здолав"
+	line "КОМАНДУ РОКЕТ"
+	cont "самотужки?"
+	cont "Це неймовірно!"
 	done
 
 _SaffronCitySilphWorkerMText::
-	text "Yeah! TEAM ROCKET"
-	line "is gone!"
-	cont "It's safe to go"
-	cont "out again!"
+	text "Є! КОМАНДА"
+	line "РОКЕТ пішла!"
+	cont "Знову безпечно"
+	cont "гуляти містом!"
 	done
 
 _SaffronCitySilphWorkerFText::
-	text "People should be"
-	line "flocking back to"
-	cont "SAFFRON now."
+	text "Люди тепер мають"
+	line "юрбою вертатися"
+	cont "у САФФРОН."
 	done
 
 _SaffronCityGentlemanText::
-	text "I flew here on my"
-	line "PIDGEOT when I"
-	cont "read about SILPH."
+	text "Я ПРИЛЕТІВ на"
+	line "своєму ПІДЖЕОТІ,"
+	cont "коли почув"
+	cont "про СІЛЬФ."
 
-	para "It's already over?"
-	line "I missed the"
-	cont "media action."
+	para "Усе вже скінчи-"
+	line "лося? Я пропус-"
+	cont "тив увесь двіж."
 	done
 
 _SaffronCityPidgeotText::
-	text "PIDGEOT: Bi bibii!@"
+	text "ПІДЖЕОТ: Бі-бі!@"
 	text_end
 
 _SaffronCityRockerText::
-	text "I saw ROCKET"
-	line "BOSS escaping"
-	cont "SILPH's building."
+	text "Я бачив, як БОС"
+	line "РОКЕТІВ тікав"
+	cont "з будівлі СІЛЬФ."
 	done
 
 _SaffronCityRocket8Text::
-	text "I'm a security"
-	line "guard."
+	text "Я охоронець."
 
-	para "Suspicious kids I"
-	line "don't allow in!"
+	para "Підозрілим"
+	line "дітям вхід"
+	cont "заборонено!"
 	done
 
 _SaffronCityRocket9Text::
 	text "..."
-	line "Snore..."
+	line "Хррр..."
 
-	para "Hah! He's taking"
-	line "a snooze!"
+	para "Ха! Та він"
+	line "просто дрімає!"
 	done
 
 _SaffronCitySignText::
-	text "SAFFRON CITY"
-	line "Shining, Golden"
-	cont "Land of Commerce"
+	text "САФФРОН СІТІ"
+	line "Сяйна золота"
+	cont "земля торгівлі"
 	done
 
 _SaffronCityFightingDojoSignText::
-	text "FIGHTING DOJO"
+	text "БОЙОВЕ ДОДЗЬО"
 	done
 
 _SaffronCityGymSignText::
-	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	text "САФФРОН СІТІ"
+	line "ЗАЛ ПОК'еМОНІВ"
+	cont "ЛІДЕР: САБРІНА"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "Майстриня"
+	line "психічних"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _SaffronCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРУ"
 
-	para "FULL HEAL cures"
-	line "all ailments like"
-	cont "sleep and burns."
+	para "ПОВНЕ ЗЦІЛЕННЯ"
+	line "лікує недуги,"
+	cont "як-от сон та"
+	cont "опіки."
 
-	para "It costs a bit"
-	line "more, but it's"
-	cont "more convenient."
+	para "Воно дорожче,"
+	line "але значно"
+	cont "зручніше."
 	done
 
 _SaffronCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "ПОРАДИ ТРЕНЕРУ"
 
-	para "New GREAT BALL"
-	line "offers improved"
-	cont "capture rates."
+	para "Новий СУПЕРБОЛ"
+	line "краще ловить"
+	cont "ПОК'еМОНІВ."
 
-	para "Try it on those"
-	line "hard-to-catch"
-	cont "#MON."
+	para "Спробуй його на"
+	line "тих, кого важко"
+	cont "впіймати."
 	done
 
 _SaffronCitySilphCoSignText::
-	text "SILPH CO."
-	line "OFFICE BUILDING"
+	text "СІЛЬФ КОМПАНІ"
+	line "ОФІСНА БУДІВЛЯ"
 	done
 
 _SaffronCityMrPsychicsHouseSignText::
-	text "MR.PSYCHIC's"
-	line "HOUSE"
+	text "ДІМ ПАНА"
+	line "ПСИХІКА"
 	done
 
 _SaffronCitySilphCoLatestProductSignText::
-	text "SILPH's latest"
-	line "product!"
+	text "Новинка від"
+	line "СІЛЬФ!"
 
-	para "Release to be"
-	line "determined..."
+	para "Дата виходу"
+	line "невизначена..."
 	done

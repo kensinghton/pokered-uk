@@ -31,7 +31,7 @@ _Route11Gate2FRightBinocularsText::
 	text "Дивлюсь у"
 	line "бінокль."
 
-	para "Шлях із СЕРУЛІНА"
+	para "Шлях із ЦЕРУЛЕАНа"
 	line "до ЛАВЕНДЕРА йде"
 	cont "крізь КАМ'ЯНИЙ"
 	cont "ТУНЕЛЬ."

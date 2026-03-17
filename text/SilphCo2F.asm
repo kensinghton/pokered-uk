@@ -1,97 +1,100 @@
 SilphCo2FSilphWorkerFPleaseTakeThisText::
-	text "Eeek!"
-	line "No! Stop! Help!"
+	text "Ой! Ні! Стійте!"
+	line "Допоможіть!"
 
-	para "Oh, you're not"
-	line "with TEAM ROCKET."
-	cont "I thought..."
-	cont "I'm sorry. Here,"
-	cont "please take this!"
+	para "Ой, ти не з"
+	line "КОМАНДИ РОКЕТ."
+	cont "Я думала..."
+	cont "Вибач. Ось,"
+	cont "візьми це!"
 	prompt
 
 _SilphCo2FSilphWorkerFReceivedTM36Text::
-	text "<PLAYER> got"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SilphCo2FSilphWorkerFTM36ExplanationText::
-	text "TM36 is"
-	line "SELFDESTRUCT!"
+	text "ТМ36 — це"
+	line "САМОЗНИЩЕННЯ!"
 
-	para "It's powerful, but"
-	line "the #MON that"
-	cont "uses it faints!"
-	cont "Be careful."
+	para "Це потужно, але"
+	line "ПОК'еМОН, який"
+	cont "це вживає,"
+	cont "знепритомніє!"
+	cont "Будь обережним."
 	done
 
 _SilphCo2FSilphWorkerFTM36NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "У тебе немає"
+	line "місця для цього."
 	done
 
 _SilphCo2FScientist1BattleText::
-	text "Help! I'm a SILPH"
-	line "employee."
+	text "Рятуйте! Я"
+	line "працівник СІЛЬФ."
 	done
 
 _SilphCo2FScientist1EndBattleText::
-	text "How"
-	line "did you know I"
-	cont "was a ROCKET?"
+	text "Як ти"
+	line "дізнався, що я"
+	cont "РОКЕТ?"
 	prompt
 
 _SilphCo2FScientist1AfterBattleText::
-	text "I work for both"
-	line "SILPH and TEAM"
-	cont "ROCKET!"
+	text "Я працюю і на"
+	line "СІЛЬФ, і на"
+	cont "КОМАНДУ РОКЕТ!"
 	done
 
 _SilphCo2FScientist2BattleText::
-	text "It's off limits"
-	line "here! Go home!"
+	text "Сюди не можна!"
+	line "Йди додому!"
 	done
 
 _SilphCo2FScientist2EndBattleText::
-	text "You're"
-	line "good."
+	text "Ти"
+	line "вправний."
 	prompt
 
 _SilphCo2FScientist2AfterBattleText::
-	text "Can you solve the"
-	line "maze in here?"
+	text "Чи зможеш ти"
+	line "пройти цей"
+	cont "лабіринт?"
 	done
 
 _SilphCo2FRocket1BattleText::
-	text "No kids are"
-	line "allowed in here!"
+	text "Дітям сюди"
+	line "зась!"
 	done
 
 _SilphCo2FRocket1EndBattleText::
-	text "Tough!"
+	text "Сильно!"
 	prompt
 
 _SilphCo2FRocket1AfterBattleText::
-	text "Diamond shaped"
-	line "tiles are"
-	cont "teleport blocks!"
+	text "Ромбоподібні"
+	line "плитки — це"
+	cont "телепорти!"
 
-	para "They're hi-tech"
-	line "transporters!"
+	para "Це високотехно-"
+	line "логічні"
+	cont "пристрої!"
 	done
 
 _SilphCo2FRocket2BattleText::
-	text "Hey kid! What are"
-	line "you doing here?"
+	text "Гей, малий! Що"
+	line "ти тут робиш?"
 	done
 
 _SilphCo2FRocket2EndBattleText::
-	text "I goofed!"
+	text "Я схибив!"
 	prompt
 
 _SilphCo2FRocket2AfterBattleText::
-	text "SILPH CO. will"
-	line "be merged with"
-	cont "TEAM ROCKET!"
+	text "СІЛЬФ КОМПАНІ"
+	line "об'єднається з"
+	cont "КОМАНДОЮ РОКЕТ!"
 	done

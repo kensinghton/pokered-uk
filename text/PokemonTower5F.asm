@@ -1,71 +1,74 @@
 _PokemonTower5FChanneler1Text::
-	text "Come, child! I"
-	line "sealed this space"
-	cont "with white magic!"
+	text "Ходи, дитя! Я"
+	line "скріпила це"
+	cont "місце магією!"
 
-	para "You can rest here!"
+	para "Ти можеш тут"
+	line "відпочити!"
 	done
 
 _PokemonTower5FChanneler2BattleText::
-	text "Give...me..."
-	line "your...soul..."
+	text "Від...дай..."
+	line "свою...душу..."
 	done
 
 _PokemonTower5FChanneler2EndBattleText::
-	text "Gasp!"
+	text "Ах!"
 	prompt
 
 _PokemonTower5FChanneler2AfterBattleText::
-	text "I was under"
-	line "possession!"
+	text "Мною"
+	line "оволоділи!"
 	done
 
 _PokemonTower5FChanneler3BattleText::
-	text "You...shall..."
-	line "join...us..."
+	text "Ти...мусиш..."
+	line "бути...з...нами"
 	done
 
 _PokemonTower5FChanneler3EndBattleText::
-	text "What"
-	line "a nightmare!"
+	text "Який"
+	line "кошмар!"
 	prompt
 
 _PokemonTower5FChanneler3AfterBattleText::
-	text "I was possessed!"
+	text "Я була"
+	line "одержима!"
 	done
 
 _PokemonTower5FChanneler4BattleText::
-	text "Zombies!"
+	text "Зомбі!"
 	done
 
 _PokemonTower5FChanneler4EndBattleText::
-	text "Ha?"
+	text "Га?"
 	prompt
 
 _PokemonTower5FChanneler4AfterBattleText::
-	text "I regained my"
-	line "senses!"
+	text "До мене"
+	line "вернувся розум!"
 	done
 
 _PokemonTower5FChanneler5BattleText::
-	text "Urgah..."
-	line "Urff...."
+	text "Ургах..."
+	line "Урфф...."
 	done
 
 _PokemonTower5FChanneler5EndBattleText::
-	text "Whoo!"
+	text "Ох!"
 	prompt
 
 _PokemonTower5FChanneler5AfterBattleText::
-	text "I fell to evil"
-	line "spirits despite"
-	cont "my training!"
+	text "Злі духи здола-"
+	line "ли мене попри"
+	cont "тренування!"
 	done
 
 _PokemonTower5FPurifiedZoneText::
-	text "Entered purified,"
-	line "protected zone!"
+	text "Ти увійшов до"
+	line "чистої зони!"
 
-	para "<PLAYER>'s #MON"
-	line "are fully healed!"
+	para "ПОКéМОНИ"
+	line "<PLAYER>"
+	cont "цілком зцілені!"
 	done

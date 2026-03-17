@@ -1,139 +1,146 @@
 _Route12SnorlaxText::
-	text "A sleeping #MON"
-	line "blocks the way!"
+	text "Сонний ПОК'еМОН"
+	line "перекрив шлях!"
 	done
 
 _Route12SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "СНОРЛАКС"
+	line "прокинувся!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Він напав у"
+	line "страшній люті!"
 	done
 
 _Route12SnorlaxCalmedDownText::
-	text "SNORLAX calmed"
-	line "down! With a big"
-	cont "yawn, it returned"
-	cont "to the mountains!"
+	text "СНОРЛАКС"
+	line "вгамувався! Він"
+	cont "позіхнув і пішов"
+	cont "назад до гір!"
 	done
 
 _Route12Fisher1BattleText::
-	text "Yeah! I got a"
-	line "bite, here!"
+	text "Є! У мене"
+	line "тут клює!"
 	done
 
 _Route12Fisher1EndBattleText::
-	text "Tch!"
-	line "Just a small fry!"
+	text "Тху!"
+	line "Якась дрібнота!"
 	prompt
 
 _Route12Fisher1AfterBattleText::
-	text "Hang on! My line's"
-	line "snagged!"
+	text "Зачекай! Моя"
+	line "ліска застрягла!"
 	done
 
 _Route12Fisher2BattleText::
-	text "Be patient!"
-	line "Fishing is a"
-	cont "waiting game!"
+	text "Май терпіння!"
+	line "Риболовля — це"
+	cont "гра в чекання!"
 	done
 
 _Route12Fisher2EndBattleText::
-	text "That"
-	line "one got away!"
+	text "Цей"
+	line "зірвався!"
 	prompt
 
 _Route12Fisher2AfterBattleText::
-	text "With a better ROD,"
-	line "I could catch"
-	cont "better #MON!"
+	text "З кращою ВУДКОЮ"
+	line "я б зловив"
+	cont "кращих ПОК'еМОН!"
 	done
 
 _Route12CooltrainerMBattleText::
-	text "Have you found a"
-	line "MOON STONE?"
+	text "Ти вже знайшов"
+	line "МІСЯЦЬКАМІНЬ?"
 	done
 
 _Route12CooltrainerMEndBattleText::
-	text "Oww!"
+	text "Ой!"
 	prompt
 
 _Route12CooltrainerMAfterBattleText::
-	text "I could have made"
-	line "my #MON evolve"
-	cont "with MOON STONE!"
+	text "Я міг би"
+	line "розвинути свого"
+	cont "ПОК'еМОНА через"
+	cont "МІСЯЦЬКАМІНЬ!"
 	done
 
 _Route12SuperNerdBattleText::
-	text "Electricity is my"
-	line "specialty!"
+	text "Електрика — це"
+	line "мій фах!"
 	done
 
 _Route12SuperNerdEndBattleText::
-	text "Unplugged!"
+	text "Відключений!"
 	prompt
 
 _Route12SuperNerdAfterBattleText::
-	text "Water conducts"
-	line "electricity, so"
-	cont "you should zap"
-	cont "sea #MON!"
+	text "Вода проводить"
+	line "струм, тож бий"
+	cont "морських"
+	cont "ПОК'еМОНІВ!"
 	done
 
 _Route12Fisher3BattleText::
-	text "The FISHING FOOL"
-	line "vs. #MON KID!"
+	text "РИБАЛКА-ФАНАТ"
+	line "проти"
+	cont "ПОК'е-МАЛОГО!"
 	done
 
 _Route12Fisher3EndBattleText::
-	text "Too"
-	line "much!"
+	text "Надто"
+	line "сильно!"
 	prompt
 
 _Route12Fisher3AfterBattleText::
-	text "You beat me at"
-	line "#MON, but I'm"
-	cont "good at fishing!"
+	text "Ти здолав мене"
+	line "в ПОК'еМОН, та я"
+	cont "гарний у"
+	cont "риболовлі!"
 	done
 
 _Route12Fisher4BattleText::
-	text "I'd rather be"
-	line "working!"
+	text "Я б краще"
+	line "працював!"
 	done
 
 _Route12Fisher4EndBattleText::
-	text "It's"
-	line "not easy..."
+	text "Це"
+	line "непросто..."
 	prompt
 
 _Route12Fisher4AfterBattleText::
-	text "It's all right."
-	line "Losing doesn't"
-	cont "bug me any more."
+	text "Все гаразд."
+	line "Програш мене"
+	cont "більше не"
+	cont "гризе."
 	done
 
 _Route12Fisher5BattleText::
-	text "You never know"
-	line "what you could"
-	cont "catch!"
+	text "Ніколи не знаєш,"
+	line "що можеш"
+	cont "впіймати!"
 	done
 
 _Route12Fisher5EndBattleText::
-	text "Lost"
-	line "it!"
+	text "Програв!"
 	prompt
 
 _Route12Fisher5AfterBattleText::
-	text "I catch MAGIKARP"
-	line "all the time, but"
-	cont "they're so weak!"
+	text "Я постійно ловлю"
+	line "МАДЖИКАРПІВ,"
+	cont "але вони такі"
+	cont "слабкі!"
 	done
 
 _Route12SignText::
-	text "ROUTE 12 "
-	line "North to LAVENDER"
+	text "ШЛЯХ 12"
+	line "Північ до"
+	cont "ЛАВЕНДЕР ТАУН"
 	done
 
 _Route12SportFishingSignText::
-	text "SPORT FISHING AREA"
+	text "ЗОНА СПОРТИВНОЇ"
+	line "РИБОЛОВЛІ"
 	done

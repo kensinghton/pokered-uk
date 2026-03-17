@@ -26,6 +26,6 @@ _UndergroundPathRoute7CopyUnusedGoesUnderSaffronText::
 	cont "НОМ до ЛАВЕНДЕРА."
 
 	para "Якщо тобі в"
-	line "СЕРУЛІН, йди до"
+	line "ЦЕРУЛЕАН, йди до"
 	cont "будівлі навпроти."
 	done

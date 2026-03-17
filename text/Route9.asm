@@ -1,157 +1,163 @@
 _Route9CooltrainerF1BattleText::
-	text "You have #MON"
-	line "with you!"
-	cont "You're mine!"
+	text "У тебе є"
+	line "ПОК'еМОН! Ти"
+	cont "моя здобич!"
 	done
 
 _Route9CooltrainerF1EndBattleText::
-	text "You"
-	line "deceived me!"
+	text "Ти мене"
+	line "ошукав!"
 	prompt
 
 _Route9CooltrainerF1AfterBattleText::
-	text "You need light to"
-	line "get through that"
-	cont "dark tunnel ahead."
+	text "Тобі знадобиться"
+	line "світло, щоб"
+	cont "пройти крізь"
+	cont "темний туннель."
 	done
 
 _Route9CooltrainerM1BattleText::
-	text "Who's that walking"
-	line "with those good"
-	cont "looking #MON?"
+	text "Хто це йде з"
+	line "такими гарними"
+	cont "ПОК'еМОНАМИ?"
 	done
 
 _Route9CooltrainerM1EndBattleText::
-	text "Out"
-	line "like a light!"
+	text "Згасла,"
+	line "мов свічка!"
 	prompt
 
 _Route9CooltrainerM1AfterBattleText::
-	text "Keep walking!"
+	text "Проходь далі!"
 	done
 
 _Route9CooltrainerM2BattleText::
-	text "I'm taking ROCK"
-	line "TUNNEL to go to"
-	cont "LAVENDER..."
+	text "Я йду через"
+	line "КАМ'ЯНИЙ"
+	cont "ТУННЕЛЬ до"
+	cont "ЛАВЕНДЕРА..."
 	done
 
 _Route9CooltrainerM2EndBattleText::
-	text "Can't"
-	line "measure up!"
+	text "Не"
+	line "дотягую!"
 	prompt
 
 _Route9CooltrainerM2AfterBattleText::
-	text "Are you off to"
-	line "ROCK TUNNEL too?"
+	text "Ти теж прямуєш"
+	line "до КАМ'ЯНОГО"
+	cont "ТУННЕЛЮ?"
 	done
 
 _Route9CooltrainerF2BattleText::
-	text "Don't you dare"
-	line "condescend me!"
+	text "Не смій дивитися"
+	line "на мене звисока!"
 	done
 
 _Route9CooltrainerF2EndBattleText::
-	text "No!"
-	line "You're too much!"
+	text "Ні! Ти"
+	line "надто сильний!"
 	prompt
 
 _Route9CooltrainerF2AfterBattleText::
-	text "You're obviously"
-	line "talented! Good"
-	cont "luck to you!"
+	text "Ти явно маєш"
+	line "талант! Успіхів"
+	cont "тобі!"
 	done
 
 _Route9Hiker1BattleText::
-	text "Bwahaha!"
-	line "Great! I was"
-	cont "bored, eh!"
+	text "Бвахаха!"
+	line "Супер! Мені"
+	cont "було нудно, еге!"
 	done
 
 _Route9Hiker1EndBattleText::
-	text "Keep it"
-	line "coming, eh!"
+	text "Давай ще,"
+	line "еге ж!"
 
-	para "Oh wait. I'm out"
-	line "of #MON!"
+	para "Ой, чекай. Мої"
+	line "ПОК'еМОНИ все!"
 	prompt
 
 _Route9Hiker1AfterBattleText::
-	text "You sure had guts"
-	line "standing up to me"
-	cont "there, eh?"
+	text "А ти маєш хист,"
+	line "раз вистояв"
+	cont "проти мене, еге?"
 	done
 
 _Route9Hiker2BattleText::
-	text "Hahaha!"
-	line "Aren't you a"
-	cont "little toughie!"
+	text "Ха-ха-ха!"
+	line "Ти справжній"
+	cont "кремінь!"
 	done
 
 _Route9Hiker2EndBattleText::
-	text "What's"
-	line "that?"
+	text "Що"
+	line "це було?"
 	prompt
 
 _Route9Hiker2AfterBattleText::
-	text "Hahaha! Kids"
-	line "should be tough!"
+	text "Ха-ха-ха! Діти"
+	line "мають бути"
+	cont "міцними!"
 	done
 
 _Route9Youngster1BattleText::
-	text "I got up early"
-	line "every day to"
-	cont "raise my #MON"
-	cont "from cocoons!"
+	text "Я вставав рано"
+	line "щодня, щоб"
+	cont "виростити"
+	cont "ПОК'еМОН!"
 	done
 
 _Route9Youngster1EndBattleText::
-	text "WHAT?"
+	text "ЩО?"
 
-	para "What a total"
-	line "waste of time!"
+	para "Який марно"
+	line "згаяний час!"
 	prompt
 
 _Route9Youngster1AfterBattleText::
-	text "I have to collect"
-	line "more than bugs to"
-	cont "get stronger..."
+	text "Треба збирати"
+	line "не лише жуків,"
+	cont "щоб посильніти."
 	done
 
 _Route9Hiker3BattleText::
-	text "Hahahaha!"
-	line "Come on, dude!"
+	text "Ха-ха-ха-ха!"
+	line "Давай, друже!"
 	done
 
 _Route9Hiker3EndBattleText::
-	text "Hahahaha!"
-	line "You beat me fair!"
+	text "Ха-ха-ха-ха!"
+	line "Чесна перемога!"
 	prompt
 
 _Route9Hiker3AfterBattleText::
-	text "Hahahaha!"
-	line "Us hearty guys"
-	cont "always laugh!"
+	text "Ха-ха-ха-ха!"
+	line "Ми, здоровані,"
+	cont "завжди сміємось!"
 	done
 
 _Route9Youngster2BattleText::
-	text "Go, my super bug"
-	line "#MON!"
+	text "Вперед, мої"
+	line "супер-жуки!"
 	done
 
 _Route9Youngster2EndBattleText::
-	text "My"
-	line "bugs..."
+	text "Мої"
+	line "жучки..."
 	prompt
 
 _Route9Youngster2AfterBattleText::
-	text "If you don't like"
-	line "bug #MON, you"
-	cont "bug me!"
+	text "Якщо не любиш"
+	line "жуків-ПОК'еМОН,"
+	cont "ти мене"
+	cont "дратуєш!"
 	done
 
 _Route9SignText::
-	text "ROUTE 9"
-	line "CERULEAN CITY-"
-	cont "ROCK TUNNEL"
+	text "ШЛЯХ 9"
+	line "ЦЕРУЛІН СІТІ —"
+	cont "КАМ'ЯНИЙ"
+	cont "ТУННЕЛЬ"
 	done

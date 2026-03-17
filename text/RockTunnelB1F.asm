@@ -1,108 +1,113 @@
 _RockTunnelB1FCooltrainerF1BattleText::
-	text "Hikers leave twigs"
-	line "as trail markers."
+	text "Мандрівники"
+	line "лишають гілки"
+	cont "як мітки."
 	done
 
 _RockTunnelB1FCooltrainerF1EndBattleText::
-	text "Ohhh!"
-	line "I did my best!"
+	text "Ооох!"
+	line "Я зробила все,"
+	cont "що могла!"
 	prompt
 
 _RockTunnelB1FCooltrainerF1AfterBattleText::
-	text "I want to go "
-	line "home!"
+	text "Я хочу додому!"
 	done
 
 _RockTunnelB1FHiker1BattleText::
-	text "Hahaha! Can you"
-	line "beat my power?"
+	text "Ха-ха-ха! Чи"
+	line "здолаєш ти"
+	cont "мою силу?"
 	done
 
 _RockTunnelB1FHiker1EndBattleText::
-	text "Oops!"
-	line "Out-muscled!"
+	text "Ой!"
+	line "Мене"
+	cont "пересилили!"
 	prompt
 
 _RockTunnelB1FHiker1AfterBattleText::
-	text "I go for power"
-	line "because I hate"
-	cont "thinking!"
+	text "Я обираю силу,"
+	line "бо ненавиджу"
+	cont "думати!"
 	done
 
 _RockTunnelB1FSuperNerd1BattleText::
-	text "You have a"
-	line "#DEX?"
-	cont "I want one too!"
+	text "Маєш ПОКéДЕКС?"
+	line "Я теж хочу"
+	cont "такий!"
 	done
 
 _RockTunnelB1FSuperNerd1EndBattleText::
-	text "Shoot!"
-	line "I'm so jealous!"
+	text "Дідько! Я так"
+	line "заздрю!"
 	prompt
 
 _RockTunnelB1FSuperNerd1AfterBattleText::
-	text "When you finish"
-	line "your #DEX, can"
-	cont "I have it?"
+	text "Коли закінчиш"
+	line "свій ПОКéДЕКС,"
+	cont "віддаси мені?"
 	done
 
 _RockTunnelB1FSuperNerd2BattleText::
-	text "Do you know about"
-	line "costume players?"
+	text "Ти знаєш про"
+	line "косплеєрів?"
 	done
 
 _RockTunnelB1FSuperNerd2EndBattleText::
-	text "Well,"
-	line "that's that."
+	text "Ну,"
+	line "ось і все."
 	prompt
 
 _RockTunnelB1FSuperNerd2AfterBattleText::
-	text "Costume players"
-	line "dress up as"
-	cont "#MON for fun."
+	text "Косплеєри вдя-"
+	line "гаються як"
+	cont "ПОКéМОНИ для"
+	cont "забави."
 	done
 
 _RockTunnelB1FHiker2BattleText::
-	text "My #MON"
-	line "techniques will"
-	cont "leave you crying!"
+	text "Прийоми моїх"
+	line "ПОКéМОНІВ"
+	cont "доведуть тебе"
+	cont "до сліз!"
 	done
 
 _RockTunnelB1FHiker2EndBattleText::
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text "Здаюся! Ти"
+	line "кращий тактик!"
 	prompt
 
 _RockTunnelB1FHiker2AfterBattleText::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "У горах часто"
+	line "трапляються"
+	cont "кам'яні"
+	cont "ПОКéМОНИ."
 	done
 
 _RockTunnelB1FCooltrainerF2BattleText::
-	text "I don't often"
-	line "come here, but I"
-	cont "will fight you."
+	text "Я тут рідко"
+	line "буваю, та я"
+	cont "буду битися."
 	done
 
 _RockTunnelB1FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "Ой!"
+	line "Я програла!"
 	prompt
 
 _RockTunnelB1FCooltrainerF2AfterBattleText::
-	text "I like tiny"
-	line "#MON, big ones"
-	cont "are too scary!"
+	text "Люблю маленьких"
+	line "ПОКéМОНІВ, ве-"
+	cont "ликі надто"
+	cont "страшні!"
 	done
 
 _RockTunnelB1FHiker3BattleText::
-	text "Hit me with your"
-	line "best shot!"
+	text "Покажи все,"
+	line "на що здатен!"
 	done
 
 _RockTunnelB1FHiker3EndBattleText::
-	text "Fired"
-	line "away!"
+	text "Відбито!"
 	prompt

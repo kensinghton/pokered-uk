@@ -1,69 +1,70 @@
 _SSAnneKitchenCook1Text::
-	text "You, mon petit!"
-	line "We're busy here!"
-	cont "Out of the way!"
+	text "Ти, малюк!"
+	line "Ми тут зайняті!"
+	cont "Геть з дороги!"
 	done
 
 _SSAnneKitchenCook2Text::
-	text "I saw an odd ball"
-	line "in the trash."
+	text "Я бачив дивний"
+	line "бол у смітнику."
 	done
 
 _SSAnneKitchenCook3Text::
-	text "I'm so busy I'm"
-	line "getting dizzy!"
+	text "Я так заклопо-"
+	line "таний, що аж"
+	cont "голова кругом!"
 	done
 
 _SSAnneKitchenCook4Text::
-	text "Hum-de-hum-de-"
-	line "ho..."
+	text "Гум-де-гум-де-"
+	line "го..."
 
-	para "I peel spuds"
-	line "every day!"
-	cont "Hum-hum..."
+	para "Я чищу бульбу"
+	line "кожен день!"
+	cont "Гум-гум..."
 	done
 
 _SSAnneKitchenCook5Text::
-	text "Did you hear about"
-	line "SNORLAX?"
+	text "Ти чув про"
+	line "СНОРЛАКСА?"
 
-	para "All it does is"
-	line "eat and sleep!"
+	para "Він лишень"
+	line "їсть та спить!"
 	done
 
 _SSAnneKitchenCook6Text::
-	text "Snivel...Sniff..."
+	text "Пхик... Шморг..."
 
-	para "I only get to"
-	line "peel onions..."
-	cont "Snivel..."
+	para "Мені дають лише"
+	line "чистити цибулю."
+	cont "Пхик..."
 	done
 
 _SSAnneKitchenCook7MainCourseIsText::
-	text "Er-hem! Indeed I"
-	line "am le CHEF!"
+	text "Кхм! Справді, я"
+	line "є ШЕФ-КУХАР!"
 
-	para "Le main course is"
+	para "Головна страва —"
 	prompt
 
 SSAnneKitchenCook7SalmonDuSaladText::
-	text "Salmon du Salad!"
+	text "Салат із лосося!"
 
-	para "Les guests may"
-	line "gripe it's fish"
-	cont "again, however!"
+	para "Але гості знову"
+	line "скиглитимуть,"
+	cont "що це риба!"
 	done
 
 SSAnneKitchenCook7EelsAuBarbecueText::
-	text "Eels au Barbecue!"
+	text "Вугрі барбекю!"
 
-	para "Les guests will"
-	line "mutiny, I fear."
+	para "Боюсь, гості"
+	line "піднімуть бунт."
 	done
 
 SSAnneKitchenCook7PrimeBeefSteakText::
-	text "Prime Beef Steak!"
-
-	para "But, have I enough"
-	line "fillets du beef?"
+	text "Стейк із ялови-"
+	line "чини! Та чи"
+	cont "вистачить мені"
+	cont "філе?"
 	done

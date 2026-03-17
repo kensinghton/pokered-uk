@@ -1,156 +1,161 @@
 _Route25Youngster1BattleText::
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
+	text "Місцеві тренери"
+	line "йдуть сюди"
+	cont "тренуватись!"
 	done
 
 _Route25Youngster1EndBattleText::
-	text "You're"
-	line "decent."
+	text "Ти"
+	line "непоганий."
 	prompt
 
 _Route25Youngster1AfterBattleText::
-	text "All #MON have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "Усі ПОК'еМОНИ"
+	line "мають слабкості."
+	cont "Краще ростити"
+	cont "різні види."
 	done
 
 _Route25Youngster2BattleText::
-	text "Dad took me to a"
-	line "great party on"
-	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
+	text "Тато брав мене"
+	line "на свято на"
+	cont "П.П.АННІ у"
+	cont "ВЕРМІЛІОН СІТІ!"
 	done
 
 _Route25Youngster2EndBattleText::
-	text "I'm"
-	line "not mad!"
+	text "Я"
+	line "не злюся!"
 	prompt
 
 _Route25Youngster2AfterBattleText::
-	text "On S.S.ANNE, I"
-	line "saw trainers from"
-	cont "around the world."
+	text "На П.П.АННІ я"
+	line "бачив тренерів"
+	cont "з усього світу."
 	done
 
 _Route25CooltrainerMBattleText::
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	text "Я крутий хлопець."
+	line "У мене є"
+	cont "дівчина!"
 	done
 
 _Route25CooltrainerMEndBattleText::
-	text "Aww,"
-	line "darn..."
+	text "Ох,"
+	line "дідько..."
 	prompt
 
 _Route25CooltrainerMAfterBattleText::
-	text "Oh well. My girl"
-	line "will cheer me up."
+	text "Ну й добре. Моя"
+	line "дівчина мене"
+	cont "розвеселить."
 	done
 
 _Route25CooltrainerF1BattleText::
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Привіт! Мій"
+	line "хлопець крутий!"
 	done
 
 _Route25CooltrainerF1EndBattleText::
-	text "I was in"
-	line "bad condition!"
+	text "Я була у"
+	line "поганій формі!"
 	prompt
 
 _Route25CooltrainerF1AfterBattleText::
-	text "I wish my guy was"
-	line "as good as you!"
+	text "Хотіла б я,"
+	line "щоб мій був"
+	cont "такий, як ти!"
 	done
 
 _Route25Youngster3BattleText::
-	text "I knew I had to"
-	line "fight you!"
+	text "Я знав, що"
+	line "мушу битися"
+	cont "з тобою!"
 	done
 
 _Route25Youngster3EndBattleText::
-	text "I knew"
-	line "I'd lose too!"
+	text "Я знав, що"
+	line "теж програю!"
 	prompt
 
 _Route25Youngster3AfterBattleText::
-	text "If your #MON"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
+	text "Якщо ПОК'еМОН"
+	line "збентежений"
+	cont "чи заснув —"
+	cont "заміни його!"
 	done
 
 _Route25CooltrainerF2BattleText::
-	text "My friend has a"
-	line "cute #MON."
-	cont "I'm so jealous!"
+	text "У подруги милий"
+	line "ПОК'еМОН. Я так"
+	cont "заздрю!"
 	done
 
 _Route25CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not so jealous!"
+	text "Я"
+	line "вже не так"
+	cont "заздрю!"
 	prompt
 
 _Route25CooltrainerF2AfterBattleText::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	text "Ти прийшов з"
+	line "ГОРИ МУН? Можна"
+	cont "мені КЛЕФЕЙРІ?"
 	done
 
 _Route25Hiker1BattleText::
-	text "I just got down"
-	line "from MT.MOON,"
-	cont "but I'm ready!"
+	text "Я щойно спустив-"
+	line "ся з ГОРИ МУН,"
+	cont "але я готовий!"
 	done
 
 _Route25Hiker1EndBattleText::
-	text "You"
-	line "worked hard!"
+	text "Ти добряче"
+	line "попрацював!"
 	prompt
 
 _Route25Hiker1AfterBattleText::
-	text "Drat!"
-	line "A ZUBAT bit me"
-	cont "back in there."
+	text "Дідько! Мене"
+	line "там вкусив"
+	cont "ЗУБАТ."
 	done
 
 _Route25Hiker2BattleText::
-	text "I'm off to see a"
-	line "#MON collector"
-	cont "at the cape!"
+	text "Йду до"
+	line "колекціонера"
+	cont "ПОК'еМОНІВ на"
+	cont "мис!"
 	done
 
 _Route25Hiker2EndBattleText::
-	text "You"
-	line "got me."
+	text "Ти мене"
+	line "зловив."
 	prompt
 
 _Route25Hiker2AfterBattleText::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of #MON."
+	text "Колекціонер має"
+	line "багато рідкісних"
+	cont "видів ПОК'еМОН."
 	done
 
 _Route25Hiker3BattleText::
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
+	text "Йдеш побачити"
+	line "БІЛЛА? Спершу"
+	cont "давай бій!"
 	done
 
 _Route25Hiker3EndBattleText::
-	text "You're"
-	line "something."
+	text "А ти"
+	line "чогось вартий."
 	prompt
 
 _Route25Hiker3AfterBattleText::
-	text "The trail below"
-	line "is a shortcut to"
-	cont "CERULEAN CITY."
+	text "Стежка внизу —"
+	line "це короткий шлях"
+	cont "до ЦЕРУЛІН СІТІ."
 	done
 
 _Route25BillSignText::
-	text "SEA COTTAGE"
-	line "BILL lives here!"
+	text "МОРСЬКА ХАТИНА"
+	line "БІЛЛ живе тут!"
 	done

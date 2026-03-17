@@ -1,114 +1,122 @@
 _SSAnneB1FRoomsMachokeText::
-	text "MACHOKE: Gwoh!"
-	line "Goggoh!@"
+	text "МАЧОУК: Гвох!"
+	line "Гогох!@"
 	text_end
 
 _SSAnneB1FRoomsSailor1BattleText::
-	text "You know what they"
-	line "say about sailors"
-	cont "and fighting!"
+	text "Знаєш, що кажуть"
+	line "про моряків та"
+	cont "бійки!"
 	done
 
 _SSAnneB1FRoomsSailor1EndBattleText::
-	text "Right!"
-	line "Good fight, mate!"
+	text "Точно!"
+	line "Гарний бій,"
+	cont "друже!"
 	prompt
 
 _SSAnneB1FRoomsSailor1AfterBattleText::
-	text "Haha! Want to be"
-	line "a sailor, mate?"
+	text "Ха-ха! Хочеш"
+	line "стати моряком,"
+	cont "друже?"
 	done
 
 _SSAnneB1FRoomsSailor2BattleText::
-	text "My sailor's pride"
-	line "is at stake!"
+	text "Моя гордість"
+	line "моряка під"
+	cont "загрозою!"
 	done
 
 _SSAnneB1FRoomsSailor2EndBattleText::
-	text "Your"
-	line "spirit sank me!"
+	text "Твій дух"
+	line "потопив мене!"
 	prompt
 
 _SSAnneB1FRoomsSailor2AfterBattleText::
-	text "Did you see the"
-	line "FISHING GURU in"
-	cont "VERMILION CITY?"
+	text "Ти бачив"
+	line "ГУРУ РИБОЛОВЛІ у"
+	cont "ВЕРМІЛІОН СІТІ?"
 	done
 
 _SSAnneB1FRoomsSailor3BattleText::
-	text "Us sailors have"
-	line "#MON too!"
+	text "У нас, моряків,"
+	line "теж є ПОК'еМОНИ!"
 	done
 
 _SSAnneB1FRoomsSailor3EndBattleText::
-	text "OK, "
-	line "you're not bad."
+	text "ОК, ти"
+	line "непоганий."
 	prompt
 
 _SSAnneB1FRoomsSailor3AfterBattleText::
-	text "We caught all our"
-	line "#MON while"
-	cont "out at sea!"
+	text "Ми зловили всіх"
+	line "наших ПОК'еМОНІВ"
+	cont "у відкритому"
+	cont "морі!"
 	done
 
 _SSAnneB1FRoomsSailor4BattleText::
-	text "I like feisty"
-	line "kids like you!@"
+	text "Мені подобаються"
+	line "завзяті діти як"
+	cont "ти!@"
 	text_end
 
 _SSAnneB1FRoomsSailor4EndBattleText::
-	text "Argh!"
-	line "Lost it!"
+	text "Аргх!"
+	line "Я програв!"
 	prompt
 
 _SSAnneB1FRoomsSailor4AfterBattleText::
-	text "Sea #MON live"
-	line "in deep water."
-	cont "You'll need a ROD!"
+	text "Морські ПОК'еМОНИ"
+	line "живуть глибоко."
+	cont "Тобі потрібна"
+	cont "ВУДКА!"
 	done
 
 _SSAnneB1FRoomsSailor5BattleText::
-	text "Matey, you're"
-	line "walking the plank"
-	cont "if you lose!"
+	text "Друже, ти підеш"
+	line "по дошці, якщо"
+	cont "програєш!"
 	done
 
 _SSAnneB1FRoomsSailor5EndBattleText::
-	text "Argh!"
-	line "Beaten by a kid!"
+	text "Аргх! Мене"
+	line "побила дитина!"
 	prompt
 
 _SSAnneB1FRoomsSailor5AfterBattleText::
-	text "Jellyfish some-"
-	line "times drift into"
-	cont "the ship."
+	text "Медузи інколи"
+	line "запливають до"
+	cont "корабля."
 	done
 
 _SSAnneB1FRoomsFisherBattleText::
-	text "Hello stranger!"
-	line "Stop and chat!"
+	text "Вітаю,"
+	line "незнайомцю!"
+	cont "Давай побалакаєм"
 
-	para "All my #MON"
-	line "are from the sea!"
+	para "Мої ПОК'еМОНИ"
+	line "всі з моря!"
 	done
 
 _SSAnneB1FRoomsFisherEndBattleText::
-	text "Darn!"
-	line "I let that one"
-	cont "get away!"
+	text "Дідько! Я"
+	line "дав цьому"
+	cont "вислизнути!"
 	prompt
 
 _SSAnneB1FRoomsFisherAfterBattleText::
-	text "I was going to"
-	line "make you my"
-	cont "assistant too!"
+	text "Я теж збирався"
+	line "зробити тебе"
+	cont "помічником!"
 	done
 
 _SSAnneB1FRoomsSuperNerdText::
-	text "My buddy, MACHOKE,"
-	line "is super strong!"
+	text "Мій напарник,"
+	line "МАЧОУК, дуже"
+	cont "сильний!"
 
-	para "He has enough"
-	line "STRENGTH to move"
-	cont "big rocks!"
+	para "Він має СИЛУ,"
+	line "достатню, щоб"
+	cont "рухати скелі!"
 	done

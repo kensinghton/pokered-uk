@@ -28,5 +28,5 @@ _LavenderMartCooltrainerMNuggetText::
 	para "Думав, він"
 	line "марний, та його"
 	cont "купили за"
-	cont "5000 ієн!"
+	cont "5000 ¥!"
 	done

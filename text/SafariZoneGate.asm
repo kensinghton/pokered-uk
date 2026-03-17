@@ -1,97 +1,96 @@
 _SafariZoneGateSafariZoneWorker1Text::
-	text "Welcome to the"
-	line "SAFARI ZONE!"
+	text "Вітаємо у"
+	line "САФАРІ-ЗОНІ!"
 	done
 
 _SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText::
-	text "For just ¥500,"
-	line "you can catch all"
-	cont "the #MON you"
-	cont "want in the park!"
+	text "Лише за 500¥,"
+	line "ти можеш ловити"
+	cont "усіх ПОК'еМОНІВ"
+	cont "у цьому парку!"
 
-	para "Would you like to"
-	line "join the hunt?@"
+	para "Бажаєш почати"
+	line "полювання?@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText::
-	text "That'll be ¥500"
-	line "please!"
+	text "З вас 500¥,"
+	line "будь ласка!"
 
-	para "We only use a"
-	line "special # BALL"
-	cont "here."
+	para "Ми вживаємо тут"
+	line "лише особливі"
+	cont "ПОК'е-БОЛИ."
 
-	para "<PLAYER> received"
-	line "30 SAFARI BALLs!@"
+	para "<PLAYER> отримує"
+	line "30 САФАРІ-БОЛІВ!@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1CallYouOnThePAText::
 	text_start
 
-	para "We'll call you on"
-	line "the PA when you"
-	cont "run out of time"
-	cont "or SAFARI BALLs!"
+	para "Ми покличемо"
+	line "вас, коли вийде"
+	cont "час або закін-"
+	cont "чаться"
+	cont "САФАРІ-БОЛИ!"
 	done
 
 _SafariZoneGateSafariZoneWorker1PleaseComeAgainText::
-	text "OK! Please come"
-	line "again!"
+	text "ОК! Заходь ще!"
 	done
 
 _SafariZoneGateSafariZoneWorker1NotEnoughMoneyText::
-	text "Oops! Not enough"
-	line "money!"
+	text "Ой! Не вистачає"
+	line "грошей!"
 	done
 
 _SafariZoneGateSafariZoneWorker1LeavingEarlyText::
-	text "Leaving early?@"
+	text "Йдете раніше?@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ReturnSafariBallsText::
-	text "Please return any"
-	line "SAFARI BALLs you"
-	cont "have left."
+	text "Будь ласка,"
+	line "поверніть решту"
+	cont "САФАРІ-БОЛІВ."
 	done
 
 _SafariZoneGateSafariZoneWorker1GoodLuckText::
-	text "Good Luck!"
+	text "Успіхів!"
 	done
 
 _SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText::
-	text "Did you get a"
-	line "good haul?"
-	cont "Come again!"
+	text "Маєш гарний"
+	line "улов?"
+	cont "Заходь ще!"
 	done
 
 _SafariZoneGateSafariZoneWorker2FirstTimeHereText::
-	text "Hi! Is it your"
-	line "first time here?"
+	text "Привіт! Ти тут"
+	line "вперше?"
 	done
 
 _SafariZoneGateSafariZoneWorker2SafariZoneExplanationText::
-	text "SAFARI ZONE has 4"
-	line "zones in it."
+	text "САФАРІ-ЗОНА має"
+	line "4 сектори."
 
-	para "Each zone has"
-	line "different kinds"
-	cont "of #MON. Use"
-	cont "SAFARI BALLs to"
-	cont "catch them!"
+	para "У кожному є"
+	line "різні види"
+	cont "ПОК'еМОНІВ."
+	cont "Лови їх через"
+	cont "САФАРІ-БОЛИ!"
 
-	para "When you run out"
-	line "of time or SAFARI"
-	cont "BALLs, it's game"
-	cont "over for you!"
+	para "Коли час або"
+	line "САФАРІ-БОЛИ"
+	cont "вийдуть — гру"
+	cont "закінчено!"
 
-	para "Before you go,"
-	line "open an unused"
-	cont "#MON BOX so"
-	cont "there's room for"
-	cont "new #MON!"
+	para "Перед виходом"
+	line "звільни"
+	cont "СКРИНЮ ПОК'еМОН"
+	cont "для новачків!"
 	done
 
 _SafariZoneGateSafariZoneWorker2YoureARegularHereText::
-	text "Sorry, you're a"
-	line "regular here!"
+	text "Вибач, ти тут"
+	line "постійний гість!"
 	done

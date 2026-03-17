@@ -1,90 +1,97 @@
 _Route24CooltrainerM2EndBattleText::
-	text "I"
-	line "thought not!"
+	text "Я так і"
+	line "думав!"
 	prompt
 
 _Route24CooltrainerM2AfterBattleText::
-	text "I hid because the"
-	line "people on the"
-	cont "bridge scared me!"
+	text "Я ховався, бо"
+	line "люди на мосту"
+	cont "мене налякали!"
 	done
 
 _Route24CooltrainerM3BattleText::
-	text "OK! I'm No. 5!"
-	line "I'll stomp you!"
+	text "ОК! Я №5!"
+	line "Я розчавлю"
+	cont "тебе!"
 	done
 
 _Route24CooltrainerM3EndBattleText::
-	text "Whoa!"
-	line "Too much!"
+	text "Ого!"
+	line "Це занадто!"
 	prompt
 
 _Route24CooltrainerM3AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Я зробив усе,"
+	line "що міг, і не"
+	cont "шкодую!"
 	done
 
 _Route24CooltrainerF1BattleText::
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "Я №4!"
+	line "Вже втомився?"
 	done
 
 _Route24CooltrainerF1EndBattleText::
-	text "I lost"
-	line "too!"
+	text "Я теж"
+	line "програла!"
 	prompt
 
 _Route24CooltrainerF1AfterBattleText::
-	text "I did my best, so"
-	line "I've no regrets!"
+	text "Я зробила все,"
+	line "що могла, і не"
+	cont "шкодую!"
 	done
 
 _Route24Youngster1BattleText::
-	text "Here's No. 3!"
-	line "I won't be easy!"
+	text "Ось і №3!"
+	line "Буде нелегко!"
 	done
 
 _Route24Youngster1EndBattleText::
-	text "Ow!"
-	line "Stomped flat!"
+	text "Ой!"
+	line "Розчавили!"
 	prompt
 
 _Route24Youngster1AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Я зробив усе,"
+	line "що міг, і не"
+	cont "шкодую!"
 	done
 
 _Route24CooltrainerF2BattleText::
-	text "I'm second!"
-	line "Now it's serious!"
+	text "Я друга!"
+	line "Тепер усе"
+	cont "серйозно!"
 	done
 
 _Route24CooltrainerF2EndBattleText::
-	text "How could I"
-	line "lose?"
+	text "Як я могла"
+	line "програти?"
 	prompt
 
 _Route24CooltrainerF2AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Я зробила все,"
+	line "що могла, і не"
+	cont "шкодую!"
 	done
 
 _Route24Youngster2BattleText::
-	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
-	cont "trainers and win"
-	cont "a fabulous prize!"
+	text "Це САМОРОДКОВИЙ"
+	line "МІСТ! Здолай 5"
+	cont "тренерів і"
+	cont "виграй приз!"
 
-	para "Think you got"
-	line "what it takes?"
+	para "Думаєш,"
+	line "тобі під силу?"
 	done
 
 _Route24Youngster2EndBattleText::
-	text "Whoo!"
-	line "Good stuff!"
+	text "Ого!"
+	line "Оце клас!"
 	prompt
 
 _Route24Youngster2AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Я зробив усе,"
+	line "що міг, і не"
+	cont "шкодую!"
 	done

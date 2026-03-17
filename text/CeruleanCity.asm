@@ -194,7 +194,7 @@ _CeruleanCityCooltrainerF2Text::
 
 _CeruleanCitySuperNerd3Text::
 	text "Це ПЕЧЕРА"
-	line "СЕРУЛІНА! Там"
+	line "ЦЕРУЛЕАНа! Там"
 	cont "дуже сильні"
 	cont "ПОК'еМОНИ!"
 
@@ -205,7 +205,7 @@ _CeruleanCitySuperNerd3Text::
 	done
 
 _CeruleanCitySignText::
-	text "СЕРУЛІН СІТІ"
+	text "ЦЕРУЛЕАН СІТІ"
 	line "Таємнича синя"
 	cont "аура огортає"
 	cont "його"
@@ -227,7 +227,7 @@ _CeruleanCityBikeShopSign::
 	done
 
 _CeruleanCityGymSign::
-	text "СЕРУЛІН СІТІ"
+	text "ЦЕРУЛЕАН СІТІ"
 	line "ЗАЛ ПОК'еМОН"
 	cont "ЛІДЕР: МІСТІ"
 

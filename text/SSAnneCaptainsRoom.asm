@@ -1,64 +1,65 @@
 _SSAnneCaptainsRoomRubCaptainsBackText::
-	text "CAPTAIN: Ooargh..."
-	line "I feel hideous..."
-	cont "Urrp! Seasick..."
+	text "КАПІТАН: Ооарг..."
+	line "Мені так зле..."
+	cont "Уррп! Нудить..."
 
-	para "<PLAYER> rubbed"
-	line "the CAPTAIN's"
-	cont "back!"
+	para "<PLAYER> потер"
+	line "спину КАПІТАНУ!"
 
-	para "Rub-rub..."
-	line "Rub-rub...@"
+	para "Тру-тру..."
+	line "Тру-тру...@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
+	text "КАПІТАН: Хух!"
+	line "Дякую! Мені"
+	cont "значно краще!"
 
-	para "You want to see"
-	line "my CUT technique?"
+	para "Хочеш побачити"
+	line "мій прийом ЗРІЗ?"
 
-	para "I could show you"
-	line "if I wasn't ill..."
+	para "Я б показав,"
+	line "якби не хворів..."
 
-	para "I know! You can"
-	line "have this!"
+	para "Я знаю! Візьми"
+	line "ось це!"
 
-	para "Teach it to your"
-	line "#MON and you"
-	cont "can see it CUT"
-	cont "any time!"
+	para "Навчи цього"
+	line "свого ПОК'еМОНА"
+	cont "і зможеш робити"
+	cont "ЗРІЗ будь-коли!"
 	prompt
 
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::
-	text "<PLAYER> got"
+	text "<PLAYER> отримує"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
-	text "CAPTAIN: Whew!"
+	text "КАПІТАН: Хух!"
 
-	para "Now that I'm not"
-	line "sick any more, I"
-	cont "guess it's time."
+	para "Тепер, коли я"
+	line "вже не хворію,"
+	cont "пора в дорогу."
 	done
 
 _SSAnneCaptainsRoomCaptainHM01NoRoomText::
-	text "Oh no! You have"
-	line "no room for this!"
+	text "О ні! У тебе"
+	line "немає місця для"
+	cont "цього!"
 	done
 
 _SSAnneCaptainsRoomTrashText::
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "Фе! Не варто"
+	line "було сюди"
+	cont "дивитись!"
 	done
 
 _SSAnneCaptainsRoomSeasickBookText::
-	text "How to Conquer"
-	line "Seasickness..."
-	cont "The CAPTAIN's"
-	cont "reading this!"
+	text "Як подолати"
+	line "морську недугу..."
+	cont "КАПІТАН це"
+	cont "читає!"
 	done
