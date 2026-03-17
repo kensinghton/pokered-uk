@@ -187,7 +187,8 @@
 	charmap "T",        $95
 	charmap "U",        $de
 	charmap "V",        $df
-	
+	charmap "é",        $c2
+
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
